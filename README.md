@@ -1,6 +1,6 @@
 # Collatz research pre-paper
 
-Private research snapshot prepared for Ethan Walker on 21 October 2026. Source cutoff: 16:35 UTC. This repository preserves the delivered research package; it is not a claim to prove the Collatz conjecture.
+Research snapshot prepared for Ethan Walker on 21 October 2026. Source cutoff: 16:35 UTC. This repository preserves the delivered research package; it is not a claim to prove the Collatz conjecture.
 
 ## Quick links
 
@@ -12,7 +12,7 @@ Private research snapshot prepared for Ethan Walker on 21 October 2026. Source c
 - [Reproduce the included bounded checks](REPRODUCIBILITY.md)
 - [Download the original research package](downloads/Collatz_PrePaper_Research_Package_2026-10-21.zip)
 
-The original package remains unchanged in `downloads/`. The expanded files are available for browsing and revision. No public release or new reuse license is implied by this private upload.
+The original package remains unchanged in `downloads/`. The expanded files are available for browsing and revision. The repository is public at the owner’s request. No reuse license has been added.
 
 ---
 
