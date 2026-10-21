@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+build/cache/
+build/texmf-*/
+build/*.aux
+build/*.log
+build/*.toc
+build/*.out
+build/*.pdf
+build/*.tex
+!build/format.tex
+output/

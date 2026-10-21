@@ -1,0 +1,696 @@
+{
+  "audit_date": "2026-10-21",
+  "scope": "Evidence-backed source and inspiration credit; not legal authorship determination or exhaustive priority certification.",
+  "categories": [
+    "direct_user_transcript",
+    "contemporaneous_report_with_user_quote",
+    "contemporaneous_report_paraphrase",
+    "direct_external_dependency",
+    "documented_external_inspiration_and_adaptation",
+    "related_work_not_documented_inspiration",
+    "unknown_provenance"
+  ],
+  "records": [
+    {
+      "id": "A01",
+      "theme": "Full-conjecture machine research direction",
+      "evidence_category": "direct_user_transcript",
+      "credit_to": [
+        "Ethan Walker"
+      ],
+      "evidence": {
+        "message_id": "Sentinel_ac56c727a8a48191a26b4e644de0a69f",
+        "quote": "I want to try to make the halting equivalence machine for the full conjecture. Use all information from our library, especially recent runs",
+        "date": null
+      },
+      "credit_statement": "Originating project brief and request to synthesize the Library.",
+      "limitations": "No claim of inventing halting reductions or independently proving a full-equivalence machine.",
+      "publication_priority": "not_established"
+    },
+    {
+      "id": "A02",
+      "theme": "Machine compression versus detection completeness",
+      "evidence_category": "direct_user_transcript",
+      "credit_to": [
+        "Ethan Walker"
+      ],
+      "evidence": {
+        "message_id": "Sentinel_18bcf5635e2c819193301c2529cb5f25",
+        "quote": "Great work. I want to improve this machine now:\n-reduce the states as much as possible \n-make it halt on every counterexample",
+        "followup_message_id": "Sentinel_1ac3f3e852b08191a847a65b6da6effd",
+        "followup_quote": "If those conflict, the second is more important",
+        "date": null
+      },
+      "credit_statement": "User established both goals and explicitly prioritized counterexample coverage over state count.",
+      "limitations": "The requested completeness is not a theorem; no timestamps inferred for these messages.",
+      "publication_priority": "not_established"
+    },
+    {
+      "id": "A03",
+      "theme": "Symbolic checker/machine integration",
+      "evidence_category": "direct_user_transcript",
+      "credit_to": [
+        "Ethan Walker"
+      ],
+      "evidence": {
+        "message_id": "Sentinel_754f4de323688191bdb2cf45fd2cc819",
+        "quote": "So can we work a symbolic checker into our Collatz equivalent machine? Essentially merging our ideas?",
+        "date": null
+      },
+      "credit_statement": "Explicit integration proposal motivates the symbolic-certificate compiler route.",
+      "limitations": "Credit is project-direction synthesis, not sole invention of invariant certificates.",
+      "publication_priority": "not_established"
+    },
+    {
+      "id": "A04",
+      "theme": "Reduction iteration stopping criterion",
+      "evidence_category": "direct_user_transcript",
+      "credit_to": [
+        "Ethan Walker"
+      ],
+      "evidence": {
+        "message_id": "Sentinel_bfa44b0998048191b97ae9888008caf4",
+        "quote": "Great. Continue the reduction iteration until you think it’s reasonable to stop.",
+        "date": "2026-10-21T15:32:39Z"
+      },
+      "credit_statement": "Authorization and direction for sustained state-reduction work.",
+      "limitations": "Not mathematical authorship of each optimization.",
+      "publication_priority": "not_established"
+    },
+    {
+      "id": "A05",
+      "theme": "Sorting/division-surplus intuition",
+      "evidence_category": "contemporaneous_report_with_user_quote",
+      "credit_to": [
+        "Ethan Walker"
+      ],
+      "evidence": {
+        "library_file_id": "libfile_e6bcc042dc6481918b3e375ae1c523a7",
+        "path": "sources/legacy/Collatz_Notation_Transform_06_Sorting_and_Division_Surplus_Hypothesis_2026-10-07.md",
+        "anchor": "Origin header and §1",
+        "reported_date": "2026-10-07",
+        "reported_discussions": "10:32,10:42,11:03 CDT"
+      },
+      "credit_statement": "The report explicitly records the user’s sorting intuition as the origin of the research direction.",
+      "limitations": "Proposed hypothesis, not an established universal domination theorem; direct original conversation not retrieved.",
+      "publication_priority": "not_established"
+    },
+    {
+      "id": "A06",
+      "theme": "Alternation, bias erasure and fairness",
+      "evidence_category": "contemporaneous_report_paraphrase",
+      "credit_to": [
+        "Ethan Walker"
+      ],
+      "evidence": {
+        "library_file_id": "libfile_70ca1e98257c8191850d7093abff74af",
+        "path": "sources/legacy/Collatz_FP_02_Alternation_Mixing_and_Its_Domain_2026-10-08.md",
+        "anchor": "Header and §§0–1"
+      },
+      "credit_statement": "Records the user’s multiply/add/maximal-division alternation hypothesis.",
+      "limitations": "Do not attribute all formal FP results or statistical heuristics to this hypothesis; ensemble-to-orbit gap persists.",
+      "publication_priority": "not_established"
+    },
+    {
+      "id": "A07",
+      "theme": "Survivor fractions versus fixed integers",
+      "evidence_category": "contemporaneous_report_paraphrase",
+      "credit_to": [
+        "Ethan Walker"
+      ],
+      "evidence": {
+        "library_file_id": "libfile_7046e905ce2c81919ba4b29ed85037db",
+        "path": "sources/legacy/Collatz_Infinite_Survivor_Intersection_Checkpoint_2026-10-12.md",
+        "anchor": "Opening priority statement",
+        "date_scope": "October11 America/Chicago; October12 UTC as report labels"
+      },
+      "credit_statement": "Explicitly credits user’s distinction between shrinking fractional survivor populations and survival of an actual integer.",
+      "limitations": "Research-priority credit; logical distinction is not a novel general theorem.",
+      "publication_priority": "not_established"
+    },
+    {
+      "id": "A08",
+      "theme": "GDR bounded-contributions programme",
+      "evidence_category": "contemporaneous_report_paraphrase",
+      "credit_to": [
+        "Ethan Walker"
+      ],
+      "evidence": {
+        "path": "sources/gdr/GDR_Route_01_Foundation_2026-10-14.md",
+        "anchor": "§1 and referenced conversation IDs"
+      },
+      "credit_statement": "User’s G×D=R direction and request to bound all contributing factors motivate source-visible accounting rather than assuming fairness.",
+      "limitations": "Underlying referenced conversation messages were not retrieved; do not turn paraphrase into quotation.",
+      "publication_priority": "not_established"
+    },
+    {
+      "id": "A09",
+      "theme": "Summability and integration budget direction",
+      "evidence_category": "contemporaneous_report_paraphrase",
+      "credit_to": [
+        "Ethan Walker"
+      ],
+      "evidence": {
+        "library_file_id": "libfile_ce760bd4954881918b982366854624be",
+        "path": "sources/gdr/Collatz_Summable_Budgets_From_Arithmetic_2026-10-20.md",
+        "anchor": "Purpose and motivation"
+      },
+      "credit_statement": "Report explicitly develops the user’s integration/summability idea.",
+      "limitations": "Tonelli, finite flow duality, and orbit sparsity remain external/classical; arithmetic budget remains unproved.",
+      "publication_priority": "not_established"
+    },
+    {
+      "id": "A10",
+      "theme": "Arithmetic generator versus halting observer",
+      "evidence_category": "contemporaneous_report_paraphrase",
+      "credit_to": [
+        "Ethan Walker"
+      ],
+      "evidence": {
+        "library_file_id": "libfile_a6b2d1f3a7248191af9581d459bb43d7",
+        "path": "sources/antihydra/Collatz_Machines_Arithmetic_Observer_Research_Direction_2026-10-20.md",
+        "anchor": "User’s proposed change of emphasis"
+      },
+      "credit_statement": "Records user shift from superficial machine size to arithmetic driver/observer comparisons.",
+      "limitations": "Does not establish a minimum state threshold or universal classification of machines.",
+      "publication_priority": "not_established"
+    },
+    {
+      "id": "A11",
+      "theme": "Finite parity cylinders and 2-adic coding",
+      "evidence_category": "direct_external_dependency",
+      "credit_to": [
+        "Riho Terras",
+        "C. J. Everett",
+        "Daniel J. Bernstein",
+        "Jeffrey C. Lagarias"
+      ],
+      "evidence": {
+        "bibliography_ids": [
+          "L01",
+          "L02",
+          "L03",
+          "L04"
+        ]
+      },
+      "credit_statement": "Classical arithmetic foundation for exact word realization and residues.",
+      "limitations": "A 2-adic continuation need not be a positive integer; rationality/periodicity direction remains nontrivial.",
+      "publication_priority": "known"
+    },
+    {
+      "id": "A12",
+      "theme": "Individual orbit sparsity and reciprocal summability",
+      "evidence_category": "direct_dependency_and_documented_inspiration",
+      "credit_to": [
+        "Manuel V. P. Garcia",
+        "Fabio A. Tal",
+        "E. Heppner",
+        "Michael Sharpe"
+      ],
+      "evidence": {
+        "bibliography_ids": [
+          "L07",
+          "L08",
+          "L09"
+        ],
+        "project_antecedent": "GDR atlas cycle_05 statistical_literature, October15"
+      },
+      "credit_statement": "Credit García–Tal’s uniform collision-free estimate, their Heppner input, and Sharpe’s elementary packing/formalization as immediate project inspiration.",
+      "limitations": "Do not claim summability is new, or that Banach density zero alone proves it. No local Lean build.",
+      "publication_priority": "known_consequence_and_newer_formalization"
+    },
+    {
+      "id": "A13",
+      "theme": "Explicit 39/40 orbit-window exponent",
+      "evidence_category": "quantitative_adaptation",
+      "credit_to": [
+        "Garcia–Tal and Heppner (mechanism)",
+        "Terras–Everett (counting)",
+        "October15 project report (explicit constants)"
+      ],
+      "evidence": {
+        "path": "sources/literature/atlas/GDR_2.0/execution/cycle_05/statistical_literature/Explicit_Uniform_Orbit_Window_Bound_2026-10-15.md",
+        "bibliography_ids": [
+          "L01",
+          "L03",
+          "L07",
+          "L08",
+          "L50"
+        ]
+      },
+      "credit_statement": "Explicit conservative binomial-tail constants inserted into existing uniform-window transfer.",
+      "limitations": "Curry2026 is an earlier potentially stronger quantitative lead, not currently primary-verified.",
+      "publication_priority": "provisional_refinement_not_new_mechanism"
+    },
+    {
+      "id": "A14",
+      "theme": "Chronological entropy-height exponent1.0526808586",
+      "evidence_category": "quantitative_comparison",
+      "credit_to": [
+        "Terras–Everett (parity injection)",
+        "Rozier (distinct-odd harmonic correction)",
+        "Garcia–Tal/Heppner (related spatial sparsity)",
+        "Project entropy-height notes"
+      ],
+      "evidence": {
+        "library_file_id": "libfile_7821d95a48f481919818d1c01fbd47ce",
+        "path": "sources/legacy/Entropy_Height_Finite_Lemma_2026-10-08.md",
+        "bibliography_ids": [
+          "L01",
+          "L03",
+          "L07",
+          "L08",
+          "L49"
+        ]
+      },
+      "credit_statement": "Potentially useful finite entropy/chronological boundary reformulation of standard ingredients.",
+      "limitations": "GT uniform spatial exponent does not immediately identify same numerical prefix-height theorem; exact historical priority unresolved.",
+      "publication_priority": "provisional_requires_targeted_priority_check"
+    },
+    {
+      "id": "A15",
+      "theme": "Clean-window Hamming recurrence barrier",
+      "evidence_category": "documented_external_inspiration_and_adaptation",
+      "credit_to": [
+        "Michael Sharpe",
+        "Project Shortcut15 report"
+      ],
+      "evidence": {
+        "library_file_id": "libfile_d9f52b1db2fc819183e2b2a1ebbe7cd7",
+        "bibliography_ids": [
+          "L11"
+        ]
+      },
+      "credit_statement": "Project explicitly imports DefectHeight/ParityDefects mechanism and refines rational3/5 envelope to log2(3/2).",
+      "limitations": "No claim of discovering parity injection or a new broad recurrence principle.",
+      "publication_priority": "constant_refinement_priority_unresolved"
+    },
+    {
+      "id": "A16",
+      "theme": "Arbitrary-width golden interval-coding exclusion",
+      "evidence_category": "project_internal_lineage_and_related_external_work",
+      "credit_to": [
+        "Project Research11 (earlier proposal)",
+        "Project Research15 (complete repaired proof)",
+        "Michael Sharpe (narrower mechanical comparison)",
+        "Shigeki Akiyama",
+        "Masayuki Shirasaka"
+      ],
+      "evidence": {
+        "library_file_id": "libfile_c583ff1b4d10819189ecca97bcb7c053",
+        "path": "sources/legacy/Collatz_Research_15_Golden_Rotation_Proof_HANDOFF_2026-10-06.md",
+        "bibliography_ids": [
+          "L10",
+          "L52"
+        ]
+      },
+      "credit_statement": "Retain prior internal proposal and external symbolic-dynamics context; distinguish arbitrary interval width from slope-tied mechanical words.",
+      "limitations": "Neither a claim that Sharpe subsumes arbitrary width nor a claim of established novelty is justified.",
+      "publication_priority": "provisional_requires_rotation_coding_priority_check"
+    },
+    {
+      "id": "A17",
+      "theme": "Primitive lower-source merger",
+      "evidence_category": "direct_external_dependency",
+      "credit_to": [
+        "Christian Hercher"
+      ],
+      "evidence": {
+        "bibliography_ids": [
+          "L13"
+        ],
+        "anchor": "Lemma9 and Remark10"
+      },
+      "credit_statement": "Hercher supplies exact primitive merger and already discusses least unbounded source.",
+      "limitations": "Chaining/normalization may be project-specific, not primitive identity.",
+      "publication_priority": "known_primitive"
+    },
+    {
+      "id": "A18",
+      "theme": "Sufficient residue gates",
+      "evidence_category": "direct_external_dependency",
+      "credit_to": [
+        "Kenneth M. Monks",
+        "Keenan Monks",
+        "Kenneth G. Monks",
+        "Maria Monks"
+      ],
+      "evidence": {
+        "bibliography_ids": [
+          "L14",
+          "L15"
+        ],
+        "anchor": "Cor5.8; §6 Proposition6.3 and Theorem6.4"
+      },
+      "credit_statement": "Credit exact sufficient-set theorems used for2mod9/20mod27 targets.",
+      "limitations": "No density-to-pointwise replacement, no new gate theorem.",
+      "publication_priority": "known"
+    },
+    {
+      "id": "A19",
+      "theme": "Flow-budget certificate architecture",
+      "evidence_category": "classical_tool_adaptation",
+      "credit_to": [
+        "David Gale",
+        "Ethan Walker (documented direction)"
+      ],
+      "evidence": {
+        "bibliography_ids": [
+          "L16"
+        ],
+        "project_source": "Collatz_Summable_Budgets_From_Arithmetic_2026-10-20.md"
+      },
+      "credit_statement": "Finite feasibility/cut duality comes from Gale; project supplies arithmetic row definitions and countable-tail obligations.",
+      "limitations": "Finite theorem does not establish the project cut inequality or compactness hypotheses.",
+      "publication_priority": "application_architecture_provisional"
+    },
+    {
+      "id": "A20",
+      "theme": "p-adic depth bounds",
+      "evidence_category": "direct_external_dependency",
+      "credit_to": [
+        "Kwok Chi Chim",
+        "Kunrui Yu",
+        "Bernadette Faye",
+        "Florian Luca",
+        "Volker Ziegler"
+      ],
+      "evidence": {
+        "bibliography_ids": [
+          "L17",
+          "L18",
+          "L19"
+        ]
+      },
+      "credit_statement": "Distinguish original linear-form bounds from specialized project constants.",
+      "limitations": "Chim current full text inaccessible; Yu original metadata only; rational Yu restatement read via Faye–Luca–Ziegler by companion auditor.",
+      "publication_priority": "application_requires_specialist_check"
+    },
+    {
+      "id": "A21",
+      "theme": "Fixed dictionary/event Diophantine bounds",
+      "evidence_category": "direct_external_dependency",
+      "credit_to": [
+        "Jan-Hendrik Evertse",
+        "Hans Peter Schlickewei",
+        "Wolfgang M. Schmidt",
+        "Jason P. Bell",
+        "Jeffrey Diller",
+        "Mattias Jonsson",
+        "Holly Krieger"
+      ],
+      "evidence": {
+        "bibliography_ids": [
+          "L20",
+          "L21"
+        ]
+      },
+      "credit_statement": "Credit fixed-dimensional Subspace/S-unit machinery and precise primary formulations.",
+      "limitations": "No automatic effective height bound, growing-support uniformity, or all-orbit finite dictionary.",
+      "publication_priority": "project_application_provisional"
+    },
+    {
+      "id": "A22",
+      "theme": "Automatic invariant and symbolic recurrence certificates",
+      "evidence_category": "direct_dependency_and_methodological_relative",
+      "credit_to": [
+        "Alan Cobham",
+        "Jean-Paul Allouche",
+        "Jeffrey Shallit",
+        "Hong-Yi Chen",
+        "Byron Cook",
+        "Carsten Fuhs",
+        "Kaustubh Nimkar",
+        "Peter O’Hearn",
+        "Krishnendu Chatterjee",
+        "Ehsan Kafshdar Goharshady",
+        "Petr Novotný",
+        "Đorđe Žikelić"
+      ],
+      "evidence": {
+        "bibliography_ids": [
+          "L22",
+          "L23",
+          "L24",
+          "L25"
+        ]
+      },
+      "credit_statement": "Credit automatic-set rigidity and recurrence/reversal certificate framework.",
+      "limitations": "Relative completeness under an expressive oracle is not completeness of project finite syntax.",
+      "publication_priority": "project_separation_application_provisional"
+    },
+    {
+      "id": "A23",
+      "theme": "Collatz rewrite and machine foundations",
+      "evidence_category": "direct_comparison_and_documented_motivation",
+      "credit_to": [
+        "Emre Yolcu",
+        "Scott Aaronson",
+        "Marijn J. H. Heule",
+        "Cristian S. Calude",
+        "Pascal Michel"
+      ],
+      "evidence": {
+        "bibliography_ids": [
+          "L26",
+          "L27",
+          "L28"
+        ]
+      },
+      "credit_statement": "Credit mixed-base rewriting, explicit-program question and existing pointwise Collatz machines.",
+      "limitations": "Small pointwise simulator is not a blank-tape refuter for every kind of counterexample.",
+      "publication_priority": "known_foundations_project_artifact_specific"
+    },
+    {
+      "id": "A24",
+      "theme": "Antihydra and Hydra examples",
+      "evidence_category": "external_discovery_and_analysis",
+      "credit_to": [
+        "mxdys (Antihydra discovery)",
+        "Racheline/rae (macro rules)",
+        "Daniel Yuan (Hydra discovery)",
+        "Shawn Ligocki (analysis/exposition)",
+        "BBChallenge collaboration"
+      ],
+      "evidence": {
+        "bibliography_ids": [
+          "L35",
+          "L36",
+          "L37"
+        ],
+        "dates": {
+          "antihydra_discovery": "2024-06-28",
+          "hydra_discovery": "2024-04-20"
+        }
+      },
+      "credit_statement": "Preserve discoverer, macro-analysis and exposition credits separately.",
+      "limitations": "Project driver-observer comparisons do not discover or solve Antihydra.",
+      "publication_priority": "known_examples_new_comparison_provisional"
+    },
+    {
+      "id": "A25",
+      "theme": "Solved Busy Beaver controls",
+      "evidence_category": "external_discovery_proof_and_formalization",
+      "credit_to": [
+        "Heiner Marxen",
+        "Jürgen Buntrock",
+        "Michael Buro",
+        "Pascal Michel",
+        "Jason Yuen/int-y1",
+        "Maja Kądziołka",
+        "Pavel Kropitz",
+        "uni-cycle",
+        "Chris Xu",
+        "Newcomb Greenleaf",
+        "BBChallenge contributors"
+      ],
+      "evidence": {
+        "bibliography_ids": [
+          "L38",
+          "L39",
+          "L40",
+          "L41",
+          "L42",
+          "L43",
+          "L44"
+        ]
+      },
+      "credit_statement": "Differentiate machine discovery, arithmetic analysis, invariant proof, Coq formalization and collective BB5 determination.",
+      "limitations": "Do not attribute Skelet33 solely to one collaborator; do not date Marxen–Buntrock discovery from conflicting secondary records.",
+      "publication_priority": "known_controls"
+    },
+    {
+      "id": "A26",
+      "theme": "Energy-game and abstraction comparisons",
+      "evidence_category": "related_work_not_documented_inspiration",
+      "credit_to": [
+        "Lubor Brim",
+        "Jakub Chaloupka",
+        "Laurent Doyen",
+        "Raffaella Gentilini",
+        "Jean-François Raskin",
+        "Edmund M. Clarke",
+        "Orna Grumberg",
+        "Somesh Jha",
+        "Yuan Lu",
+        "Helmut Veith"
+      ],
+      "evidence": {
+        "bibliography_ids": [
+          "L47",
+          "L48"
+        ]
+      },
+      "credit_statement": "Relevant methodological context for resource games and certificate refinement.",
+      "limitations": "No evidence found that these works historically caused the project ideas.",
+      "publication_priority": "related_only"
+    },
+    {
+      "id": "A27",
+      "theme": "Return words, compatible jets and rank-two transfer",
+      "evidence_category": "documented_external_dependency_and_project_repair",
+      "credit_to": [
+        "Fabien Durand",
+        "Project Research39–44 notes"
+      ],
+      "evidence": {
+        "bibliography_ids": [
+          "L53"
+        ],
+        "project_anchors": "Research39 §return-word convention; Research44 conditional alignment theorem"
+      },
+      "credit_statement": "Return-word code convention is external; exact alignment correction and restricted jets are project deductions.",
+      "limitations": "Start-to-start returns need not be prefix-free. Common-frequency, distortion and alignment-height assumptions remain.",
+      "publication_priority": "provisional_restricted_application"
+    },
+    {
+      "id": "A28",
+      "theme": "Historical six-field exploration",
+      "evidence_category": "historical_source_audit",
+      "credit_to": [
+        "All authors recorded in the GDR2 October16 atlas"
+      ],
+      "evidence": {
+        "source_index": "sources/literature/atlas/GDR_2.0/execution/cycle_10/root_synthesis/SOURCE_INDEX_2026-10-16.json",
+        "records": 193,
+        "external_records": 191,
+        "external_work_clusters": 171
+      },
+      "credit_statement": "Preserve broad route-level intellectual credit and the historical inspection labels.",
+      "limitations": "Not193 distinct papers, not171 currently reread publications, not blanket proof verification.",
+      "publication_priority": "no_novelty_inference"
+    },
+    {
+      "id": "A29",
+      "theme": "Canonical closure, Mahler and Goodstein comparisons",
+      "evidence_category": "documented_source_and_related_work",
+      "credit_to": [
+        "Gilles Christol",
+        "Teturo Kamae",
+        "Michel Mendès France",
+        "Gérard Rauzy",
+        "Boris Adamczewski",
+        "Jason P. Bell",
+        "Pablo Shmerkin",
+        "Boris Solomyak",
+        "David Fernández-Duque",
+        "Andreas Weiermann",
+        "Nachum Dershowitz",
+        "Zohar Manna"
+      ],
+      "evidence": {
+        "bibliography_ids": [
+          "L30",
+          "L31",
+          "L32",
+          "L33",
+          "L34"
+        ],
+        "chapter": "chapters/closure_constraints.md"
+      },
+      "credit_statement": "Credit automatic-series rigidity, small-coefficient analytic obstruction and canonical domination/ranking antecedents according to chapter-level use.",
+      "limitations": "Analogies cannot supply the missing Collatz arithmetic transfer; some original full texts not reread this pass.",
+      "publication_priority": "application_or_comparison_provisional"
+    },
+    {
+      "id": "A30",
+      "theme": "Recent rational-base results",
+      "evidence_category": "related_work_not_documented_inspiration",
+      "credit_to": [
+        "Julien Cassaigne",
+        "Bastiàn Espinoza",
+        "Michel Rigo",
+        "Manon Stipulanti",
+        "Mélodie Andrieu",
+        "Shalom Eliahou",
+        "Léo Vivion"
+      ],
+      "evidence": {
+        "bibliography_ids": [
+          "L45",
+          "L46"
+        ]
+      },
+      "credit_statement": "Current rational-base frequency/normality context.",
+      "limitations": "Population frequency is not an individual branch theorem; normality conjecture is not proved safety.",
+      "publication_priority": "related_only"
+    },
+    {
+      "id": "A31",
+      "theme": "Claims without an explicit origin record",
+      "evidence_category": "unknown_provenance",
+      "credit_to": [],
+      "evidence": {
+        "policy": "Absence of attribution in an inspected project note is not evidence of independent invention."
+      },
+      "credit_statement": "Use project deduction or source not located; do not manufacture an inspiring conversation, author or first date.",
+      "limitations": "Internal report timestamps order the records inspected, not all mathematical discovery.",
+      "publication_priority": "unknown"
+    },
+    {
+      "id": "A32",
+      "theme": "Instruction-language non-context-freeness",
+      "evidence_category": "classical_tool_application",
+      "credit_to": [
+        "Rohit J. Parikh",
+        "Javier Esparza",
+        "Pierre Ganty",
+        "Stefan Kiefer",
+        "Michael Luttenberger"
+      ],
+      "evidence": {
+        "bibliography_ids": [
+          "L54",
+          "L55"
+        ],
+        "project_anchor": "Creative07 PartVI§5"
+      },
+      "credit_statement": "External semilinearity and language-closure tools; project supplies exact growing-modulus nonsemilinearity proof.",
+      "limitations": "No new Parikh theorem and no inference that all Collatz certificate languages are non-context-free.",
+      "publication_priority": "application_priority_unresolved"
+    },
+    {
+      "id": "A33",
+      "theme": "N14 affine band-envelope method",
+      "evidence_category": "documented_external_inspiration_and_adaptation",
+      "credit_to": [
+        "Dimitri Bertsekas"
+      ],
+      "evidence": {
+        "library_file_id": "libfile_04928dec5c4c819194f330055948b6d3",
+        "section": "N14 methodology and references; audited addendum assessment",
+        "reference_ids": [
+          "L56"
+        ]
+      },
+      "credit_statement": "N14 explicitly cites affine monotonic dynamic programming as a methodological comparison. The displayed rational certificate is checked directly; no uninspected theorem is imported.",
+      "limitations": "Only the primary abstract was read in this audit. General Bellman/policy-iteration methods are established; priority for the project-specific band result remains unestablished.",
+      "publication_priority": "not_established"
+    }
+  ],
+  "authorship_note": "Ethan Walker is credited for documented research directions, prioritization and synthesis. Technical reports retain their stated AI-assisted provenance; no human external peer review is implied. Publication authorship and accountability need separate human determination.",
+  "delivery_note": "Evidence-backed credit register. Direct user quotations are distinguished from contemporaneous report paraphrases, external dependencies, and merely related work. This does not determine publication authorship or certify priority.",
+  "cross_log_clarifications": [
+    "L17/A20 describe the bibliography auditor's unsuccessful PDF access. Separately, the recent-navigation read log records current inspection of Chim's Theorem 2.1 and definitions on printed pages 297–299. That companion reading is section-level and does not reconstruct the external proof."
+  ]
+}

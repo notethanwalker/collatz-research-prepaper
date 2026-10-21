@@ -1,0 +1,1084 @@
+[
+  {
+    "id": "CL01",
+    "title": "A/B factor complexity lower bound",
+    "status": "checked_proof",
+    "statement": "A positive infinite 12/112 macro itinerary s has p_s(k)>=max(1,1+floor((3k-log2 u0)/log2(27/16))); liminf p_s(k)/k>=3.97410.",
+    "assumptions": "One fixed positive integer u0; legal normalized A=9u/8, B=(27u-1)/16 itinerary.",
+    "map_clock": "12/112 macro clock",
+    "proof_summary": "Repeated k-windows fix a source residue modulo at least 2^(3k); strict state growth and u_j<u0(27/16)^j force late repeats. Count initial distinct windows.",
+    "sources": [
+      {
+        "source_id": "CC05",
+        "library_file_id": "libfile_998d99cf20708191a555fc1f0c40481a",
+        "file_id": "file_00000000ce2c822fbb7b7d59bb3eb70a",
+        "title": "Pass05_01_PROOF_ATTEMPT_AND_NEW_THEOREMS.md",
+        "path": "/Collatz Notation Transform/Constraint Maturation Route/Pass05_01_PROOF_ATTEMPT_AND_NEW_THEOREMS.md",
+        "version_id": "1",
+        "sections": "§2, Theorem 1"
+      }
+    ],
+    "attribution": "Classical factor-complexity theory supplies comparison classes; arithmetic bound is supplied by this report.",
+    "novelty": "Candidate project-specific formulation/application; historical priority not established.",
+    "limitations": "Excludes specified low-complexity codes, not arbitrary aperiodic words.",
+    "significance": "A quantitative restriction on any fixed-source survivor."
+  },
+  {
+    "id": "CL02",
+    "title": "Switch count and finite rational-center barrier",
+    "status": "checked_proof",
+    "statement": "An m-macro prefix with s switches obeys m<=a((1+b)^(s+1)-1)/b, a=log2(11u0)/3,b=log2(27/16)/3. Its reduced rational periodic center p/d obeys du0-p in 2^H Z_{>0}.",
+    "assumptions": "Same fixed-source positive A/B system.",
+    "map_clock": "Macro runs and prefix depth H",
+    "proof_summary": "Constant A and B runs consume valuations of u and 11u-1. Subtract the finite center equation from the source congruence and use positivity.",
+    "sources": [
+      {
+        "source_id": "CC05",
+        "library_file_id": "libfile_998d99cf20708191a555fc1f0c40481a",
+        "file_id": "file_00000000ce2c822fbb7b7d59bb3eb70a",
+        "title": "Pass05_01_PROOF_ATTEMPT_AND_NEW_THEOREMS.md",
+        "path": "/Collatz Notation Transform/Constraint Maturation Route/Pass05_01_PROOF_ATTEMPT_AND_NEW_THEOREMS.md",
+        "version_id": "1",
+        "sections": "Theorem 2"
+      },
+      {
+        "source_id": "CC09",
+        "library_file_id": "libfile_46b186c4bb748191ace4e2613fdbbbc5",
+        "file_id": "file_00000000d724820cb184b69a4f895369",
+        "title": "Pass09_01_RATIONAL_CENTER_BRIDGE_AND_SUBSTITUTION_RIGIDITY.md",
+        "path": "/Collatz Notation Transform/Constraint Maturation Route/Pass09_01_RATIONAL_CENTER_BRIDGE_AND_SUBSTITUTION_RIGIDITY.md",
+        "version_id": null,
+        "sections": "§§2–4"
+      }
+    ],
+    "attribution": "Internal derivation; rational-center bridge is finite arithmetic.",
+    "novelty": "Candidate project-specific formulation/application; historical priority not established.",
+    "limitations": "Compression criterion not proved for all words; CC09 substitution result is restricted.",
+    "significance": "Separates actual two-place arithmetic from unjustified real/2-adic limit comparison."
+  },
+  {
+    "id": "CL03",
+    "title": "Real/2-adic sign transfer is invalid",
+    "status": "refuted",
+    "statement": "A real inverse attractor of nonpositive or bounded points does not by itself prohibit positive integer itineraries sharing 2-adic addresses.",
+    "assumptions": "Generic inverse-contraction argument, not a Collatz counterexample.",
+    "map_clock": "Inverse composition",
+    "proof_summary": "Maps 2y/3 and (2y+1)/3 have real attractor [0,1], cover all Z2, and forward positive increasing orbit 2,3,4,6,9,13,... .",
+    "sources": [
+      {
+        "source_id": "CC05",
+        "library_file_id": "libfile_998d99cf20708191a555fc1f0c40481a",
+        "file_id": "file_00000000ce2c822fbb7b7d59bb3eb70a",
+        "title": "Pass05_01_PROOF_ATTEMPT_AND_NEW_THEOREMS.md",
+        "path": "/Collatz Notation Transform/Constraint Maturation Route/Pass05_01_PROOF_ATTEMPT_AND_NEW_THEOREMS.md",
+        "version_id": "1",
+        "sections": "two-place countercontrol"
+      },
+      {
+        "source_id": "CC09",
+        "library_file_id": "libfile_46b186c4bb748191ace4e2613fdbbbc5",
+        "file_id": "file_00000000d724820cb184b69a4f895369",
+        "title": "Pass09_01_RATIONAL_CENTER_BRIDGE_AND_SUBSTITUTION_RIGIDITY.md",
+        "path": "/Collatz Notation Transform/Constraint Maturation Route/Pass09_01_RATIONAL_CENTER_BRIDGE_AND_SUBSTITUTION_RIGIDITY.md",
+        "version_id": null,
+        "sections": "finite bridge and limitations"
+      }
+    ],
+    "attribution": "Explicit internal countercontrol.",
+    "novelty": "Negative methodological result; no Collatz disproof.",
+    "limitations": "Only the generic transfer inference is refuted.",
+    "significance": "Prevents swapping exists-for-each-prefix with one fixed integer source."
+  },
+  {
+    "id": "CL04",
+    "title": "Endpoint S-unit renewal finiteness",
+    "status": "checked_proof",
+    "statement": "For fixed odd c>=3, fixed q>=1 renewals and a fixed finite prime set, only finitely many distinct renewal blocks have both endpoint cores supported on that set, with unrestricted intermediate cores.",
+    "assumptions": "Positive actual maximal shallow/deep runs; q fixed.",
+    "map_clock": "Renewal clock",
+    "proof_summary": "The equation c^h K+2^e-2^(e+h_next)K_next=1 is nondegenerate; chronological valuation order extends this to fixed q and ESS gives finiteness.",
+    "sources": [
+      {
+        "source_id": "CC11",
+        "library_file_id": "libfile_1f2e21c675b88191882800e4a6197d8a",
+        "file_id": "file_000000000da481f99adb647248e4c43f",
+        "title": "Pass11_01_MAIN_REPORT.md",
+        "path": "/Collatz Notation Transform/Constraint Maturation Route/Pass11_01_MAIN_REPORT.md",
+        "version_id": null,
+        "sections": "§6"
+      },
+      {
+        "source_id": "CC12",
+        "library_file_id": "libfile_e252a84e49488191866e570b6c62dff4",
+        "file_id": "file_000000006340820dbb8f9260d3d2d59c",
+        "title": "Pass12_01_MAIN_REPORT.md",
+        "path": "/Collatz Notation Transform/Constraint Maturation Route/Pass12_01_MAIN_REPORT.md",
+        "version_id": null,
+        "sections": "fixed-q return theorem"
+      }
+    ],
+    "attribution": "Evertse–Schlickewei–Schmidt 2002 is the deep external input.",
+    "novelty": "Candidate project-specific formulation/application; historical priority not established.",
+    "limitations": "No uniformity as q or group rank grows. Cyclic repetitions must be separated from distinct states.",
+    "significance": "Constrains sparse arithmetic descriptions without confusing prime novelty with descent."
+  },
+  {
+    "id": "CL05",
+    "title": "Moving multiplicative dictionaries require complexity",
+    "status": "checked_proof",
+    "statement": "For D=union of L cosets of rank-r group, q-step endpoint pairs on a segment with distinct first-successor states number <=L^2 exp((6(2q+1))^(3(2q+1))((2q+1)+2r+1)).",
+    "assumptions": "Fixed q; actual renewal blocks and distinct successor states.",
+    "map_clock": "Renewal clock",
+    "proof_summary": "Apply quantitative ESS to normalized endpoint equation, with group-rank contribution from both endpoint cosets, then sum over L^2 assignments.",
+    "sources": [
+      {
+        "source_id": "CC13",
+        "library_file_id": "libfile_8a1287785fdc81918ca0bdbff0a26709",
+        "file_id": "file_00000000ac38820d98da709c03656a68",
+        "title": "Pass13_01_MAIN_REPORT.md",
+        "path": "/Collatz Notation Transform/Constraint Maturation Route/Pass13_01_MAIN_REPORT.md",
+        "version_id": null,
+        "sections": "§§2–5"
+      }
+    ],
+    "attribution": "Explicit quantitative application of ESS.",
+    "novelty": "Candidate project-specific formulation/application; historical priority not established.",
+    "limitations": "Constants are enormous; r=o(log N),log L=o(log N) is a restriction, not a forced global complexity bound.",
+    "significance": "Makes dependence of arithmetic-description finiteness explicit."
+  },
+  {
+    "id": "CL06",
+    "title": "Fresh prime novelty does not buy division depth",
+    "status": "refuted",
+    "statement": "Arbitrarily many fresh prescribed primes can enter the next renewal core at the fixed exit depth two.",
+    "assumptions": "Positive family X=64t+7, X_next=108t+13; CRT choices t.",
+    "map_clock": "One shallow/deep renewal",
+    "proof_summary": "Cores K=8t+1, K_next=54t+7 obey 4K_next=27K+1. CRT enforces new divisors of K_next absent from K.",
+    "sources": [
+      {
+        "source_id": "CC12",
+        "library_file_id": "libfile_e252a84e49488191866e570b6c62dff4",
+        "file_id": "file_000000006340820dbb8f9260d3d2d59c",
+        "title": "Pass12_01_MAIN_REPORT.md",
+        "path": "/Collatz Notation Transform/Constraint Maturation Route/Pass12_01_MAIN_REPORT.md",
+        "version_id": null,
+        "sections": "§6D"
+      }
+    ],
+    "attribution": "Internal exact CRT countercontrol.",
+    "novelty": "Counterexample to a proposed proof mechanism.",
+    "limitations": "Does not disprove every possible arithmetic-height budget.",
+    "significance": "Refutes a concrete unsupported bridge from prime production to contraction."
+  },
+  {
+    "id": "CL07",
+    "title": "Connected cancellation fixes anchored odd parts",
+    "status": "checked_proof",
+    "statement": "For fixed grouped raw-term counts, fixed coefficients and finite-rank group, grouped nondegeneracy plus one multiplier U_a=1 forces finitely many tuples O(U_i) modulo powers of two.",
+    "assumptions": "B_i=sum gamma_i,l U_i 2^n_i,l; sum B_i=0; no proper grouped zero subsum.",
+    "map_clock": "Finite arithmetic diagram, not orbit time",
+    "proof_summary": "Partition raw terms into minimal zero sums; ESS gives finite projective ratios. Their group-incidence graph is connected; quotient out powers of two and propagate ratios from the anchor.",
+    "sources": [
+      {
+        "source_id": "CC14",
+        "library_file_id": "libfile_9de3288a34888191940f763c4b347d7a",
+        "file_id": "file_00000000804c820ca946235a4ca82711",
+        "title": "CMR_Pass14_Connected_Cancellation_2026-10-17.zip",
+        "path": "/CMR_Pass14_Connected_Cancellation_2026-10-17.zip",
+        "version_id": null,
+        "sections": "02_CONNECTED_CANCELLATION_LEMMA.md §§1–5",
+        "archive_members": "CMR_Pass14_Two_Switch_Rigidity_2026-10-17/01_MAIN_REPORT.md; 02_CONNECTED_CANCELLATION_LEMMA.md"
+      }
+    ],
+    "attribution": "ESS supplies arithmetic finiteness; connectivity/ratio propagation is elementary.",
+    "novelty": "Candidate project-specific formulation/application; historical priority not established.",
+    "limitations": "Anchor, fixed coefficients and bounded raw term count essential; explicit counterexamples when each is removed.",
+    "significance": "Portable tool for coarse nondegeneracy despite fine cancellations; constrained application is stronger than generic graph fact."
+  },
+  {
+    "id": "CL08",
+    "title": "Fixed-switch finiteness without a depth menu",
+    "status": "checked_proof",
+    "statement": "For S_c,d with odd c>=3,d>0, a fixed number q>=1 of genuine depth changes and fixed finite-prime-supported endpoint centered odd parts allow only finitely many positive blocks, although depths and run lengths are unbounded.",
+    "assumptions": "Nonzero centered deviations Z_a=(2^a-c)x-d; actual maximal runs; q fixed.",
+    "map_clock": "Depth-change clock",
+    "proof_summary": "Maximal-run valuations force grouped nondegeneracy. Expand (q+2)2^q raw terms and apply anchored connected cancellation. Finite W=c^r0 sigma0 bounds first successor; reconstruct finite initial states.",
+    "sources": [
+      {
+        "source_id": "CC14",
+        "library_file_id": "libfile_9de3288a34888191940f763c4b347d7a",
+        "file_id": "file_00000000804c820ca946235a4ca82711",
+        "title": "CMR_Pass14_Connected_Cancellation_2026-10-17.zip",
+        "path": "/CMR_Pass14_Connected_Cancellation_2026-10-17.zip",
+        "version_id": null,
+        "sections": "01_MAIN_REPORT.md §§2–6; portable lemma",
+        "archive_members": "CMR_Pass14_Two_Switch_Rigidity_2026-10-17/01_MAIN_REPORT.md; 02_CONNECTED_CANCELLATION_LEMMA.md"
+      }
+    ],
+    "attribution": "Internal valuation/application proof using ESS; not a new S-unit theorem.",
+    "novelty": "Candidate project-specific formulation/application; historical priority not established.",
+    "limitations": "Not uniform in q; zero upper Banach density consequence is only in depth-change time.",
+    "significance": "Removes a bounded-depth-menu assumption while preserving exact quantifiers."
+  },
+  {
+    "id": "CL09",
+    "title": "Canonical source carry and finite-source authentication",
+    "status": "checked_proof",
+    "statement": "Least-positive sources rho_m satisfy rho_next=rho_m+2^(H_m+1)t; 2^a z_next=c z_m+d+2c^(m+1)t. They stabilize iff one ordinary positive integer realizes the infinite exact-depth word.",
+    "assumptions": "Positive odd c,d; exact odd endpoints; t in [0,2^a).",
+    "map_clock": "Accelerated odd rounds",
+    "proof_summary": "Unique lift digit solves exact-depth congruence. Monotonicity plus source modulus eventually exceeding a fixed X gives equivalence.",
+    "sources": [
+      {
+        "source_id": "CC15",
+        "library_file_id": "libfile_6247a16dff4c8191adf802fdebfe680d",
+        "file_id": "file_00000000d1c881f7b514da68ac7b8d01",
+        "title": "CMR_Pass15_Comparative_Mechanism_Transfer_2026-10-17.zip",
+        "path": "/CMR_Pass15_Comparative_Mechanism_Transfer_2026-10-17.zip",
+        "version_id": null,
+        "sections": "§2 Theorem 2.1",
+        "archive_members": "01_MAIN_REPORT.md"
+      }
+    ],
+    "attribution": "CC15 explicitly credits Shortcut Research 05 for the inherited source/input-output carry mechanism.",
+    "novelty": "Inherited result with clarified all-halving convention, not claimed new discovery.",
+    "limitations": "Not a theorem that every nonterminating code forces nonzero carries forever.",
+    "significance": "Makes fixed-source versus varying-source distinction exact."
+  },
+  {
+    "id": "CL10",
+    "title": "Translation comparator traps endpoints, C3 carry argument does not",
+    "status": "checked_proof",
+    "statement": "For c=1 and positive odd d, canonical endpoints always belong to {1,3,...,d}; after modulus exceeds an actual X this gives finite trapping.",
+    "assumptions": "Same full source-cylinder convention.",
+    "map_clock": "Odd rounds",
+    "proof_summary": "L=2^H-sum_{j<m}2^Hj, q=floor(dL/2^(H+1)); rho=dL-2^(H+1)q and z=d-2q. C3 counterpart has only exponential endpoint envelope.",
+    "sources": [
+      {
+        "source_id": "CC15",
+        "library_file_id": "libfile_6247a16dff4c8191adf802fdebfe680d",
+        "file_id": "file_00000000d1c881f7b514da68ac7b8d01",
+        "title": "CMR_Pass15_Comparative_Mechanism_Transfer_2026-10-17.zip",
+        "path": "/CMR_Pass15_Comparative_Mechanism_Transfer_2026-10-17.zip",
+        "version_id": null,
+        "sections": "§2 Theorem 2.2 and cycle discussion",
+        "archive_members": "01_MAIN_REPORT.md"
+      }
+    ],
+    "attribution": "Internal solved comparator.",
+    "novelty": "Candidate project-specific formulation/application; historical priority not established.",
+    "limitations": "Finite trap may contain several cycles; source identification alone cannot transfer the endpoint bound to c=3.",
+    "significance": "Shows exactly which extra property makes a carry proof close."
+  },
+  {
+    "id": "CL11",
+    "title": "Matched-center legal repair is special to c=3",
+    "status": "checked_proof",
+    "statement": "For E(y)=2y+t,d=(c-2)t, shallow lifting produces residual addend t oddpart(c-1), equal to d precisely at c=3. Thus for c=3 and depth(y)=2, S^2(2y+d)=S^2(y).",
+    "assumptions": "c>=3 odd, d,t positive odd under center equation.",
+    "map_clock": "Odd-round common-future comparison",
+    "proof_summary": "Expand second numerator, compare its binary valuation and residual affine addend; handle depth below/equal/above ell=1+v2(c-1).",
+    "sources": [
+      {
+        "source_id": "CC15",
+        "library_file_id": "libfile_6247a16dff4c8191adf802fdebfe680d",
+        "file_id": "file_00000000d1c881f7b514da68ac7b8d01",
+        "title": "CMR_Pass15_Comparative_Mechanism_Transfer_2026-10-17.zip",
+        "path": "/CMR_Pass15_Comparative_Mechanism_Transfer_2026-10-17.zip",
+        "version_id": null,
+        "sections": "matched-center classification and legal repair",
+        "archive_members": "01_MAIN_REPORT.md"
+      }
+    ],
+    "attribution": "Transported C3 half-source merger is explicitly credited as the already catalogued Hercher primitive; legal G/M comparator credits Yolcu–Aaronson–Heule.",
+    "novelty": "Matched-control explanation; merger itself inherited.",
+    "limitations": "Formal Farkas inverse steps at odd 1 mod6 are not actual reverse Collatz edges. C5,d3 has fixed 1 and cycle 3<->9.",
+    "significance": "Explains transfer boundary rather than claiming new full coverage."
+  },
+  {
+    "id": "CL12",
+    "title": "Integral signed-word presentation of actual components",
+    "status": "checked_proof",
+    "statement": "The quotient of the free integer group on e_r by L_r=e_r-H(18r+13)+H(6r+4) is free on nonbase actual Collatz components.",
+    "assumptions": "H is the displayed decreasing recursive compiler; actual shortcut edges.",
+    "map_clock": "Compiler recursion versus actual shortcut time",
+    "proof_summary": "Construct inverse homomorphisms to vertex presentation x_n=x_Tn using compiler telescoping. Standard graph abelianization leaves one generator per component and no torsion.",
+    "sources": [
+      {
+        "source_id": "SW1",
+        "library_file_id": "libfile_a51cf773e2988191bd64af2f01bbf854",
+        "file_id": "file_0000000082c881f78eaa19894be17f0a",
+        "title": "Signed_Word_Elimination_Structure_Proof_2026-10-18.md",
+        "path": "/Signed_Word_Elimination_Structure_Proof_2026-10-18.md",
+        "version_id": null,
+        "sections": "§§2–7"
+      }
+    ],
+    "attribution": "Compiler-specific integral correspondence is the project contribution; graph-component abelianization is standard.",
+    "novelty": "Candidate project-specific formulation/application; historical priority not established.",
+    "limitations": "Exact reformulation does not show all components coincide.",
+    "significance": "Makes row elimination faithful to actual orbit mergers; rules out hidden rational/integer discrepancy."
+  },
+  {
+    "id": "CL13",
+    "title": "Signed certificate equivalence and norm gap",
+    "status": "checked_proof",
+    "statement": "e_r has a finite integer row certificate iff U_r=6r+4 and V_r=18r+13 have a finite actual forward merger. Its infimum literal unweighted l1 residual is exactly 0 or 1.",
+    "assumptions": "Finite-support rows and unweighted l1 norm.",
+    "map_clock": "Finite paths and row support",
+    "proof_summary": "A merger telescopes an explicit certificate; a separated component indicator gives a {-1,0,1} dual pairing of magnitude one, hence residual lower bound one.",
+    "sources": [
+      {
+        "source_id": "SW1",
+        "library_file_id": "libfile_a51cf773e2988191bd64af2f01bbf854",
+        "file_id": "file_0000000082c881f78eaa19894be17f0a",
+        "title": "Signed_Word_Elimination_Structure_Proof_2026-10-18.md",
+        "path": "/Signed_Word_Elimination_Structure_Proof_2026-10-18.md",
+        "version_id": null,
+        "sections": "§§6–10"
+      }
+    ],
+    "attribution": "Standard component separation/flow duality after explicit compiler correspondence.",
+    "novelty": "Candidate project-specific formulation/application; historical priority not established.",
+    "limitations": "Universal elimination or proving any residual below one for every target is equivalent to Collatz, not already established.",
+    "significance": "Exact barrier prevents mistaking approximate weighted cancellation for finite closure."
+  },
+  {
+    "id": "CL14",
+    "title": "Birth-basis incidence normal form",
+    "status": "checked_proof",
+    "statement": "If 4r+3=3^d v with 3 not dividing v, birth a(r)=2^(d+2)v-1 gives b_r=H(a(r)) integral unitriangular; relations become b_r-b_F(r).",
+    "assumptions": "Order by least compiler input emitting e_r; terminate auxiliary decreasing R.",
+    "map_clock": "Birth-normalizer and induced F dynamics",
+    "proof_summary": "First emission identifies diagonal coefficient one; lower emissions have smaller birth. Normalize every row by the unitriangular change of basis.",
+    "sources": [
+      {
+        "source_id": "SW2",
+        "library_file_id": "libfile_fc8da13f5e908191b6b829989cca6ae6",
+        "file_id": "file_00000000364081f7b6a29006a1775b7b",
+        "title": "Signed_Word_Elimination_Further_Proofs_2026-10-18.md",
+        "path": "/Signed_Word_Elimination_Further_Proofs_2026-10-18.md",
+        "version_id": null,
+        "sections": "birth basis and exact incidence presentation"
+      }
+    ],
+    "attribution": "Internal constrained normal-form construction; resulting incidence algebra is standard.",
+    "novelty": "Candidate project-specific formulation/application; historical priority not established.",
+    "limitations": "F termination is not supplied.",
+    "significance": "Removes signed feedback while exposing the genuine remaining dynamical task."
+  },
+  {
+    "id": "CL15",
+    "title": "Incidence cancellation cannot bypass the forward obligation path",
+    "status": "checked_proof",
+    "statement": "A finite incidence expression eliminating b_r must contain its complete forward F-path to the sink; arbitrary signed cancellations do not supply a shortcut.",
+    "assumptions": "Finite expression in differences b_x-b_Fx.",
+    "map_clock": "Induced F clock",
+    "proof_summary": "Sum coefficients over the finite support component; it must contain the sink. A finite functional component containing a sink is a tree toward it, so edge balance forces the unique path.",
+    "sources": [
+      {
+        "source_id": "SW2",
+        "library_file_id": "libfile_fc8da13f5e908191b6b829989cca6ae6",
+        "file_id": "file_00000000364081f7b6a29006a1775b7b",
+        "title": "Signed_Word_Elimination_Further_Proofs_2026-10-18.md",
+        "path": "/Signed_Word_Elimination_Further_Proofs_2026-10-18.md",
+        "version_id": null,
+        "sections": "incidence support theorem; increasing direct-word section"
+      }
+    ],
+    "attribution": "Standard finite-flow fact used to diagnose this compiler.",
+    "novelty": "The generic graph statement is known; its exact compiler consequence is useful.",
+    "limitations": "Long direct increasing runs exist; eventually periodic direct-growth words excluded, arbitrary aperiodic words not.",
+    "significance": "Prevents a claim that signed algebra alone has eliminated dynamics."
+  },
+  {
+    "id": "CL16",
+    "title": "Pinned compactness extracts finite certificates conditionally",
+    "status": "conditional",
+    "statement": "For a fixed target t, absence of any {-1,0,1} row/reconstruction witness with z_t nonzero implies a finite integer certificate.",
+    "assumptions": "Product compact topology; each constraint finite-support; target fixed before compactness.",
+    "map_clock": "Finite support, not orbit time",
+    "proof_summary": "Closed pinned constraints have empty compact intersection, so a finite subset is inconsistent. A component indicator on its finite genuine graph would otherwise satisfy them; connectedness extracts a path certificate.",
+    "sources": [
+      {
+        "source_id": "CA",
+        "library_file_id": "libfile_76235aa7ab348191bbff865cd4d1fef8",
+        "file_id": "file_00000000724c81f5a144599b01414a10",
+        "title": "Concrete_Closure_Additional_Structure_Results_2026-10-18.txt",
+        "path": "/Concrete_Closure_Additional_Structure_Results_2026-10-18.txt",
+        "version_id": null,
+        "sections": "pinned compactness and finite graph extraction"
+      },
+      {
+        "source_id": "CF",
+        "library_file_id": "libfile_51e5757d787c81918e6b2d482876a5cc",
+        "file_id": "file_00000000f35081f7910efa743507231b",
+        "title": "Concrete_Closure_Follow_Up_Answer_and_Proof_2026-10-18.txt",
+        "path": "/Concrete_Closure_Follow_Up_Answer_and_Proof_2026-10-18.txt",
+        "version_id": null,
+        "sections": "dual correspondence"
+      }
+    ],
+    "attribution": "Standard compactness and graph separation after compiler-specific reconstruction.",
+    "novelty": "Conditional reformulation; no compactness solution of Collatz.",
+    "limitations": "The no-witness premise is unproved; nonzero somewhere is not a closed pin.",
+    "significance": "Valid local-to-global extraction, not a universal witness-exclusion proof."
+  },
+  {
+    "id": "CL17",
+    "title": "Hereditary frontier closure needs an actual rank and total constructors",
+    "status": "conditional",
+    "statement": "Exact identities B(q)=boundary(P)+sum c_i B(q_i), total enabled rules, complete terminals, and strictly smaller child ranks imply finite closure.",
+    "assumptions": "Finite constructors; every child rank below parent in a well-founded order.",
+    "map_clock": "Obligation expansion, distinct from Collatz orbit",
+    "proof_summary": "Pending finite multiset of ranks decreases; recurse through finite branches and substitute boundary identities.",
+    "sources": [
+      {
+        "source_id": "LG",
+        "library_file_id": "libfile_5363ea00b6008191a648d465fe333b0a",
+        "file_id": "file_00000000e400820d9d9416b377414a2d",
+        "title": "Local_to_Global_Closure_Solution_2026-10-18.md",
+        "path": "/Local_to_Global_Closure_Solution_2026-10-18.md",
+        "version_id": null,
+        "sections": "main hereditary closure theorem"
+      },
+      {
+        "source_id": "CR04",
+        "library_file_id": "libfile_b792c584582c8191b6e9f348ad40d89d",
+        "file_id": "file_00000000fa10820c9c749e412683ae66",
+        "title": "Collatz_Creative_Exploration_04_Full_Proof_Architectures_2026-10-19.md",
+        "path": "/Collatz_Creative_Exploration_04_Full_Proof_Architectures_2026-10-19.md",
+        "version_id": null,
+        "sections": "Part IV §§4–5"
+      }
+    ],
+    "attribution": "Direct application of Dershowitz–Manna multiset order; size-change/cyclic proof inspirations require their own trace hypotheses.",
+    "novelty": "General termination theorem is established external mathematics.",
+    "limitations": "No universal Collatz rank or exhaustive guarded table provided; new external ports defeat a fixed cut-mask bound.",
+    "significance": "Clean specification of a sufficient assembler, useful for auditing proposed implementations."
+  },
+  {
+    "id": "CL18",
+    "title": "Tightness is necessary to promote weak residual decay",
+    "status": "conditional",
+    "statement": "Proper potential with strict drift gives tightness plus coordinate decay, hence finite literal closure; weighted residual decay alone is insufficient.",
+    "assumptions": "Actual transport kernel; proper potential and specified drift assumptions.",
+    "map_clock": "Transport time and support radius",
+    "proof_summary": "Control tail mass by proper-potential bound and finite coordinates by decay. Alternatively ||r||1<=(1+H)^s||r||weighted requires decay rate exceeding support-growth exponent.",
+    "sources": [
+      {
+        "source_id": "LG",
+        "library_file_id": "libfile_5363ea00b6008191a648d465fe333b0a",
+        "file_id": "file_00000000e400820d9d9416b377414a2d",
+        "title": "Local_to_Global_Closure_Solution_2026-10-18.md",
+        "path": "/Local_to_Global_Closure_Solution_2026-10-18.md",
+        "version_id": null,
+        "sections": "transport appendix"
+      },
+      {
+        "source_id": "CR08",
+        "library_file_id": "libfile_66c043f1ecb48191a4b72046f1b1f83f",
+        "file_id": "file_000000005a44820c926d2fda57323fb6",
+        "title": "Collatz_Creative_Closure_08_Clock_Grade_Source_Handoffs_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Constraint Maturation Route/Creative Closure 08 - 2026-10-20/Collatz_Creative_Closure_08_Clock_Grade_Source_Handoffs_2026-10-20.md",
+        "version_id": "1",
+        "sections": "weighted norm/source support section"
+      }
+    ],
+    "attribution": "Standard tightness/uniform-integrability mechanism, explicitly adapted.",
+    "novelty": "Candidate project-specific formulation/application; historical priority not established.",
+    "limitations": "e_(2^j) tends to zero in decaying weighted norm but has l1=1.",
+    "significance": "Identifies exact missing hypothesis in inverse-limit/approximation endgames."
+  },
+  {
+    "id": "CL19",
+    "title": "Golden scalar height is not an autonomous state quotient",
+    "status": "refuted",
+    "statement": "Equal golden height, even together with any fixed suffix precision, need not determine successor golden height.",
+    "assumptions": "Binary revaluation at phi; actual accelerated map.",
+    "map_clock": "Odd rounds",
+    "proof_summary": "15->23 and 25->19 yield a false quotient cycle because P15=P19 and P23=P25. For k>=3, x=4*2^k+1,y=3*2^k+1 have equal height/suffix but unequal next height.",
+    "sources": [
+      {
+        "source_id": "CC",
+        "library_file_id": "libfile_de9a2563abfc81919269e171e4e83c14",
+        "file_id": "file_00000000ae6c81f99f79c9f8ce3eb158",
+        "title": "01_MAIN_REPORT.md",
+        "path": "/Collatz Notation Transform/Constraint Maturation Route/Comparison Closure 2026-10-17/01_MAIN_REPORT.md",
+        "version_id": null,
+        "sections": "§5"
+      }
+    ],
+    "attribution": "Internal exact counterexample.",
+    "novelty": "Method countercontrol.",
+    "limitations": "Does not rule out a faithful enlargement; a quotient representative switch is not an actual orbit.",
+    "significance": "Decisive diagnostic against scalar Goodstein-like simulations."
+  },
+  {
+    "id": "CL20",
+    "title": "First jets faithfully encode finite binary polynomials",
+    "status": "checked_proof",
+    "statement": "P_n maps injectively to (P_n(phi),P_n prime(phi)), equivalently its remainder A+Bq+(q²-q-1)(C+Dq) modulo (q²-q-1)².",
+    "assumptions": "Finite binary coefficients 0/1; exact unbounded integers.",
+    "map_clock": "Digit calculus, not Collatz clock",
+    "proof_summary": "A normalized {-1,0,1} difference cannot have a double zero at r=1/phi, since r f prime(r)-3f(r)<=-r². Equal jets force double zero at conjugate -r, contradiction.",
+    "sources": [
+      {
+        "source_id": "FJ",
+        "library_file_id": "libfile_cef0e72a251481919ad273e04fb1a8e6",
+        "file_id": "file_000000000e9c820da09f9ebc75fa745f",
+        "title": "01_MAIN_REPORT.md",
+        "path": "/Collatz Notation Transform/Constraint Maturation Route/Faithful Jets and Closure 2026-10-17/01_MAIN_REPORT.md",
+        "version_id": null,
+        "sections": "§§2–4"
+      }
+    ],
+    "attribution": "Shmerkin–Solomyak double-zero literature explicitly documented as context/inspiration; direct golden-ratio inequality supplied here.",
+    "novelty": "Candidate project-specific formulation/application; historical priority not established.",
+    "limitations": "Not faithful on arbitrary integer polynomials; no original n separately stored, but coordinates unbounded and encode all its information. No finite-state or termination result.",
+    "significance": "Constrained algebraic quotient theorem repairs actual information loss of scalar height."
+  },
+  {
+    "id": "CL21",
+    "title": "Uniform bit separator and exact lattice-tail classification",
+    "status": "checked_proof",
+    "statement": "At conjugate psi, lowest bit is 1 iff 3P(psi)-psi P prime(psi)>1. Lattice points of infinite binary jet compactum have eventual tails 0,1,01, i.e. 2-adic numbers in (1/3)Z.",
+    "assumptions": "Exact algebraic comparisons; finite/infinite binary words, not arbitrary counter tuples.",
+    "map_clock": "Lowest-bit decoder",
+    "proof_summary": "Disjoint geometric tail bounds give separator; both embeddings bound periodic lattice states to 4x10 candidates. Independent exact table reproduction finds only cycles 0,1,01.",
+    "sources": [
+      {
+        "source_id": "FJ",
+        "library_file_id": "libfile_cef0e72a251481919ad273e04fb1a8e6",
+        "file_id": "file_000000000e9c820da09f9ebc75fa745f",
+        "title": "01_MAIN_REPORT.md",
+        "path": "/Collatz Notation Transform/Constraint Maturation Route/Faithful Jets and Closure 2026-10-17/01_MAIN_REPORT.md",
+        "version_id": null,
+        "sections": "§§4–5"
+      },
+      {
+        "source_id": "DEC",
+        "library_file_id": "libfile_b602d7dc05e08191a11650714df40b35",
+        "file_id": "file_00000000c6bc81f687b7cb5ea91a878f",
+        "title": "decoder_table.md",
+        "path": "/Collatz Notation Transform/Constraint Maturation Route/Faithful Jets and Closure 2026-10-17/decoder_table.md",
+        "version_id": null,
+        "sections": "all 40 rows and cycles"
+      }
+    ],
+    "attribution": "Internal derivation with finite exact enumeration; reproduced in closure_focused_checks.py.",
+    "novelty": "Candidate project-specific formulation/application; historical priority not established.",
+    "limitations": "Nonnegative counters do not imply finite source: 5/3 has counters (1,0,1,0). Fixed floating precision not sufficient.",
+    "significance": "Complete authentication/compactification comparison that remains separate from outer Collatz dynamics."
+  },
+  {
+    "id": "CL22",
+    "title": "Primitive-section kernel identity and regularity bridge",
+    "status": "conditional",
+    "statement": "For a Collatz component invariant b with b(0)=b(1)=0, g(n)=b(3n+1) has binary kernel exactly the primitive ternary sections of b. Finiteness of g kernel in either base forces b=0.",
+    "assumptions": "Actual invariant relations; finite kernel premise is additional.",
+    "map_clock": "Base-2/base-3 section depth",
+    "proof_summary": "Exact descriptor updates and primitive root 2 mod3^k give kernel equality. Cobham implies eventual periodicity; arithmetic invariance then forces constancy. Christol gives an alternative algebraicity premise over the matching finite field.",
+    "sources": [
+      {
+        "source_id": "CC",
+        "library_file_id": "libfile_de9a2563abfc81919269e171e4e83c14",
+        "file_id": "file_00000000ae6c81f99f79c9f8ce3eb158",
+        "title": "01_MAIN_REPORT.md",
+        "path": "/Collatz Notation Transform/Constraint Maturation Route/Comparison Closure 2026-10-17/01_MAIN_REPORT.md",
+        "version_id": null,
+        "sections": "§6"
+      },
+      {
+        "source_id": "FJ",
+        "library_file_id": "libfile_cef0e72a251481919ad273e04fb1a8e6",
+        "file_id": "file_000000000e9c820da09f9ebc75fa745f",
+        "title": "01_MAIN_REPORT.md",
+        "path": "/Collatz Notation Transform/Constraint Maturation Route/Faithful Jets and Closure 2026-10-17/01_MAIN_REPORT.md",
+        "version_id": null,
+        "sections": "§7 inherited kernel statement"
+      }
+    ],
+    "attribution": "Cobham and Christol–Kamae–Mendès France–Rauzy are external.",
+    "novelty": "Candidate project-specific formulation/application; historical priority not established.",
+    "limitations": "Finite carries, faithful coordinates and local formulas do not establish finite kernel.",
+    "significance": "A precise conditional regularity route, not evidence that its premise holds."
+  },
+  {
+    "id": "CL23",
+    "title": "Finite section-rank criterion and bounded replay obstruction",
+    "status": "checked_proof",
+    "statement": "Nonzero component invariant has section-span d_N>=N+1. A finite fixed-length replay/cancellation compiler cannot prove every needed relation among distinct sources 3^k n+r.",
+    "assumptions": "Bounded odd-operation budget M; choose maximal nonzero k source and a progression all-shallow for M rounds.",
+    "map_clock": "Odd-operation count in section diagrams",
+    "proof_summary": "Rank stabilization makes the finite-dimensional stable kernel finite since sequences are 0/1. For replay obstruction, prime-factor slope comparison and n>2*6^M(1+max r) preclude cancellation with other sections in the allowed budget.",
+    "sources": [
+      {
+        "source_id": "CC",
+        "library_file_id": "libfile_de9a2563abfc81919269e171e4e83c14",
+        "file_id": "file_00000000ae6c81f99f79c9f8ce3eb158",
+        "title": "01_MAIN_REPORT.md",
+        "path": "/Collatz Notation Transform/Constraint Maturation Route/Comparison Closure 2026-10-17/01_MAIN_REPORT.md",
+        "version_id": null,
+        "sections": "finite-rank criterion"
+      },
+      {
+        "source_id": "FJ",
+        "library_file_id": "libfile_cef0e72a251481919ad273e04fb1a8e6",
+        "file_id": "file_000000000e9c820da09f9ebc75fa745f",
+        "title": "01_MAIN_REPORT.md",
+        "path": "/Collatz Notation Transform/Constraint Maturation Route/Faithful Jets and Closure 2026-10-17/01_MAIN_REPORT.md",
+        "version_id": null,
+        "sections": "§7 Theorem 7.1"
+      }
+    ],
+    "attribution": "Internal arithmetic method obstruction; finite-dimensional bounded-valued sequence argument is elementary.",
+    "novelty": "Candidate project-specific formulation/application; historical priority not established.",
+    "limitations": "Does not disprove finite rank or every possible symbolic proof compiler.",
+    "significance": "Separates existence of a finite criterion from a proposed compiler capable of proving it."
+  },
+  {
+    "id": "CL24",
+    "title": "Collision-aware cubic receiving capacity",
+    "status": "checked_proof",
+    "statement": "For four specified smaller-source rule families, w(x)=x^-3 obeys sum_{x->y}w(x)<=lambda w(y), lambda=384169/419904<11/12; all-path receiving mass <12w(y).",
+    "assumptions": "Enabled-rule domain with literal integer recipients and all collisions.",
+    "map_clock": "Certificate edge count",
+    "proof_summary": "Exact fiber estimates yield 3136/6561+8/27+1/8+1/64. Sum geometric column bounds.",
+    "sources": [
+      {
+        "source_id": "CC16",
+        "library_file_id": "libfile_629777c3b32c8191bc1584f4fa3bbf32",
+        "file_id": "file_00000000687881f9a28e37a7eabc8b71",
+        "title": "Pass16_01_MAIN_REPORT.md",
+        "path": "/Collatz Notation Transform/Constraint Maturation Route/Pass16_01_MAIN_REPORT.md",
+        "version_id": null,
+        "sections": "capacity theorem"
+      },
+      {
+        "source_id": "AX",
+        "library_file_id": "libfile_ace77384863481919928da859800a604",
+        "file_id": "file_0000000037b4820dab3555920e074705",
+        "title": "ATLAS_CROSSCHECK_AND_PROOF_INTEGRATION_2026-10-17.md",
+        "path": "/Collatz Notation Transform/Constraint Maturation Route/Atlas Crosscheck 2026-10-17/ATLAS_CROSSCHECK_AND_PROOF_INTEGRATION_2026-10-17.md",
+        "version_id": null,
+        "sections": "H1 integration requirements"
+      }
+    ],
+    "attribution": "Internal explicit fiber calculation; generic geometric mass bound is standard.",
+    "novelty": "Candidate project-specific formulation/application; historical priority not established.",
+    "limitations": "x^-2 fails the {9,11}->7 cut. Missing exhaustive guards/all finite residual cuts prevent global coverage.",
+    "significance": "Useful collision accounting, not Hall closure of full graph."
+  },
+  {
+    "id": "CL25",
+    "title": "Ternary obstruction to short root-sibling certificates",
+    "status": "checked_proof",
+    "statement": "If 3^L divides positive odd X, k>=1 and 1<=m<=L, any positive odd Y with S^m(Y)=4^k X+(4^k-1)/3 satisfies Y>3X; m=0 also satisfies it separately.",
+    "assumptions": "Actual exact-depth path; genuine sibling index k>=1.",
+    "map_clock": "Odd-round certificate length",
+    "proof_summary": "The intercept (2^H beta-B)/3^m is an actual positive inverse source of beta=(4^k-1)/3. Positivity and B>0 force slope>3; m=0 uses E_k(X)>3X.",
+    "sources": [
+      {
+        "source_id": "CC18",
+        "library_file_id": "libfile_bce485c7c5548191b639ca2672d1b32e",
+        "file_id": "file_000000001c8481f6a8ac1c8f3db1ebe4",
+        "title": "Pass18_01_MAIN_REPORT.md",
+        "path": "/Collatz Notation Transform/Constraint Maturation Route/Pass18_01_MAIN_REPORT.md",
+        "version_id": null,
+        "sections": "§2 Theorem 2.1"
+      }
+    ],
+    "attribution": "Internal elementary finite inverse-shadow argument.",
+    "novelty": "Candidate project-specific formulation/application; historical priority not established.",
+    "limitations": "Only a certificate representation barrier, not a true stopping-time lower bound; k=0 would invalidate statement.",
+    "significance": "All-parameter obstruction permits arbitrary depth labels and sibling indices."
+  },
+  {
+    "id": "CL26",
+    "title": "Thirteen-round delayed merger beats sibling representation barrier",
+    "status": "checked_proof",
+    "statement": "X=296959+1048576t,Y=(X-1)/2 have a synchronous thirteen-odd-round merger at 903035+3188646t before target first descent; progression intersects 3^L divisibility for every L.",
+    "assumptions": "t>=0 and positive original sources.",
+    "map_clock": "Odd-round common-future clock",
+    "proof_summary": "Explicit guarded affine words verify merger and all intermediate target inequalities; CRT supplies arbitrary ternary divisibility.",
+    "sources": [
+      {
+        "source_id": "CC18",
+        "library_file_id": "libfile_bce485c7c5548191b639ca2672d1b32e",
+        "file_id": "file_000000001c8481f6a8ac1c8f3db1ebe4",
+        "title": "Pass18_01_MAIN_REPORT.md",
+        "path": "/Collatz Notation Transform/Constraint Maturation Route/Pass18_01_MAIN_REPORT.md",
+        "version_id": null,
+        "sections": "delayed-repair and thirteen-round family sections"
+      }
+    ],
+    "attribution": "Internal extension of retained half-companion mechanism.",
+    "novelty": "Candidate project-specific formulation/application; historical priority not established.",
+    "limitations": "Not exhaustive universal certificates; no added multiplicity charge because same source formula guard is enlarged.",
+    "significance": "Shows proof difficulty depends strongly on certificate language."
+  },
+  {
+    "id": "CL27",
+    "title": "Regular sound inverse-itinerary languages have bounded odd depth",
+    "status": "checked_proof",
+    "statement": "A J-state automaton accepting only legal inverse shortcut words from absorbing one accepts fewer than J odd inverse operations per word.",
+    "assumptions": "Soundness for all accepted words; no inverse O at absorbing1; fixed finite automaton.",
+    "map_clock": "Inverse itinerary length",
+    "proof_summary": "Pump a repeated automaton state across odd steps. Integrality of all repetitions of (2^A x-B)/3^d forces fixed point, yielding a cycle in the basin of1, contradiction.",
+    "sources": [
+      {
+        "source_id": "CR04",
+        "library_file_id": "libfile_b792c584582c8191b6e9f348ad40d89d",
+        "file_id": "file_00000000fa10820c9c749e412683ae66",
+        "title": "Collatz_Creative_Exploration_04_Full_Proof_Architectures_2026-10-19.md",
+        "path": "/Collatz_Creative_Exploration_04_Full_Proof_Architectures_2026-10-19.md",
+        "version_id": null,
+        "sections": "Part III §6.6"
+      }
+    ],
+    "attribution": "Classical automata pumping plus elementary 3-adic divisibility; precise constrained application supplied here.",
+    "novelty": "Candidate project-specific formulation/application; historical priority not established.",
+    "limitations": "Numeral-language regularity is not itinerary regularity. No claim that convergent numerals are nonregular.",
+    "significance": "Prevents an insufficient finite-state proof engine replacing the desired two-base certified-set route."
+  },
+  {
+    "id": "CL28",
+    "title": "Two-base certified subset is a sufficient but unbuilt proof architecture",
+    "status": "conditional",
+    "statement": "An infinite set of integers each with complete finite certificates to one and recognizable in both bases2 and3 would imply Collatz.",
+    "assumptions": "Same set in both numeral encodings; complete certificates, not reductions to unknown sources.",
+    "map_clock": "Numeral language and certificate semantics",
+    "proof_summary": "Cobham gives ultimate periodicity and an infinite progression; Monks progression sufficiency gives component coverage.",
+    "sources": [
+      {
+        "source_id": "CR04",
+        "library_file_id": "libfile_b792c584582c8191b6e9f348ad40d89d",
+        "file_id": "file_00000000fa10820c9c749e412683ae66",
+        "title": "Collatz_Creative_Exploration_04_Full_Proof_Architectures_2026-10-19.md",
+        "path": "/Collatz_Creative_Exploration_04_Full_Proof_Architectures_2026-10-19.md",
+        "version_id": null,
+        "sections": "Part III §6.1–6.5"
+      }
+    ],
+    "attribution": "Cobham1969; Kenneth M. Monks2006 progression sufficiency, discussed in four-Monks2013.",
+    "novelty": "Synthesis of established theorems; no new general automaticity result.",
+    "limitations": "No such certified set/automata constructed; one regular description or local finite carry alphabet insufficient.",
+    "significance": "Clean synthesis target for richer proof grammars."
+  },
+  {
+    "id": "CL29",
+    "title": "Original smaller-source transport through any fixed expanding word",
+    "status": "checked_proof",
+    "statement": "For W=(Ax+B)/2^L,D=A-2^L>0, 2^k>D, N=(2^(Lell+k)q-B)/D and a=((2^k-D)2^(Lell)q-B)/D execute W^ell; a<N owns F(T)=((2^k-D)T-B)/2^k at target endpoint T.",
+    "assumptions": "Congruence 2^(Lell+k)q=B modD; q,ell positive; a>=2^(L+1).",
+    "map_clock": "Shortcut word length; original induction bound fixed",
+    "proof_summary": "Both centered values Dn+B divisible by2^(Lell), giving exact parity cylinder; size bound prevents O1. Iterate about -B/D for endpoints.",
+    "sources": [
+      {
+        "source_id": "CR07",
+        "library_file_id": "libfile_69e6c604e4c88191bf33d5ed919e20b1",
+        "file_id": "file_00000000072c81f5ada5c4efa581fde1",
+        "title": "Collatz_Creative_Exploration_07_Transported_Sources_and_Collective_Receivers_2026-10-19.md",
+        "path": "/Collatz_Creative_Exploration_07_Transported_Sources_and_Collective_Receivers_2026-10-19.md",
+        "version_id": null,
+        "sections": "Part V §3"
+      }
+    ],
+    "attribution": "Internal repeated-word construction, inspired by source ownership/fixed affine centers; no undocumented external origin asserted.",
+    "novelty": "Candidate project-specific formulation/application; historical priority not established.",
+    "limitations": "Guarded family, not every source; endpoint receiver remains a separate obligation.",
+    "significance": "Preserves original supplied proof through arbitrarily long growth without resetting induction."
+  },
+  {
+    "id": "CL30",
+    "title": "Three completed long-run benchmark exponent families",
+    "status": "checked_proof",
+    "statement": "For N=4*8^ell-5,a=3*8^ell-5, complete mergers occur for ell=109 mod512,201 mod256,157 mod2048 with listed literal guarded words.",
+    "assumptions": "Positive exponent in one listed class; a<N supplied under strong induction.",
+    "map_clock": "Shortcut paths of lengths (3ell+14,3ell+12),(3ell+13,3ell+11),(3ell+16,3ell+14).",
+    "proof_summary": "Source transport plus B7/J5 or typed B fusion yields affine common futures; 2-adic repunit isometry converts receiver residues to exponent classes. Representative words independently checked.",
+    "sources": [
+      {
+        "source_id": "CR07",
+        "library_file_id": "libfile_69e6c604e4c88191bf33d5ed919e20b1",
+        "file_id": "file_00000000072c81f5ada5c4efa581fde1",
+        "title": "Collatz_Creative_Exploration_07_Transported_Sources_and_Collective_Receivers_2026-10-19.md",
+        "path": "/Collatz_Creative_Exploration_07_Transported_Sources_and_Collective_Receivers_2026-10-19.md",
+        "version_id": null,
+        "sections": "Part IV §§5–6.3"
+      }
+    ],
+    "attribution": "Reuses earlier Creative06 receiver contracts; source combination made explicit in Creative07.",
+    "novelty": "Candidate project-specific formulation/application; historical priority not established.",
+    "limitations": "Not every exponent and not full older residual; smaller-source premise not an unconditional proof of every a.",
+    "significance": "Concrete infinite certificate families where source inheritance does real work."
+  },
+  {
+    "id": "CL31",
+    "title": "Two-child receiver fusion has a local contracting rank",
+    "status": "checked_proof",
+    "statement": "For v=7 mod8, q=(v-1)/2,t=(9v+1)/8, g_B(v)=g_B(t)-g_L(q) modulo actual boundaries; P(t)=P(q)=P(v)/3 for P(n)=3^v2(n+1) oddpart(n+1).",
+    "assumptions": "Receiver is two-ended difference; retain both children.",
+    "map_clock": "Receiver productions and shortcut path witnesses",
+    "proof_summary": "Paths v->L(q),q->OO t,B(v)->OHO B(t) yield relation; direct valuation substitution proves rank decrease.",
+    "sources": [
+      {
+        "source_id": "CR07",
+        "library_file_id": "libfile_69e6c604e4c88191bf33d5ed919e20b1",
+        "file_id": "file_00000000072c81f5ada5c4efa581fde1",
+        "title": "Collatz_Creative_Exploration_07_Transported_Sources_and_Collective_Receivers_2026-10-19.md",
+        "path": "/Collatz_Creative_Exploration_07_Transported_Sources_and_Collective_Receivers_2026-10-19.md",
+        "version_id": null,
+        "sections": "Part III §6"
+      }
+    ],
+    "attribution": "Internal typed receiver calculus.",
+    "novelty": "Candidate project-specific formulation/application; historical priority not established.",
+    "limitations": "Not global: B254->J127->L63 raises same rank255->729.",
+    "significance": "Shows numerical growth can coexist with genuine local proof-rank descent."
+  },
+  {
+    "id": "CL32",
+    "title": "Arbitrary receiver burst compresses to two caps, not automatic closure",
+    "status": "checked_proof",
+    "statement": "For v0+1=2^h3^sQ,h>=3,s>=1,gcd(Q,6)=1,k=floor(h/3), g_B(v0)=g_B(vk)-g_K(A0)+g_K(Ak) modulo finite boundaries, with A0,Ak<v0.",
+    "assumptions": "All actual normalization paths included; A_i=2^(h+s-i-2)Q.",
+    "map_clock": "Whole B-burst compiler",
+    "proof_summary": "Iterate fusion and odd-L/even-D differences; interior K boundaries cancel finitely. Exact endpoint contacts with no independently received cap reduce only to already-known B target path.",
+    "sources": [
+      {
+        "source_id": "CR07",
+        "library_file_id": "libfile_69e6c604e4c88191bf33d5ed919e20b1",
+        "file_id": "file_00000000072c81f5ada5c4efa581fde1",
+        "title": "Collatz_Creative_Exploration_07_Transported_Sources_and_Collective_Receivers_2026-10-19.md",
+        "path": "/Collatz_Creative_Exploration_07_Transported_Sources_and_Collective_Receivers_2026-10-19.md",
+        "version_id": null,
+        "sections": "Part III §7–7.2"
+      }
+    ],
+    "attribution": "Internal whole-boundary telescoping; finite incidence cancellation itself is elementary.",
+    "novelty": "Candidate project-specific formulation/application; historical priority not established.",
+    "limitations": "Caps and terminal B receiver remain; visible endpoints do not supply receiver relations.",
+    "significance": "Useful length-independent exterior compression with an exact circularity control."
+  },
+  {
+    "id": "CL33",
+    "title": "Complete E/R/S proof grammar remains sublinear",
+    "status": "checked_proof",
+    "statement": "For finite seeds, closure under E(t)=4t+1,R(t)=(16t-1)/9 at t=13 mod18, retained interior S(t)=(8t+1)/3 and dyadic extension has O(X^(19/20)) addresses below X.",
+    "assumptions": "Exact constructor grammar; all complete interior proofs retained.",
+    "map_clock": "Proof-generation depth",
+    "proof_summary": "At height n-1/7, primitive child inverse-d mass multiplier is ((9/16)^d+(3/8)^d)/(1-4^(-9d)); at19/20 it is <39/40. Sum generations and padding tails.",
+    "sources": [
+      {
+        "source_id": "CR07",
+        "library_file_id": "libfile_69e6c604e4c88191bf33d5ed919e20b1",
+        "file_id": "file_00000000072c81f5ada5c4efa581fde1",
+        "title": "Collatz_Creative_Exploration_07_Transported_Sources_and_Collective_Receivers_2026-10-19.md",
+        "path": "/Collatz_Creative_Exploration_07_Transported_Sources_and_Collective_Receivers_2026-10-19.md",
+        "version_id": null,
+        "sections": "Part VI §§3–4"
+      }
+    ],
+    "attribution": "Internal grammar-specific weighted branching estimate.",
+    "novelty": "Candidate project-specific formulation/application; historical priority not established.",
+    "limitations": "No full infinite progression in this grammar; says nothing against a genuinely enlarged constructor system.",
+    "significance": "Coverage obstruction persists even after infinitely many primitive births and interior records."
+  },
+  {
+    "id": "CL34",
+    "title": "Legal E/R constructor instruction language is not context-free",
+    "status": "checked_proof",
+    "statement": "From seed1, legal E/R instruction words form a non-context-free language.",
+    "assumptions": "Instruction encoding, exact guards; not numeral language.",
+    "map_clock": "Constructor steps",
+    "proof_summary": "E^jR^k legal iff j=a_k mod9^k. A semilinear component cannot combine nonzero horizontal and positive vertical generators; finitely many components cannot cover all infinite horizontal fibers. Parikh gives contradiction.",
+    "sources": [
+      {
+        "source_id": "CR07",
+        "library_file_id": "libfile_69e6c604e4c88191bf33d5ed919e20b1",
+        "file_id": "file_00000000072c81f5ada5c4efa581fde1",
+        "title": "Collatz_Creative_Exploration_07_Transported_Sources_and_Collective_Receivers_2026-10-19.md",
+        "path": "/Collatz_Creative_Exploration_07_Transported_Sources_and_Collective_Receivers_2026-10-19.md",
+        "version_id": null,
+        "sections": "Part VI §5"
+      }
+    ],
+    "attribution": "Parikh1966 external theorem; Esparza–Ganty–Kiefer–Luttenberger2011 primary exposition. Exact nonsemilinearity is internal.",
+    "novelty": "Candidate project-specific formulation/application; historical priority not established.",
+    "limitations": "Does not imply convergent integer numeral language is non-context-free; richer registers/grammars remain possible.",
+    "significance": "Measures unavoidable memory in this exact constructor interface."
+  },
+  {
+    "id": "CL35",
+    "title": "Clock-grade handoff crosses old grammar boundary",
+    "status": "checked_proof",
+    "statement": "For target depth word (1,1,2),1^k,d with k>=1,d>=3, Y=(27N+3)/32<N with N=39 mod64 follows 1^(k-1),2,d-2 to the same endpoint, changing H-2M by -1.",
+    "assumptions": "Exact finite completed source paths; original boundN.",
+    "map_clock": "Odd count M and total halving H",
+    "proof_summary": "Compare affine numerators and exact guards; excess-clock merger must obey DeltaM log2 3<DeltaH<2DeltaM, first lattice possibility(3,5).",
+    "sources": [
+      {
+        "source_id": "CR08",
+        "library_file_id": "libfile_66c043f1ecb48191a4b72046f1b1f83f",
+        "file_id": "file_000000005a44820c926d2fda57323fb6",
+        "title": "Collatz_Creative_Closure_08_Clock_Grade_Source_Handoffs_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Constraint Maturation Route/Creative Closure 08 - 2026-10-20/Collatz_Creative_Closure_08_Clock_Grade_Source_Handoffs_2026-10-20.md",
+        "version_id": "1",
+        "sections": "clock-grade theorem and source handoff"
+      }
+    ],
+    "attribution": "Explicitly reuses Hercher primitive; old grammar separation is representation-specific.",
+    "novelty": "Candidate project-specific formulation/application; historical priority not established.",
+    "limitations": "Not universal receiver availability; grade not assigned freely to open obligations.",
+    "significance": "Concrete source-owned change of proof grammar, not a global Lyapunov function."
+  },
+  {
+    "id": "CL36",
+    "title": "Repunit receiver reservoir and fixed-preview obstruction",
+    "status": "checked_proof",
+    "statement": "For odd r>=3,Rj=(9^j-1)/8, the complete reservoir j<=floor((3r-1)/2) is owned below Nr=(2^(3r+2)-11)/3. Yet any fixed preview D using only Rr,Rr+1,Rr+2 fails on infinitely many r.",
+    "assumptions": "Original supplied roots4^j-1; shortcut preview boundD fixed.",
+    "map_clock": "Source paths and bounded shortcut previews",
+    "proof_summary": "Owner inequality supplies reservoir. Choose Rr=-1 mod2^(D+8); negative target shadow -10 lies on cycle -10,-5,-7 while three source shadows -1,-8,-71 reach disjoint -1 shadow. Congruences preserve separation modulo256.",
+    "sources": [
+      {
+        "source_id": "CR09",
+        "library_file_id": "libfile_ed5cbaa1bbdc81919608521cb93c4ff0",
+        "file_id": "file_0000000040e4822fb5ac4f2637a4a604",
+        "title": "Collatz_Creative_Closure_09_Repunit_Receivers_and_Clock_Budgets_2026-10-20.md",
+        "path": "/Collatz_Creative_Closure_09_Repunit_Receivers_and_Clock_Budgets_2026-10-20.md",
+        "version_id": null,
+        "sections": "receiver reservoir and §6"
+      }
+    ],
+    "attribution": "Internal exact negative-shadow countercontrol.",
+    "novelty": "Candidate project-specific formulation/application; historical priority not established.",
+    "limitations": "Does not refute full reservoir, inverse paths, recursive receivers or universal convergence.",
+    "significance": "Excludes an entire fixed-preview method rather than only a tested table."
+  },
+  {
+    "id": "CL37",
+    "title": "Uniform reciprocal-log budget for repeated expanding words",
+    "status": "checked_proof",
+    "statement": "A legal no-descent burst of >=2 repetitions of an expanding odd word has total reciprocal-log cost <2/log(4/3), independently of the word; rotated >=3-copy version has bound3/log(4/3).",
+    "assumptions": "Positive+1 affine offset; exact legal repeated word; specified descent/rotation guards.",
+    "map_clock": "Word bursts versus actual iterates",
+    "proof_summary": "With A=3^m,Q=2^H,B<Q^log2(3), k copies imply Q^k divides positive (A-Q)X+B. Infer X+1>Q^(k-log2 3) and sum uniform reciprocal-log bounds.",
+    "sources": [
+      {
+        "source_id": "CR09",
+        "library_file_id": "libfile_ed5cbaa1bbdc81919608521cb93c4ff0",
+        "file_id": "file_0000000040e4822fb5ac4f2637a4a604",
+        "title": "Collatz_Creative_Closure_09_Repunit_Receivers_and_Clock_Budgets_2026-10-20.md",
+        "path": "/Collatz_Creative_Closure_09_Repunit_Receivers_and_Clock_Budgets_2026-10-20.md",
+        "version_id": null,
+        "sections": "uniform repetition-budget sections"
+      }
+    ],
+    "attribution": "Internal bound; elementary divisibility and positive affine intercept.",
+    "novelty": "Candidate project-specific formulation/application; historical priority not established.",
+    "limitations": "Infinitely many fresh bursts can renew; 3n-1 cycle at5 shows positive intercept nonvanishing is essential.",
+    "significance": "Word-independent restricted escape cost, not summability over all future renewals."
+  },
+  {
+    "id": "CL38",
+    "title": "Individual leading phase law does not imply trailing-depth fairness",
+    "status": "checked_proof",
+    "statement": "Any hypothetical nonperiodic positive S_c orbit with odd c>=3 has log2(n_i) mod1 uniformly distributed.",
+    "assumptions": "Positive actual orbit with no repetition, hence n_i->infinity; c odd>=3.",
+    "map_clock": "Odd rounds",
+    "proof_summary": "Phase increments are irrational log2 c plus error log2(1+1/(c n_i))->0. Fourier telescoping gives each nonzero mode mean zero, hence Weyl uniform distribution.",
+    "sources": [
+      {
+        "source_id": "CR09",
+        "library_file_id": "libfile_ed5cbaa1bbdc81919608521cb93c4ff0",
+        "file_id": "file_0000000040e4822fb5ac4f2637a4a604",
+        "title": "Collatz_Creative_Closure_09_Repunit_Receivers_and_Clock_Budgets_2026-10-20.md",
+        "path": "/Collatz_Creative_Closure_09_Repunit_Receivers_and_Clock_Budgets_2026-10-20.md",
+        "version_id": null,
+        "sections": "individual phase-law section"
+      }
+    ],
+    "attribution": "Standard irrational-rotation/Weyl argument adapted; antecedent also in earlier GDR2 cycle05 record.",
+    "novelty": "Candidate project-specific formulation/application; historical priority not established.",
+    "limitations": "Leading real mantissa phase says nothing by itself about future trailing2-adic depth statistics.",
+    "significance": "An individual-orbit constraint, stronger in quantifier than population-density heuristics but not convergence."
+  },
+  {
+    "id": "CL39",
+    "title": "Injective-set packing implies reciprocal summability of an escaping orbit",
+    "status": "known_external",
+    "statement": "If A subset[0,32^m) has T^(5m) injective, |A|<=2*27^m+(3125/108)^m. This yields sum1/T^tN finite for every escaping shortcut orbit, hence bounded affine correction and m log2 3-H_m->infinity.",
+    "assumptions": "Equal-time injectivity on distinct orbit states; escaping, not periodic, orbit.",
+    "map_clock": "Shortcut packing horizon5m and odd-round discrepancy",
+    "proof_summary": "Split parity words by odd count3m: low count images lie in small interval, high-count words bounded by Chernoff3/2. Dyadic shells sum reciprocals; normalized product formula gives discrepancy consequence.",
+    "sources": [
+      {
+        "source_id": "CR09",
+        "library_file_id": "libfile_ed5cbaa1bbdc81919608521cb93c4ff0",
+        "file_id": "file_0000000040e4822fb5ac4f2637a4a604",
+        "title": "Collatz_Creative_Closure_09_Repunit_Receivers_and_Clock_Budgets_2026-10-20.md",
+        "path": "/Collatz_Creative_Closure_09_Repunit_Receivers_and_Clock_Budgets_2026-10-20.md",
+        "version_id": null,
+        "sections": "injective-set packing and summability appendix"
+      }
+    ],
+    "attribution": "Immediate CR09 argument credits Michael Sharpe pinned OrbitPacking.lean/OrbitSummability.lean commit ec8174b567d5cab4960024782210b5f5db02bd3a. García–Tal1999 collision-free-window mechanism and GDR2 cycle05 October15 transport are prior antecedents; see literature chapter.",
+    "novelty": "External/antecedent result; do not present as new discovery.",
+    "limitations": "No Lean build in this audit; discrepancy->infinity does not imply a uniform positive mean drift. Summability is a necessary escape condition, not an exclusion.",
+    "significance": "Important established/credited individual-orbit constraint, not project novelty."
+  },
+  {
+    "id": "CL40",
+    "title": "Universal closure remains an open bridge",
+    "status": "conjecture",
+    "statement": "Universal Collatz convergence would follow from any genuinely instantiated all-target certificate assembler, universal signed-row elimination, or target-pinned dual-witness exclusion; none is established in audited reports.",
+    "assumptions": "Every quantified target/source, exact guards, fixed original source ownership, complete terminal contexts.",
+    "map_clock": "All clocks must be specified",
+    "proof_summary": "Restricted proofs and countercontrols delimit missing all-target coverage or well-foundedness. Labels full proof refer to conditional architectures or restricted theorems.",
+    "sources": [
+      {
+        "source_id": "SW1",
+        "library_file_id": "libfile_a51cf773e2988191bd64af2f01bbf854",
+        "file_id": "file_0000000082c881f78eaa19894be17f0a",
+        "title": "Signed_Word_Elimination_Structure_Proof_2026-10-18.md",
+        "path": "/Signed_Word_Elimination_Structure_Proof_2026-10-18.md",
+        "version_id": null,
+        "sections": "universal equivalence"
+      },
+      {
+        "source_id": "LG",
+        "library_file_id": "libfile_5363ea00b6008191a648d465fe333b0a",
+        "file_id": "file_00000000e400820d9d9416b377414a2d",
+        "title": "Local_to_Global_Closure_Solution_2026-10-18.md",
+        "path": "/Local_to_Global_Closure_Solution_2026-10-18.md",
+        "version_id": null,
+        "sections": "scope/limitations"
+      },
+      {
+        "source_id": "CR04",
+        "library_file_id": "libfile_b792c584582c8191b6e9f348ad40d89d",
+        "file_id": "file_00000000fa10820c9c749e412683ae66",
+        "title": "Collatz_Creative_Exploration_04_Full_Proof_Architectures_2026-10-19.md",
+        "path": "/Collatz_Creative_Exploration_04_Full_Proof_Architectures_2026-10-19.md",
+        "version_id": null,
+        "sections": "conditional architectures"
+      },
+      {
+        "source_id": "CR09",
+        "library_file_id": "libfile_ed5cbaa1bbdc81919608521cb93c4ff0",
+        "file_id": "file_0000000040e4822fb5ac4f2637a4a604",
+        "title": "Collatz_Creative_Closure_09_Repunit_Receivers_and_Clock_Budgets_2026-10-20.md",
+        "path": "/Collatz_Creative_Closure_09_Repunit_Receivers_and_Clock_Budgets_2026-10-20.md",
+        "version_id": null,
+        "sections": "remaining closure obligation"
+      }
+    ],
+    "attribution": "Internal research program; no priority/proof claim.",
+    "novelty": "Not a theorem; explicit research frontier.",
+    "limitations": "Finite prefixes, local finite states, bounded-dimensional encodings, weighted decay and fixed-q finiteness do not supply missing universal bridge.",
+    "significance": "The indispensable publication-facing status statement."
+  }
+]

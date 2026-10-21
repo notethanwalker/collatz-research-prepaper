@@ -1,0 +1,902 @@
+# Collatz pre-paper: source coverage and verification scope
+
+Audit date: 2026-10-21. Source-discovery cutoff: 16:35 UTC that day; later uploads are outside this edition.
+
+## Read this first
+
+The 2,473-entry Library discovery inventory included unrelated files, duplicate versions and archives. It was a discovery index, not 2,473 documents read and not 2,473 Collatz papers. No raw inventory is included in this delivery.
+
+The seven chapter read logs contain **172 project-source review entries**, with **21 archive-manifest entries** recorded separately. The combined project reviews and archive manifests reference **142 unique Library IDs**. These are not interchangeable or additive counts: archive members, repeated versions and overlapping audits have separate rows. The bibliography contains **56 core-reference rows** and preserves a separate historical atlas of **193 source records**, including 191 external records clustered into 171 external works. Those historical records are not current rereadings.
+
+The coverage labels deliberately distinguish full artifact reading, full main-argument reading, selective argument review, complete retrieval, and partial retrieval. A complete download does not certify every proof it contains. `checked_proof` means checked within this AI-assisted audit, not externally peer-reviewed or proof-assistant verified.
+
+## Coverage by chapter
+
+| Chapter | Review entries | Reading coverage |
+|---|---:|---|
+| Recent navigation | 20 | 20 full artifact read |
+| Antihydra and machine comparisons | 16 | 16 full artifact read |
+| Certificate machines | 37 | 27 full main argument or artifact read; 4 selected sections or arguments; 5 full artifact read; 1 inherited test record read |
+| H and certificate-language obstructions | 20 | 20 full artifact read |
+| Constraint maturation and closure | 29 | 6 full main argument or artifact read; 21 selected sections or arguments; 2 full specified archive member arguments |
+| GDR, bounds and transport | 9 | 7 full artifact read; 2 selected sections or arguments |
+| Foundational and legacy routes | 41 | 13 selected sections or arguments; 28 full main argument or artifact read |
+
+## Individual project-source review scopes
+
+Library IDs and archive member names are retrieval identifiers, not public links. Source filenames identify research documents; they do not imply that those files are included in this bundle. For every mathematical claim, its chapter and claim-ledger assumptions and limitations control.
+
+### Recent navigation
+
+- **recent_navigation:001 — Comparative_Navigation_05_Neutral_Strides_Deviation_Events_and_Recoverable_Memory_2026-10-20.md**; selected artifact: N05_a.md
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full report text obtained and reviewed; duplicate reports compared by SHA-256; archives not reproduced by this audit.
+  - Library source: libfile_7388d1bfc1388191baec7625b569b152
+- **recent_navigation:002 — Comparative_Navigation_05_Neutral_Strides_Deviation_Events_and_Recoverable_Memory_2026-10-20.md**; selected artifact: N05_b.md
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full report text obtained and reviewed; duplicate reports compared by SHA-256; archives not reproduced by this audit.
+  - Library source: libfile_f7825005f3a481919fb091d7516cbcbd
+- **recent_navigation:003 — Comparative_Navigation_06_Critical_Forests_and_the_Deterministic_Bridge_2026-10-20.md**; selected artifact: N06_a.md
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full report text obtained and reviewed; duplicate reports compared by SHA-256; archives not reproduced by this audit.
+  - Library source: libfile_6f94cba960148191832f11dd86ad963e
+- **recent_navigation:004 — Comparative_Navigation_06_Critical_Forests_and_the_Deterministic_Bridge_2026-10-20.md**; selected artifact: N06_b.md
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full report text obtained and reviewed; duplicate reports compared by SHA-256; archives not reproduced by this audit.
+  - Library source: libfile_57c6a6ce7bcc8191842a70b796543d49
+- **recent_navigation:005 — Comparative_Navigation_07_Parser_Interfaces_Shape_Envelopes_and_Deterministic_Controls_2026-10-20.md**; selected artifact: N07_a.md
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full report text obtained and reviewed; duplicate reports compared by SHA-256; archives not reproduced by this audit.
+  - Library source: libfile_3b278a4d14cc8191a2813c11e50e8961
+- **recent_navigation:006 — Comparative_Navigation_07_Parser_Interfaces_Shape_Envelopes_and_Deterministic_Controls_2026-10-20.md**; selected artifact: N07_b.md
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full report text obtained and reviewed; duplicate reports compared by SHA-256; archives not reproduced by this audit.
+  - Library source: libfile_70282aca3b1c819182aee8886eea2f41
+- **recent_navigation:007 — Comparative_Navigation_08_Sampling_Interfaces_Subtree_Mergers_and_Arithmetic_Counters_2026-10-20.md**; selected artifact: N08_sampling.md
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full report text obtained and reviewed; duplicate reports compared by SHA-256; archives not reproduced by this audit.
+  - Library source: libfile_a5082de052808191a213b21eb1dd2ee0
+- **recent_navigation:008 — Comparative_Navigation_08_Arithmetic_Counters_History_Mergers_and_Tail_Control_2026-10-20.md**; selected artifact: N08_counters.md
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full report text obtained and reviewed; duplicate reports compared by SHA-256; archives not reproduced by this audit.
+  - Library source: libfile_943968303adc8191ae727849c43947e7
+- **recent_navigation:009 — Comparative_Navigation_09_Hypothesis_Tests_Cofactor_Turnover_and_Source_Ownership_2026-10-20.md**; selected artifact: N09_a.md
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full report text obtained and reviewed; duplicate reports compared by SHA-256; archives not reproduced by this audit.
+  - Library source: libfile_e66b38adf1f4819185a63ad431c088c8
+- **recent_navigation:010 — Comparative_Navigation_09_Hypothesis_Tests_Cofactor_Turnover_and_Source_Ownership_2026-10-20.md**; selected artifact: N09_b.md
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full report text obtained and reviewed; duplicate reports compared by SHA-256; archives not reproduced by this audit.
+  - Library source: libfile_31c2800fac148191bd2eae2cc7002ff3
+- **recent_navigation:011 — Comparative_Navigation_10_Prime_Record_Resets_and_Safety_Hypotheses_2026-10-21.md**; selected artifact: N10.md
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full report text obtained and reviewed; duplicate reports compared by SHA-256; archives not reproduced by this audit.
+  - Library source: libfile_fa0590416ffc81919ee873ebd4f50b2c
+- **recent_navigation:012 — Comparative_Navigation_11_Recovery_Packets_Source_Deadlines_and_Deterministic_Queue_Control_2026-10-21.md**; selected artifact: N11.md
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full report text obtained and reviewed; duplicate reports compared by SHA-256; archives not reproduced by this audit.
+  - Library source: libfile_d6dc469f6a108191bd899788ddd4bc32
+- **recent_navigation:013 — Comparative_Navigation_12_Region_Resolved_Recovery_and_Bounded_Debt_Grammars_2026-10-21.md**; selected artifact: N12.md
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full report text obtained and reviewed; duplicate reports compared by SHA-256; archives not reproduced by this audit.
+  - Library source: libfile_250eca26a5ac8191a75a1b209b7a9e47
+- **recent_navigation:014 — Comparative_Navigation_13_Conditioned_Regions_Reversible_Bands_and_Exit_Hypotheses_2026-10-21.md**; selected artifact: N13_conditioned.md
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full report text obtained and reviewed; duplicate reports compared by SHA-256; archives not reproduced by this audit.
+  - Library source: libfile_cf69ef40231481919ac353ebe1ef1d4a
+- **recent_navigation:015 — Comparative_Navigation_13_Tilted_Observers_Arithmetic_Memory_and_Debt_Funded_Mergers_2026-10-21.md**; selected artifact: N13_tilted.md
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full report text obtained and reviewed; duplicate reports compared by SHA-256; archives not reproduced by this audit.
+  - Library source: libfile_1491aa6386048191b505732a66a85a43
+- **recent_navigation:016 — CLAIM_LEDGER.md**; selected artifact: N13_ledger_A.md
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full report text obtained and reviewed; duplicate reports compared by SHA-256; archives not reproduced by this audit.
+  - Library source: libfile_44d921a74c208191ad16299e4aa15465
+- **recent_navigation:017 — CLAIM_LEDGER.md**; selected artifact: N13_ledger_B.md
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full report text obtained and reviewed; duplicate reports compared by SHA-256; archives not reproduced by this audit.
+  - Library source: libfile_8043367d08008191b97ba9c57e12beb8
+- **recent_navigation:018 — Comparative_Navigation_14_Band_Envelopes_Bounded_Ancestry_and_All_Scale_Audits_2026-10-21.md**; selected artifact: N14.md
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full text retrieved and audited. Independent N14 certificate and finite inverse checks reproduced; archived long-record computations not rerun.
+  - Library source: libfile_04928dec5c4c819194f330055948b6d3
+- **recent_navigation:019 — CLAIM_LEDGER.md**; selected artifact: N14_ledger.md
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full text retrieved and audited. Independent N14 certificate and finite inverse checks reproduced; archived long-record computations not rerun.
+  - Library source: libfile_7204afbba5388191b1de47ca559947ce
+- **recent_navigation:020 — HYPOTHESES.json**; selected artifact: N14_hypotheses.json
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full text retrieved and audited. Independent N14 certificate and finite inverse checks reproduced; archived long-record computations not rerun.
+  - Library source: libfile_cbd18f3533108191a03b26bdc64d582b
+
+### Antihydra and machine comparisons
+
+- **antihydra:001 — Effective_Growing_Run_Funding_2026-10-20.md**
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full prose report read; mathematical core reconstructed in chapter; selected companion materials audited, not all archive code executed.
+  - Library source: libfile_acb5147370f88191982c771e14d40770
+- **antihydra:002 — Antihydra_Continuation_05_Effective_Funding_And_Source_Closure_2026-10-20.md**
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full prose report read; mathematical core reconstructed in chapter; selected companion materials audited, not all archive code executed.
+  - Library source: libfile_10e46867315481918e19f1ede974795c
+- **antihydra:003 — Antihydra_Continuation_04_Comparison_Guided_Successor_Guards_2026-10-20.md**
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full prose report read; mathematical core reconstructed in chapter; selected companion materials audited, not all archive code executed.
+  - Library source: libfile_860fe48e70e481918b26f5d1e414b4dc
+- **antihydra:004 — Antihydra_Continuation_03_Bounded_Run_Funding_2026-10-20.md**
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full prose report read; mathematical core reconstructed in chapter; selected companion materials audited, not all archive code executed.
+  - Library source: libfile_82fc59bf3b80819198bda0a921826cf5
+- **antihydra:005 — Antihydra_Solution_Search_02_Source_Credit_and_Shadowing_2026-10-20.md**
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full prose report read; mathematical core reconstructed in chapter; selected companion materials audited, not all archive code executed.
+  - Library source: libfile_3c4a820ca22881918e1cd9df3862641c
+- **antihydra:006 — Antihydra_Solution_Search_01_2026-10-20.md**
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full prose report read; mathematical core reconstructed in chapter; selected companion materials audited, not all archive code executed.
+  - Library source: libfile_61139c7fe7fc819197ed06a7c7060455
+- **antihydra:007 — Antihydra_Research_Direction_2026-10-20.md**
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full prose report read; mathematical core reconstructed in chapter; selected companion materials audited, not all archive code executed.
+  - Library source: libfile_d17a2f026d248191befbb42da4d5aca6
+- **antihydra:008 — Antihydra_Certificate_Lab_2026-10-20.md**
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full prose report read; mathematical core reconstructed in chapter; selected companion materials audited, not all archive code executed.
+  - Library source: libfile_d570bd5b92548191b5fce59969cb9a0f
+- **antihydra:009 — Antihydra_Observer_Safety_Tools_2026-10-20.md**
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full prose report read; mathematical core reconstructed in chapter; selected companion materials audited, not all archive code executed.
+  - Library source: libfile_44326e908ca88191af78e367283f179b
+- **antihydra:010 — Champion_Antihydra_Quantity_2026-10-20.md**
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full prose report read; mathematical core reconstructed in chapter; selected companion materials audited, not all archive code executed.
+  - Library source: libfile_05a850524d388191bde6a42ae55d023e
+- **antihydra:011 — Five_State_Budget_Comparison_Skelet34_and_33_2026-10-20.md**
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full prose report read; mathematical core reconstructed in chapter; selected companion materials audited, not all archive code executed.
+  - Library source: libfile_4e0e8dbca5088191bb2d59b8984062ae
+- **antihydra:012 — Champion_Internal_Insertions_2026-10-20.md**
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full prose report read; mathematical core reconstructed in chapter; selected companion materials audited, not all archive code executed.
+  - Library source: libfile_0f3d9f0a324081918362f84bd18a6d5d
+- **antihydra:013 — Champion_One_State_Attachments_2026-10-20.md**
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full prose report read; mathematical core reconstructed in chapter; selected companion materials audited, not all archive code executed.
+  - Library source: libfile_73d90335e18881918b6f23f654a24ce3
+- **antihydra:014 — Collatz_Machines_Arithmetic_Observer_Research_Direction_2026-10-20.md**
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full prose report read; mathematical core reconstructed in chapter; selected companion materials audited, not all archive code executed.
+  - Library source: libfile_a6b2d1f3a7248191af9581d459bb43d7
+- **antihydra:015 — Antihydra_Proof_Transfer_Assessment_2026-10-20.md**
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full prose report read; mathematical core reconstructed in chapter; selected companion materials audited, not all archive code executed.
+  - Library source: libfile_09a9854ec2348191ae34b8049dd7b943
+- **antihydra:016 — Collatz_Machine_Research_Pass01_2026-10-20.md**
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full prose report read; mathematical core reconstructed in chapter; selected companion materials audited, not all archive code executed.
+  - Library source: libfile_f96dca2b64e8819190d187fb84b64c5d
+
+### Certificate machines
+
+- **certificates_machines:001 — Halting_Equivalence_01_Construction_and_Completeness_2026-10-21.md**
+  - Coverage: complete selected artifact; full main argument or artifact read.
+  - Audit scope: Full construction and conditional-completeness arguments; historical artifact claims distinguished from current status.
+  - Byte-matched archive sources: libfile_d8786c596bd08191b55317b6bd5b1622 (Halting_Equivalence_01_Construction_and_Completeness_2026-10-21.md)
+- **certificates_machines:002 — automatic_trap_checker_audit.md**
+  - Coverage: partial text; selected sections or arguments.
+  - Audit scope: Canonical semantics, nonemptiness, branch/carry bounds, soundness/fairness; output clipping affected part of section 4 only, independently checked later all-base implementation.
+  - Byte-matched archive sources: libfile_d8786c596bd08191b55317b6bd5b1622 (automatic_trap_checker_audit.md)
+- **certificates_machines:003 — logical_machine_routes.md**
+  - Coverage: complete selected artifact; full main argument or artifact read.
+  - Audit scope: Full logical formulations, proof-search boundary, least-root process, semilinear corollary, ultimately periodic parity, compactness countercontrols.
+  - Byte-matched archive sources: libfile_d8786c596bd08191b55317b6bd5b1622 (logical_machine_routes.md)
+- **certificates_machines:004 — automatic_bridge.md**
+  - Coverage: complete selected artifact; full main argument or artifact read.
+  - Audit scope: Full normalization, divergent mantissa/prefix proof, short completion, density, normalized block hitting, cycle-preserving refinement and controls.
+  - Byte-matched archive sources: libfile_829449ba14f08191805f41cce25e72e8 (automatic_bridge.md)
+- **certificates_machines:005 — automatic_density_audit.md**
+  - Coverage: partial text; selected sections or arguments.
+  - Audit scope: Substantive density and bounded-gap arguments, with clipped redundant summary portion; not relying on finite tests as proof.
+  - Byte-matched archive sources: libfile_829449ba14f08191805f41cce25e72e8 (automatic_density_audit.md)
+- **certificates_machines:006 — COMPILER_PROOF.md**
+  - Coverage: complete selected artifact; full main argument or artifact read.
+  - Audit scope: Full baseline unary-register simulation, binary lowering, halt preservation and exact quotient proof.
+  - Byte-matched archive sources: libfile_829449ba14f08191805f41cce25e72e8 (COMPILER_PROOF.md)
+- **certificates_machines:007 — ALL_BASE_MACHINE_PROOF.md**
+  - Coverage: complete selected artifact; full main argument or artifact read.
+  - Audit scope: Full all-base finite cutoff, enumeration, blocks, closed implementation, and limitations.
+  - Byte-matched archive sources: libfile_6d02905c800c8191b4f11025410fe3b0 (all_base_machine/ALL_BASE_MACHINE_PROOF.md)
+- **certificates_machines:008 — collatz_regular_closure.md**
+  - Coverage: complete selected artifact; full main argument or artifact read.
+  - Audit scope: Full terminating-prefix construction, complements, tail obstruction, popcount and commuting exclusions.
+  - Byte-matched archive sources: libfile_6d02905c800c8191b4f11025410fe3b0 (collatz_regular_closure.md)
+- **certificates_machines:009 — completeness_primary_audit.md**
+  - Coverage: complete selected artifact; full main argument or artifact read.
+  - Audit scope: Full powers-of-three/dyadic/H comparisons, coverage limits and proof-search distinction.
+  - Byte-matched archive sources: libfile_6d02905c800c8191b4f11025410fe3b0 (completeness_primary_audit.md)
+- **certificates_machines:010 — completeness_routes_audit.md**
+  - Coverage: complete selected artifact; full main argument or artifact read.
+  - Audit scope: Full all-base product checker, budgets equivalence, proof-search maximality, representation-checkability tradeoff.
+  - Byte-matched archive sources: libfile_6d02905c800c8191b4f11025410fe3b0 (completeness_routes_audit.md)
+- **certificates_machines:011 — density_obstruction.md**
+  - Coverage: complete selected artifact; full main argument or artifact read.
+  - Audit scope: Full population-density non-implications and exact non-Collatz comparison proof.
+  - Byte-matched archive sources: libfile_6d02905c800c8191b4f11025410fe3b0 (density_obstruction.md)
+- **certificates_machines:012 — all_base_trap_checker.py**
+  - Coverage: selected code sections; selected sections or arguments.
+  - Audit scope: Implementation definitions and full tests through enumeration introduction; rerun complete finite main tests.
+  - Byte-matched archive sources: libfile_6d02905c800c8191b4f11025410fe3b0 (all_base_trap_checker.py); libfile_9aa79ba5821c8191a3a17024cb4bfbb8 (all_base_trap_checker.py)
+- **certificates_machines:013 — all_base_density_restriction.md**
+  - Coverage: complete selected artifact; full main argument or artifact read.
+  - Audit scope: Full all-base prefix coverage and density bound proof.
+  - Byte-matched archive sources: libfile_9aa79ba5821c8191a3a17024cb4bfbb8 (all_base_density_restriction.md)
+- **certificates_machines:014 — complete_refutation_reduction.md**
+  - Coverage: complete selected artifact; full main argument or artifact read.
+  - Audit scope: Full mixed-base pumping iff cycle proof, malformed-block analysis and subsequence countercontrol.
+  - Byte-matched archive sources: libfile_9aa79ba5821c8191a3a17024cb4bfbb8 (complete_refutation_reduction.md)
+- **certificates_machines:015 — noncommuting_group_memory.md**
+  - Coverage: complete selected artifact; full main argument or artifact read.
+  - Audit scope: Full involution/idempotent theorems and countercontrols.
+  - Byte-matched archive sources: libfile_9aa79ba5821c8191a3a17024cb4bfbb8 (noncommuting_memory/noncommuting_group_memory.md)
+- **certificates_machines:016 — SOUNDNESS_AND_COMPLETENESS.md**
+  - Coverage: complete selected artifact; full main argument or artifact read.
+  - Audit scope: Full v1 grammar, normalization, positivity, recurrence proof, H separation and cycle coverage.
+  - Byte-matched archive sources: libfile_9aa79ba5821c8191a3a17024cb4bfbb8 (symbolic_certificates/SOUNDNESS_AND_COMPLETENESS.md); libfile_a18b1049cbf081919c9ccfbbe6584eef (pass08_compact/collatz_halting_equivalence04/symbolic_certificates/SOUNDNESS_AND_COMPLETENESS.md)
+- **certificates_machines:017 — PROOF.md**
+  - Coverage: complete selected artifact; full main argument or artifact read.
+  - Audit scope: Full exact union predicate, mathematical fairness, controls and historical native boundary.
+  - Byte-matched archive sources: libfile_9aa79ba5821c8191a3a17024cb4bfbb8 (joint_search/PROOF.md)
+- **certificates_machines:018 — POSITION_PROOF.md**
+  - Coverage: complete selected artifact; full main argument or artifact read.
+  - Audit scope: Full active-marker/register-layout simulation proof.
+  - Byte-matched archive sources: libfile_9aa79ba5821c8191a3a17024cb4bfbb8 (shared_compiler/POSITION_PROOF.md)
+- **certificates_machines:019 — DATA_BOUNDARY_PROOF.md**
+  - Coverage: complete selected artifact; full main argument or artifact read.
+  - Audit scope: Full one-cell-right boundary optimization proof and canonical completion scope.
+  - Byte-matched archive sources: libfile_9aa79ba5821c8191a3a17024cb4bfbb8 (shared_compiler/DATA_BOUNDARY_PROOF.md)
+- **certificates_machines:020 — PROOF.md**
+  - Coverage: complete selected artifact; full main argument or artifact read.
+  - Audit scope: Full invariant-safe logical completion and quotient argument.
+  - Byte-matched archive sources: libfile_9aa79ba5821c8191a3a17024cb4bfbb8 (symbol_completion/PROOF.md)
+- **certificates_machines:021 — TRACE_CALCULUS.md**
+  - Coverage: complete selected artifact; full main argument or artifact read.
+  - Audit scope: Full normalization trace calculus and exact v1 coverage proof.
+  - Byte-matched archive sources: libfile_a18b1049cbf081919c9ccfbbe6584eef (pass08_compact/collatz_halting_equivalence06/native_joint/trace_calculus/TRACE_CALCULUS.md)
+- **certificates_machines:022 — EQUATIONAL_NATIVE_CONTRACT.md**
+  - Coverage: complete selected artifact; full main argument or artifact read.
+  - Audit scope: Full native-friendly equality/substitution schemas, both coverage directions, exact lower witness proof.
+  - Byte-matched archive sources: libfile_a18b1049cbf081919c9ccfbbe6584eef (pass08_compact/collatz_halting_equivalence06/native_joint/trace_calculus/EQUATIONAL_NATIVE_CONTRACT.md)
+- **certificates_machines:023 — PROOF_KINDS.md**
+  - Coverage: complete selected artifact; full main argument or artifact read.
+  - Audit scope: Full 28-record schema specification.
+  - Byte-matched archive sources: libfile_a18b1049cbf081919c9ccfbbe6584eef (pass08_compact/collatz_halting_equivalence06/native_joint/PROOF_KINDS.md); libfile_a18b1049cbf081919c9ccfbbe6584eef (pass08_compact/collatz_halting_equivalence08/inc_only_source/native_joint/PROOF_KINDS.md); libfile_a18b1049cbf081919c9ccfbbe6584eef (pass08_compact/collatz_halting_equivalence08/nine_bit_source/native_joint/PROOF_KINDS.md)
+- **certificates_machines:024 — FORMAT.md**
+  - Coverage: complete selected artifact; full main argument or artifact read.
+  - Audit scope: Full finite DAG/proof/chart/row encoding and diagonal enumeration contract.
+  - Byte-matched archive sources: libfile_a18b1049cbf081919c9ccfbbe6584eef (pass08_compact/collatz_halting_equivalence06/native_joint/FORMAT.md); libfile_a18b1049cbf081919c9ccfbbe6584eef (pass08_compact/collatz_halting_equivalence08/inc_only_source/native_joint/FORMAT.md); libfile_a18b1049cbf081919c9ccfbbe6584eef (pass08_compact/collatz_halting_equivalence08/nine_bit_source/native_joint/FORMAT.md)
+- **certificates_machines:025 — STATUS_AND_PROOF.md**
+  - Coverage: complete selected artifact; full main argument or artifact read.
+  - Audit scope: Full current-then native status, predicate and integration invariant; historical counts kept distinct.
+  - Byte-matched archive sources: libfile_a18b1049cbf081919c9ccfbbe6584eef (pass08_compact/collatz_halting_equivalence06/native_joint/STATUS_AND_PROOF.md)
+- **certificates_machines:026 — SERIALIZER_STATUS.md**
+  - Coverage: complete selected artifact; full main argument or artifact read.
+  - Audit scope: Full practical serializer paths, fair exhaustive fallback and C5/C3 map-binding control.
+  - Byte-matched archive sources: libfile_a18b1049cbf081919c9ccfbbe6584eef (pass08_compact/collatz_halting_equivalence06/native_joint/SERIALIZER_STATUS.md)
+- **certificates_machines:027 — native_terms.py**
+  - Coverage: complete selected artifact; full artifact read.
+  - Audit scope: Full source: syntactic naturalness and acyclic term validation.
+  - Byte-matched archive sources: libfile_a18b1049cbf081919c9ccfbbe6584eef (pass08_compact/collatz_halting_equivalence06/native_joint/native_terms.py); libfile_a18b1049cbf081919c9ccfbbe6584eef (pass08_compact/collatz_halting_equivalence08/inc_only_source/native_joint/native_terms.py); libfile_a18b1049cbf081919c9ccfbbe6584eef (pass08_compact/collatz_halting_equivalence08/nine_bit_source/native_joint/native_terms.py)
+- **certificates_machines:028 — native_proof.py**
+  - Coverage: complete selected artifact; full artifact read.
+  - Audit scope: Full source: all equality/substitution proof rules, signed literal checks and premise sorts.
+  - Byte-matched archive sources: libfile_a18b1049cbf081919c9ccfbbe6584eef (pass08_compact/collatz_halting_equivalence06/native_joint/native_proof.py); libfile_a18b1049cbf081919c9ccfbbe6584eef (pass08_compact/collatz_halting_equivalence08/inc_only_source/native_joint/native_proof.py); libfile_a18b1049cbf081919c9ccfbbe6584eef (pass08_compact/collatz_halting_equivalence08/nine_bit_source/native_joint/native_proof.py)
+- **certificates_machines:029 — native_charts.py**
+  - Coverage: complete selected artifact; full artifact read.
+  - Audit scope: Full source: positivity, ordered residues, parameter bindings and trusted C3 closure.
+  - Byte-matched archive sources: libfile_a18b1049cbf081919c9ccfbbe6584eef (pass08_compact/collatz_halting_equivalence06/native_joint/native_charts.py); libfile_a18b1049cbf081919c9ccfbbe6584eef (pass08_compact/collatz_halting_equivalence08/inc_only_source/native_joint/native_charts.py); libfile_a18b1049cbf081919c9ccfbbe6584eef (pass08_compact/collatz_halting_equivalence08/nine_bit_source/native_joint/native_charts.py)
+- **certificates_machines:030 — AUDIT.md**
+  - Coverage: partial text; selected sections or arguments.
+  - Audit scope: Semantic audit and quotient sections; some intermediate long-report output clipped; not claiming full independent reproduction of all listed tests.
+- **certificates_machines:031 — PROOF_AND_SCOPE.md**
+  - Coverage: complete selected artifact; full main argument or artifact read.
+  - Audit scope: Full liveness, call summary, clear-loop summary and finite-stuttering allocation proof.
+  - Byte-matched archive sources: libfile_3eb436c087e48191a887403a01846381 (joint_c3_v1/register_reduction/PROOF_AND_SCOPE.md)
+- **certificates_machines:032 — PROOF_AND_SCOPE.md**
+  - Coverage: complete selected artifact; full main argument or artifact read.
+  - Audit scope: Full physical layout, safe completion, binary encoding and exact quotient preservation chain.
+  - Byte-matched archive sources: libfile_3eb436c087e48191a887403a01846381 (joint_c3_v1/pass07/PROOF_AND_SCOPE.md)
+- **certificates_machines:033 — Native_Machine_08_Final_Reduction_Report_2026-10-21.md**
+  - Coverage: complete selected artifact; full main argument or artifact read.
+  - Audit scope: Full final checkpoint, counts, artifact hashes, scope and limits.
+- **certificates_machines:034 — PROOF_AND_SCOPE.md**
+  - Coverage: complete selected artifact; full main argument or artifact read.
+  - Audit scope: Full nine-bit and INC-only source transformation invariants and final audit gates.
+  - Byte-matched archive sources: libfile_a18b1049cbf081919c9ccfbbe6584eef (pass08_compact/collatz_halting_equivalence08/PROOF_AND_SCOPE.md)
+- **certificates_machines:035 — AUDIT.md**
+  - Coverage: complete selected artifact; full artifact read.
+  - Audit scope: Full source/ABI induction, controls and final selected table audit.
+  - Byte-matched archive sources: libfile_a18b1049cbf081919c9ccfbbe6584eef (pass08_compact/collatz_halting_equivalence08/independent_audit/AUDIT.md)
+- **certificates_machines:036 — audit_binary_quotient.py**
+  - Coverage: complete selected artifact; full artifact read.
+  - Audit scope: Full source independently examined, then executed for exhaustive final quotient recheck.
+  - Byte-matched archive sources: libfile_a18b1049cbf081919c9ccfbbe6584eef (pass08_compact/collatz_halting_equivalence08/inc_only_source/independent_audit/audit_binary_quotient.py)
+- **certificates_machines:037 — PORTABLE_NATIVE_REPLAY.json**
+  - Coverage: complete selected artifact; inherited test record read.
+  - Audit scope: Read exact final-release 10,000-boundary/8,114,452-step replay record; not independently rerun here.
+  - Byte-matched archive sources: libfile_a18b1049cbf081919c9ccfbbe6584eef (pass08_compact/PORTABLE_NATIVE_REPLAY.json)
+
+### H and certificate-language obstructions
+
+- **h_obstructions:001 — Native_Machine_04_Symbolic_Certificates_2026-10-21.md**; selected artifact: SOUNDNESS_AND_COMPLETENESS.md
+  - Coverage: complete selected artifact; full artifact read.
+  - Audit scope: All §§1–8
+  - Library source: libfile_5ace602808e08191a1b398923eafc682
+  - Archive member: collatz_halting_equivalence05_release/baseline_v1/SOUNDNESS_AND_COMPLETENESS.md
+- **h_obstructions:002 — Why_Symbolic_Certificates_See_What_Automata_Miss_2026-10-21.md**
+  - Coverage: complete selected artifact; full artifact read.
+  - Audit scope: Full text
+  - Library source: libfile_cbc079dd451c819193e09eea162e3d7b
+- **h_obstructions:003 — chart_completeness_explanation.md**
+  - Coverage: complete selected artifact; full artifact read.
+  - Audit scope: All §§1–7, §3A, and Pass05 update
+  - Library source: libfile_6a714c71b2b8819192a5ba029eb71c8e
+  - Archive member: collatz_halting_equivalence05_release/chart_completeness_explanation.md
+- **h_obstructions:004 — Collatz_Native_Machine_04_17259_States_and_Symbolic_Search_2026-10-21.zip**; selected artifact: INDEPENDENT_AUDIT.md
+  - Coverage: complete selected artifact; full artifact read.
+  - Audit scope: Full text
+  - Library source: libfile_9aa79ba5821c8191a3a17024cb4bfbb8
+- **h_obstructions:005 — Collatz_Native_Machine_04_17259_States_and_Symbolic_Search_2026-10-21.zip**; selected artifact: symbolic_chart_checker.py
+  - Coverage: complete selected artifact; full artifact read.
+  - Audit scope: Entire v1 source through full v2 source plus complete diff
+  - Library source: libfile_9aa79ba5821c8191a3a17024cb4bfbb8
+  - Archive member: collatz_halting_equivalence05_release/baseline_v1/symbolic_chart_checker.py
+- **h_obstructions:006 — Collatz_Native_Machine_05_Reproduction_Bundle_2026-10-21.zip**; selected artifact: SOUNDNESS_V2.md
+  - Coverage: complete selected artifact; full artifact read.
+  - Audit scope: Full text
+  - Library source: libfile_54fc40d352c0819190d1aca7c3dd4b24
+  - Archive member: collatz_halting_equivalence05_release/symbolic_v2/SOUNDNESS_V2.md
+- **h_obstructions:007 — Collatz_Native_Machine_05_Reproduction_Bundle_2026-10-21.zip**; selected artifact: symbolic_chart_checker.py
+  - Coverage: complete selected artifact; full artifact read.
+  - Audit scope: All 289 lines
+  - Library source: libfile_54fc40d352c0819190d1aca7c3dd4b24
+  - Archive member: collatz_halting_equivalence05_release/symbolic_v2/symbolic_chart_checker.py
+- **h_obstructions:008 — Collatz_Native_Machine_05_Reproduction_Bundle_2026-10-21.zip**; selected artifact: INDEPENDENT_AUDIT.md
+  - Coverage: complete selected artifact; full artifact read.
+  - Audit scope: All §§1–6
+  - Library source: libfile_54fc40d352c0819190d1aca7c3dd4b24
+  - Archive member: collatz_halting_equivalence05_release/symbolic_v2_audit/INDEPENDENT_AUDIT.md
+- **h_obstructions:009 — Collatz_Native_Machine_05_Reproduction_Bundle_2026-10-21.zip**; selected artifact: audit.py
+  - Coverage: complete selected artifact; full artifact read.
+  - Audit scope: Entire file; separately copied and rerun
+  - Library source: libfile_54fc40d352c0819190d1aca7c3dd4b24
+  - Archive member: collatz_halting_equivalence05_release/symbolic_v2_audit/audit.py
+  - Revision caveat: Only portability path changes: bundle uses __file__-relative baseline_v1 and symbolic_v2; audit workspace uses absolute local source locations. Full diff inspected; no algorithmic difference.
+- **h_obstructions:010 — Native_H_Certificate_Machine_Proof_2026-10-21.md**; selected artifact: PROOF_AND_SCOPE.md
+  - Coverage: complete selected artifact; full artifact read.
+  - Audit scope: Full text
+  - Library source: libfile_3fa636d9bdcc8191a975929a1d2d182a
+  - Archive member: collatz_halting_equivalence05_release/H_machine/PROOF_AND_SCOPE.md
+- **h_obstructions:011 — Collatz_Native_Machine_05_Reproduction_Bundle_2026-10-21.zip**; selected artifact: build_and_test.py
+  - Coverage: complete selected artifact; full artifact read.
+  - Audit scope: All 86 lines
+  - Library source: libfile_54fc40d352c0819190d1aca7c3dd4b24
+  - Archive member: collatz_halting_equivalence05_release/H_machine/build_and_test.py
+- **h_obstructions:012 — Native_H_Certificate_Machine_20_States_2026-10-21.tm**; selected artifact: machine.tm
+  - Coverage: complete selected artifact; full artifact read.
+  - Audit scope: Entire table; independently parsed and simulated
+  - Library source: libfile_f99b20a8f6a4819194e29117b355f937
+  - Archive member: collatz_halting_equivalence05_release/H_machine/machine.tm
+- **h_obstructions:013 — Collatz_Native_Machine_05_Reproduction_Bundle_2026-10-21.zip**; selected artifact: INDEPENDENT_AUDIT.md
+  - Coverage: complete selected artifact; full artifact read.
+  - Audit scope: All §§1–5
+  - Library source: libfile_54fc40d352c0819190d1aca7c3dd4b24
+  - Archive member: collatz_halting_equivalence05_release/obstruction_audit/INDEPENDENT_AUDIT.md
+- **h_obstructions:014 — Collatz_Native_Machine_05_Reproduction_Bundle_2026-10-21.zip**; selected artifact: INDEPENDENT_AUDIT.md
+  - Coverage: complete selected artifact; full artifact read.
+  - Audit scope: Full text
+  - Library source: libfile_54fc40d352c0819190d1aca7c3dd4b24
+  - Archive member: collatz_halting_equivalence05_release/H_audit/INDEPENDENT_AUDIT.md
+- **h_obstructions:015 — Collatz_Native_Machine_05_Reproduction_Bundle_2026-10-21.zip**; selected artifact: audit.py
+  - Coverage: complete selected artifact; full artifact read.
+  - Audit scope: Entire file; separately copied and rerun
+  - Library source: libfile_54fc40d352c0819190d1aca7c3dd4b24
+  - Archive member: collatz_halting_equivalence05_release/H_audit/audit.py
+- **h_obstructions:016 — Collatz_Native_Machine_05_Reproduction_Bundle_2026-10-21.zip**; selected artifact: PROOF.md
+  - Coverage: complete selected artifact; full artifact read.
+  - Audit scope: Full text
+  - Library source: libfile_54fc40d352c0819190d1aca7c3dd4b24
+  - Archive member: collatz_halting_equivalence05_release/joint_search_v2/PROOF.md
+- **h_obstructions:017 — Collatz_Native_Machine_03_24021_All_Base_and_20403_Binary_2026-10-21.zip**; selected artifact: completeness_primary_audit.md
+  - Coverage: complete selected artifact; full artifact read.
+  - Audit scope: Full text, especially §6
+  - Library source: libfile_6d02905c800c8191b4f11025410fe3b0
+- **h_obstructions:018 — Native_Machine_05_H_Checker_and_Chart_Limits_2026-10-21.md**
+  - Coverage: complete selected artifact; full artifact read.
+  - Audit scope: Full text
+  - Library source: libfile_3426e6c9a7d88191ad5b5743efcf7132
+  - Archive member: collatz_halting_equivalence05_release/Native_Machine_05_H_Checker_and_Chart_Limits_2026-10-21.md
+- **h_obstructions:019 — Collatz_Native_Machine_05_Reproduction_Bundle_2026-10-21.zip**; selected artifact: test_v2.py
+  - Coverage: complete selected artifact; full artifact read.
+  - Audit scope: Entire test source; not rerun because supplied independent audit was rerun
+  - Library source: libfile_54fc40d352c0819190d1aca7c3dd4b24
+  - Archive member: collatz_halting_equivalence05_release/symbolic_v2/test_v2.py
+  - Revision caveat: Only portability path changes: bundle uses __file__-relative baseline_v1 and symbolic_v2; audit workspace uses absolute local source locations. Full diff inspected; no algorithmic difference.
+- **h_obstructions:020 — Collatz_Native_Machine_05_Reproduction_Bundle_2026-10-21.zip**; selected artifact: test_legacy.py
+  - Coverage: complete selected artifact; full artifact read.
+  - Audit scope: Entire test source
+  - Library source: libfile_54fc40d352c0819190d1aca7c3dd4b24
+  - Archive member: collatz_halting_equivalence05_release/symbolic_v2/test_legacy.py
+
+### Constraint maturation and closure
+
+- **closure:001 — 01_MAIN_REPORT.md**
+  - Coverage: complete text; full main argument or artifact read.
+  - Audit scope: Full main report: injection, bit separator, lattice classification, bounded replay theorem.
+  - Library source: libfile_cef0e72a251481919ad273e04fb1a8e6
+- **closure:002 — 01_MAIN_REPORT.md**
+  - Coverage: complete text; full main argument or artifact read.
+  - Audit scope: Full main mathematical sections: carry decomposition, false quotient cycle, primitive kernel, rank bridge.
+  - Library source: libfile_de9a2563abfc81919269e171e4e83c14
+- **closure:003 — Collatz_Creative_Closure_08_Clock_Grade_Source_Handoffs_2026-10-20.md**
+  - Coverage: complete text; selected sections or arguments.
+  - Audit scope: Clock-grade/source-owner handoffs, finite grammar separation, weighted coercivity and matched controls; full text retrieved.
+  - Library source: libfile_66c043f1ecb48191a4b72046f1b1f83f
+- **closure:004 — Collatz_Creative_Closure_09_Repunit_Receivers_and_Clock_Budgets_2026-10-20.md**
+  - Coverage: complete text; selected sections or arguments.
+  - Audit scope: Repunit ownership/preview theorem, uniform repetition bounds, individual phase and external packing/summability argument; full text retrieved.
+  - Library source: libfile_ed5cbaa1bbdc81919608521cb93c4ff0
+- **closure:005 — ATLAS_CROSSCHECK_AND_PROOF_INTEGRATION_2026-10-17.md**
+  - Coverage: complete text; full main argument or artifact read.
+  - Audit scope: Full integration requirements/route status; inherited Atlas package proofs delegated elsewhere.
+  - Library source: libfile_ace77384863481919928da859800a604
+- **closure:006 — 03_AUDIT_AND_HANDOFF.md**
+  - Coverage: complete text; selected sections or arguments.
+  - Audit scope: Read audit/handoff/index as secondary status and provenance; no independent proof claim from its labels.
+  - Library source: libfile_6563f1bf7e908191b668e20ff6aa8d32
+- **closure:007 — 02_AUDIT_AND_NEXT_ARGUMENT.md**
+  - Coverage: complete text; selected sections or arguments.
+  - Audit scope: Read audit/handoff/index as secondary status and provenance; no independent proof claim from its labels.
+  - Library source: libfile_6024cc0299408191ae825015b1498155
+- **closure:008 — CONFIRMED_ATLAS_REVIEW_2026-10-17.md**
+  - Coverage: complete text; selected sections or arguments.
+  - Audit scope: Read audit/handoff/index as secondary status and provenance; no independent proof claim from its labels.
+  - Library source: libfile_e45052b5955c8191966ded3686700d30
+- **closure:009 — 00_BRANCH_INDEX.md**
+  - Coverage: complete text; selected sections or arguments.
+  - Audit scope: Read audit/handoff/index as secondary status and provenance; no independent proof claim from its labels.
+  - Library source: libfile_de9d7e7376348191a5185be8a379bd59
+- **closure:010 — 03_PROOF_ROUTES_AND_OBSTRUCTIONS.md**
+  - Coverage: complete text; selected sections or arguments.
+  - Audit scope: Read audit/handoff/index as secondary status and provenance; no independent proof claim from its labels.
+  - Library source: libfile_d9ab6cd29f348191a4c672d8f6088e4f
+- **closure:011 — Pass18_01_MAIN_REPORT.md**
+  - Coverage: complete text; full main argument or artifact read.
+  - Audit scope: Full main restricted theorem proofs, inverse-shadow barrier, delayed merger and guard scope.
+  - Library source: libfile_bce485c7c5548191b639ca2672d1b32e
+- **closure:012 — Pass17_01_MAIN_REPORT.md**
+  - Coverage: complete text; selected sections or arguments.
+  - Audit scope: Sibling compiler and capacity handoff sections only; not all21 templates independently rederived.
+  - Library source: libfile_9919e3c0c30c8191bad1c81b7ca3488f
+- **closure:013 — Pass16_01_MAIN_REPORT.md**
+  - Coverage: complete text; selected sections or arguments.
+  - Audit scope: Cubic receiving-capacity calculation and failed quadratic cut; symbolic residual coverage limits.
+  - Library source: libfile_629777c3b32c8191bc1584f4fa3bbf32
+- **closure:014 — Signed_Word_Elimination_Further_Proofs_2026-10-18.md**
+  - Coverage: complete text; selected sections or arguments.
+  - Audit scope: Birth normal form, incidence theorem, direct-word constraints, density/regularity countercontrols; ancillary computational counts not reproduced.
+  - Library source: libfile_fc8da13f5e908191b6b829989cca6ae6
+- **closure:015 — Signed_Word_Elimination_Structure_Proof_2026-10-18.md**
+  - Coverage: complete text; selected sections or arguments.
+  - Audit scope: §§1–10: compiler, integral presentation, merger equivalence, norm/dual gap.
+  - Library source: libfile_a51cf773e2988191bd64af2f01bbf854
+- **closure:016 — Local_to_Global_Closure_Solution_2026-10-18.md**
+  - Coverage: complete text; selected sections or arguments.
+  - Audit scope: Main hereditary closure theorem and transport appendix; no Collatz instantiation asserted.
+  - Library source: libfile_5363ea00b6008191a648d465fe333b0a
+- **closure:017 — Concrete_Closure_Follow_Up_Answer_and_Proof_2026-10-18.txt**
+  - Coverage: complete text; selected sections or arguments.
+  - Audit scope: Key exact correspondence and stated limitations; ancillary finite tables not independently audited.
+  - Library source: libfile_51e5757d787c81918e6b2d482876a5cc
+- **closure:018 — Concrete_Closure_Additional_Structure_Results_2026-10-18.txt**
+  - Coverage: complete text; selected sections or arguments.
+  - Audit scope: Pinned compactness, finite graph extraction, weighted/dual distinctions; other supplementary calculations sampled only.
+  - Library source: libfile_76235aa7ab348191bbff865cd4d1fef8
+- **closure:019 — Pass05_01_PROOF_ATTEMPT_AND_NEW_THEOREMS.md**
+  - Coverage: complete text; full main argument or artifact read.
+  - Audit scope: Full theorem arguments: factor complexity, switches, finite-vs-infinite and two-place countercontrols.
+  - Library source: libfile_998d99cf20708191a555fc1f0c40481a
+- **closure:020 — Pass09_01_RATIONAL_CENTER_BRIDGE_AND_SUBSTITUTION_RIGIDITY.md**
+  - Coverage: complete text; selected sections or arguments.
+  - Audit scope: Finite rational-center bridge and balanced substitution theorem; limitations.
+  - Library source: libfile_46b186c4bb748191ace4e2613fdbbbc5
+- **closure:021 — Pass11_01_MAIN_REPORT.md**
+  - Coverage: complete text; selected sections or arguments.
+  - Audit scope: Renewal identity, nondegenerate S-unit argument and comparator controls.
+  - Library source: libfile_1f2e21c675b88191882800e4a6197d8a
+- **closure:022 — Pass12_01_MAIN_REPORT.md**
+  - Coverage: complete text; selected sections or arguments.
+  - Audit scope: Fixed-q return finiteness, two-bit restrictions, fresh-prime counterexample. Some auxiliary reports not independently reproduced.
+  - Library source: libfile_e252a84e49488191866e570b6c62dff4
+- **closure:023 — Pass13_01_MAIN_REPORT.md**
+  - Coverage: complete text; selected sections or arguments.
+  - Audit scope: §§1–5: moving dictionaries and rank/coset counting; later computational inventories not reproduced.
+  - Library source: libfile_8a1287785fdc81918ca0bdbff0a26709
+- **closure:024 — Collatz_Creative_Exploration_07_Transported_Sources_and_Collective_Receivers_2026-10-19.md**
+  - Coverage: complete text; selected sections or arguments.
+  - Audit scope: PartsIII§§3–7(typed dispatch,fusion,burst),IV§§3–6(source transport and complete benchmark mergers),V§3(general transport),VI§§3–5(sparse grammar and non-CFL),VIII cross-audit. Other creative modules inherited, not all rederived.
+  - Library source: libfile_69e6c604e4c88191bf33d5ed919e20b1
+- **closure:025 — Collatz_Conceptual_Closing_Arguments_2026-10-19.md**
+  - Coverage: complete text; selected sections or arguments.
+  - Audit scope: §3 source/ternary fork and §§6–16 conditional architectures/status; full text retrieved, not every portfolio identity rederived.
+  - Library source: libfile_d92b32e2272c8191ba301063d600d39c
+- **closure:026 — Collatz_Creative_Exploration_04_Full_Proof_Architectures_2026-10-19.md**
+  - Coverage: complete text; selected sections or arguments.
+  - Audit scope: PartIII§6(two-base certified subset, bounded odd depth, regular inverse itineraries), PartIV§§3–7(last seam, conditional rank, terminal carrier, carry memory); earlier portfolio context skimmed.
+  - Library source: libfile_b792c584582c8191b6e9f348ad40d89d
+- **closure:027 — decoder_table.md**
+  - Coverage: complete text; full main argument or artifact read.
+  - Audit scope: All40 table rows and three cycles independently reproduced with exact quadratic-ring arithmetic.
+  - Library source: libfile_b602d7dc05e08191a11650714df40b35
+- **closure:028 — CMR_Pass14_Connected_Cancellation_2026-10-17.zip**
+  - Coverage: complete selected archive members; full specified archive member arguments.
+  - Audit scope: CC14 unrestricted-depth fixed-switch theorem and portable anchored cancellation lemma; CC15 source carry, endpoint trap, legal comparison and matched-center repair.
+  - Library source: libfile_9de3288a34888191940f763c4b347d7a
+  - Archive members: CMR_Pass14_Two_Switch_Rigidity_2026-10-17/01_MAIN_REPORT.md; 02_CONNECTED_CANCELLATION_LEMMA.md
+- **closure:029 — CMR_Pass15_Comparative_Mechanism_Transfer_2026-10-17.zip**
+  - Coverage: complete selected archive members; full specified archive member arguments.
+  - Audit scope: CC14 unrestricted-depth fixed-switch theorem and portable anchored cancellation lemma; CC15 source carry, endpoint trap, legal comparison and matched-center repair.
+  - Library source: libfile_6247a16dff4c8191adf802fdebfe680d
+  - Archive members: 01_MAIN_REPORT.md
+
+### GDR, bounds and transport
+
+- **gdr:001 — Collatz_Summable_Budgets_From_Arithmetic_2026-10-20.md**
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full text
+  - Library source: libfile_ce760bd4954881918b982366854624be
+- **gdr:002 — Collatz_GDR_Great_Minds_Failure_Set_Assessment_2026-10-19.md**
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full text
+  - Library source: libfile_545198ced0348191bdc49991f40fda46
+- **gdr:003 — Collatz_GDR_Resistant_C3_C5_C7_Cross_Coefficient_2026-10-19.md**
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full text
+  - Library source: libfile_dfadf9746a808191ac495cb0c5bfca35
+- **gdr:004 — Great_Minds_Pass_08_Execution_2026-10-15.md**
+  - Coverage: partial text; selected sections or arguments.
+  - Audit scope: Sections1–9 and start of10
+  - Library source: libfile_83d51c573b2881918a0c05a9b1d461f0
+- **gdr:005 — Great_Minds_03_Combined_Bounds_2026-10-15.md**
+  - Coverage: partial text; selected sections or arguments.
+  - Audit scope: Sections1–5
+  - Library source: libfile_be640de10bc88191b46129852815d2d4
+- **gdr:006 — R_Formula_1.5_Eventual_Upper_Bound_Dip_2026-10-14.md**
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full text
+  - Library source: libfile_726ad16d3f4c81919cac28b547e963f1
+- **gdr:007 — R15_Proposition_Test_Setup_And_Counterexample_2026-10-14.md**
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full text
+  - Library source: libfile_609e82d012c481918d98164330429d1a
+- **gdr:008 — GDR2_HANDOFF_REVIEW.md**
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full text
+  - Library source: libfile_19fb7b74d6a48191b2df5e93dc978d02
+- **gdr:009 — GDR2_COUNTABLE_MENUS.md**
+  - Coverage: complete text; full artifact read.
+  - Audit scope: Full text
+  - Library source: libfile_15eed1fb89d0819191574ca8e52e1add
+
+### Foundational and legacy routes
+
+- **legacy:001 — Collatz_Proof_Shortcut_Research_15_General_Hamming_Recurrence_Barrier_2026-10-06.md**
+  - Coverage: complete text; selected sections or arguments.
+  - Audit scope: §§1–6: clean-window construction, general shift barrier, edit corollaries, credits
+  - Library source: libfile_d9f52b1db2fc819183e2b2a1ebbe7cd7
+- **legacy:002 — Collatz_Research_15_Golden_Rotation_Proof_HANDOFF_2026-10-06.md**
+  - Coverage: complete text; full main argument or artifact read.
+  - Audit scope: Complete restricted theorem and §§1–5: interval partition, two-defect argument, endpoint intersection, verifier
+  - Library source: libfile_c583ff1b4d10819189ecca97bcb7c053
+- **legacy:003 — Collatz_Binary_Route_Audit_and_Proof_Integration_2026-10-07.md**
+  - Coverage: complete text; selected sections or arguments.
+  - Audit scope: §§1–10: full mathematical correction audit; §11 exact regression script rerun
+  - Library source: libfile_1974ea494ff881918ff5a9d83647d4ec
+- **legacy:004 — Collatz_Binary_Route_25_Periodic_Recycling_Closure_and_Three_Question_Resolution_2026-10-07.md**
+  - Coverage: complete text; full main argument or artifact read.
+  - Audit scope: Full periodic full-affine-program argument and its stated aperiodic boundary; subordinate to later audit
+  - Library source: libfile_f2a45ffa7cac8191ba84fe1ec6a62b73
+- **legacy:005 — Collatz_Binary_Route_22_Subpolynomial_Component_Recurrence_2026-10-07.md**
+  - Coverage: complete text; full main argument or artifact read.
+  - Audit scope: Full subpolynomial component recurrence proof
+  - Library source: libfile_594ac686141c81918ff0aea50dd4498b
+- **legacy:006 — Collatz_Binary_Route_24_Affine_Word_Precision_Packing_2026-10-07.md**
+  - Coverage: complete text; full main argument or artifact read.
+  - Audit scope: Full affine-word precision and packing proof; constants corrected by later audit
+  - Library source: libfile_4e92a94150648191887bc7ea6b606873
+- **legacy:007 — Collatz_Binary_Route_23_Endpoint_Collapse_of_Correction_Stream_2026-10-07.md**
+  - Coverage: complete text; full main argument or artifact read.
+  - Audit scope: Full endpoint-collapse identities
+  - Library source: libfile_b74d2a5eed888191a5a73f38c1856886
+- **legacy:008 — Collatz_FP_Current_Handoff.md**
+  - Coverage: partial text; selected sections or arguments.
+  - Audit scope: Opening current FP60 summary and inherited material through line1000 only; not a proof substitute
+  - Library source: libfile_10e8dae86bc08191bfd8c0a963bb80f3
+  - Retrieved lines: 1–1000 of 12438.
+- **legacy:009 — Collatz_FP_60_Proof_Routes_and_Checked_Progress_2026-10-11.md**
+  - Coverage: complete text; full main argument or artifact read.
+  - Audit scope: Complete executive report and embedded three research components: repair occupation, cycle consequence, inverse constructions and controls
+  - Library source: libfile_45d19c53ee748191b7ee395bbfd24d59
+- **legacy:010 — Lopez_Stoll_Proof_Objection_Draft_2026-10-06.md**
+  - Coverage: complete text; full main argument or artifact read.
+  - Audit scope: Entire source's mathematical objection, including the general cross-completion counterexample; no communication sent.
+  - Library source: libfile_4725015f52688191b921b7a14f5bbd7a
+- **legacy:011 — Collatz_Notation_Transform_04_Breakthrough_Assessment_and_Prior_Art_2026-10-07.md**
+  - Coverage: complete text; full main argument or artifact read.
+  - Audit scope: Entire prior-art assessment and listed rational-base/rewriting antecedents
+  - Library source: libfile_d11b29c093208191880ae17334f9d1f8
+- **legacy:012 — Collatz_Notation_Transform_06_Sorting_and_Division_Surplus_Hypothesis_2026-10-07.md**
+  - Coverage: complete text; full main argument or artifact read.
+  - Audit scope: Entire note; §1 user-origin quotes, exact sorting targets, audited drift heuristic
+  - Library source: libfile_e6bcc042dc6481918b3e375ae1c523a7
+- **legacy:013 — Region_Family_Analysis_Current_State_2026-10-12.md**
+  - Coverage: partial text; selected sections or arguments.
+  - Audit scope: Current opening consolidation through line1000 only, especially family parser, contraction, transition matrix, compensation counterfamily; historical remainder not certified
+  - Library source: libfile_3c60af12c4708191813403e13b8918ec
+  - Retrieved lines: 1–1000 of 4585.
+- **legacy:014 — Collatz_Infinite_Survivor_Intersection_Checkpoint_2026-10-12.md**
+  - Coverage: complete text; full main argument or artifact read.
+  - Audit scope: Entire fixed-source survivor-intersection checkpoint
+  - Library source: libfile_7046e905ce2c81919ba4b29ed85037db
+- **legacy:015 — Collatz_AB_History_Conditioned_Transition_Probabilities_2026-10-12.md**
+  - Coverage: complete text; full main argument or artifact read.
+  - Audit scope: Entire maximal-run history-conditioned laws, finite-history density proof and scope limits
+  - Library source: libfile_b28c8f86f62481918af0ce6a99ead535
+- **legacy:016 — Archaeology_Pass05_Causality_Map_2026-10-13.md**
+  - Coverage: complete text; full main argument or artifact read.
+  - Audit scope: Entire Pass05 map and distinctions between original maps, interventions and carryless control
+  - Library source: libfile_7322ca927ce88191988839ca80383f9c
+- **legacy:017 — Archaeology_Pass05_Analysis_2026-10-13.md**
+  - Coverage: complete text; full main argument or artifact read.
+  - Audit scope: Entire Pass05 analysis; exact algebra checked at exposition level; underlying large-trajectory bundles not rerun
+  - Library source: libfile_8d6e32a9b7b88191a01da00811f96ca0
+- **legacy:018 — Collatz_Proof_Shortcut_Research_14_Height_Optimized_Defect_Floor_2026-10-06.md**
+  - Coverage: complete text; selected sections or arguments.
+  - Audit scope: Height-optimized transition/exception floor and clock conversion
+  - Library source: libfile_d5fdee1838a0819191b71815fc7315ec
+- **legacy:019 — Collatz_Proof_Shortcut_Research_11_Binary_Parity_Complexity_and_Growth_Language_Spectrum_2026-10-06.md**
+  - Coverage: complete text; selected sections or arguments.
+  - Audit scope: Binary factor-language framework and scope corrections; not every inherited historical comparison recertified
+  - Library source: libfile_757d818e9cfc819194f75dddaf4e04b9
+- **legacy:020 — Collatz_Proof_Shortcut_Research_06_Bi_Convergent_Correction_Series_and_Revised_Endgame_2026-10-06.md**
+  - Coverage: complete text; selected sections or arguments.
+  - Audit scope: Bi-convergent correction identities, inherited summability, failed product-formula route and E-sequence comparison
+  - Library source: libfile_eacff95010648191a84bb714dd93e23c
+- **legacy:021 — Collatz_Research_13_Golden_Renormalization_Bridge_Cocycle_2026-10-05.md**
+  - Coverage: complete text; selected sections or arguments.
+  - Audit scope: Bridge-unit definition/composition law, phase/substitution and transported-residue claims read against later repair
+  - Library source: libfile_d8b59830fd00819182703cc08a925cee
+- **legacy:022 — Collatz_FP_59_Chronological_Entropy_Growing_Description_Costs_and_Relocation_Barriers_2026-10-11.md**
+  - Coverage: complete text; full main argument or artifact read.
+  - Audit scope: Complete empirical conditional-entropy, growing-machine, relocation proofs and embedded audits
+  - Library source: libfile_8cb680b391448191908ac448d3371490
+- **legacy:023 — Collatz_Binary_Route_08_Finite_Height_Capacity_and_Near_Linear_Bit_Height_2026-10-07.md**
+  - Coverage: complete text; selected sections or arguments.
+  - Audit scope: Finite cap and logarithmic-form application read with later audit; primary Chim paper opened, application not externally certified
+  - Library source: libfile_23a916bd51d08191980214e92baa7a67
+- **legacy:024 — Collatz_Binary_Route_03_All_Exponent_Centers_and_Run_Ledger_2026-10-06.md**
+  - Coverage: complete text; selected sections or arguments.
+  - Audit scope: All-exponent centered-run definition and exact ledger; later audit controls final statements
+  - Library source: libfile_74a76f04d2a88191874e8e645994469e
+- **legacy:025 — Collatz_FP_57_Fixed_Event_Prefix_Bound_and_Bounded_Deficit_Closure_2026-10-10.md**
+  - Coverage: complete text; full main argument or artifact read.
+  - Audit scope: Complete fixed-event prefix proof, Subspace/S-unit dependencies, primitive rescaling, exceptional-subspace resolution and rate consequences
+  - Library source: libfile_f02753504dcc819181cda6f3947c66f2
+- **legacy:026 — Collatz_FP_58_Complete_Report_and_Symbolic_Scope_Check_2026-10-10.md**
+  - Coverage: complete text; full main argument or artifact read.
+  - Audit scope: Complete report in two reads; finite negative/mixed reference prefix proof, zero-cluster removal, high-floor restriction, symbolic family and external-reference notes
+  - Library source: libfile_644b115ffb2081918e82715730d1d6d0
+  - Completion: initial 1–1000 read supplemented by 1001–1103; the log explicitly marks the full file complete.
+- **legacy:027 — Collatz_Notation_Transform_03_Gate_Renewal_Theorem_and_Size_Accounting_Audit_2026-10-07.md**
+  - Coverage: complete text; full main argument or artifact read.
+  - Audit scope: Entire gate-renewal theorem, rational-base length accounting, finite growing block and CRT scope control
+  - Library source: libfile_196b889001488191814f6769360ab155
+- **legacy:028 — Collatz_Audit_Repair_HANDOFF_2026-10-05_2148_CDT.md**
+  - Coverage: complete text; full main argument or artifact read.
+  - Audit scope: Entire October5 repair: phase hypothesis, residue-nesting counterexample, corrected numerical scope
+  - Library source: libfile_013245ae4b5c8191afbdfe4b9f4929c3
+- **legacy:029 — Collatz_Strategy_01_Full_Project_Review_and_One_Goal_2026-10-08.md**
+  - Coverage: complete text; selected sections or arguments.
+  - Audit scope: Current strategy synthesis and corrected entropy threshold; inherited full-project coverage not reproduced
+  - Library source: libfile_203830d6183881919bb35b8331121fcf
+- **legacy:030 — Entropy_Height_Finite_Lemma_2026-10-08.md**
+  - Coverage: complete text; full main argument or artifact read.
+  - Audit scope: Complete finite entropy proof, exact height identity, all-time consequence and boundary-controlled occupation addendum
+  - Library source: libfile_7821d95a48f481919818d1c01fbd47ce
+- **legacy:031 — Collatz_FP_02_Alternation_Mixing_and_Its_Domain_2026-10-08.md**
+  - Coverage: complete text; full main argument or artifact read.
+  - Audit scope: Entire finite-resolution/absolutely-continuous mixing proof and singular-population controls
+  - Library source: libfile_70ca1e98257c8191850d7093abff74af
+- **legacy:032 — Collatz_FP_14_Statistical_Fairness_Mechanisms_2026-10-08.md**
+  - Coverage: complete text; selected sections or arguments.
+  - Audit scope: Fairness mechanism survey and domain restrictions; used as background rather than independent proof of a trajectory law
+  - Library source: libfile_1716c045b5648191921ef654996ac281
+- **legacy:033 — Collatz_Proof_Shortcut_Research_01_Critical_Survival_Entropy_and_Fixed_Source_Stabilization_2026-10-06.md**
+  - Coverage: complete text; selected sections or arguments.
+  - Audit scope: Critical-survival and stabilization framing; latest standalone checkpoints prioritized
+  - Library source: libfile_9c2fdfcab858819198879234fa150c05
+- **legacy:034 — collatz_golden_geometry_verify.py**
+  - Coverage: complete text; full main argument or artifact read.
+  - Audit scope: Exact Q(sqrt5) arithmetic; half-open circle partitions; finite intersection and late-defect regressions
+  - Library source: libfile_41829de61b7c8191bfb26efc0e4c7fd3
+- **legacy:035 — Collatz_Research_44_Rational_Slope_Residual_Rigidity_and_Rank_Two_Closure_2026-10-06.md**
+  - Coverage: complete text; full main argument or artifact read.
+  - Audit scope: Entire Research44. Rational residual height, regraded Padé count, normal-weight separation, fixed residual root reduction, final claimed rank-two theorem. Missing infinite-tail estimate repaired separately in2026-10-21audit.
+  - Library source: libfile_0ee99dbc95308191bb9ad5df5ea1ba2e
+- **legacy:036 — Collatz_Research_43_Irrational_Length_Slope_Exclusion_and_Newton_Face_Rigidity_2026-10-06.md**
+  - Coverage: complete text; full main argument or artifact read.
+  - Audit scope: Entire Research43. Formal path-series nonrationality, multiplier-only Padé count, irrational Newton lemma, tower application. Standalone theorem omits common-frequency/residual-height input required by its proof.
+  - Library source: libfile_bc120f43f71481918463d79c0b5e51ea
+- **legacy:037 — Collatz_Research_42_Rank_Two_Correction_Elimination_and_Fixed_Shape_Descent_2026-10-06.md**
+  - Coverage: complete text; full main argument or artifact read.
+  - Audit scope: Entire Research42. Exact correction elimination, prefix-code nondegeneracy, weighted-path rationality, fixed monomial shape height and compactness theorem.
+  - Library source: libfile_7b132917bcc4819186f94654d85344b3
+- **legacy:038 — Collatz_Research_41_Equal_Multiplier_Rank_Two_Compactness_Descent_2026-10-06(2).md**
+  - Coverage: complete text; full main argument or artifact read.
+  - Audit scope: Entire Research41 latest numberedcopy(2). Equal-(length,odd-count) collapse, compactness precision, height-rigidity application, explicit aperiodic-limit/alignment assumptions.
+  - Library source: libfile_c1c9e98217988191a23a803257d76741
+- **legacy:039 — Collatz_Research_40_Height_Rigidity_and_Compatible_Jet_Repair_2026-10-06.md**
+  - Coverage: complete text; full main argument or artifact read.
+  - Audit scope: Entire Research40. Fixed-series height rigidity proof and compatible Euler jets, including minimum-jet evaluation identity and restrictions.
+  - Library source: libfile_9d1af27c208c8191a4776b0468e72a19
+- **legacy:040 — Collatz_Research_39_Two_Leaf_Descent_Audit_and_Return_Word_Repair_2026-10-06.md**
+  - Coverage: complete text; full main argument or artifact read.
+  - Audit scope: Entire Research39. Generalized-edge two-leaf counterexample, return-word convention correction, local conjugacy and jet warnings. Source reproduction archive not rerun.
+  - Library source: libfile_b6d38042fbc88191b6f58c453adcc69d
+- **legacy:041 — Collatz_Research_35_Decorated_Scalar_Pade_Higher_Rank_Count_2026-10-06(2).md**
+  - Coverage: complete text; full main argument or artifact read.
+  - Audit scope: Entire Research35 latest numberedcopy(2). Decorated scalar construction, common-frequency residual height, fixed-rank dimension count and unresolved specialization boundary.
+  - Library source: libfile_c58c9990ac5c81919f539ce629b0a479
+
+## Archive inspection is not full execution
+
+- **Collatz_Machine_Research_Pass01_2026-10-20.zip** (libfile_d43bb16b6314819180108621398b88b8): Materialized through official Library helper; safely extracted and file inventory inspected. Selection of proofs, manifests, and verifier source inspected. No blanket claim of every archive file being read or every archived check rerun. Inherited outputs are not fresh execution; only separately listed fresh checks count as rerun.
+- **Champion_One_State_Attachments_2026-10-20.zip** (libfile_367ceeab334c8191bf5385f8885b517b): Materialized through official Library helper; safely extracted and file inventory inspected. Selection of proofs, manifests, and verifier source inspected. No blanket claim of every archive file being read or every archived check rerun. Inherited outputs are not fresh execution; only separately listed fresh checks count as rerun.
+- **Antihydra_Proof_Transfer_Packet_2026-10-20.zip** (libfile_ff04341fe50c8191a8276c6b561924c6): Materialized through official Library helper; safely extracted and file inventory inspected. Selection of proofs, manifests, and verifier source inspected. No blanket claim of every archive file being read or every archived check rerun. Inherited outputs are not fresh execution; only separately listed fresh checks count as rerun.
+- **Antihydra_Solution_Search_02_2026-10-20.zip** (libfile_f28ce7f9f3608191bed80c98fd65d100): Materialized through official Library helper; safely extracted and file inventory inspected. Selection of proofs, manifests, and verifier source inspected. No blanket claim of every archive file being read or every archived check rerun. Inherited outputs are not fresh execution; only separately listed fresh checks count as rerun.
+- **Antihydra_Continuation_05_Proofs_And_Checks_2026-10-20.zip** (libfile_1341bb4e2ce48191a504321fd12bec59): Materialized through official Library helper; safely extracted and file inventory inspected. Selection of proofs, manifests, and verifier source inspected. No blanket claim of every archive file being read or every archived check rerun. Inherited outputs are not fresh execution; only separately listed fresh checks count as rerun.
+- **Antihydra_Continuation_04_Comparison_Guided_Successor_Guards_2026-10-20.zip** (libfile_bd5b00d8a57c8191b20054a0a04735dc): Materialized through official Library helper; safely extracted and file inventory inspected. Selection of proofs, manifests, and verifier source inspected. No blanket claim of every archive file being read or every archived check rerun. Inherited outputs are not fresh execution; only separately listed fresh checks count as rerun.
+- **Champion_Antihydra_Quantity_2026-10-20.zip** (libfile_28282a88746c819188a2b89141aa8b03): Materialized through official Library helper; safely extracted and file inventory inspected. Selection of proofs, manifests, and verifier source inspected. No blanket claim of every archive file being read or every archived check rerun. Inherited outputs are not fresh execution; only separately listed fresh checks count as rerun.
+- **Antihydra_Continuation_03_Bounded_Run_Funding_2026-10-20.zip** (libfile_25938776816c81919f2e8a86998c8f17): Materialized through official Library helper; safely extracted and file inventory inspected. Selection of proofs, manifests, and verifier source inspected. No blanket claim of every archive file being read or every archived check rerun. Inherited outputs are not fresh execution; only separately listed fresh checks count as rerun.
+- **Champion_Internal_Insertions_2026-10-20.zip** (libfile_afd3b8dfe0348191b3c1a62fab66ca15): Materialized through official Library helper; safely extracted and file inventory inspected. Selection of proofs, manifests, and verifier source inspected. No blanket claim of every archive file being read or every archived check rerun. Inherited outputs are not fresh execution; only separately listed fresh checks count as rerun.
+- **Antihydra_Observer_Safety_Tools_2026-10-20.zip** (libfile_33d885a99c448191b8c5a7bc4c4d7ef6): Materialized through official Library helper; safely extracted and file inventory inspected. Selection of proofs, manifests, and verifier source inspected. No blanket claim of every archive file being read or every archived check rerun. Inherited outputs are not fresh execution; only separately listed fresh checks count as rerun.
+- **Antihydra_Solution_Search_01_2026-10-20.zip** (libfile_4d5b51c602bc8191970bde45572f871d): Materialized through official Library helper; safely extracted and file inventory inspected. Selection of proofs, manifests, and verifier source inspected. No blanket claim of every archive file being read or every archived check rerun. Inherited outputs are not fresh execution; only separately listed fresh checks count as rerun.
+- **Antihydra_Certificate_Lab_2026-10-20.zip** (libfile_7fefc3b8979c819189fbb92e3ce8eb0c): Materialized through official Library helper; safely extracted and file inventory inspected. Selection of proofs, manifests, and verifier source inspected. No blanket claim of every archive file being read or every archived check rerun. Inherited outputs are not fresh execution; only separately listed fresh checks count as rerun.
+- **Collatz_Halting_Equivalence_01_Construction_And_Checks_2026-10-21.zip** (libfile_d8786c596bd08191b55317b6bd5b1622): Selected proof, code and artifact members inspected and matched as enumerated in source reviews; not every archive file. Only five explicitly recorded supplied checker/auditor reruns are counted as current execution.
+- **Collatz_Native_Certificate_Search_02_45224_States_2026-10-21.zip** (libfile_829449ba14f08191805f41cce25e72e8): Selected proof, code and artifact members inspected and matched as enumerated in source reviews; not every archive file. Only five explicitly recorded supplied checker/auditor reruns are counted as current execution.
+- **Collatz_Native_Machine_03_24021_All_Base_and_20403_Binary_2026-10-21.zip** (libfile_6d02905c800c8191b4f11025410fe3b0): Selected proof, code and artifact members inspected and matched as enumerated in source reviews; not every archive file. Only five explicitly recorded supplied checker/auditor reruns are counted as current execution.
+- **Collatz_Native_Machine_04_17259_States_and_Symbolic_Search_2026-10-21.zip** (libfile_9aa79ba5821c8191a3a17024cb4bfbb8): Selected proof, code and artifact members inspected and matched as enumerated in source reviews; not every archive file. Only five explicitly recorded supplied checker/auditor reruns are counted as current execution.
+- **Collatz_Pass08_Selected_499710_Compact_Reproduction.zip** (libfile_a18b1049cbf081919c9ccfbbe6584eef): Selected proof, code and artifact members inspected and matched as enumerated in source reviews; not every archive file. Only five explicitly recorded supplied checker/auditor reruns are counted as current execution.
+- **joint_c3_v1_literal_1616592.zip** (libfile_502041222a808191afd6f47abb97417d): Selected proof, code and artifact members inspected and matched as enumerated in source reviews; not every archive file. Only five explicitly recorded supplied checker/auditor reruns are counted as current execution.
+- **Collatz_Pass07_Historical_Checkpoint_517823_2026-10-21.zip** (libfile_3eb436c087e48191a887403a01846381): Selected proof, code and artifact members inspected and matched as enumerated in source reviews; not every archive file. Only five explicitly recorded supplied checker/auditor reruns are counted as current execution.
+- **CMR_Pass14_Connected_Cancellation_2026-10-17.zip** (libfile_9de3288a34888191940f763c4b347d7a): Main report complete; CC14 connected-cancellation lemma complete; members: CMR_Pass14_Two_Switch_Rigidity_2026-10-17/01_MAIN_REPORT.md; 02_CONNECTED_CANCELLATION_LEMMA.md Specified proof members read; bundled code not executed by this audit.
+- **CMR_Pass15_Comparative_Mechanism_Transfer_2026-10-17.zip** (libfile_6247a16dff4c8191adf802fdebfe680d): Main report complete; CC14 connected-cancellation lemma complete; members: 01_MAIN_REPORT.md Specified proof members read; bundled code not executed by this audit.
+- **N14 companion archive** (libfile_92cc2262f0108191ac187319de09cff9): Archive identified but not materialized or inspected in this audit; not counted as a read artifact or materialized archive manifest.
+
+## Current audit checks versus inherited tests
+
+The following execution descriptions are taken from the completed chapter audits, not newly executed by this supporting-file assembly. Their units differ and are intentionally not collapsed into a headline total.
+
+- **recent_navigation: verify_navigation_audit.py** — independently implemented bounded audit. Independent small finite checks and full 19,448-word eight-update census; not archive reproduction or infinite-orbit validation.
+  - Recorded counters: normal_form: 5997; cofactor_turnover: 1998; tree_coding_and_bounds: 591; frontier_and_tilt: 16380; mask_source_evaluations: 2688; potential_certificate_rows: 8; recovery_packet_bounds: 170; region_tilt_transfer: 2508; loop_census_words: 4651; sharp_neutral_merger_pairs: 2; width5_codes: 1530.
+- **recent_navigation_n14: verify_navigation14_audit.py** — independently implemented bounded audit. Independent rational certificate and finite bridge/inverse checks; N14 archive and 64,001,096 record tests were not rerun.
+  - Recorded counters: certificate_edges_all_widths: 492; width17_edges: 60; wall_paths: 6614; wall_prefixes: 40919; C3_80_round_ancestor_counts: 15: 33; 17: 1563; C3_9757_inverse_exhaustion_depths: 9: 16; 17: 17.
+- **antihydra: antihydra_independent_checks.py** — independently implemented bounded audit. bounded independent review checks; not an infinite safety proof
+  - Recorded counters: phase_and_maximal_run_states: 10000; parity_word_guards_two_lifts: 1022; unsafe_cofactor_families: 175; honest_source_prefixes: 64; id7546_native_all_residue_returns: 128; id7546_native_same_seed_control_steps: 667; antihydra_native_endpoint_and_clock_checks: 531; antihydra_native_initialization_steps: 11; actual_source_controls: popcount_first_loss: 45; interval_first_loss: 40; cap11_first_failure: 1153; 572; 584; 12; source16_first_failure: 22; 118342; -1; coefficient_envelope_counterexample: verified, off-source relaxation only; honest_rational_shadow_and_departure_checks: 20.
+- **closure: closure_focused_checks.py** — independently implemented bounded audit. Exact representative checks; analytic proofs control unbounded parameters. No downloaded scripts run and no Lean build claimed.
+- **gdr: verify_gdr_claims.py** — independently implemented bounded audit. Finite independent exact-integer/regression checks; universal statements rest on displayed proofs, not sampling.
+  - Recorded counters: R27_all_preterminal_integer_checks: 111; regional_clock_checks: 4999; merger_checks: 2500; complement_contractions: 9373; complete_small_packet_radical_certificates: 512; certified_odd_base_inputs: 1536; exact_cross_coefficient_depth_words: 4092; pair_burst_and_regeneration_checks: 32.
+- **h_obstructions: h_obstructions_focused_checks.py** — independently implemented bounded audit. Finite regression evidence only. Universal proofs are in the chapter. Prior independent audits were separately re-executed without corpus edits.
+  - Recorded counters: v2_positive_quartic_declined: 1; v1_positive_quartic_declined: 1; positive_quartic_samples: 101; v2_eventual_monotonicity_caveat: 1; v1_declines_new_quadratic: 1; base4_v2_accepts: 1; base4_v1_rejects: 1; rewritten_tail_v1_accepts: 1; C3_arithmetic_nontransfer: 2; H_dynamics_small_exact: 1000; native_blank_trace: 2; native_snapshot_match: 2; affine_schema_equivalence: 11664.
+  - Total in this bounded checker: 12,778.
+- **cross_chapter_adversarial: adversarial_checks.py** — independently implemented bounded audit. Exact finite cross-chapter controls; not an infinite proof or formal verification.
+- **cross_chapter_adversarial: adversarial_jet_cycles.py** — independently implemented bounded audit. Exact finite cross-chapter controls; not an infinite proof or formal verification.
+- **certificates_machines: collatz_halting_equivalence04/noncommuting_memory/check_controls.py** — supplied checker reexecuted. Reexecuted supplied checker/auditor, not a fresh proof-assistant verification or a new independently implemented auditor.
+  - Dihedral orders 3–32; unnormalized involutions; idempotent noncommuting example; incomplete repunit orbit control; C5 acceptance/C3 rejection.
+- **certificates_machines: collatz_halting_equivalence04/rewrite_pumping_controls.py** — supplied checker reexecuted. Reexecuted supplied checker/auditor, not a fresh proof-assistant verification or a new independently implemented auditor.
+  - 1000 C3 and 1000 C1 sources, 178567 C3 rewrite steps, 21-step genuine C5 loop, exact seed-3 subsequence false positive.
+- **certificates_machines: collatz_halting_equivalence04/symbolic_certificates/test_symbolic_charts.py** — supplied checker reexecuted. Reexecuted supplied checker/auditor, not a fresh proof-assistant verification or a new independently implemented auditor.
+  - 16 certificate tests, 1250 normalization controls, 25 simulation checks.
+- **certificates_machines: collatz_halting_equivalence03/all_base_trap_checker.py** — supplied checker reexecuted. Reexecuted supplied checker/auditor, not a fresh proof-assistant verification or a new independently implemented auditor.
+  - 3456 exact finite-language/coefficient comparisons, 1200 randomized automaton/coefficient comparisons, bases 2–10, C5 positive/C3 negative control.
+- **certificates_machines: collatz_halting_equivalence08/inc_only_source/independent_audit/audit_binary_quotient.py** — supplied checker reexecuted. Reexecuted supplied checker/auditor, not a fresh proof-assistant verification or a new independently implemented auditor.
+  - 1306410 quotient equations; 999420 literal rows; 653205 raw states; 499710 quotient states; exact text/JSON/packed hashes, reachability, H/initial mapping and surjectivity.
+- **legacy: audits/legacy_binary_regression.json** — supplied checker reexecuted. Finite exact-arithmetic regression, not asymptotic proof; overlapping trajectories.
+- **legacy: audits/legacy_golden_regression.json** — supplied checker reexecuted. Finite exact geometry checks, not proof of infinite induction.
+- **legacy: audits/legacy_rank_two_regression.json** — independently implemented bounded audit. 126719prefix-incomparable pairs,266910normal-degree cases,21Padé count cases; finite regression not infinite proof.
+- **h_obstructions: audits/h_obstructions_reproduction/h_native/audit_results.json** — supplied auditor reexecuted. Supplied independent-audit program copied and rerun by the chapter auditor; not an independently invented proof or formal build.
+- **h_obstructions: audits/h_obstructions_reproduction/v2/audit_results.json** — supplied auditor reexecuted. Supplied independent-audit program copied and rerun by the chapter auditor; not an independently invented proof or formal build.
+- **Not freshly reproduced, recent_navigation:** Archived million-step and long-run records were not reproduced; current independent verifiers cover only their stated bounded checks. In N14, the constructed 256-step sample, 420,167-round contact replay, and 64,001,096 all-scale finite-record comparisons remain report-backed, not regenerated.
+- **Not freshly reproduced, antihydra:** The twelve archives were materialized and selectively inspected. Retained long-run outputs and source-package execution claims are inherited unless a fresh check is listed separately.
+- **Not freshly reproduced, certificates_machines:** The final-release 10,000-boundary / 8,114,452-native-step replay record was read, not independently rerun. Historical machine counts are superseded by the newest selected artifact; supplied-auditor reruns are distinguished from new auditors.
+- **Not freshly reproduced, h_obstructions:** Full v2 test source was read, but that test suite was not separately rerun because the supplied independent audit was rerun. Local v2 audit/test revisions that differ from the release archive are explicitly marked in the source reviews.
+- **Not freshly reproduced, closure:** Ancillary finite tables, all 21 sibling templates, Creative01/02/03/05/06 modules, and earlier CMR auxiliaries were not blanket rederived; see individual source scopes.
+- **Not freshly reproduced, legacy:** Large archaeology trajectory bundles and Research39 reproduction archives were not rerun. Two cumulative handoffs were read only through line 1000. FP58 was completed with a second 103-line read.
+- **Not freshly reproduced, literature:** Historical atlas inspections are historical, not current rereadings. No external Lean or Coq project was built or kernel-replayed in this audit.
+
+## External literature: exact inspection basis
+
+These rows distinguish current direct reading, companion-auditor reading, abstracts/metadata, citation-chain evidence, and inherited historical inspections. The primary bibliography provides author lists, claim relevance, dependencies and the full historical source ledger.
+
+- **L01: [A stopping time problem on the positive integers](https://matwbn.icm.edu.pl/ksiazki/aa/aa30/aa3034.pdf)** — current direct inspection. Primary scan downloaded; OCR generated; visually inspected printed pp.242–243, Theorems1.1–1.2 and Cor1.3–1.4. Introduction and density discussion read; not whole paper independently reproved.
+- **L02: [On the existence of a density](https://matwbn.icm.edu.pl/ksiazki/aa/aa35/aa3518.pdf)** — current direct inspection. Both pages OCR-read, printed p101 visually inspected; statement and short proof checked.
+- **L03: [Iteration of the number-theoretic function f(2n)=n, f(2n+1)=3n+2](https://doi.org/10.1016/0001-8708(77)90087-1)** — historical metadata plus primary corroboration. Original publisher retrieval403; no original-proof inspection this pass.
+- **L04: [The 3x+1 conjugacy map](https://websites.umich.edu/~lagarias/doc/bernstein.pdf)** — current direct inspection. Primary PDF introduction pp1–3 and displayed conjugacy/series/Periodicity Conjecture inspected.
+- **L05: [Stochastic Models for the 3x+1 and 5x+1 Problems](https://arxiv.org/abs/0910.1944)** — current direct inspection. Primary2009 manuscript §§1–2, Theorems2.1–2.2 read now; further §§3.1–3.2 inspection recorded in historical atlas.
+- **L06: [Almost all orbits of the Collatz map attain almost bounded values](https://arxiv.org/abs/1909.03562)** — current direct inspection. Primary v6 HTML Theorem1.3, Remark1.4, Syracuse §1.2, affine identity1.7 and parity-cylinder discussion inspected; journal2022 and v7 historical inspections distinguished.
+- **L07: [A note on the generalized 3n+1 problem](https://doi.org/10.4064/aa-90-3-245-250)** — current direct inspection. Entire six-page primary PDF text read; Lemmas1–3, Prop1–2, Theorem1/eq6, Cor1 checked; cited Heppner original not reread.
+- **L08: [Eine Bemerkung zum Hasse–Syracuse Algorithmus](https://doi.org/10.4064/aa-90-3-245-250)** — primary citation chain. Bibliography and attributed Proposition1 in García–Tal inspected; original article not retrieved.
+- **L09: [Reciprocal Summability of Every Unbounded Natural Collatz Orbit: A Lean Proof](https://github.com/msharpe248/collatz/blob/ec8174b567d5cab4960024782210b5f5db02bd3a/paper/orbit_summability.tex)** — current direct inspection. Full TeX source read at pinned commit. Root inspected OrbitPacking.lean; no local Lean build or kernel replay here.
+- **L10: [Classification of Positive Natural Collatz Seeds with Mechanical Parity Itineraries](https://github.com/msharpe248/collatz/blob/main/paper/mechanical_classification.tex)** — current direct inspection. Full TeX theorem/definition/proof read from main; pinned-path fetch failed; current-source snapshot not same verified pin as L09. No Lean build.
+- **L11: [DefectHeight.lean](https://github.com/msharpe248/collatz/blob/main/lean/Collatz/DefectHeight.lean)** — current companion auditor inspection. Source inspected by legacy chapter auditor; no Lean build.
+- **L12: [Is it known that a divergent Collatz trajectory must have summable reciprocals?](https://mathoverflow.net/questions/513539)** — current direct inspection. Full question text read; page says Jul24, repository dates observation July2026. Identity beyond displayed name not inferred.
+- **L13: [There are no Collatz m-Cycles with m≤91](https://arxiv.org/abs/2201.00406)** — current direct inspection. Primary v3 PDF Lemma8, Lemma9 full proof pp4–5, Remark10 and cycle theorem scope inspected.
+- **L14: [The sufficiency of arithmetic progressions for the 3x+1 conjecture](https://monks.scranton.edu/files/pubs/SufficiencyRev4.pdf)** — historical atlas inspection. Historical atlas AN05/GS01 records Theorem1.1, inverse formulas and proof inspection; not newly reopened by attribution auditor.
+- **L15: [Strongly sufficient sets and the distribution of arithmetic sequences in the 3x+1 graph](https://arxiv.org/abs/1204.3904)** — current direct inspection. Primary PDF Cor5.8 and §6 definitions/Prop6.3/Thm6.4 inspected. Served PDF title date2024 differs from publication2013; publication year retained.
+- **L16: [A theorem on flows in networks](https://msp.org/pjm/1957/7-2/pjm-v7-n2-p04-p.pdf)** — current direct inspection. Primary §1–2 definitions, Feasibility Theorem and minimum-cut interface read.
+- **L17: [Lower bounds for linear forms in two p-adic logarithms](https://doi.org/10.1016/j.jnt.2024.07.012)** — current metadata and historical application. Author/institution abstract and publication metadata inspected; linked PDF403. Older project carries specific application audit; no new full theorem inspection here.
+- **L18: [p-adic logarithmic forms and group varieties. II](https://doi.org/10.4064/aa-89-4-337-378)** — current companion auditor metadata. Original publisher metadata verified by Antihydra auditor; original PDF403, not reread.
+- **L19: [On a variant of Pillai’s problem with factorials and S-units](https://link.springer.com/article/10.1007/s11139-023-00787-1)** — current companion auditor inspection. Theorem4/eq5 inspected and constant specialization checked by Antihydra auditor; author metadata reopened directly.
+- **L20: [Linear equations in variables which lie in a multiplicative group](https://arxiv.org/abs/math/0409604)** — current direct inspection. Primary introduction/Theorem1.1 and nondegeneracy/dimension discussion inspected now; not full proof.
+- **L21: [Birational maps with transcendental dynamical degree](https://api.repository.cam.ac.uk/server/api/core/bitstreams/c62d2578-8916-4829-97b1-20459f149466/content)** — current companion auditor inspection. Primary institutional PDF Theorem4.1 p19 and Theorem4.4 p21 inspected by Antihydra auditor.
+- **L22: [On the base-dependence of sets of numbers recognizable by finite automata](https://research.ibm.com/publications/on-the-base-dependence-of-sets-of-numbers-recognizable-by-finite-automata)** — current primary abstract. Primary IBM publication abstract/metadata inspected; original full proof not reread.
+- **L23: [Automatic Sequences: Theory, Applications, Generalizations](https://www.cambridge.org/core/books/abs/automatic-sequences/cobhams-theorem/C070C48818D5A1C8602FE789386D264D)** — historical project citation. Chapter11 pointer recorded by Pass03 source audit; no claim full book inspected.
+- **L24: [Proving nontermination via safety](https://discovery.ucl.ac.uk/1455006/1/TACAS14-nontermination.pdf)** — current companion auditor inspection. Section2 recurrence-set definitions checked by machine auditor.
+- **L25: [Proving Non-termination by Program Reversal](https://arxiv.org/abs/2104.01189)** — current primary abstract. Primary abstract and author list inspected; detailed completeness hypotheses not independently audited in this pass.
+- **L26: [An Automated Approach to the Collatz Conjecture](https://arxiv.org/abs/2105.14697)** — current direct metadata plus companion inspection. Primary abstract/metadata reopened; chapter auditors inspect exact rewrite system and semantics; source-level credit recorded.
+- **L27: [The Collatz Problem, the Halting Problem and Randomness](https://www.cs.auckland.ac.nz/~cristian/collatzproblem.pdf)** — current direct inspection. Complete two-page primary note read; Question1 and its preceding nonconstructive-existence claim directly inspected.
+- **L28: [Simulation of the Collatz 3x+1 function by Turing machines](https://arxiv.org/abs/1409.7322)** — current primary abstract. Primary arXiv metadata/abstract read; pointwise simulator distinction verified; not full machine proofs reread.
+- **L29: [Collatz research RESULTS_CATALOG](https://github.com/GettysburgResearch/collatz/blob/main/research/RESULTS_CATALOG.md)** — historical project citation. Historical citation only; moving catalog not exhaustively audited.
+- **L30: [Suites algébriques, automates et substitutions](https://numdam.org/articles/10.24033/bsmf.1926/)** — current companion metadata and historical inspection. Primary record reopened by closure auditor; exact theorem interfaces recorded historically.
+- **L31: [A problem around Mahler functions](https://arxiv.org/abs/1303.2019)** — current companion metadata and historical inspection. Primary title corrected by closure auditor; historical theorem-level inspection in atlasFA09.
+- **L32: [Zeros of {-1,0,1}-power series and connectedness loci for self-affine sets](https://arxiv.org/abs/math/0504545)** — current companion inspection. Primary record reopened by closure auditor; documentary use in faithful-jet source verified.
+- **L33: [A Walk with Goodstein](https://arxiv.org/abs/2004.09110)** — current companion inspection. Primary record reopened by closure auditor; project source explicitly records comparison.
+- **L34: [Proving Termination with Multiset Orderings](https://www.cs.tau.ac.il/~nachumd/papers/LNCS/Multisets.pdf)** — current companion inspection. Primary theorem source reopened by closure auditor.
+- **L35: [BB(6) is Hard (Antihydra)](https://www.sligocki.com/2024/07/06/bb-6-2-is-hard.html)** — current companion auditor inspection. Primary author account exact macros/credit checked by Antihydra auditor.
+- **L36: [Antihydra](https://bbchallenge.org/antihydra)** — current companion auditor inspection. Table/arithmetic/status checked21Oct2026 by Antihydra auditor.
+- **L37: [BB(2,5) is Hard (Hydra)](https://www.sligocki.com/2024/05/10/bb-2-5-is-hard.html)** — current companion auditor inspection. Primary author account read by Antihydra auditor.
+- **L38: [Behavior of Busy Beavers](https://bbchallenge.org/~pascal.michel/beh)** — current companion auditor inspection. Champion table/macros/counts and analysis credits inspected by Antihydra auditor; precise discovery year withheld pending date discrepancy.
+- **L39: [We have proved BB(5)=47,176,870](https://discuss.bbchallenge.org/t/july-2nd-2024-we-have-proved-bb-5-47-176-870/237)** — current companion auditor inspection. Official announcement and contributor scope checked by Antihydra auditor; no full formal project rebuild here.
+- **L40: [Skelet #33 does not halt: Coq proof](https://discuss.bbchallenge.org/t/skelet-33-doesnt-halt-coq-proof/180)** — current companion auditor inspection. Forum account plus Skelet33.v reset_invariant, step_reset, do_reset, E_next inspected by Antihydra auditor; no Coq build.
+- **L41: [Skelet #34; Skelet #34 and #35 Coq proof](https://www.sligocki.com/2023/02/02/skelet-34.html)** — current companion auditor inspection. Author account and https://discuss.bbchallenge.org/t/skelet-34-and-35-coq-proof/165 inspected by Antihydra auditor.
+- **L42: [Skelet #1 is infinite](https://www.sligocki.com/2023/03/13/skelet-1-infinite.html)** — current companion auditor inspection. Primary account checked by Antihydra auditor; page includes later updates.
+- **L43: [Skelet #17 and the fifth Busy Beaver number](https://arxiv.org/html/2407.02426v1)** — current companion auditor inspection. Primary arXiv metadata/abstract verified directly; relevant macro/endgame sections read by Antihydra auditor.
+- **L44: [Proof for the chaotic four-state machine](https://turbotm.de/~heiner/BB/TM4-proof.txt)** — current companion auditor inspection. Full primary proof text read by Antihydra auditor.
+- **L45: [Symbols frequencies in the Thue–Morse word in base3/2 and related conjectures](https://arxiv.org/abs/2602.21895)** — current primary abstract. Primary arXiv abstract/metadata read directly; population sequence frequency1/2 distinguished from fixed Antihydra branch.
+- **L46: [A Normality Conjecture on Rational Base Number Systems](https://arxiv.org/html/2510.11723v2)** — current primary abstract. Primary metadata/abstract read directly; companion auditor opened v2HTML and normality conjecture. Not full theorem-by-theorem audit.
+- **L47: [Faster Algorithms for Mean-Payoff Games](https://lsv.ens-paris-saclay.fr/~doyen/papers/Faster_Algorithms_for_Mean-Payoff_Games.pdf)** — current companion auditor inspection. Introduction and progress-measure context inspected by Antihydra auditor; related method, not documented original inspiration.
+- **L48: [Counterexample-Guided Abstraction Refinement](https://web.stanford.edu/class/cs357/cegar.pdf)** — current companion auditor inspection. Primary methodological description inspected by Antihydra auditor; similarity does not prove historical influence.
+- **L49: [The 3x+1 problem: a lower bound hypothesis](https://www.ipgp.fr/~rozier/pub/LBHv4.pdf)** — current direct inspection. Primary author PDF §§2.1–2.2, Lemma2.5 and full Theorem2.6 proof pp5–7 inspected; introduction explicitly credits Lagarias and Terras/Everett.
+- **L50: [An Explicit Windowed Sparsity Bound for Divergent 3x+1 Orbits, with Logarithmic-Floor Exclusion beyond the Harmonic Barrier](https://doi.org/10.5281/zenodo.22087163)** — current primary unavailable citation chain. DOI and Zenodo record failed to open currently, as in October15 audit. Title/attribution via De Jesús repository; original not read.
+- **L51: [A Global Occupation Conjecture for the Accelerated 3x+1 Map: Divergent-Orbit Sparsity, Exact Realizers, and the Moving-Anchor Problem; companion EOC Lean Verification repository](https://github.com/innerlightr-wq/eoc-lean-verification)** — current direct inspection. Current README sections on open frontier, manuscript highlights, literature and citations inspected. No Lean build; manuscript itself not inspected.
+- **L52: [Recursively renewable words and coding of irrational rotations](https://www.jstage.jst.go.jp/article/jmath/59/4/59_4_1199/_article/-char/en)** — current primary abstract. Primary journal metadata and abstract read; full theorem hypotheses not independently recertified.
+- **L53: [A characterization of substitutive sequences using return words](https://arxiv.org/pdf/0807.3322)** — current companion auditor inspection. Legacy auditor inspected §2.3 and Proposition6 in author arXiv posting. Not independently reread by bibliography auditor.
+- **L54: [On Context-Free Languages](https://doi.org/10.1145/321356.321364)** — current primary citation chain. Original attribution identified; current original full text not inspected. Standard semilinearity theorem corroborated by Esparza et al primary abstract.
+- **L55: [Parikh’s Theorem: A simple and direct automaton construction](https://arxiv.org/abs/1006.3825)** — current companion primary abstract. Closure auditor inspected primary arXiv abstract and metadata; semilinearity of context-free Parikh images explicitly stated.
+- **L56: [Affine Monotonic and Risk-Sensitive Models in Dynamic Programming](https://arxiv.org/abs/1608.01393)** — current direct abstract inspection. Primary arXiv abstract and bibliographic metadata read21October2026; full paper not read in this audit. First submitted3August2016; version2 revised28November2017.
+
+## Cross-log clarifications and access limitations
+
+- L17/A20 describe the bibliography auditor's unsuccessful PDF access. Separately, the recent-navigation read log records current inspection of Chim's Theorem 2.1 and definitions on printed pages 297–299. That companion reading is section-level and does not reconstruct the external proof.
+- Navigation duplicate pairs N05, N06, N07 and N09 are retained as separate Library records but reported as byte-identical comparisons in their read log; N08 and N13 parallel reports are distinct.
+- The bibliography's five full_text_inspected atlas entries are historical inspection labels, not five additional newly read papers.
+- Chim2025 institutional full PDF: HTTP403; metadata/abstract obtained, no current theorem reading.
+- Yu1999 original journal PDF: Companion received403; original metadata only, rational statement checked via Faye–Luca–Ziegler.
+- Everett1977 original publisher: 403; primary co-credit corroboration via Terras1979 and Kontorovich–Lagarias, not original rereading.
+- Curry2026 DOI10.5281/zenodo.22087163 and Zenodo record: Tool inaccessible; related-author citation verified, theorem not imported.
+- Terras1976/1979 and García–Tal1999 original primary scans: Initial web route failed, permitted author/institutional downloads succeeded; local hashes in bibliography. Terras scans OCRed and relevant pages visually inspected.
+
+## Credit and responsible use
+
+The companion attribution ledger contains 33 evidence-backed records. It separates documented user research directions, direct mathematical dependencies, documented inspirations, quantitative adaptations and merely related work. Missing attribution is not evidence of independent invention. Historical priority, publication authorship, and accountability require separate human decisions.
+
+No external peer review, proof-assistant build or general Collatz solution is claimed. For a publication submission, a human specialist should recheck the key proofs, assumptions, external theorem applications and priority claims directly against the cited primary sources.

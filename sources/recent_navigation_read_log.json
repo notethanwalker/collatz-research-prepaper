@@ -1,0 +1,352 @@
+{
+  "audit_date": "2026-10-21",
+  "reports": [
+    {
+      "library_file_id": "libfile_7388d1bfc1388191baec7625b569b152",
+      "title": "Comparative_Navigation_05_Neutral_Strides_Deviation_Events_and_Recoverable_Memory_2026-10-20.md",
+      "created_at": "2026-10-20T23:27:11.650409Z",
+      "modified_at": "2026-10-20T23:27:11.650409Z",
+      "file_id": "file_00000000e688822fbd3e839a7b931629",
+      "local_path": "sources/N05_a.md",
+      "lines_obtained": [
+        1,
+        597
+      ],
+      "total_lines": 597,
+      "has_more": false,
+      "reading": "Full report text obtained and reviewed; duplicate reports compared by SHA-256; archives not reproduced by this audit."
+    },
+    {
+      "library_file_id": "libfile_f7825005f3a481919fb091d7516cbcbd",
+      "title": "Comparative_Navigation_05_Neutral_Strides_Deviation_Events_and_Recoverable_Memory_2026-10-20.md",
+      "created_at": "2026-10-20T23:20:01.413098Z",
+      "modified_at": "2026-10-20T23:20:01.413098Z",
+      "file_id": "file_00000000d96c820cb4cd088938f0d5ff",
+      "local_path": "sources/N05_b.md",
+      "lines_obtained": [
+        1,
+        597
+      ],
+      "total_lines": 597,
+      "has_more": false,
+      "reading": "Full report text obtained and reviewed; duplicate reports compared by SHA-256; archives not reproduced by this audit."
+    },
+    {
+      "library_file_id": "libfile_6f94cba960148191832f11dd86ad963e",
+      "title": "Comparative_Navigation_06_Critical_Forests_and_the_Deterministic_Bridge_2026-10-20.md",
+      "created_at": "2026-10-21T00:59:56.441019Z",
+      "modified_at": "2026-10-21T00:59:56.441019Z",
+      "file_id": "file_000000007ca0820cb04f1a9a9f6da3b7",
+      "local_path": "sources/N06_a.md",
+      "lines_obtained": [
+        1,
+        523
+      ],
+      "total_lines": 523,
+      "has_more": false,
+      "reading": "Full report text obtained and reviewed; duplicate reports compared by SHA-256; archives not reproduced by this audit."
+    },
+    {
+      "library_file_id": "libfile_57c6a6ce7bcc8191842a70b796543d49",
+      "title": "Comparative_Navigation_06_Critical_Forests_and_the_Deterministic_Bridge_2026-10-20.md",
+      "created_at": "2026-10-21T00:55:12.945025Z",
+      "modified_at": "2026-10-21T00:55:12.945025Z",
+      "file_id": "file_0000000033e8820dbdc7ae127a5c70b8",
+      "local_path": "sources/N06_b.md",
+      "lines_obtained": [
+        1,
+        523
+      ],
+      "total_lines": 523,
+      "has_more": false,
+      "reading": "Full report text obtained and reviewed; duplicate reports compared by SHA-256; archives not reproduced by this audit."
+    },
+    {
+      "library_file_id": "libfile_3b278a4d14cc8191a2813c11e50e8961",
+      "title": "Comparative_Navigation_07_Parser_Interfaces_Shape_Envelopes_and_Deterministic_Controls_2026-10-20.md",
+      "created_at": "2026-10-21T02:16:24.956265Z",
+      "modified_at": "2026-10-21T02:16:24.956265Z",
+      "file_id": "file_00000000ad3c822f9a27baa82309004c",
+      "local_path": "sources/N07_a.md",
+      "lines_obtained": [
+        1,
+        594
+      ],
+      "total_lines": 594,
+      "has_more": false,
+      "reading": "Full report text obtained and reviewed; duplicate reports compared by SHA-256; archives not reproduced by this audit."
+    },
+    {
+      "library_file_id": "libfile_70282aca3b1c819182aee8886eea2f41",
+      "title": "Comparative_Navigation_07_Parser_Interfaces_Shape_Envelopes_and_Deterministic_Controls_2026-10-20.md",
+      "created_at": "2026-10-21T02:09:57.614952Z",
+      "modified_at": "2026-10-21T02:09:57.614952Z",
+      "file_id": "file_0000000052e0820cba308a5cedca701d",
+      "local_path": "sources/N07_b.md",
+      "lines_obtained": [
+        1,
+        594
+      ],
+      "total_lines": 594,
+      "has_more": false,
+      "reading": "Full report text obtained and reviewed; duplicate reports compared by SHA-256; archives not reproduced by this audit."
+    },
+    {
+      "library_file_id": "libfile_a5082de052808191a213b21eb1dd2ee0",
+      "title": "Comparative_Navigation_08_Sampling_Interfaces_Subtree_Mergers_and_Arithmetic_Counters_2026-10-20.md",
+      "created_at": "2026-10-21T03:24:39.971411Z",
+      "modified_at": "2026-10-21T03:24:39.971411Z",
+      "file_id": "file_00000000bd18820da0adee8f59c3e5c7",
+      "local_path": "sources/N08_sampling.md",
+      "lines_obtained": [
+        1,
+        513
+      ],
+      "total_lines": 513,
+      "has_more": false,
+      "reading": "Full report text obtained and reviewed; duplicate reports compared by SHA-256; archives not reproduced by this audit."
+    },
+    {
+      "library_file_id": "libfile_943968303adc8191ae727849c43947e7",
+      "title": "Comparative_Navigation_08_Arithmetic_Counters_History_Mergers_and_Tail_Control_2026-10-20.md",
+      "created_at": "2026-10-21T03:14:49.718357Z",
+      "modified_at": "2026-10-21T03:14:49.718357Z",
+      "file_id": "file_00000000680c820c83f400b2b65ee426",
+      "local_path": "sources/N08_counters.md",
+      "lines_obtained": [
+        1,
+        599
+      ],
+      "total_lines": 599,
+      "has_more": false,
+      "reading": "Full report text obtained and reviewed; duplicate reports compared by SHA-256; archives not reproduced by this audit."
+    },
+    {
+      "library_file_id": "libfile_e66b38adf1f4819185a63ad431c088c8",
+      "title": "Comparative_Navigation_09_Hypothesis_Tests_Cofactor_Turnover_and_Source_Ownership_2026-10-20.md",
+      "created_at": "2026-10-21T04:54:02.263614Z",
+      "modified_at": "2026-10-21T04:54:02.263614Z",
+      "file_id": "file_00000000094c820cb1eba6500209f4b5",
+      "local_path": "sources/N09_a.md",
+      "lines_obtained": [
+        1,
+        456
+      ],
+      "total_lines": 456,
+      "has_more": false,
+      "reading": "Full report text obtained and reviewed; duplicate reports compared by SHA-256; archives not reproduced by this audit."
+    },
+    {
+      "library_file_id": "libfile_31c2800fac148191bd2eae2cc7002ff3",
+      "title": "Comparative_Navigation_09_Hypothesis_Tests_Cofactor_Turnover_and_Source_Ownership_2026-10-20.md",
+      "created_at": "2026-10-21T04:39:36.181235Z",
+      "modified_at": "2026-10-21T04:39:36.181235Z",
+      "file_id": "file_0000000092f4820ca0c54a1f769ea8c5",
+      "local_path": "sources/N09_b.md",
+      "lines_obtained": [
+        1,
+        456
+      ],
+      "total_lines": 456,
+      "has_more": false,
+      "reading": "Full report text obtained and reviewed; duplicate reports compared by SHA-256; archives not reproduced by this audit."
+    },
+    {
+      "library_file_id": "libfile_fa0590416ffc81919ee873ebd4f50b2c",
+      "title": "Comparative_Navigation_10_Prime_Record_Resets_and_Safety_Hypotheses_2026-10-21.md",
+      "created_at": "2026-10-21T12:19:03.762171Z",
+      "modified_at": "2026-10-21T12:19:03.762171Z",
+      "file_id": "file_00000000def8820d82f26c09970e3c12",
+      "local_path": "sources/N10.md",
+      "lines_obtained": [
+        1,
+        594
+      ],
+      "total_lines": 594,
+      "has_more": false,
+      "reading": "Full report text obtained and reviewed; duplicate reports compared by SHA-256; archives not reproduced by this audit."
+    },
+    {
+      "library_file_id": "libfile_d6dc469f6a108191bd899788ddd4bc32",
+      "title": "Comparative_Navigation_11_Recovery_Packets_Source_Deadlines_and_Deterministic_Queue_Control_2026-10-21.md",
+      "created_at": "2026-10-21T13:34:11.749207Z",
+      "modified_at": "2026-10-21T13:34:11.749207Z",
+      "file_id": "file_00000000614481f6bd3b13dc1bb038fa",
+      "local_path": "sources/N11.md",
+      "lines_obtained": [
+        1,
+        641
+      ],
+      "total_lines": 641,
+      "has_more": false,
+      "reading": "Full report text obtained and reviewed; duplicate reports compared by SHA-256; archives not reproduced by this audit."
+    },
+    {
+      "library_file_id": "libfile_250eca26a5ac8191a75a1b209b7a9e47",
+      "title": "Comparative_Navigation_12_Region_Resolved_Recovery_and_Bounded_Debt_Grammars_2026-10-21.md",
+      "created_at": "2026-10-21T14:37:25.744372Z",
+      "modified_at": "2026-10-21T14:37:25.744372Z",
+      "file_id": "file_000000006bdc81f981a40516cfafbcea",
+      "local_path": "sources/N12.md",
+      "lines_obtained": [
+        1,
+        608
+      ],
+      "total_lines": 608,
+      "has_more": false,
+      "reading": "Full report text obtained and reviewed; duplicate reports compared by SHA-256; archives not reproduced by this audit."
+    },
+    {
+      "library_file_id": "libfile_cf69ef40231481919ac353ebe1ef1d4a",
+      "title": "Comparative_Navigation_13_Conditioned_Regions_Reversible_Bands_and_Exit_Hypotheses_2026-10-21.md",
+      "created_at": "2026-10-21T15:29:04.929935Z",
+      "modified_at": "2026-10-21T15:29:04.929935Z",
+      "file_id": "file_000000005458820ca9a04fe201ab97ae",
+      "local_path": "sources/N13_conditioned.md",
+      "lines_obtained": [
+        1,
+        525
+      ],
+      "total_lines": 525,
+      "has_more": false,
+      "reading": "Full report text obtained and reviewed; duplicate reports compared by SHA-256; archives not reproduced by this audit."
+    },
+    {
+      "library_file_id": "libfile_1491aa6386048191b505732a66a85a43",
+      "title": "Comparative_Navigation_13_Tilted_Observers_Arithmetic_Memory_and_Debt_Funded_Mergers_2026-10-21.md",
+      "created_at": "2026-10-21T15:45:41.974722Z",
+      "modified_at": "2026-10-21T15:45:41.974722Z",
+      "file_id": "file_00000000e6b081f99c52bdea8e84d50f",
+      "local_path": "sources/N13_tilted.md",
+      "lines_obtained": [
+        1,
+        630
+      ],
+      "total_lines": 630,
+      "has_more": false,
+      "reading": "Full report text obtained and reviewed; duplicate reports compared by SHA-256; archives not reproduced by this audit."
+    },
+    {
+      "library_file_id": "libfile_44d921a74c208191ad16299e4aa15465",
+      "title": "CLAIM_LEDGER.md",
+      "created_at": "2026-10-21T12:19:09.044310Z",
+      "modified_at": "2026-10-21T15:45:51.390257Z",
+      "file_id": "file_00000000da5881f8925de16f5bfc972d",
+      "local_path": "sources/N13_ledger_A.md",
+      "lines_obtained": [
+        1,
+        27
+      ],
+      "total_lines": 27,
+      "has_more": false,
+      "reading": "Full report text obtained and reviewed; duplicate reports compared by SHA-256; archives not reproduced by this audit."
+    },
+    {
+      "library_file_id": "libfile_8043367d08008191b97ba9c57e12beb8",
+      "title": "CLAIM_LEDGER.md",
+      "created_at": "2026-10-21T15:29:05.481041Z",
+      "modified_at": "2026-10-21T15:29:05.481041Z",
+      "file_id": "file_00000000e76c81f9bc8675e3256b3462",
+      "local_path": "sources/N13_ledger_B.md",
+      "lines_obtained": [
+        1,
+        40
+      ],
+      "total_lines": 40,
+      "has_more": false,
+      "reading": "Full report text obtained and reviewed; duplicate reports compared by SHA-256; archives not reproduced by this audit."
+    },
+    {
+      "library_file_id": "libfile_04928dec5c4c819194f330055948b6d3",
+      "title": "Comparative_Navigation_14_Band_Envelopes_Bounded_Ancestry_and_All_Scale_Audits_2026-10-21.md",
+      "created_at": "2026-10-21T16:33:06.215878Z",
+      "modified_at": "2026-10-21T16:33:06.215878Z",
+      "file_id": "file_000000006c1c81f79793daba48d59210",
+      "local_path": "sources/N14.md",
+      "lines_obtained": [
+        1,
+        489
+      ],
+      "total_lines": 489,
+      "has_more": false,
+      "reading": "Full text retrieved and audited. Independent N14 certificate and finite inverse checks reproduced; archived long-record computations not rerun."
+    },
+    {
+      "library_file_id": "libfile_7204afbba5388191b1de47ca559947ce",
+      "title": "CLAIM_LEDGER.md",
+      "created_at": "2026-10-21T16:33:07.594124Z",
+      "modified_at": "2026-10-21T16:33:07.594124Z",
+      "file_id": "file_000000005e40820d893f6c8b28e4ca17",
+      "local_path": "sources/N14_ledger.md",
+      "lines_obtained": [
+        1,
+        23
+      ],
+      "total_lines": 23,
+      "has_more": false,
+      "reading": "Full text retrieved and audited. Independent N14 certificate and finite inverse checks reproduced; archived long-record computations not rerun."
+    },
+    {
+      "library_file_id": "libfile_cbd18f3533108191a03b26bdc64d582b",
+      "title": "HYPOTHESES.json",
+      "created_at": "2026-10-21T16:33:07.131655Z",
+      "modified_at": "2026-10-21T16:33:07.131655Z",
+      "file_id": "file_000000006f4c820daa2946e1a78b1a5c",
+      "local_path": "sources/N14_hypotheses.json",
+      "lines_obtained": [
+        1,
+        28
+      ],
+      "total_lines": 28,
+      "has_more": false,
+      "reading": "Full text retrieved and audited. Independent N14 certificate and finite inverse checks reproduced; archived long-record computations not rerun."
+    }
+  ],
+  "duplicates": [
+    [
+      "N05_a",
+      "N05_b"
+    ],
+    [
+      "N06_a",
+      "N06_b"
+    ],
+    [
+      "N07_a",
+      "N07_b"
+    ],
+    [
+      "N09_a",
+      "N09_b"
+    ]
+  ],
+  "distinct_parallel_reports": [
+    [
+      "N08_sampling",
+      "N08_counters"
+    ],
+    [
+      "N13_conditioned",
+      "N13_tilted"
+    ]
+  ],
+  "external_primary_check": {
+    "author": "Kwok Chi Chim",
+    "title": "Lower bounds for linear forms in two p-adic logarithms",
+    "journal": "Journal of Number Theory 266 (2025), 295\u2013349",
+    "doi": "10.1016/j.jnt.2024.07.012",
+    "url": "https://tugraz.elsevierpure.com/ws/portalfiles/portal/92346766/1-s2.0-S0022314X24001793-main.pdf",
+    "read_scope": "Theorem 2.1 and definitions on printed pages 297\u2013299; confirms fixed-base logarithmic exponent dependence, unit assumptions and multiplicative independence.",
+    "limitation": "The paper's proof was not independently reconstructed."
+  },
+  "independent_verifier": "audits/verify_navigation_audit.py",
+  "independent_results": "audits/navigation_audit_verification.json",
+  "source_cutoff": "2026-10-21T16:35:00Z",
+  "latest_addendum": {
+    "source": "N14",
+    "independent_verifier": "audits/verify_navigation14_audit.py",
+    "independent_results": "audits/navigation14_audit_verification.json",
+    "archive_identified_not_materialized": "libfile_92cc2262f0108191ac187319de09cff9",
+    "scope": "Exact rational certificates and finite inverse outcomes independently reproduced. Constructed256-step sample,420167-round contact replay and64001096 all-scale finite-record comparisons not independently regenerated."
+  }
+}

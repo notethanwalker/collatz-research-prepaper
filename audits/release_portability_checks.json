@@ -1,0 +1,45 @@
+[
+  {
+    "script": "verify_gdr_claims.py",
+    "exit_code": 0,
+    "elapsed_seconds": 0.083,
+    "stderr": ""
+  },
+  {
+    "script": "verify_navigation_audit.py",
+    "exit_code": 0,
+    "elapsed_seconds": 0.488,
+    "stderr": ""
+  },
+  {
+    "script": "closure_focused_checks.py",
+    "exit_code": 0,
+    "elapsed_seconds": 0.031,
+    "stderr": "",
+    "dependency": "Included sources/closure/decoder_table.md; rechecked after adding the required table."
+  },
+  {
+    "script": "antihydra_independent_checks.py",
+    "exit_code": 0,
+    "elapsed_seconds": 0.277,
+    "stderr": ""
+  },
+  {
+    "script": "adversarial_checks.py",
+    "exit_code": 0,
+    "elapsed_seconds": 1.463,
+    "stderr": ""
+  },
+  {
+    "script": "adversarial_jet_cycles.py",
+    "exit_code": 0,
+    "elapsed_seconds": 0.025,
+    "stderr": ""
+  },
+  {
+    "script": "verify_navigation14_audit.py",
+    "exit_code": 0,
+    "stderr": "",
+    "scope": "Standalone copied-script run with no external inputs."
+  }
+]

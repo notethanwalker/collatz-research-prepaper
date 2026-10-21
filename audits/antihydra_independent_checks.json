@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "counts": {
+    "phase_and_maximal_run_states": 10000,
+    "parity_word_guards_two_lifts": 1022,
+    "unsafe_cofactor_families": 175,
+    "honest_source_prefixes": 64,
+    "id7546_native_all_residue_returns": 128,
+    "id7546_native_same_seed_control_steps": 667,
+    "antihydra_native_endpoint_and_clock_checks": 531,
+    "antihydra_native_initialization_steps": 11,
+    "actual_source_controls": {
+      "popcount_first_loss": 45,
+      "interval_first_loss": 40,
+      "cap11_first_failure": [
+        1153,
+        572,
+        584,
+        12
+      ]
+    },
+    "source16_first_failure": [
+      22,
+      118342,
+      -1
+    ],
+    "coefficient_envelope_counterexample": "verified, off-source relaxation only",
+    "honest_rational_shadow_and_departure_checks": 20
+  },
+  "scope": "bounded independent review checks; not an infinite safety proof"
+}

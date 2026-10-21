@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "prefix_incomparable_pairs_checked": 126719,
+  "normal_reduction_degree_cases": 266910,
+  "pade_dimension_cases": 21,
+  "scope": "Finite exact consistency checks only; not verification of infinite Pad\u00e9/tower theorem."
+}

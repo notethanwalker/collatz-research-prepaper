@@ -1,0 +1,775 @@
+[
+  {
+    "id": "AH-01",
+    "title": "Exact Antihydra native reduction and all-prefix budget equivalence",
+    "status": "checked_proof",
+    "statement": "Blank tape reaches A(8,0) after11 primitive steps; native nonhalting is equivalent to b_t=2t-3O_t>=0 for every driver prefix. f is injective; source8 has no predecessor.",
+    "assumptions": "x>=6,b>=0 canonical two-unary-block family; undefined F0 is terminal. Do not interpret negative budget as a native unary block.",
+    "map_clock": "f(x)=floor(3x/2), x0=8; budget b0=0, +2 on even inputs and -1 on odd inputs. Driver updates are not native TM steps.",
+    "proof_summary": "Native canonical macro rules give f and reward. Summation gives 2E-O. Odd failure from zero reaches undefinedF0; every otherwise safe macro has finite native completion. Inverse residues0,1mod3 prove injectivity;8mod3=2. Native clocks stated in chapter and independently checked on531 cases, plus blank initialization.",
+    "sources": [
+      {
+        "library_file_id": "libfile_05a850524d388191bde6a42ae55d023e",
+        "title": "Champion_Antihydra_Quantity_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Champion Internal Insertions - 2026-10-20/Champion_Antihydra_Quantity_2026-10-20.md",
+        "section": "§3 The quantity that Antihydra retains; §8 Validation",
+        "version_id": null,
+        "modified_at": "2026-10-20T20:14:38.093903+00:00"
+      },
+      {
+        "library_file_id": "libfile_09a9854ec2348191ae34b8049dd7b943",
+        "title": "Antihydra_Proof_Transfer_Assessment_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Antihydra Transfer - 2026-10-20/Antihydra_Proof_Transfer_Assessment_2026-10-20.md",
+        "section": "§2 The exact theorem we need; §6 Why smaller-source coalescence is unavailable here",
+        "version_id": null,
+        "modified_at": "2026-10-20T18:46:36.071751+00:00"
+      },
+      {
+        "url": "https://www.sligocki.com/2024/07/06/bb-6-2-is-hard.html",
+        "title": "Shawn Ligocki, BB(6) is Hard",
+        "section": "Exact native rules and discovery credits"
+      }
+    ],
+    "attribution": "External Antihydra machine: mxdys discovery, Racheline/rae exact rules, documented by Ligocki. Project comparison analysis builds on these.",
+    "novelty": "Known native reduction and project reformulation; no new nonhalting theorem.",
+    "limitations": "No all-prefix bound is proved. Formal f after budget failure is not native execution. Completed 1RH convention adds one step to undefined-entry arrival.",
+    "significance": "Fixes the precise open predicate and prevents clock, map and post-halt errors."
+  },
+  {
+    "id": "AH-02",
+    "title": "Pointwise Collatz simulation and physical clock cocycle",
+    "status": "checked_proof",
+    "statement": "For shortcut word summary(t,o,s), allocated length L becomes L+o and native time is2t(L+1)+2s; summary composition adds cross-term t2*o1. A pointwise simulator with external1 observer is not a blank-tape full-conjecture equivalence.",
+    "assumptions": "Sound guarded shortcut word; allocated leading zeroes retained; absorbing1 words truncated at first hit.",
+    "map_clock": "T(n)=n/2 even,(3n+1)/2 odd. t counts shortcut steps; tau counts native steps.",
+    "proof_summary": "Sum the exact per-step scan clock while physical length increases at odd steps. Concatenation adds prior odd count to each later step. Distinguish per-input trace quantifier from universal convergence statement.",
+    "sources": [
+      {
+        "library_file_id": "libfile_f96dca2b64e8819190d187fb84b64c5d",
+        "title": "Collatz_Machine_Research_Pass01_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Pass 01 - 2026-10-20/Collatz_Machine_Research_Pass01_2026-10-20.md",
+        "section": "§3 What the useful tape representation actually preserves and companion collatz_machine_build",
+        "version_id": null,
+        "modified_at": "2026-10-20T18:33:24.218384+00:00"
+      },
+      {
+        "url": "https://arxiv.org/abs/1409.7322",
+        "title": "Pascal Michel, Simulation of Collatz by Turing machines",
+        "section": "Machine construction context"
+      }
+    ],
+    "attribution": "Michel3x4 source construction; project2x8 adapter and clock bookkeeping.",
+    "novelty": "Project implementation/clock result, historical minimality not established.",
+    "limitations": "No claim of globally smallest simulator or full conjecture machine. Companion code selected, not full proof-assistant build.",
+    "significance": "Prevents arithmetic equality being mistaken for tape equality or a pointwise theorem for a universal one."
+  },
+  {
+    "id": "AH-03",
+    "title": "Associative prefix-budget cocycle and sufficient reserve certificate",
+    "status": "checked_proof",
+    "statement": "Block summaries(Delta,m) compose as(Delta1+Delta2,min(m1,Delta1+m2)); safety from b is b+m>=0. Covered sound nonempty macro edges and closed reserves F prove infinite prefix safety.",
+    "assumptions": "Each macro has exact arithmetic guards and finite nonempty completion; all admitted reachable states covered; initial b>=F.",
+    "map_clock": "f(x)=floor(3x/2), x0=8; budget b0=0, +2 on even inputs and -1 on odd inputs. Driver updates are not native TM steps.",
+    "proof_summary": "Split prefixes into first block or first-total plus second-prefix. Induct on macros using F>=0,F+m>=0,F+Delta>=Fnext. Coverage and progress establish infinitely many native steps.",
+    "sources": [
+      {
+        "library_file_id": "libfile_44326e908ca88191af78e367283f179b",
+        "title": "Antihydra_Observer_Safety_Tools_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Champion Internal Insertions - 2026-10-20/Antihydra_Observer_Safety_Tools_2026-10-20.md",
+        "section": "§2 Turn the problem into a safety certificate",
+        "version_id": null,
+        "modified_at": "2026-10-20T20:27:15.734752+00:00"
+      }
+    ],
+    "attribution": "Project Library research, authored in reports as ChatGPT/Codex (OpenAI); human research authorship and AI-assistance disclosure require final author review. Related methods include energy-game progress measures; resemblance alone does not prove direct inspiration.",
+    "novelty": "Elementary general algebra; useful explicit project certificate interface.",
+    "limitations": "No F satisfying these conditions for Antihydra is supplied. Defining F using future safety is circular.",
+    "significance": "Provides a reusable soundness criterion separating discovery from verification."
+  },
+  {
+    "id": "AH-04",
+    "title": "Exact capped-observer adapter and same-source cap11 failure",
+    "status": "checked_proof",
+    "statement": "c_t=b_t-max(0,M_t-C). Block cap behavior requires Delta,minimum m,maximum M,drawdown D; cap11 first fails at1153 while true budget572 and peak584.",
+    "assumptions": "Same fixed driver and start0; cap clips only positive reserve. Finite example independently reproduced.",
+    "map_clock": "f(x)=floor(3x/2), x0=8; budget b0=0, +2 on even inputs and -1 on odd inputs. Driver updates are not native TM steps.",
+    "proof_summary": "Induct clipping identity; split minima into before and after cap loss. Cross-block drawdown is Mu-Deltau-mv. Review checker reproduces first-failure tuple1153,572,584,12.",
+    "sources": [
+      {
+        "library_file_id": "libfile_860fe48e70e481918b26f5d1e414b4dc",
+        "title": "Antihydra_Continuation_04_Comparison_Guided_Successor_Guards_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Champion Internal Insertions - 2026-10-20/Antihydra_Continuation_04_Comparison_Guided_Successor_Guards_2026-10-20.md",
+        "section": "§6 Same driver, altered retained budget",
+        "version_id": null,
+        "modified_at": "2026-10-20T22:54:06.310950+00:00"
+      }
+    ],
+    "attribution": "Project Library research, authored in reports as ChatGPT/Codex (OpenAI); human research authorship and AI-assistance disclosure require final author review.",
+    "novelty": "Exact observer-control formulas and project experiment; prior art not exhausted.",
+    "limitations": "Finite example does not prove every finite cap eventually fails. Formula itself applies to arbitrary finite reward words.",
+    "significance": "Isolates storage loss while holding source and arithmetic constant."
+  },
+  {
+    "id": "AH-05",
+    "title": "Complete unsafe-cofactor theorem for odd-even run pairs",
+    "status": "checked_proof",
+    "statement": "At x=1+2^k u with ell=v2(1+3^k u), entering b=k+h, next odd run is unaffordable iff u=(2^ell-3^ell)3^(-k-ell) mod2^(h+3ell+1).",
+    "assumptions": "k,ell>=1,h>=0,u positive odd; conversely congruence forces exact ell. Source ancestry not assumed.",
+    "map_clock": "f(x)=floor(3x/2), x0=8; budget b0=0, +2 on even inputs and -1 on odd inputs. Driver updates are not native TM steps.",
+    "proof_summary": "Compute next x=3^ell(1+3^k u)/2^ell and Z=3^(k+ell)u+3^ell-2^ell. kprime=v2Z-ell and hprime=h+3ell-v2Z. Negative hprime is equivalent to stated congruence; lift positivity and exact valuation verified.175 bounded families independently checked.",
+    "sources": [
+      {
+        "library_file_id": "libfile_d570bd5b92548191b5fce59969cb9a0f",
+        "title": "Antihydra_Certificate_Lab_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Champion Internal Insertions - 2026-10-20/Antihydra_Certificate_Lab_2026-10-20.md",
+        "section": "§3 The exact Antihydra obstruction",
+        "version_id": null,
+        "modified_at": "2026-10-20T20:46:56.464323+00:00"
+      },
+      {
+        "library_file_id": "libfile_09a9854ec2348191ae34b8049dd7b943",
+        "title": "Antihydra_Proof_Transfer_Assessment_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Antihydra Transfer - 2026-10-20/Antihydra_Proof_Transfer_Assessment_2026-10-20.md",
+        "section": "§4 Exact run coordinates; §5 regeneration obstruction",
+        "version_id": null,
+        "modified_at": "2026-10-20T18:46:36.071751+00:00"
+      }
+    ],
+    "attribution": "Project Library research, authored in reports as ChatGPT/Codex (OpenAI); human research authorship and AI-assistance disclosure require final author review.",
+    "novelty": "Project exact classification and matched-state diagnostic; historical novelty unestablished.",
+    "limitations": "Infinite local failure families are not source8 counterexamples. Matched(13755,6) is not on source8 orbit.",
+    "significance": "Exposes exactly which source/cofactor information a safety proof must exclude."
+  },
+  {
+    "id": "AH-06",
+    "title": "Even-first phases, endpoint-prefix equivalence and exact inverse",
+    "status": "checked_proof",
+    "statement": "At even x,y=x-1,k=v2(3y+1), phase EO^(k-1) gives G=3^(k-1)(3y+1)/2^k and budget+3-k. Endpoint safety is equivalent to all internal-prefix safety. Global target is sum k<=3m.",
+    "assumptions": "y positive odd, entering budget nonnegative.",
+    "map_clock": "f(x)=floor(3x/2), x0=8; budget b0=0, +2 on even inputs and -1 on odd inputs. Driver updates are not native TM steps. Phase count m differs from driver length sum k.",
+    "proof_summary": "Even step earns2 then odd steps monotonically spend. Factor y=3^r u for rprime=k-1; reverse unique ternary valuation to get predecessor(2^(r+1)u-1)/3 with congruence guard.",
+    "sources": [
+      {
+        "library_file_id": "libfile_61139c7fe7fc819197ed06a7c7060455",
+        "title": "Antihydra_Solution_Search_01_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Champion Internal Insertions - 2026-10-20/Antihydra_Solution_Search_01_2026-10-20.md",
+        "section": "§2 A phase whose endpoint controls every internal prefix",
+        "version_id": null,
+        "modified_at": "2026-10-20T21:12:33.660292+00:00"
+      },
+      {
+        "library_file_id": "libfile_3c4a820ca22881918e1cd9df3862641c",
+        "title": "Antihydra_Solution_Search_02_Source_Credit_and_Shadowing_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Champion Internal Insertions - 2026-10-20/Antihydra_Solution_Search_02_Source_Credit_and_Shadowing_2026-10-20.md",
+        "section": "§3 The phase is injective and has an exact inverse",
+        "version_id": null,
+        "modified_at": "2026-10-20T21:37:06.705225+00:00"
+      }
+    ],
+    "attribution": "Project Library research, authored in reports as ChatGPT/Codex (OpenAI); human research authorship and AI-assistance disclosure require final author review.",
+    "novelty": "Exact project coordinates, not a proof of their all-prefix target.",
+    "limitations": "Identity(b+r)prime=b+2 does not bound new r. Pure-power resets can hide arbitrarily large next expense.",
+    "significance": "Gives efficient exact units for proof and counterexample search."
+  },
+  {
+    "id": "AH-07",
+    "title": "Maximal equal-cost clock, exact handoff and successor-closure obstruction",
+    "status": "checked_proof",
+    "statement": "For W=(3^k-2^k)y+3^(k-1),mu=v2W, maximal cost-k run length L=floor((mu-1)/k). With e=mu-kL,V=3^(kL)u, next cost is e ife<k, else k+v2(3V-1). Fully admissible funded runs can have arbitrarily unaffordable promotions.",
+    "assumptions": "Current phase truly costk; W=2^mu u with u positive odd; exact local divisibility and positivity guards retained.",
+    "map_clock": "f(x)=floor(3x/2), x0=8; budget b0=0, +2 on even inputs and -1 on odd inputs. Driver updates are not native TM steps.",
+    "proof_summary": "W(G_k(y))=(3/2)^kW gives valuation clock. Endpoint parity yields handoff formula. CRT combines odd D_k admissibility with arbitrarily prescribed dyadic promotion, retaining exact length and funded current run.10000 states independently checked.",
+    "sources": [
+      {
+        "library_file_id": "libfile_3c4a820ca22881918e1cd9df3862641c",
+        "title": "Antihydra_Solution_Search_02_Source_Credit_and_Shadowing_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Champion Internal Insertions - 2026-10-20/Antihydra_Solution_Search_02_Source_Credit_and_Shadowing_2026-10-20.md",
+        "section": "§4 A complete clock for consecutive equal-cost phases",
+        "version_id": null,
+        "modified_at": "2026-10-20T21:37:06.705225+00:00"
+      },
+      {
+        "library_file_id": "libfile_860fe48e70e481918b26f5d1e414b4dc",
+        "title": "Antihydra_Continuation_04_Comparison_Guided_Successor_Guards_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Champion Internal Insertions - 2026-10-20/Antihydra_Continuation_04_Comparison_Guided_Successor_Guards_2026-10-20.md",
+        "section": "§3 New exact Antihydra maximal-run handoff; §4 successor-closure obstruction",
+        "version_id": null,
+        "modified_at": "2026-10-20T22:54:06.310950+00:00"
+      }
+    ],
+    "attribution": "Project Library research, authored in reports as ChatGPT/Codex (OpenAI); human research authorship and AI-assistance disclosure require final author review.",
+    "novelty": "Strong project local theorem; priority not exhausted.",
+    "limitations": "Constructed failures are not claimed descendants of8. Current funding is not successor closure.",
+    "significance": "Precisely pinpoints the renewal gap that analogous solved machines overcome."
+  },
+  {
+    "id": "AH-08",
+    "title": "Parity cylinders and failure in every fixed-budget progression",
+    "status": "checked_proof",
+    "statement": "Every lengtht word has one source residue mod2^t. Every nonempty arithmetic progression contains arbitrarily large sources that fail from any fixed finite budget.",
+    "assumptions": "Positive integer sources; arbitrary progression with positive step; budget fixed independently of source.",
+    "map_clock": "f(x)=floor(3x/2), x0=8; budget b0=0, +2 on even inputs and -1 on odd inputs. Driver updates are not native TM steps.",
+    "proof_summary": "Affine expansion2^t f^t(x)=3^t x-sum3^(t-1-j)2^j p_j and induction prove cylinder guard. Match v2(q) initial bits then append enough odds; CRT respects odd modulus.1022 words checked at two positive lifts.",
+    "sources": [
+      {
+        "library_file_id": "libfile_09a9854ec2348191ae34b8049dd7b943",
+        "title": "Antihydra_Proof_Transfer_Assessment_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Antihydra Transfer - 2026-10-20/Antihydra_Proof_Transfer_Assessment_2026-10-20.md",
+        "section": "§7 Exact source addresses and the fixed-precision limitation",
+        "version_id": null,
+        "modified_at": "2026-10-20T18:46:36.071751+00:00"
+      },
+      {
+        "library_file_id": "libfile_61139c7fe7fc819197ed06a7c7060455",
+        "title": "Antihydra_Solution_Search_01_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Champion Internal Insertions - 2026-10-20/Antihydra_Solution_Search_01_2026-10-20.md",
+        "section": "§4 Every arithmetic progression contains fixed-budget failures; §6 finite backward history",
+        "version_id": null,
+        "modified_at": "2026-10-20T21:12:33.660292+00:00"
+      }
+    ],
+    "attribution": "Project Library research, authored in reports as ChatGPT/Codex (OpenAI); human research authorship and AI-assistance disclosure require final author review.",
+    "novelty": "Project obstruction theorem; uses standard parity-vector/CRT ideas.",
+    "limitations": "Does not say actual source8 fails. Rules out uniform safety of fixed neighborhoods and unconstrained-ancestor fixed histories.",
+    "significance": "Justifies abandoning finite congruence enlargement as a complete source certificate."
+  },
+  {
+    "id": "AH-09",
+    "title": "Restricted polynomial/congruence certificate-language impossibility",
+    "status": "checked_proof",
+    "statement": "No inductive safe set containing(8,0), contained in b>=0, is definable by a finite Boolean combination of polynomial sign/equality tests in(x,b) and fixed congruences. Precisely scoped lifted/cofactor/history variants are also derived.",
+    "assumptions": "Exact language restrictions as stated in Search01§5, Search02§11 and Continuation03§4; not arbitrary computable predicates.",
+    "map_clock": "f(x)=floor(3x/2), x0=8; budget b0=0, +2 on even inputs and -1 on odd inputs. Driver updates are not native TM steps.",
+    "proof_summary": "Assumed safety gives x exponential in t,b<=2t. Polynomial signs stabilize beyond polynomial x threshold at fixed integer b. A late admitted point therefore forces an entire fixed-budget arithmetic-progression tail into the invariant, contradicting AH08. Lifted variants use infinitely many low-r or bounded-cost boundaries.",
+    "sources": [
+      {
+        "library_file_id": "libfile_61139c7fe7fc819197ed06a7c7060455",
+        "title": "Antihydra_Solution_Search_01_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Champion Internal Insertions - 2026-10-20/Antihydra_Solution_Search_01_2026-10-20.md",
+        "section": "§5 No invariant consisting of finitely many polynomial tests and fixed congruences",
+        "version_id": null,
+        "modified_at": "2026-10-20T21:12:33.660292+00:00"
+      },
+      {
+        "library_file_id": "libfile_3c4a820ca22881918e1cd9df3862641c",
+        "title": "Antihydra_Solution_Search_02_Source_Credit_and_Shadowing_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Champion Internal Insertions - 2026-10-20/Antihydra_Solution_Search_02_Source_Credit_and_Shadowing_2026-10-20.md",
+        "section": "§11 stronger cofactor obstruction",
+        "version_id": null,
+        "modified_at": "2026-10-20T21:37:06.705225+00:00"
+      },
+      {
+        "library_file_id": "libfile_82fc59bf3b80819198bda0a921826cf5",
+        "title": "Antihydra_Continuation_03_Bounded_Run_Funding_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Champion Internal Insertions - 2026-10-20/Antihydra_Continuation_03_Bounded_Run_Funding_2026-10-20.md",
+        "section": "§4 independent audit and remaining certificate-language restrictions",
+        "version_id": null,
+        "modified_at": "2026-10-20T22:05:43.273326+00:00"
+      }
+    ],
+    "attribution": "Project Library research, authored in reports as ChatGPT/Codex (OpenAI); human research authorship and AI-assistance disclosure require final author review.",
+    "novelty": "Potentially publishable scoped obstruction. Independent adversarial/human or formal review advisable.",
+    "limitations": "Not unprovability, undecidability, or exclusion of all finite invariants. Variable valuations, powers, ordered digits and nonpolynomial validity relations can escape.",
+    "significance": "Replaces a heuristic search failure with a quantified reason to change certificate language."
+  },
+  {
+    "id": "AH-10",
+    "title": "Unordered bounded-window potential obstruction",
+    "status": "checked_proof",
+    "statement": "No global one-step reserve depending only on unordered padded widthw binary-window counts can satisfy the required drift inequality.",
+    "assumptions": "Fixed finite w; all-source one-step inequality; identical histogram padding convention.",
+    "map_clock": "f(x)=floor(3x/2), x0=8; budget b0=0, +2 on even inputs and -1 on odd inputs. Driver updates are not native TM steps.",
+    "proof_summary": "For N>=w+3, x=2^N+3 and f(x)=3*2^(N-1)+4 have the same window histogram but the odd transition costs1. Potential drift is0, contradiction.",
+    "sources": [
+      {
+        "library_file_id": "libfile_61139c7fe7fc819197ed06a7c7060455",
+        "title": "Antihydra_Solution_Search_01_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Champion Internal Insertions - 2026-10-20/Antihydra_Solution_Search_01_2026-10-20.md",
+        "section": "§7 Bounded binary-window counts cannot supply a global credit potential",
+        "version_id": null,
+        "modified_at": "2026-10-20T21:12:33.660292+00:00"
+      }
+    ],
+    "attribution": "Project Library research, authored in reports as ChatGPT/Codex (OpenAI); human research authorship and AI-assistance disclosure require final author review.",
+    "novelty": "Project global feature-language obstruction. Eight finite rational LP refutations are separate computational corroboration.",
+    "limitations": "Does not rule out ordered windows, source-restricted reserves, multiphase summaries or richer statistics.",
+    "significance": "Explains why adding more unordered local digit counts cannot repair this particular global certificate."
+  },
+  {
+    "id": "AH-11",
+    "title": "Honest source families, precision-preserving quotient and one unsafe lift per word",
+    "status": "checked_proof",
+    "statement": "R_j(t)=(3^(2^j t)-1)/2^(j+2) preserves v2 differences. Explicit odd/even exponent source prefixes earn stated linear budgets. Each compatible finite word admits at most its least positive parameter as an unsafe lift.",
+    "assumptions": "j>=1,t positive odd; source and earned budget remain coupled; finite compatible word has exact congruence guard.",
+    "map_clock": "f(x)=floor(3x/2), x0=8; budget b0=0, +2 on even inputs and -1 on odd inputs. Driver updates are not native TM steps.",
+    "proof_summary": "Iterate initial E/O runs; LTE proves v2(R(t)-R(u))=v2(t-u). Cylinder congruences and budget deficits give cutoffs in chapter(21), below the parameter period.64 family prefixes independently checked; actual source16 failure22 independently checked.",
+    "sources": [
+      {
+        "library_file_id": "libfile_3c4a820ca22881918e1cd9df3862641c",
+        "title": "Antihydra_Solution_Search_02_Source_Credit_and_Shadowing_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Champion Internal Insertions - 2026-10-20/Antihydra_Solution_Search_02_Source_Credit_and_Shadowing_2026-10-20.md",
+        "section": "§§5–7 Honest source families, precision, exact continuation guards",
+        "version_id": null,
+        "modified_at": "2026-10-20T21:37:06.705225+00:00"
+      }
+    ],
+    "attribution": "Project Library research, authored in reports as ChatGPT/Codex (OpenAI); human research authorship and AI-assistance disclosure require final author review.",
+    "novelty": "Project source-authenticated family theorem, not arbitrary cofactor analysis.",
+    "limitations": "At most one unsafe parameter per word does not exclude t=1 over all future words. Source16 genuine failure is not source8.",
+    "significance": "Preserves exact ancestry while allowing uniform parameterized number-theoretic estimates."
+  },
+  {
+    "id": "AH-12",
+    "title": "Funded finite Hydra shadow and failure of literal source renewal",
+    "status": "checked_proof",
+    "statement": "Odd j2 family shadows rational -2/27 for K+1 inputs with K=v2(243R+1), is funded through departure with at least11 reserve, and cannot literally renew into a different old source family.",
+    "assumptions": "Honest R=R2(t), source budget8t+1; exact endpoint descriptor retained.",
+    "map_clock": "f(x)=floor(3x/2), x0=8; budget b0=0, +2 on even inputs and -1 on odd inputs. Driver updates are not native TM steps. Rational extension F(z)=(3z-epsilon(z))/2 for odd-denominator rationals, epsilon mod2; NOT real floor on rationals.",
+    "proof_summary": "2-adic proximity gives shared prefix. f(1-z)=1-f(z) relates reference after4 steps to complement of source3. Source equation bounds K<=8t-2 and funds departure. Injectivity plus predecessor-free distinct power-of-two roots excludes literal renewal.",
+    "sources": [
+      {
+        "library_file_id": "libfile_3c4a820ca22881918e1cd9df3862641c",
+        "title": "Antihydra_Solution_Search_02_Source_Credit_and_Shadowing_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Champion Internal Insertions - 2026-10-20/Antihydra_Solution_Search_02_Source_Credit_and_Shadowing_2026-10-20.md",
+        "section": "§§8–10 Matched cofactor and finite shadow",
+        "version_id": null,
+        "modified_at": "2026-10-20T21:37:06.705225+00:00"
+      },
+      {
+        "library_file_id": "libfile_82fc59bf3b80819198bda0a921826cf5",
+        "title": "Antihydra_Continuation_03_Bounded_Run_Funding_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Champion Internal Insertions - 2026-10-20/Antihydra_Continuation_03_Bounded_Run_Funding_2026-10-20.md",
+        "section": "§2 Funded departure; §3 Literal renewal impossible",
+        "version_id": null,
+        "modified_at": "2026-10-20T22:05:43.273326+00:00"
+      }
+    ],
+    "attribution": "Project Library research, authored in reports as ChatGPT/Codex (OpenAI); human research authorship and AI-assistance disclosure require final author review. Hydra discovery credited to Daniel Yuan; explanation by Ligocki.",
+    "novelty": "Project source-earned shadow theorem and renewal obstruction.",
+    "limitations": "Finite shadow is not hardness equivalence or reduction; actual t1 shadow7. Coupled-clock continuation has no closed invariant.",
+    "significance": "Produces real positive reserve while exposing exactly why it cannot yet be iterated."
+  },
+  {
+    "id": "AH-13",
+    "title": "Effective growing-run funding theorem",
+    "status": "checked_proof",
+    "statement": "For y0(t)=(a3^(dt)-b)/2^h with positive odd a,b,b>2^h and admissible t, total driver length K_R of firstR maximal equal-cost runs satisfies K_R+1<=(1+A(t))^(2R), A=2*10^13 logmax(a,b,3)logmax(dt,3). Honest linear budget funds floor(log(B+1)/(2log(1+A))) runs, asymptotic logt/(2loglogt).",
+    "assumptions": "h,d>=1; t positive admissible, source family fixed. B(t)=gamma*t+beta>=0 is actually earned; gamma>0 for asymptotic.",
+    "map_clock": "f(x)=floor(3x/2), x0=8; budget b0=0, +2 on even inputs and -1 on odd inputs. Driver updates are not native TM steps. R counts maximal constant-cost runs; M_R counts phases; K_R counts driver updates. t is SOURCE parameter, not time.",
+    "proof_summary": "Use rational Yu bound v2(U3^N-V)<=1e13 logmax(U,V,2)logmax(N,3). Exact correction E_S is positive odd between(b-q)3^S+q2^S and b3^S. Apply bound with exponentdt and heights O(S) to next phase and W_k runclock. Obtain Snext+1<=Q(S+1), induct. K_R<=B funds every step in worst case. Positivity checks all nonzero forms.",
+    "sources": [
+      {
+        "library_file_id": "libfile_acb5147370f88191982c771e14d40770",
+        "title": "Effective_Growing_Run_Funding_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Champion Internal Insertions - 2026-10-20/Effective_Growing_Run_Funding_2026-10-20.md",
+        "section": "§§1–6 entire effective theorem and proof",
+        "version_id": null,
+        "modified_at": "2026-10-20T23:15:16.711831+00:00"
+      },
+      {
+        "library_file_id": "libfile_10e46867315481918e19f1ede974795c",
+        "title": "Antihydra_Continuation_05_Effective_Funding_And_Source_Closure_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Champion Internal Insertions - 2026-10-20/Antihydra_Continuation_05_Effective_Funding_And_Source_Closure_2026-10-20.md",
+        "section": "§2 Effective theorem",
+        "version_id": null,
+        "modified_at": "2026-10-20T23:15:15.685129+00:00"
+      },
+      {
+        "url": "https://link.springer.com/article/10.1007/s11139-023-00787-1",
+        "title": "Faye–Luca–Ziegler (2024)",
+        "section": "Theorem4 equation5 rational Yu bound"
+      }
+    ],
+    "attribution": "Project application; imported number theory due Kunrui Yu through verified Faye–Luca–Ziegler statement. Exact original theorem metadata separately verified; original paper not fully reread.",
+    "novelty": "Strongest latest positive theorem; potentially standalone after independent proof audit and priority review.",
+    "limitations": "At actual source8 t=1,B=9 coarse bound certifies0 runs. Fixedt exponential-inR bound does not establish K_R-3M_R<=B. No recentering justified. No formal build.",
+    "significance": "Upgrades ineffective fixed-depth funding to explicit unbounded run depth over honest growing sources."
+  },
+  {
+    "id": "AH-14",
+    "title": "Exhaustive late champion attachment classification",
+    "status": "checked_proof",
+    "statement": "All784 late attachments split into112 halting atT+1,16 atT+2,656 nonhalting. Exactly-one-F-halt subset192 splits112halting80nonhalting.",
+    "assumptions": "Only originalE0 target redirectedF; F0,F1 vary over28 choices; same blank tape; T=47,176,870 imported champion theorem.",
+    "map_clock": "Primitive TM steps, entry into H counts write/move step; not arithmetic driver time.",
+    "proof_summary": "Common entry tape1(F0)1(001)^4095 1. F0H112; noH576; F0F,F1H16halt; F0A-D,F1H64nonhalt through F0-only visits; F0E,F1H16nonhalt via adjacent-one invariant. Cases disjoint exhaustive.",
+    "sources": [
+      {
+        "library_file_id": "libfile_73d90335e18881918b6f23f654a24ce3",
+        "title": "Champion_One_State_Attachments_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Champion Attachments - 2026-10-20/Champion_One_State_Attachments_2026-10-20.md",
+        "section": "§§1–4 Exact family, common tape, exhaustive proof",
+        "version_id": null,
+        "modified_at": "2026-10-20T19:44:41.323904+00:00"
+      },
+      {
+        "url": "https://bbchallenge.org/~pascal.michel/beh",
+        "title": "Pascal Michel, Behavior of Busy Beavers",
+        "section": "Marxen–Buntrock champion rules"
+      }
+    ],
+    "attribution": "Marxen–Buntrock champion; Buro/Michel analysis imported. Restricted extension proof is project work.",
+    "novelty": "Explicit controlled experiment, not lower bound on six-state capabilities.",
+    "limitations": "47-million-step prefix imported from native macro theorem, not rerun in this review. Syntactic counts not equivalence classes.",
+    "significance": "Shows an extra named state can yield elementary invariants rather than a cumulative arithmetic obstacle."
+  },
+  {
+    "id": "AH-15",
+    "title": "Revised internal-insertion catalogue",
+    "status": "computational",
+    "statement": "Latest7056-table inventory:3428halt,3365nonhalt,263unclassified. Sole-halt5184 subset:1880,3061,243. B0slice all784 classified314halt470nonhalt.",
+    "assumptions": "Nine original nonhalt targets separately redirectedF, original writes/moves andE0halt retained; F entries free.",
+    "map_clock": "Native step convention; BB5 bound applicable only after a verified <=5-state quotient.",
+    "proof_summary": "Reported certificate classes include literal traces, whole-tape translations, blank escape, closed overapproximation, full-ray moving fronts, champion quotients, and five-state quotients plus47,176,871-step nohalt check. Latest Quantity update supersedes initial3399/3272/385.",
+    "sources": [
+      {
+        "library_file_id": "libfile_0f3d9f0a324081918362f84bd18a6d5d",
+        "title": "Champion_Internal_Insertions_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Champion Internal Insertions - 2026-10-20/Champion_Internal_Insertions_2026-10-20.md",
+        "section": "Results by insertion site; What actually certifies the answers",
+        "version_id": null,
+        "modified_at": "2026-10-20T20:00:37.619105+00:00"
+      },
+      {
+        "library_file_id": "libfile_05a850524d388191bde6a42ae55d023e",
+        "title": "Champion_Antihydra_Quantity_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Champion Internal Insertions - 2026-10-20/Champion_Antihydra_Quantity_2026-10-20.md",
+        "section": "§6 All120 former B0 holdouts classified",
+        "version_id": null,
+        "modified_at": "2026-10-20T20:14:38.093903+00:00"
+      },
+      {
+        "url": "https://discuss.bbchallenge.org/t/july-2nd-2024-we-have-proved-bb-5-47-176-870/237",
+        "title": "BBChallenge official BB5 theorem",
+        "section": "Imported formal bound"
+      }
+    ],
+    "attribution": "Project enumeration/certificates; external BB5 collective formal proof led by mxdys and contributors.",
+    "novelty": "Useful experimental dataset; no claim historical first or global six-state classification.",
+    "limitations": "Full catalogue not independently rerun in this review; unresolved means unresolved by this search, not established open literature problem.",
+    "significance": "Grounds comparisons in explicit transition neighborhoods and certificate methods."
+  },
+  {
+    "id": "AH-16",
+    "title": "ID7546 realizes the exact Antihydra seed8 driver with a simple safe observer",
+    "status": "checked_proof",
+    "statement": "All-parameter four-residue C(n) return rules give a preserved even sector; blank C0 is nonhalting and x=n/2+8 follows floor3x/2 from8. Same table C5 uses seed8 but first-odd halt observer and halts667 steps.",
+    "assumptions": "Exact listed table; C(n)=blank A0 followedn ones. Configurations compared up to translation.",
+    "map_clock": "Each return is one driver update, but native costs quadratic in k; C5 itinerary49+145+379+94=667.",
+    "proof_summary": "Prove Q(a,b+1)->Q(a+6,b) in2a+8 and four-cell conversion; initial sweep boundary cases yield residue formulas. Sum b(2a+8)+6b(b-1). Even-sector closure excludes halt residue3mod4; affine x change gives exact f.128native cases and667-step control independently checked.",
+    "sources": [
+      {
+        "library_file_id": "libfile_05a850524d388191bde6a42ae55d023e",
+        "title": "Champion_Antihydra_Quantity_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Champion Internal Insertions - 2026-10-20/Champion_Antihydra_Quantity_2026-10-20.md",
+        "section": "§§1–5 machine, input control and all-parameter proof",
+        "version_id": null,
+        "modified_at": "2026-10-20T20:14:38.093903+00:00"
+      }
+    ],
+    "attribution": "Project discovery in Marxen–Buntrock insertion family; external Antihydra arithmetic used as matched target.",
+    "novelty": "Flagship matched-generator construction; historical novelty not established.",
+    "limitations": "No minimal-state claim or general observer-hardness theorem. Same driver does not settle Antihydra cumulative observer.",
+    "significance": "Physically isolates retained cumulative history from arithmetic expansion."
+  },
+  {
+    "id": "AH-17",
+    "title": "Skelet34 scalar headroom renewal comparison",
+    "status": "known_external",
+    "statement": "Exact reset headroom H=q(m)-n grows by Hprime=4A^2H+(8A^3-1)r+(3-2a)A^2>=4H+1 while inner ranks decrease.",
+    "assumptions": "q(m)=nextstrictpower2-m,c=q-1; canonical reset guard H>0 and n=A(2r+1).",
+    "map_clock": "Skelet34 reset macro clock, not Antihydra driver.",
+    "proof_summary": "Substitute exact reset mprime=A^2[4(m+A-1)+1+2a],nprime=r into dyadic headroom. Countdown positivity and outer renewal complete known proof architecture.",
+    "sources": [
+      {
+        "library_file_id": "libfile_4e0e8dbca5088191bb2d59b8984062ae",
+        "title": "Five_State_Budget_Comparison_Skelet34_and_33_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Champion Internal Insertions - 2026-10-20/Five_State_Budget_Comparison_Skelet34_and_33_2026-10-20.md",
+        "section": "The resource in Skelet34; exact headroom identity",
+        "version_id": null,
+        "modified_at": "2026-10-20T20:33:30.245694+00:00"
+      },
+      {
+        "library_file_id": "libfile_d570bd5b92548191b5fce59969cb9a0f",
+        "title": "Antihydra_Certificate_Lab_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Champion Internal Insertions - 2026-10-20/Antihydra_Certificate_Lab_2026-10-20.md",
+        "section": "§2.1 Skelet34",
+        "version_id": null,
+        "modified_at": "2026-10-20T20:46:56.464323+00:00"
+      },
+      {
+        "url": "https://www.sligocki.com/2023/02/02/skelet-34.html",
+        "title": "Ligocki Skelet34",
+        "section": "Proof"
+      },
+      {
+        "url": "https://discuss.bbchallenge.org/t/skelet-34-and-35-coq-proof/165",
+        "title": "Skelet34/35 Coq discussion",
+        "section": "Maja Kądziołka correction"
+      }
+    ],
+    "attribution": "Known proof and formalization; project derives and uses exact reserve comparison. Maja Kądziołka credited for fixed-width correction.",
+    "novelty": "Comparison reformulation, not new nonhalting theorem.",
+    "limitations": "External formal proof not locally rebuilt. Literal invariant not transferred to Antihydra.",
+    "significance": "Example of genuine replenishment rather than isolated affordability."
+  },
+  {
+    "id": "AH-18",
+    "title": "Skelet33 requires binary-interface renewal as well as scalar reserve",
+    "status": "known_external",
+    "statement": "Known reset proof preserves leading11 shape and two interval margins L,U. A scalar projection can be arbitrarily well-funded yet leave the proof interface.",
+    "assumptions": "Exact leading11/n1 rank condition and dyadic interval encoding; qstrict,c=q-1.",
+    "map_clock": "Skelet33 reset macros.",
+    "proof_summary": "Project substitutes reset into Lprime=4A²L+(16A³-2)r+11A²-2 and Uprime=4A²U+A²(8A-7)+1; shape survives stripping zeros/final bit. Projection example n1,m=3*2^h-1 has large c-2n but successor rank0.",
+    "sources": [
+      {
+        "library_file_id": "libfile_d570bd5b92548191b5fce59969cb9a0f",
+        "title": "Antihydra_Certificate_Lab_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Champion Internal Insertions - 2026-10-20/Antihydra_Certificate_Lab_2026-10-20.md",
+        "section": "§2.2 Skelet33",
+        "version_id": null,
+        "modified_at": "2026-10-20T20:46:56.464323+00:00"
+      },
+      {
+        "library_file_id": "libfile_860fe48e70e481918b26f5d1e414b4dc",
+        "title": "Antihydra_Continuation_04_Comparison_Guided_Successor_Guards_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Champion Internal Insertions - 2026-10-20/Antihydra_Continuation_04_Comparison_Guided_Successor_Guards_2026-10-20.md",
+        "section": "§2 Solved budget proofs",
+        "version_id": null,
+        "modified_at": "2026-10-20T22:54:06.310950+00:00"
+      },
+      {
+        "url": "https://discuss.bbchallenge.org/t/skelet-33-doesnt-halt-coq-proof/180",
+        "title": "Skelet33 Coq proof discussion",
+        "section": "Joint authorship"
+      },
+      {
+        "url": "https://github.com/meithecatte/busycoq/blob/master/verify/Skelet33.v",
+        "title": "busycoq Skelet33.v",
+        "section": "Reset invariant and E_next"
+      }
+    ],
+    "attribution": "Jason Yuen/int-y1 and Maja Kądziołka formal proof; project comparison algebra/projection example.",
+    "novelty": "Known theorem plus project diagnostic, not newly solved machine.",
+    "limitations": "Forum coefficient2 is a summary typo, Coq coefficient4 verified; not a discovered formalization bug. No local build. Not a native halt counterexample.",
+    "significance": "Clarifies the missing source-derived successor interface in Antihydra."
+  },
+  {
+    "id": "AH-19",
+    "title": "Pass01 guarded original-source Collatz merger",
+    "status": "conditional",
+    "statement": "Under stated r valuation and cofactor residue guards, N_r reaches the same checkpoint as smaller W_r, yielding a signed chain boundary E_N-E_W and a strong-induction closure for these sources.",
+    "assumptions": "r odd>=3,v2(r+1)=2,q=R_(r+1)/4>3,q+1=2^(k+1)u,k>=1,R=3^k u=3mod4. Smaller-source convergence needed for closure implication.",
+    "map_clock": "Shortcut Collatz O=(3n+1)/2 onodd,H=n/2 oneven; word letters not Antihydra rewards.",
+    "proof_summary": "Exact guarded words in chapter(31) give common(3R-1)/4 checkpoint. W reachesq and is smallerN; signed intermediate boundaries cancel. Explicit residueclasses59mod64,75mod128,171mod256.",
+    "sources": [
+      {
+        "library_file_id": "libfile_f96dca2b64e8819190d187fb84b64c5d",
+        "title": "Collatz_Machine_Research_Pass01_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Pass 01 - 2026-10-20/Collatz_Machine_Research_Pass01_2026-10-20.md",
+        "section": "§2 Positive theorem: guarded original-source merger",
+        "version_id": null,
+        "modified_at": "2026-10-20T18:33:24.218384+00:00"
+      }
+    ],
+    "attribution": "Project original-source and owner framework; earlier primitive half-source merger already in Library and not re-claimed.",
+    "novelty": "Guarded infinite-family extension, historical novelty unestablished.",
+    "limitations": "Not full Collatz, not allr; strong-induction premise explicit. Other chapter owns global certificate logic.",
+    "significance": "Contrasts useful smaller-owner coalescence for Collatz with its injectivity obstruction for Antihydra."
+  },
+  {
+    "id": "AH-20",
+    "title": "Pass01 fixed-horizon and displayed-prefix obstructions",
+    "status": "checked_proof",
+    "statement": "No fixed parity horizon forces original-source descent for this seam family; currently displayed prefixes alone leave signed residual l1>=2.",
+    "assumptions": "Specific N_r,M_r family and specified displayed support; bounded horizon independent ofr.",
+    "map_clock": "Shortcut Collatz.",
+    "proof_summary": "LTE v2(Rr-Rs)=v2(r-s) realizes every finite word beginningH infinitely; M/N>(27/32)(9/8)^r defeats any fixed number of halvings. Disjoint displayed support prevents full chain cancellation.",
+    "sources": [
+      {
+        "library_file_id": "libfile_f96dca2b64e8819190d187fb84b64c5d",
+        "title": "Collatz_Machine_Research_Pass01_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Pass 01 - 2026-10-20/Collatz_Machine_Research_Pass01_2026-10-20.md",
+        "section": "§4 Exact limitations that now guide the search",
+        "version_id": null,
+        "modified_at": "2026-10-20T18:33:24.218384+00:00"
+      }
+    ],
+    "attribution": "Project Library research, authored in reports as ChatGPT/Codex (OpenAI); human research authorship and AI-assistance disclosure require final author review.",
+    "novelty": "Project scoped negative theorem.",
+    "limitations": "Does not prohibit eventual descent, larger owner suffixes, or bounded merger to high checkpoint. Restricted support only.",
+    "significance": "Prevents overinterpreting finite prefix searches while motivating owner-suffix returns."
+  },
+  {
+    "id": "AH-21",
+    "title": "Ordered failure-tree valuation is an exact re-encoding, not yet exclusion",
+    "status": "checked_proof",
+    "statement": "Admissible first-failure words have m evens,length3m+1 and positions i_j<=3j; maximizing exact 2-adic guards recovers actual next even position before failure, or already determined failure cutoff.",
+    "assumptions": "Exact ordered tree includes guards and source7 correction coefficient for seed8; no relaxed unordered counts.",
+    "map_clock": "f(x)=floor(3x/2), x0=8; budget b0=0, +2 on even inputs and -1 on odd inputs. Driver updates are not native TM steps.",
+    "proof_summary": "First-difference valuations distinguish words; tree maximum identifies longest matching authenticated prefix. Current positivity bound is weaker than the3m threshold.",
+    "sources": [
+      {
+        "library_file_id": "libfile_10e46867315481918e19f1ede974795c",
+        "title": "Antihydra_Continuation_05_Effective_Funding_And_Source_Closure_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Champion Internal Insertions - 2026-10-20/Antihydra_Continuation_05_Effective_Funding_And_Source_Closure_2026-10-20.md",
+        "section": "§3A Ordered source history; companion tree_valuation_diagnostic and Source_Preserving_Exclusion_Attempt",
+        "version_id": null,
+        "modified_at": "2026-10-20T23:15:15.685129+00:00"
+      }
+    ],
+    "attribution": "Project Library research, authored in reports as ChatGPT/Codex (OpenAI); human research authorship and AI-assistance disclosure require final author review.",
+    "novelty": "Project precise diagnosis of an attempted backward-exclusion route.",
+    "limitations": "No independent global maximum bound; cannot count re-encoded target as progress toward proof.",
+    "significance": "Identifies what additional inequality would make the tree representation genuinely useful."
+  },
+  {
+    "id": "AH-22",
+    "title": "Binary-run guard funds current phase but is not closed",
+    "status": "refuted",
+    "statement": "Proposed invariant b>=2R(x)-1 is not generally closed, although k<=2R(x)+2 gives a sound current-phase funding implication. Popcount and interval candidates also lose on authenticated source8 prefixes.",
+    "assumptions": "Evenx,Rnumberofbinary1-runs. Scope of refutation is the proposed unrestricted guard; finite source8 observation separately classified.",
+    "map_clock": "f(x)=floor(3x/2), x0=8; budget b0=0, +2 on even inputs and -1 on odd inputs. Driver updates are not native TM steps.",
+    "proof_summary": "Exact run/carry bound proves k<=2R+2. Counterexample(6,1)->(28,0) loses guard. Independent review reproduces popcount loss45, interval loss40.100000-step run-guard survival reported, not universal.",
+    "sources": [
+      {
+        "library_file_id": "libfile_10e46867315481918e19f1ede974795c",
+        "title": "Antihydra_Continuation_05_Effective_Funding_And_Source_Closure_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Champion Internal Insertions - 2026-10-20/Antihydra_Continuation_05_Effective_Funding_And_Source_Closure_2026-10-20.md",
+        "section": "§3A and companion binary_shape_guards",
+        "version_id": null,
+        "modified_at": "2026-10-20T23:15:15.685129+00:00"
+      },
+      {
+        "library_file_id": "libfile_860fe48e70e481918b26f5d1e414b4dc",
+        "title": "Antihydra_Continuation_04_Comparison_Guided_Successor_Guards_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Champion Internal Insertions - 2026-10-20/Antihydra_Continuation_04_Comparison_Guided_Successor_Guards_2026-10-20.md",
+        "section": "§5 Skelet-inspired interval candidate",
+        "version_id": null,
+        "modified_at": "2026-10-20T22:54:06.310950+00:00"
+      }
+    ],
+    "attribution": "Project Library research, authored in reports as ChatGPT/Codex (OpenAI); human research authorship and AI-assistance disclosure require final author review.",
+    "novelty": "Project local bound and precise counterexamples.",
+    "limitations": "No source8 nonhalting/failure result. Off-source closure counterexample is not native-source counterexample.",
+    "significance": "Sharply separates local safety from preservation of a useful descriptor."
+  },
+  {
+    "id": "AH-23",
+    "title": "Rational-base digit target and population-transfer obstruction",
+    "status": "checked_proof",
+    "statement": "Along shifted branch from7, b_N=3(s(y_N)-7)-N. A natural sparse-branch transfer operator has an isometric right inverse BS=I and hence norm1 at every iterate; population contraction cannot be transferred by this operator.",
+    "assumptions": "Base3/2 digit representation and branch/observable spaces exactly as specified in companion audit.",
+    "map_clock": "f(x)=floor(3x/2), x0=8; budget b0=0, +2 on even inputs and -1 on odd inputs. Driver updates are not native TM steps. y=x-1, yprime=ceil3y/2; Ncountsdriverupdates.",
+    "proof_summary": "Each appended parity digit increases digit sum by even-input indicator, giving budget identity. Direct composition with sign-weighted pullback gives BS=I. Population average and one fixed sparse path have different quantifiers.",
+    "sources": [
+      {
+        "library_file_id": "libfile_10e46867315481918e19f1ede974795c",
+        "title": "Antihydra_Continuation_05_Effective_Funding_And_Source_Closure_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Champion Internal Insertions - 2026-10-20/Antihydra_Continuation_05_Effective_Funding_And_Source_Closure_2026-10-20.md",
+        "section": "§3C Rational-base distribution; companion Rational_Base_Fixed_Branch_Transfer_Audit",
+        "version_id": null,
+        "modified_at": "2026-10-20T23:15:15.685129+00:00"
+      },
+      {
+        "url": "https://arxiv.org/abs/2602.21895",
+        "title": "Cassaigne et al2026",
+        "section": "Population frequency context"
+      },
+      {
+        "url": "https://arxiv.org/html/2510.11723v2",
+        "title": "Andrieu et al2026 revision",
+        "section": "Normality conjecture context"
+      }
+    ],
+    "attribution": "Project fixed-branch transfer audit; external rational-base distribution and normality authors credited as context, not solvers of Antihydra.",
+    "novelty": "Exact scope/transfer diagnosis; historical novelty not established.",
+    "limitations": "External papers not fully re-audited. Even limiting parity1/2 would need effective prefix control. All-source normality cited is conjectural.",
+    "significance": "Blocks a specific misapplication of population statistics to fixed-orbit safety."
+  },
+  {
+    "id": "AH-24",
+    "title": "Antihydra fixed-source all-prefix safety remains open",
+    "status": "conjecture",
+    "statement": "Unknown whether every prefix of f-orbit from8 has O_t<=2t/3, equivalently whether native blank Antihydra never halts.",
+    "assumptions": "Exact source8, budget0, actual native halt convention; not a larger-source asymptotic.",
+    "map_clock": "f(x)=floor(3x/2), x0=8; budget b0=0, +2 on even inputs and -1 on odd inputs. Driver updates are not native TM steps.",
+    "proof_summary": "Exact equivalences AH01/AH06 identify target; no closed source-derived invariant, global exclusion theorem or authenticated failure found by latest checkpoint. External official page still describes open status.",
+    "sources": [
+      {
+        "library_file_id": "libfile_acb5147370f88191982c771e14d40770",
+        "title": "Effective_Growing_Run_Funding_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Champion Internal Insertions - 2026-10-20/Effective_Growing_Run_Funding_2026-10-20.md",
+        "section": "§7 Fixed-source barrier",
+        "version_id": null,
+        "modified_at": "2026-10-20T23:15:16.711831+00:00"
+      },
+      {
+        "library_file_id": "libfile_10e46867315481918e19f1ede974795c",
+        "title": "Antihydra_Continuation_05_Effective_Funding_And_Source_Closure_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Champion Internal Insertions - 2026-10-20/Antihydra_Continuation_05_Effective_Funding_And_Source_Closure_2026-10-20.md",
+        "section": "§5 Exact stopping point",
+        "version_id": null,
+        "modified_at": "2026-10-20T23:15:15.685129+00:00"
+      },
+      {
+        "url": "https://bbchallenge.org/antihydra",
+        "title": "Official Antihydra",
+        "section": "Open status inspected2026-10-21"
+      }
+    ],
+    "attribution": "External open problem; project contributes partial structure and estimates.",
+    "novelty": "No claim of solution.",
+    "limitations": "Finite survival, positive drift heuristics, effective growing-source funding, and equivalent reformulations do not discharge universal fixed-source quantifier.",
+    "significance": "Central boundary every pre-paper conclusion must retain."
+  },
+  {
+    "id": "AH-25",
+    "title": "Independent review regression suite",
+    "status": "computational",
+    "statement": "All bounded independent tests in antihydra_independent_checks.json passed:10000phase/run,1022words/twolifts,175unsafe families,64honestprefixes,20rationalshadows,128championreturns,531nativeAntihydracases,finite controls.",
+    "assumptions": "Ranges explicitly recorded; checker written fresh without importing archived project scripts.",
+    "map_clock": "Each test explicitly distinguishes driver, phase, run and native clocks.",
+    "proof_summary": "Literal tape simulator independently compares native endpoints and exact steps; integer arithmetic checks formulas and source-authenticated examples.",
+    "sources": [
+      {
+        "local_artifact": "audits/antihydra_independent_checks.py"
+      },
+      {
+        "local_artifact": "audits/antihydra_independent_checks.json"
+      }
+    ],
+    "attribution": "New2026-10-21 pre-paper review computation, not original research inventory rerun.",
+    "novelty": "Independent regression evidence only.",
+    "limitations": "No infinite proof, no exhaustive7056 rerun, no Coq build. Counts are bounded cases, not confidence probabilities.",
+    "significance": "Adds reproducible indexing/clock/algebra checks independent of supplied implementations."
+  },
+  {
+    "id": "AH-26",
+    "title": "Earlier fixed-run funding via S-units",
+    "status": "checked_proof",
+    "statement": "For each fixed numberR of maximal constant-cost runs in honest source family, total formal driver length K_R(t)=o(t); costs and repetitions need not be bounded.",
+    "assumptions": "FixedR while t grows; finite exceptional source parameters possible and ineffective in this argument.",
+    "map_clock": "f(x)=floor(3x/2), x0=8; budget b0=0, +2 on even inputs and -1 on odd inputs. Driver updates are not native TM steps.",
+    "proof_summary": "Compress runs into <=(R+2)2^R labelled S-unit terms with exactlytwo odd terms. Nondegenerate finite S-unit solution theorem bounds exceptional zero subsums involving odd terms; remove all-even cancellations and apply lower bound. Later AH13 supersedes with effective polylog bound.",
+    "sources": [
+      {
+        "library_file_id": "libfile_82fc59bf3b80819198bda0a921826cf5",
+        "title": "Antihydra_Continuation_03_Bounded_Run_Funding_2026-10-20.md",
+        "path": "/Collatz Notation Transform/Machine Research/Champion Internal Insertions - 2026-10-20/Antihydra_Continuation_03_Bounded_Run_Funding_2026-10-20.md",
+        "section": "§1A Stronger theorem: bounded number of runs",
+        "version_id": null,
+        "modified_at": "2026-10-20T22:05:43.273326+00:00"
+      },
+      {
+        "url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/c62d2578-8916-4829-97b1-20459f149466/content",
+        "title": "Bell–Diller–Jonsson–Krieger2024",
+        "section": "Theorems4.1 and4.4"
+      }
+    ],
+    "attribution": "Project application of S-unit/Subspace-Theorem results in Evertse tradition, via precise verified statements in Bell et al.",
+    "novelty": "Developmental theorem retained for provenance; later effective theorem is stronger.",
+    "limitations": "FixedR, not fixedt infiniteR. Published external theorem inspected but original foundational proofs not reread. No all-prefix source8 bound.",
+    "significance": "Explains transition from qualitative source-family funding to effective growing-run analysis."
+  }
+]

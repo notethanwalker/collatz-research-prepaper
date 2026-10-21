@@ -1,0 +1,155 @@
+{
+  "status": "passed",
+  "scope": "Independent small finite checks and full 19,448-word eight-update census; not archive reproduction or infinite-orbit validation.",
+  "counts": {
+    "normal_form": 5997,
+    "cofactor_turnover": 1998,
+    "tree_coding_and_bounds": 591,
+    "frontier_and_tilt": 16380,
+    "mask_source_evaluations": 2688,
+    "potential_certificate_rows": 8,
+    "recovery_packet_bounds": 170,
+    "region_tilt_transfer": 2508,
+    "loop_census_words": 4651,
+    "sharp_neutral_merger_pairs": 2,
+    "width5_codes": 1530
+  },
+  "mask_results": [
+    {
+      "map": [
+        3,
+        1
+      ],
+      "tree_cap5": [
+        64,
+        16,
+        8,
+        5,
+        35
+      ],
+      "affine_span_numerator": 1097,
+      "recovery_weak_cap5": [
+        384,
+        32,
+        16,
+        24,
+        56
+      ],
+      "recovery_strict_cap5": [
+        192,
+        16,
+        8,
+        5,
+        35
+      ]
+    },
+    {
+      "map": [
+        5,
+        1
+      ],
+      "tree_cap5": [
+        64,
+        16,
+        8,
+        5,
+        35
+      ],
+      "affine_span_numerator": 1097,
+      "recovery_weak_cap5": [
+        384,
+        32,
+        16,
+        24,
+        56
+      ],
+      "recovery_strict_cap5": [
+        192,
+        16,
+        8,
+        5,
+        35
+      ]
+    },
+    {
+      "map": [
+        3,
+        3
+      ],
+      "tree_cap5": [
+        64,
+        16,
+        8,
+        5,
+        35
+      ],
+      "affine_span_numerator": 1001,
+      "recovery_weak_cap5": [
+        384,
+        32,
+        16,
+        24,
+        56
+      ],
+      "recovery_strict_cap5": [
+        192,
+        16,
+        8,
+        5,
+        35
+      ]
+    }
+  ],
+  "neutral_loop_census": {
+    "4": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "5": [
+      4,
+      4,
+      4,
+      4
+    ],
+    "6": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "7": [
+      32,
+      32,
+      32,
+      32
+    ],
+    "8": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "9": [
+      288,
+      284,
+      288,
+      288
+    ],
+    "16": [
+      1926,
+      1192,
+      1926,
+      1926
+    ],
+    "17": [
+      2264,
+      1312,
+      2263,
+      2264
+    ]
+  },
+  "band15_closed_paths_24_debt8": 292366481680,
+  "source_sha256": "93a9537e8e4a59c388569d8f6d330840276ac7124760c1c6dab7949e79981c2f"
+}

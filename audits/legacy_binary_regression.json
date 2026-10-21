@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "odd_start_count": 5000,
+  "completed_runs": 102652,
+  "nonterminal_switch_occurrences": 97652,
+  "distinct_unit_exit_states": 1985,
+  "distinct_repeated_word_groups": {
+    "1": 389,
+    "2": 624,
+    "3": 523
+  },
+  "quotient_prime_counterexample": {
+    "previous_state": 195,
+    "switch_state": 293,
+    "a": 1,
+    "b": 4,
+    "s": -49,
+    "s_next": 119,
+    "g": 7,
+    "alpha": 7,
+    "beta": 17
+  },
+  "chim_coefficient": 174869.3120153714,
+  "chim_H_floor": 778.0805736393847,
+  "scope": "Finite regression checks; asymptotic claims require the proofs in the report."
+}

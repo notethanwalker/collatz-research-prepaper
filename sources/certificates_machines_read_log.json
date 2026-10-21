@@ -1,0 +1,700 @@
+{
+  "review_date": "2026-10-21",
+  "scope": "Machine/certificate chapter: mathematical argument audit plus selected exact test reruns. H/comparison detail has separate read log.",
+  "sources": [
+    {
+      "sha256": "f312cfe341108e125cb236e60c83bd031bb31ef5cacf787881005abb858a0e87",
+      "size_bytes": 17227,
+      "read_scope": "Full construction and conditional-completeness arguments; historical artifact claims distinguished from current status.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_d8786c596bd08191b55317b6bd5b1622",
+          "archive_title": "Collatz_Halting_Equivalence_01_Construction_And_Checks_2026-10-21.zip",
+          "archive_member": "Halting_Equivalence_01_Construction_and_Completeness_2026-10-21.md",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "b29cc7b4ed41184c7f6a66dbe43b3ef1af445c21718cdb33202a64acf7fe9d62",
+      "size_bytes": 8084,
+      "read_scope": "Canonical semantics, nonemptiness, branch/carry bounds, soundness/fairness; output clipping affected part of section 4 only, independently checked later all-base implementation.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_d8786c596bd08191b55317b6bd5b1622",
+          "archive_title": "Collatz_Halting_Equivalence_01_Construction_And_Checks_2026-10-21.zip",
+          "archive_member": "automatic_trap_checker_audit.md",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "dceb957facf0b7b12a49f2596bf888168a9df36dd2bb7c819d405c6917940fbc",
+      "size_bytes": 16721,
+      "read_scope": "Full logical formulations, proof-search boundary, least-root process, semilinear corollary, ultimately periodic parity, compactness countercontrols.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_d8786c596bd08191b55317b6bd5b1622",
+          "archive_title": "Collatz_Halting_Equivalence_01_Construction_And_Checks_2026-10-21.zip",
+          "archive_member": "logical_machine_routes.md",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "33949be75dabee3c5cb48e7e7f4224bbe252fc53d33d7631692103ab2cbc8f74",
+      "size_bytes": 13477,
+      "read_scope": "Full normalization, divergent mantissa/prefix proof, short completion, density, normalized block hitting, cycle-preserving refinement and controls.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_829449ba14f08191805f41cce25e72e8",
+          "archive_title": "Collatz_Native_Certificate_Search_02_45224_States_2026-10-21.zip",
+          "archive_member": "automatic_bridge.md",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "2185bf22cf9c54c6bffb1ae8549de3f245684b64366d5cc9d4f870cc7cf0c61e",
+      "size_bytes": 12036,
+      "read_scope": "Substantive density and bounded-gap arguments, with clipped redundant summary portion; not relying on finite tests as proof.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_829449ba14f08191805f41cce25e72e8",
+          "archive_title": "Collatz_Native_Certificate_Search_02_45224_States_2026-10-21.zip",
+          "archive_member": "automatic_density_audit.md",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "94a90b86c286346be9229b5948abe093dde7761ba5bd0d5aac4220b8525e7df1",
+      "size_bytes": 10346,
+      "read_scope": "Full baseline unary-register simulation, binary lowering, halt preservation and exact quotient proof.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_829449ba14f08191805f41cce25e72e8",
+          "archive_title": "Collatz_Native_Certificate_Search_02_45224_States_2026-10-21.zip",
+          "archive_member": "COMPILER_PROOF.md",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "7cd05e21763b921c034314e86b6f13809faf82f778afdac281ee15fb48d1e57d",
+      "size_bytes": 7216,
+      "read_scope": "Full all-base finite cutoff, enumeration, blocks, closed implementation, and limitations.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_6d02905c800c8191b4f11025410fe3b0",
+          "archive_title": "Collatz_Native_Machine_03_24021_All_Base_and_20403_Binary_2026-10-21.zip",
+          "archive_member": "all_base_machine/ALL_BASE_MACHINE_PROOF.md",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "ba6c77b59ea5684acf043c139a81d9fc71438ba5849b0b1eb53e1cb1e7ed1428",
+      "size_bytes": 12419,
+      "read_scope": "Full terminating-prefix construction, complements, tail obstruction, popcount and commuting exclusions.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_6d02905c800c8191b4f11025410fe3b0",
+          "archive_title": "Collatz_Native_Machine_03_24021_All_Base_and_20403_Binary_2026-10-21.zip",
+          "archive_member": "collatz_regular_closure.md",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "40faecc0b09b9199b5b2a78320a5729fe7c485223bbdfedf489f2d7f399cbc83",
+      "size_bytes": 10173,
+      "read_scope": "Full powers-of-three/dyadic/H comparisons, coverage limits and proof-search distinction.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_6d02905c800c8191b4f11025410fe3b0",
+          "archive_title": "Collatz_Native_Machine_03_24021_All_Base_and_20403_Binary_2026-10-21.zip",
+          "archive_member": "completeness_primary_audit.md",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "92e52ea85114b21177da6003cae4b247b92470bbfe17a75024d30ca4a98288a1",
+      "size_bytes": 14977,
+      "read_scope": "Full all-base product checker, budgets equivalence, proof-search maximality, representation-checkability tradeoff.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_6d02905c800c8191b4f11025410fe3b0",
+          "archive_title": "Collatz_Native_Machine_03_24021_All_Base_and_20403_Binary_2026-10-21.zip",
+          "archive_member": "completeness_routes_audit.md",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "caa0a30712055cff690bc3d9e0a026187f7aa627ab5dd4566c86314eb28fbac3",
+      "size_bytes": 8153,
+      "read_scope": "Full population-density non-implications and exact non-Collatz comparison proof.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_6d02905c800c8191b4f11025410fe3b0",
+          "archive_title": "Collatz_Native_Machine_03_24021_All_Base_and_20403_Binary_2026-10-21.zip",
+          "archive_member": "density_obstruction.md",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "a5459bba99e1bee8cd247795af6f720fab917cd9eae528b069f283d3c77a716f",
+      "size_bytes": 6107,
+      "read_scope": "Implementation definitions and full tests through enumeration introduction; rerun complete finite main tests.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_6d02905c800c8191b4f11025410fe3b0",
+          "archive_title": "Collatz_Native_Machine_03_24021_All_Base_and_20403_Binary_2026-10-21.zip",
+          "archive_member": "all_base_trap_checker.py",
+          "byte_identical": true
+        },
+        {
+          "library_file_id": "libfile_9aa79ba5821c8191a3a17024cb4bfbb8",
+          "archive_title": "Collatz_Native_Machine_04_17259_States_and_Symbolic_Search_2026-10-21.zip",
+          "archive_member": "all_base_trap_checker.py",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "2c6ec3793b62fbdadfcf68f737d32be19499dba05f57df8814b24aa137432cb0",
+      "size_bytes": 4109,
+      "read_scope": "Full all-base prefix coverage and density bound proof.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_9aa79ba5821c8191a3a17024cb4bfbb8",
+          "archive_title": "Collatz_Native_Machine_04_17259_States_and_Symbolic_Search_2026-10-21.zip",
+          "archive_member": "all_base_density_restriction.md",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "ebb0f58b31c746e0c68a7aaab362a0a25a61f6497cbda478fc32ffc6f1ec405d",
+      "size_bytes": 9986,
+      "read_scope": "Full mixed-base pumping iff cycle proof, malformed-block analysis and subsequence countercontrol.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_9aa79ba5821c8191a3a17024cb4bfbb8",
+          "archive_title": "Collatz_Native_Machine_04_17259_States_and_Symbolic_Search_2026-10-21.zip",
+          "archive_member": "complete_refutation_reduction.md",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "92f08e918ef219b3b9b90aafac7a87e110ce7c520c244cc696503e8aa27a0483",
+      "size_bytes": 8312,
+      "read_scope": "Full involution/idempotent theorems and countercontrols.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_9aa79ba5821c8191a3a17024cb4bfbb8",
+          "archive_title": "Collatz_Native_Machine_04_17259_States_and_Symbolic_Search_2026-10-21.zip",
+          "archive_member": "noncommuting_memory/noncommuting_group_memory.md",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "0bf5b699d8c8a5f028bf25ac130eb333e07a247749efb884c3ec609a177b359d",
+      "size_bytes": 10163,
+      "read_scope": "Full v1 grammar, normalization, positivity, recurrence proof, H separation and cycle coverage.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_9aa79ba5821c8191a3a17024cb4bfbb8",
+          "archive_title": "Collatz_Native_Machine_04_17259_States_and_Symbolic_Search_2026-10-21.zip",
+          "archive_member": "symbolic_certificates/SOUNDNESS_AND_COMPLETENESS.md",
+          "byte_identical": true
+        },
+        {
+          "library_file_id": "libfile_a18b1049cbf081919c9ccfbbe6584eef",
+          "archive_title": "Collatz_Pass08_Selected_499710_Compact_Reproduction.zip",
+          "archive_member": "pass08_compact/collatz_halting_equivalence04/symbolic_certificates/SOUNDNESS_AND_COMPLETENESS.md",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "4fa30ff5b690605be96593eced8180a5a9b39918870a26d8bd5961b32e2951ed",
+      "size_bytes": 6552,
+      "read_scope": "Full exact union predicate, mathematical fairness, controls and historical native boundary.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_9aa79ba5821c8191a3a17024cb4bfbb8",
+          "archive_title": "Collatz_Native_Machine_04_17259_States_and_Symbolic_Search_2026-10-21.zip",
+          "archive_member": "joint_search/PROOF.md",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "9dd1bac5f445b7fc10f361856cb3401a728f4a7c001b9d3b43ca8458cdbc1a1d",
+      "size_bytes": 4919,
+      "read_scope": "Full active-marker/register-layout simulation proof.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_9aa79ba5821c8191a3a17024cb4bfbb8",
+          "archive_title": "Collatz_Native_Machine_04_17259_States_and_Symbolic_Search_2026-10-21.zip",
+          "archive_member": "shared_compiler/POSITION_PROOF.md",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "9451545393f4f5c889f4f789dea532cc54178bae01ea4488aa3c0287f1b79382",
+      "size_bytes": 2849,
+      "read_scope": "Full one-cell-right boundary optimization proof and canonical completion scope.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_9aa79ba5821c8191a3a17024cb4bfbb8",
+          "archive_title": "Collatz_Native_Machine_04_17259_States_and_Symbolic_Search_2026-10-21.zip",
+          "archive_member": "shared_compiler/DATA_BOUNDARY_PROOF.md",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "46c74b9e0a68ca5b59f8adc2ac1e4d570c7ccd420dbf05f789228b0273a17af1",
+      "size_bytes": 4631,
+      "read_scope": "Full invariant-safe logical completion and quotient argument.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_9aa79ba5821c8191a3a17024cb4bfbb8",
+          "archive_title": "Collatz_Native_Machine_04_17259_States_and_Symbolic_Search_2026-10-21.zip",
+          "archive_member": "symbol_completion/PROOF.md",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "d9ca1d617d51a5d3e67fa64626e00a1a2ed27e07b014262339ffa43b447dd17b",
+      "size_bytes": 9110,
+      "read_scope": "Full normalization trace calculus and exact v1 coverage proof.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_a18b1049cbf081919c9ccfbbe6584eef",
+          "archive_title": "Collatz_Pass08_Selected_499710_Compact_Reproduction.zip",
+          "archive_member": "pass08_compact/collatz_halting_equivalence06/native_joint/trace_calculus/TRACE_CALCULUS.md",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "9a2fdeecfe5bd5f45d15a7b244a6ac13ed08697d3ed23229f7d3eede9a59a6db",
+      "size_bytes": 9168,
+      "read_scope": "Full native-friendly equality/substitution schemas, both coverage directions, exact lower witness proof.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_a18b1049cbf081919c9ccfbbe6584eef",
+          "archive_title": "Collatz_Pass08_Selected_499710_Compact_Reproduction.zip",
+          "archive_member": "pass08_compact/collatz_halting_equivalence06/native_joint/trace_calculus/EQUATIONAL_NATIVE_CONTRACT.md",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "cb029b85e2cd09778c0aa20fffe78c1e34c6e8f9bc5f5e7a03605694456663c0",
+      "size_bytes": 3068,
+      "read_scope": "Full 28-record schema specification.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_a18b1049cbf081919c9ccfbbe6584eef",
+          "archive_title": "Collatz_Pass08_Selected_499710_Compact_Reproduction.zip",
+          "archive_member": "pass08_compact/collatz_halting_equivalence06/native_joint/PROOF_KINDS.md",
+          "byte_identical": true
+        },
+        {
+          "library_file_id": "libfile_a18b1049cbf081919c9ccfbbe6584eef",
+          "archive_title": "Collatz_Pass08_Selected_499710_Compact_Reproduction.zip",
+          "archive_member": "pass08_compact/collatz_halting_equivalence08/inc_only_source/native_joint/PROOF_KINDS.md",
+          "byte_identical": true
+        },
+        {
+          "library_file_id": "libfile_a18b1049cbf081919c9ccfbbe6584eef",
+          "archive_title": "Collatz_Pass08_Selected_499710_Compact_Reproduction.zip",
+          "archive_member": "pass08_compact/collatz_halting_equivalence08/nine_bit_source/native_joint/PROOF_KINDS.md",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "4df94cf5efec67820070f6e83d639deefebda43d0eb923c7e20a310d0db43695",
+      "size_bytes": 4164,
+      "read_scope": "Full finite DAG/proof/chart/row encoding and diagonal enumeration contract.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_a18b1049cbf081919c9ccfbbe6584eef",
+          "archive_title": "Collatz_Pass08_Selected_499710_Compact_Reproduction.zip",
+          "archive_member": "pass08_compact/collatz_halting_equivalence06/native_joint/FORMAT.md",
+          "byte_identical": true
+        },
+        {
+          "library_file_id": "libfile_a18b1049cbf081919c9ccfbbe6584eef",
+          "archive_title": "Collatz_Pass08_Selected_499710_Compact_Reproduction.zip",
+          "archive_member": "pass08_compact/collatz_halting_equivalence08/inc_only_source/native_joint/FORMAT.md",
+          "byte_identical": true
+        },
+        {
+          "library_file_id": "libfile_a18b1049cbf081919c9ccfbbe6584eef",
+          "archive_title": "Collatz_Pass08_Selected_499710_Compact_Reproduction.zip",
+          "archive_member": "pass08_compact/collatz_halting_equivalence08/nine_bit_source/native_joint/FORMAT.md",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "7b35dc64fd68649bfcdbefefc4f86a28500129c93aff2edf7dee47fabe9cf82e",
+      "size_bytes": 10948,
+      "read_scope": "Full current-then native status, predicate and integration invariant; historical counts kept distinct.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_a18b1049cbf081919c9ccfbbe6584eef",
+          "archive_title": "Collatz_Pass08_Selected_499710_Compact_Reproduction.zip",
+          "archive_member": "pass08_compact/collatz_halting_equivalence06/native_joint/STATUS_AND_PROOF.md",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "4615f6347e4e11dad54383111e7e9faf03a895b29fca88d9730fdba9738e9374",
+      "size_bytes": 4993,
+      "read_scope": "Full practical serializer paths, fair exhaustive fallback and C5/C3 map-binding control.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_a18b1049cbf081919c9ccfbbe6584eef",
+          "archive_title": "Collatz_Pass08_Selected_499710_Compact_Reproduction.zip",
+          "archive_member": "pass08_compact/collatz_halting_equivalence06/native_joint/SERIALIZER_STATUS.md",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "0ffddd05532105c1e73ab6fed53c4feb1a2498c0b3b44fc18a5e9fa67685e2a4",
+      "size_bytes": 2678,
+      "read_scope": "Full source: syntactic naturalness and acyclic term validation.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_a18b1049cbf081919c9ccfbbe6584eef",
+          "archive_title": "Collatz_Pass08_Selected_499710_Compact_Reproduction.zip",
+          "archive_member": "pass08_compact/collatz_halting_equivalence06/native_joint/native_terms.py",
+          "byte_identical": true
+        },
+        {
+          "library_file_id": "libfile_a18b1049cbf081919c9ccfbbe6584eef",
+          "archive_title": "Collatz_Pass08_Selected_499710_Compact_Reproduction.zip",
+          "archive_member": "pass08_compact/collatz_halting_equivalence08/inc_only_source/native_joint/native_terms.py",
+          "byte_identical": true
+        },
+        {
+          "library_file_id": "libfile_a18b1049cbf081919c9ccfbbe6584eef",
+          "archive_title": "Collatz_Pass08_Selected_499710_Compact_Reproduction.zip",
+          "archive_member": "pass08_compact/collatz_halting_equivalence08/nine_bit_source/native_joint/native_terms.py",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "d7f322cb8313cca9ce84df0c962dd32de44675abbb85f651061eda95efa43dd6",
+      "size_bytes": 8295,
+      "read_scope": "Full source: all equality/substitution proof rules, signed literal checks and premise sorts.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_a18b1049cbf081919c9ccfbbe6584eef",
+          "archive_title": "Collatz_Pass08_Selected_499710_Compact_Reproduction.zip",
+          "archive_member": "pass08_compact/collatz_halting_equivalence06/native_joint/native_proof.py",
+          "byte_identical": true
+        },
+        {
+          "library_file_id": "libfile_a18b1049cbf081919c9ccfbbe6584eef",
+          "archive_title": "Collatz_Pass08_Selected_499710_Compact_Reproduction.zip",
+          "archive_member": "pass08_compact/collatz_halting_equivalence08/inc_only_source/native_joint/native_proof.py",
+          "byte_identical": true
+        },
+        {
+          "library_file_id": "libfile_a18b1049cbf081919c9ccfbbe6584eef",
+          "archive_title": "Collatz_Pass08_Selected_499710_Compact_Reproduction.zip",
+          "archive_member": "pass08_compact/collatz_halting_equivalence08/nine_bit_source/native_joint/native_proof.py",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "bda7e48a414d46069c11e020854b9d113d17bba9f8df4e4520ff2dfca7f79949",
+      "size_bytes": 6582,
+      "read_scope": "Full source: positivity, ordered residues, parameter bindings and trusted C3 closure.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_a18b1049cbf081919c9ccfbbe6584eef",
+          "archive_title": "Collatz_Pass08_Selected_499710_Compact_Reproduction.zip",
+          "archive_member": "pass08_compact/collatz_halting_equivalence06/native_joint/native_charts.py",
+          "byte_identical": true
+        },
+        {
+          "library_file_id": "libfile_a18b1049cbf081919c9ccfbbe6584eef",
+          "archive_title": "Collatz_Pass08_Selected_499710_Compact_Reproduction.zip",
+          "archive_member": "pass08_compact/collatz_halting_equivalence08/inc_only_source/native_joint/native_charts.py",
+          "byte_identical": true
+        },
+        {
+          "library_file_id": "libfile_a18b1049cbf081919c9ccfbbe6584eef",
+          "archive_title": "Collatz_Pass08_Selected_499710_Compact_Reproduction.zip",
+          "archive_member": "pass08_compact/collatz_halting_equivalence08/nine_bit_source/native_joint/native_charts.py",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "b4847cb2b823d193dcae079301d1548f9250c5e872325f147a11f6552c85a666",
+      "size_bytes": 17348,
+      "read_scope": "Semantic audit and quotient sections; some intermediate long-report output clipped; not claiming full independent reproduction of all listed tests.",
+      "archive_matches": [],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "f4fa5d046d185e6fc7f7c52a9469ea202b36892d3c1fa68c2c0bbfcc71ae40ee",
+      "size_bytes": 5990,
+      "read_scope": "Full liveness, call summary, clear-loop summary and finite-stuttering allocation proof.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_3eb436c087e48191a887403a01846381",
+          "archive_title": "Collatz_Pass07_Historical_Checkpoint_517823_2026-10-21.zip",
+          "archive_member": "joint_c3_v1/register_reduction/PROOF_AND_SCOPE.md",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "ddff7a4bbd0b890f5023edd63e118745624b0a3aa3d384eecbe1b0580f081767",
+      "size_bytes": 3957,
+      "read_scope": "Full physical layout, safe completion, binary encoding and exact quotient preservation chain.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_3eb436c087e48191a887403a01846381",
+          "archive_title": "Collatz_Pass07_Historical_Checkpoint_517823_2026-10-21.zip",
+          "archive_member": "joint_c3_v1/pass07/PROOF_AND_SCOPE.md",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "1e1a49acdb36004063d0df976f49ae873f872c380f1a6b9cbe27e97a3c3b2fda",
+      "size_bytes": 5618,
+      "read_scope": "Full final checkpoint, counts, artifact hashes, scope and limits.",
+      "archive_matches": [],
+      "verification_level": "argument/source reading, not proof-assistant verification",
+      "standalone_library_source": {
+        "library_file_id": "libfile_d5a4157b8d9c8191a5baf492cfa97b3e",
+        "title": "Native_Machine_08_Final_Reduction_Report_2026-10-21.md",
+        "basis": "Verified inventory metadata; local authored report matches named published artifact; Library byte content not separately downloaded in this task."
+      }
+    },
+    {
+      "sha256": "2ba926f83b7e6fbd7327a942d0a2c12729371851af60b5e6cd3eb56ce8fc49d0",
+      "size_bytes": 5964,
+      "read_scope": "Full nine-bit and INC-only source transformation invariants and final audit gates.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_a18b1049cbf081919c9ccfbbe6584eef",
+          "archive_title": "Collatz_Pass08_Selected_499710_Compact_Reproduction.zip",
+          "archive_member": "pass08_compact/collatz_halting_equivalence08/PROOF_AND_SCOPE.md",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "35ae480fb2522ab6ccfa11d9897bbc3478d6a251131af37c8cd356d3173ae3fc",
+      "size_bytes": 6131,
+      "read_scope": "Full source/ABI induction, controls and final selected table audit.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_a18b1049cbf081919c9ccfbbe6584eef",
+          "archive_title": "Collatz_Pass08_Selected_499710_Compact_Reproduction.zip",
+          "archive_member": "pass08_compact/collatz_halting_equivalence08/independent_audit/AUDIT.md",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "9235c538f0baadbe05b5a0024038abf95a411e8f2f5fa6239b9e90caefdcdb50",
+      "size_bytes": 3122,
+      "read_scope": "Full source independently examined, then executed for exhaustive final quotient recheck.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_a18b1049cbf081919c9ccfbbe6584eef",
+          "archive_title": "Collatz_Pass08_Selected_499710_Compact_Reproduction.zip",
+          "archive_member": "pass08_compact/collatz_halting_equivalence08/inc_only_source/independent_audit/audit_binary_quotient.py",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    },
+    {
+      "sha256": "205cbc789b60543d3cc1f0dde97d4d0eab40202a337194b2d9b8a65b77952ad7",
+      "size_bytes": 173,
+      "read_scope": "Read exact final-release 10,000-boundary/8,114,452-step replay record; not independently rerun here.",
+      "archive_matches": [
+        {
+          "library_file_id": "libfile_a18b1049cbf081919c9ccfbbe6584eef",
+          "archive_title": "Collatz_Pass08_Selected_499710_Compact_Reproduction.zip",
+          "archive_member": "pass08_compact/PORTABLE_NATIVE_REPLAY.json",
+          "byte_identical": true
+        }
+      ],
+      "verification_level": "argument/source reading, not proof-assistant verification"
+    }
+  ],
+  "reexecuted_checks": [
+    {
+      "script": "collatz_halting_equivalence04/noncommuting_memory/check_controls.py",
+      "result": "passed",
+      "details": "Dihedral orders 3–32; unnormalized involutions; idempotent noncommuting example; incomplete repunit orbit control; C5 acceptance/C3 rejection.",
+      "script_sha256": "333ef6659c5985b4c23da472b115242058d78fe1c25afddb9428014b894aa6de",
+      "interpretation": "Reexecuted supplied checker/auditor, not a fresh proof-assistant verification or a new independently implemented auditor."
+    },
+    {
+      "script": "collatz_halting_equivalence04/rewrite_pumping_controls.py",
+      "result": "passed",
+      "details": "1000 C3 and 1000 C1 sources, 178567 C3 rewrite steps, 21-step genuine C5 loop, exact seed-3 subsequence false positive.",
+      "script_sha256": "a3ce72f40a0f4be79d5d6a9e4d5bf91704e75588495f4e1d13d74db7f076cec9",
+      "interpretation": "Reexecuted supplied checker/auditor, not a fresh proof-assistant verification or a new independently implemented auditor."
+    },
+    {
+      "script": "collatz_halting_equivalence04/symbolic_certificates/test_symbolic_charts.py",
+      "result": "passed",
+      "details": "16 certificate tests, 1250 normalization controls, 25 simulation checks.",
+      "script_sha256": "6b4fa04ba0b34e81e5ae368c071f25cf17696af428650325fd2e2d6d8675e13e",
+      "interpretation": "Reexecuted supplied checker/auditor, not a fresh proof-assistant verification or a new independently implemented auditor."
+    },
+    {
+      "script": "collatz_halting_equivalence03/all_base_trap_checker.py",
+      "result": "passed",
+      "details": "3456 exact finite-language/coefficient comparisons, 1200 randomized automaton/coefficient comparisons, bases 2–10, C5 positive/C3 negative control.",
+      "script_sha256": "a5459bba99e1bee8cd247795af6f720fab917cd9eae528b069f283d3c77a716f",
+      "interpretation": "Reexecuted supplied checker/auditor, not a fresh proof-assistant verification or a new independently implemented auditor."
+    },
+    {
+      "script": "collatz_halting_equivalence08/inc_only_source/independent_audit/audit_binary_quotient.py",
+      "result": "passed",
+      "details": "1306410 quotient equations; 999420 literal rows; 653205 raw states; 499710 quotient states; exact text/JSON/packed hashes, reachability, H/initial mapping and surjectivity.",
+      "script_sha256": "9235c538f0baadbe05b5a0024038abf95a411e8f2f5fa6239b9e90caefdcdb50",
+      "interpretation": "Reexecuted supplied checker/auditor, not a fresh proof-assistant verification or a new independently implemented auditor."
+    }
+  ],
+  "external_primary_sources": [
+    {
+      "url": "https://www.cs.cmu.edu/~mheule/publications/collatz.pdf",
+      "scope": "Primary paper opened; authors, mixed-base rewriting framework and theorem context checked. Local pumping deduction independently checked against exact rules."
+    },
+    {
+      "url": "https://monks.scranton.edu/files/pubs/SufficiencyRev4.pdf",
+      "scope": "Primary paper opened; definitions and Theorem 1.1 sufficiency checked. Full external theorem proof not reconstructed in this chapter."
+    },
+    {
+      "url": "https://www.cs.auckland.ac.nz/~cristian/collatzproblem.pdf",
+      "scope": "Full two-page 2019 note read, including explicit program Question 1."
+    },
+    {
+      "url": "https://discovery.ucl.ac.uk/1455006/1/TACAS14-nontermination.pdf",
+      "scope": "Primary paper introduction and recurrence-set framework inspected for attribution; no wholesale external completeness import."
+    },
+    {
+      "url": "https://arxiv.org/abs/1909.03562",
+      "scope": "Current abstract and bibliographic record checked, including logarithmic-density almost-bounded conclusion. Specific Theorem 1.3/Remark 1.4 discussion also read in local audit."
+    },
+    {
+      "url": "https://github.com/GettysburgResearch/collatz/blob/main/research/RESULTS_CATALOG.md",
+      "scope": "Current repository catalog opened; project status and provenance framing checked. Historical acknowledgment is based on local source; current 30.7KB catalog not exhaustively audited."
+    }
+  ],
+  "archive_manifest": [
+    {
+      "library_file_id": "libfile_d8786c596bd08191b55317b6bd5b1622",
+      "title": "Collatz_Halting_Equivalence_01_Construction_And_Checks_2026-10-21.zip",
+      "sha256": "6dfa8c78844c2a107ecbc40fd303344382e82b0b7da825b19b1a252f8ba14972",
+      "size_bytes": 54469
+    },
+    {
+      "library_file_id": "libfile_829449ba14f08191805f41cce25e72e8",
+      "title": "Collatz_Native_Certificate_Search_02_45224_States_2026-10-21.zip",
+      "sha256": "ccb7545d989bcbf943fd8b54f1bd7490c03ad6fd67888433f99d97f089483042",
+      "size_bytes": 1932172
+    },
+    {
+      "library_file_id": "libfile_6d02905c800c8191b4f11025410fe3b0",
+      "title": "Collatz_Native_Machine_03_24021_All_Base_and_20403_Binary_2026-10-21.zip",
+      "sha256": "95cd6bb3de987f37d361cde59b597acb2e7affe4cadd4dc241193094feb02a7d",
+      "size_bytes": 12364110
+    },
+    {
+      "library_file_id": "libfile_9aa79ba5821c8191a3a17024cb4bfbb8",
+      "title": "Collatz_Native_Machine_04_17259_States_and_Symbolic_Search_2026-10-21.zip",
+      "sha256": "1e5dfda8428a397b312d1f20256159f51e53708a9176ea8285de9d7bcac43d2d",
+      "size_bytes": 14534316
+    },
+    {
+      "library_file_id": "libfile_a18b1049cbf081919c9ccfbbe6584eef",
+      "title": "Collatz_Pass08_Selected_499710_Compact_Reproduction.zip",
+      "sha256": "5c86565afcf6a3f18d9507ab6ecfd26790ed1fb1498c61a0b3492b187d5b421b",
+      "size_bytes": 9658299
+    },
+    {
+      "library_file_id": "libfile_502041222a808191afd6f47abb97417d",
+      "title": "joint_c3_v1_literal_1616592.zip",
+      "sha256": "f796f453d70c83a229aa6e7cd29e2b51d2bc7dcc9b42c3631c3d7aacc17202e1",
+      "size_bytes": 36543179
+    },
+    {
+      "library_file_id": "libfile_3eb436c087e48191a887403a01846381",
+      "title": "Collatz_Pass07_Historical_Checkpoint_517823_2026-10-21.zip",
+      "sha256": "300ed305fcbfdbdcc87fcbbfbaa996e679f79a85792f861c5365eb59e4413761",
+      "size_bytes": 35445067
+    }
+  ],
+  "limits": [
+    "No proof-assistant formalization claimed.",
+    "No current-corpus novelty or historical priority established.",
+    "Some historical reports contain superseded implementation status; newest final artifact controls machine existence/count.",
+    "Absence of byte-identical archive match means no exact archive membership asserted for that local revision; relevant published bundle or standalone report remains listed in chapter."
+  ]
+}

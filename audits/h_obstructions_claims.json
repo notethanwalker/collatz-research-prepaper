@@ -1,0 +1,306 @@
+[
+  {
+    "id": "MC-H01",
+    "title": "Exact symbolic recurrent-set soundness",
+    "status": "checked_proof",
+    "statement": "Every certificate accepted by v1 or v2 for a trusted supported map supplies a nonempty forward-invariant set of integers at least two.",
+    "assumptions": "Exact unbounded arithmetic; finite valid expression syntax; exhaustive residue rows; natural affine updates.",
+    "map_clock": "C3 and C5 use shortcut time; H_sq uses squaring on x_j=2^(2^j), otherwise 1.",
+    "proof_summary": "Normalization preserves evaluation; positivity proves avoidance; Euclidean residue coverage and exact successor identities close the union. Branch identities also prove parity.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "file": "SOUNDNESS_AND_COMPLETENESS.md",
+        "library_file_id": "libfile_5ace602808e08191a1b398923eafc682",
+        "file_id": "file_000000001bbc8230bbdd54abcb27dfcc",
+        "sections": "§§1–4, Theorem 1"
+      },
+      {
+        "source_id": "H5",
+        "file": "SOUNDNESS_V2.md",
+        "library_file_id": "libfile_54fc40d352c0819190d1aca7c3dd4b24",
+        "file_id": "file_00000000bd7482308451594936fd09bf",
+        "sections": "Recurrent-set soundness"
+      },
+      {
+        "source_id": "H5-code",
+        "file": "symbolic_chart_checker.py",
+        "library_file_id": "libfile_54fc40d352c0819190d1aca7c3dd4b24",
+        "file_id": "file_00000000bd7482308451594936fd09bf",
+        "sections": "_check, nf, certified_lower_bound"
+      }
+    ],
+    "attribution": "User-supplied Pass03–Pass05 Collatz corpus; independently reconstructed in h_obstruction_audit.md.",
+    "novelty": "No historical novelty established; theorem/artifact candidate within corpus.",
+    "limitations": "No completeness for arbitrary C3 divergence.",
+    "significance": "Core soundness theorem supporting a finite refutation language."
+  },
+  {
+    "id": "MC-H02",
+    "title": "Complete H coverage and all-base separation",
+    "status": "checked_proof",
+    "statement": "H_sq has all bad seeds X={2^(2^j)}; one accepted chart covers X; no infinite subset of X is automatic in any integer base.",
+    "assumptions": "Canonical finite-base representations; all bases b≥2 considered separately.",
+    "map_clock": "H_sq is not the compiler H or guarded halving H.",
+    "proof_summary": "Bad traps are tails; length gaps floor(2^j log_b2)+1 diverge; pumping an infinite regular language would give an impossible arithmetic progression of lengths.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "file": "SOUNDNESS_AND_COMPLETENESS.md",
+        "library_file_id": "libfile_5ace602808e08191a1b398923eafc682",
+        "file_id": "file_000000001bbc8230bbdd54abcb27dfcc",
+        "sections": "§5, Theorems 2–3"
+      },
+      {
+        "source_id": "H2",
+        "file": "Why_Symbolic_Certificates_See_What_Automata_Miss_2026-10-21.md",
+        "library_file_id": "libfile_cbc079dd451c819193e09eea162e3d7b",
+        "file_id": "file_00000000a16c82309f49016dc0c5867a",
+        "sections": "§§1–6"
+      },
+      {
+        "source_id": "H11",
+        "file": "completeness_primary_audit.md",
+        "library_file_id": "libfile_6d02905c800c8191b4f11025410fe3b0",
+        "file_id": "file_00000000a0708230ae2345a30a211dd9",
+        "sections": "§6"
+      }
+    ],
+    "attribution": "User-supplied Pass03–Pass05 Collatz corpus; independently reconstructed in h_obstruction_audit.md.",
+    "novelty": "No historical novelty established; theorem/artifact candidate within corpus.",
+    "limitations": "Separation across comparison dynamics, not extra proved C3 coverage; H is not run through the C3 automatic checker.",
+    "significance": "Matched strict representation-class separation."
+  },
+  {
+    "id": "MC-H03",
+    "title": "v2 sound extension preserving all v1 acceptance",
+    "status": "checked_proof",
+    "statement": "Exact prime-base normalization and quadratic lower bounds preserve all old mathematical certificate acceptance and soundness.",
+    "assumptions": "Same outer schema and trusted systems; exact trial division and arithmetic.",
+    "map_clock": "Unchanged maps and parameter domains.",
+    "proof_summary": "Old forms have a fixed homomorphic prime-base interpretation; old nonnegative monomials remain so; a quadratic natural-domain minimum plus monotone-remainder value at zero is a valid bound.",
+    "sources": [
+      {
+        "source_id": "H5",
+        "file": "SOUNDNESS_V2.md",
+        "library_file_id": "libfile_54fc40d352c0819190d1aca7c3dd4b24",
+        "file_id": "file_00000000bd7482308451594936fd09bf",
+        "sections": "Prime-base normalization; Quadratic positivity rule"
+      },
+      {
+        "source_id": "H6",
+        "file": "INDEPENDENT_AUDIT.md",
+        "library_file_id": "libfile_54fc40d352c0819190d1aca7c3dd4b24",
+        "file_id": "file_00000000bd7482308451594936fd09bf",
+        "sections": "§§1–3"
+      }
+    ],
+    "attribution": "User-supplied Pass03–Pass05 Collatz corpus; independently reconstructed in h_obstruction_audit.md.",
+    "novelty": "No historical novelty established; theorem/artifact candidate within corpus.",
+    "limitations": "May cost more resources; accepted base-four H syntax adds encodings, not a proved new semantically detectable C3 case.",
+    "significance": "Audited conservative enhancement to certificate automation."
+  },
+  {
+    "id": "MC-H04",
+    "title": "v2 remains a sufficient, incomplete positivity checker",
+    "status": "checked_proof",
+    "statement": "k^4−2k^3+k^2+2 is everywhere at least two but v2 declines it.",
+    "assumptions": "Current quadratic-plus-nonnegative-remainder rule.",
+    "map_clock": "Chart parameter k∈N; no dynamical conclusion.",
+    "proof_summary": "Identity with k²(k−1)²+2 proves positivity; negative cubic coefficient makes the code reject.",
+    "sources": [
+      {
+        "source_id": "H5-code",
+        "file": "symbolic_chart_checker.py",
+        "library_file_id": "libfile_54fc40d352c0819190d1aca7c3dd4b24",
+        "file_id": "file_00000000bd7482308451594936fd09bf",
+        "sections": "certified_lower_bound"
+      },
+      {
+        "source_id": "H6",
+        "file": "INDEPENDENT_AUDIT.md",
+        "library_file_id": "libfile_54fc40d352c0819190d1aca7c3dd4b24",
+        "file_id": "file_00000000bd7482308451594936fd09bf",
+        "sections": "§3"
+      }
+    ],
+    "attribution": "User-supplied Pass03–Pass05 Collatz corpus; independently reconstructed in h_obstruction_audit.md.",
+    "novelty": "No historical novelty established; theorem/artifact candidate within corpus.",
+    "limitations": "Does not rule out alternate presentation of its range; no assertion that a Collatz trap is missed.",
+    "significance": "Fresh explicit remaining syntactic limitation."
+  },
+  {
+    "id": "MC-H05",
+    "title": "Correct v2 monotonicity is eventual",
+    "status": "checked_proof",
+    "statement": "Every nonconstant eligible v1 chart is strictly increasing from k≥1; v2 charts are eventually strictly increasing and unbounded.",
+    "assumptions": "Eligibility uses the specified positivity kernels.",
+    "map_clock": "Natural chart parameter, not orbit time.",
+    "proof_summary": "Recursive nonempty monomials increase; the v2 quadratic eventually increases unless linear/constant, when positive nonconstant remainder handles the case. k²−6k+11 disproves from-k=1 monotonicity for v2.",
+    "sources": [
+      {
+        "source_id": "H8",
+        "file": "INDEPENDENT_AUDIT.md",
+        "library_file_id": "libfile_54fc40d352c0819190d1aca7c3dd4b24",
+        "file_id": "file_00000000bd7482308451594936fd09bf",
+        "sections": "§1"
+      },
+      {
+        "source_id": "H3",
+        "file": "chart_completeness_explanation.md",
+        "library_file_id": "libfile_6a714c71b2b8819192a5ba029eb71c8e",
+        "file_id": "file_0000000027bc823088b89ff7daf0ff4d",
+        "sections": "Pass05 version update"
+      }
+    ],
+    "attribution": "User-supplied Pass03–Pass05 Collatz corpus; independently reconstructed in h_obstruction_audit.md.",
+    "novelty": "No historical novelty established; theorem/artifact candidate within corpus.",
+    "limitations": "Version labels are essential.",
+    "significance": "Closes the quantifier/version issue needed in the obstruction proofs."
+  },
+  {
+    "id": "MC-H06",
+    "title": "Variable-height semantic obstruction",
+    "status": "checked_proof",
+    "statement": "No finite union of eligible v1/v2 chart images is a G_tow bad trap; fixed-depth expressions with affine updates cannot track its divergent orbits even after positivity relaxation.",
+    "assumptions": "Finite fixed-depth grammar and residue/affine parameter updates.",
+    "map_clock": "G_tow: t0=2,t(j+1)=2^t(j); G(n)=2^n on this set, else 1. Distinct from H_sq.",
+    "proof_summary": "Structural induction bounds each expression by a fixed-height E_h(c(k+2)); increasing chart values in T force variable-height lower bounds. Separately affine updates bound parameters exponentially in time.",
+    "sources": [
+      {
+        "source_id": "H3",
+        "file": "chart_completeness_explanation.md",
+        "library_file_id": "libfile_6a714c71b2b8819192a5ba029eb71c8e",
+        "file_id": "file_0000000027bc823088b89ff7daf0ff4d",
+        "sections": "§3, both obstruction proofs"
+      },
+      {
+        "source_id": "H8",
+        "file": "INDEPENDENT_AUDIT.md",
+        "library_file_id": "libfile_54fc40d352c0819190d1aca7c3dd4b24",
+        "file_id": "file_00000000bd7482308451594936fd09bf",
+        "sections": "§2"
+      }
+    ],
+    "attribution": "User-supplied Pass03–Pass05 Collatz corpus; independently reconstructed in h_obstruction_audit.md.",
+    "novelty": "No historical novelty established; theorem/artifact candidate within corpus.",
+    "limitations": "C3 grows at most exponentially in time, so this growth obstruction cannot transfer to C3.",
+    "significance": "Genuine semantic limitation, not merely unknown-system-tag rejection."
+  },
+  {
+    "id": "MC-H07",
+    "title": "Density-one joint diagonal countercontrol",
+    "status": "checked_proof",
+    "statement": "For the specified eligible charts plus all infinite all-base automatic sets there is a computable map whose density-one bad set has step increments one or two, but no bad trap in either family.",
+    "assumptions": "Effective enumeration of infinite candidates with uniform search for elements above any threshold; established for both chart versions and all-base automata.",
+    "map_clock": "F_L next-member map on S, with F(n)=1 off S; depends on chosen language list.",
+    "proof_summary": "Choose r_e in candidate L_e above previous hole+2 and 2^e; their complement is decidable of density one with gaps≤2; every candidate hits a hole, and finite sets fail invariance under strict increase.",
+    "sources": [
+      {
+        "source_id": "H8",
+        "file": "INDEPENDENT_AUDIT.md",
+        "library_file_id": "libfile_54fc40d352c0819190d1aca7c3dd4b24",
+        "file_id": "file_00000000bd7482308451594936fd09bf",
+        "sections": "§§1,3–4"
+      },
+      {
+        "source_id": "H3",
+        "file": "chart_completeness_explanation.md",
+        "library_file_id": "libfile_6a714c71b2b8819192a5ba029eb71c8e",
+        "file_id": "file_0000000027bc823088b89ff7daf0ff4d",
+        "sections": "§3A and Pass05 update"
+      }
+    ],
+    "attribution": "User-supplied Pass03–Pass05 Collatz corpus; independently reconstructed in h_obstruction_audit.md.",
+    "novelty": "No historical novelty established; theorem/artifact candidate within corpus.",
+    "limitations": "Revised interleaved map, not automatically original chart-only F; no theorem about C3; not all conceivable proof languages.",
+    "significance": "Strongest standalone relative-incompleteness theorem candidate in this portion of corpus."
+  },
+  {
+    "id": "MC-H08",
+    "title": "Exact affine H schema and native verifier",
+    "status": "checked_proof",
+    "statement": "The natural affine H schema is valid exactly when a=g=c=d=1 and b=h; a 13-state reusable binary verifier checks its paired-unary framed inputs.",
+    "assumptions": "Chart P(k)=2^(2^(ak+b)), witness gk+h, successor parameter ck+d; all fields natural.",
+    "map_clock": "Trusted H_sq only.",
+    "proof_summary": "Injectivity gives a=g,b=h and ac=a,ad=1; natural solutions force unit slopes/update. Accepted prefix is 010101010(11)*00.",
+    "sources": [
+      {
+        "source_id": "H7",
+        "file": "PROOF_AND_SCOPE.md",
+        "library_file_id": "libfile_3fa636d9bdcc8191a975929a1d2d182a",
+        "file_id": "file_0000000071e481fd901c72d8f7ae08fd",
+        "sections": "Exact reduction; Concrete certificate encoding"
+      },
+      {
+        "source_id": "H9",
+        "file": "INDEPENDENT_AUDIT.md",
+        "library_file_id": "libfile_54fc40d352c0819190d1aca7c3dd4b24",
+        "file_id": "file_00000000bd7482308451594936fd09bf",
+        "sections": "Universal certificate proof; Exact serialization"
+      }
+    ],
+    "attribution": "User-supplied Pass03–Pass05 Collatz corpus; independently reconstructed in h_obstruction_audit.md.",
+    "novelty": "No historical novelty established; theorem/artifact candidate within corpus.",
+    "limitations": "Specialized solved schema, not arbitrary-expression kernel; framed-prefix parser ignores debris after terminator.",
+    "significance": "Exact infinite-family native proof-checking artifact."
+  },
+  {
+    "id": "MC-H09",
+    "title": "20-state blank-tape H execution reproduced",
+    "status": "computational",
+    "statement": "The full preferred H machine has 20 working states, two symbols, separate halt state, and halts from blank tape in 18 transitions; full-cell-writer reference has 25 states and takes 23.",
+    "assumptions": "Two-way infinite zero tape; unit L/R moves; initializer included.",
+    "map_clock": "Known H certificate initialized, not an unknown-counterexample search.",
+    "proof_summary": "Seven sparse-writer transitions followed by eleven verifier transitions; native tables parsed and independently simulated, snapshot equality verified.",
+    "sources": [
+      {
+        "source_id": "H7-table",
+        "file": "machine.tm",
+        "library_file_id": "libfile_f99b20a8f6a4819194e29117b355f937",
+        "file_id": "file_00000000077882308806330477da8c09",
+        "sections": "Entire literal table"
+      },
+      {
+        "source_id": "H9",
+        "file": "INDEPENDENT_AUDIT.md",
+        "library_file_id": "libfile_54fc40d352c0819190d1aca7c3dd4b24",
+        "file_id": "file_00000000bd7482308451594936fd09bf",
+        "sections": "Initialization and literal execution; Independent test evidence"
+      }
+    ],
+    "attribution": "User-supplied Pass03–Pass05 Collatz corpus; independently reconstructed in h_obstruction_audit.md.",
+    "novelty": "No historical novelty established; theorem/artifact candidate within corpus.",
+    "limitations": "No minimality or C3-search state-reduction claim; finite tests supplement schema proof.",
+    "significance": "Fully reproducible specialized machine milestone."
+  },
+  {
+    "id": "MC-H10",
+    "title": "Global completeness is weaker than seedwise completeness",
+    "status": "conditional",
+    "statement": "For a global blank-tape refuter the missing implication is: if any C3 counterexample exists, some accepted C3 certificate exists. Seedwise recognition requires checked entry into a trap from each bad seed.",
+    "assumptions": "Sound exact fixed-C3 certificate search.",
+    "map_clock": "C3 shortcut reaches-1 property.",
+    "proof_summary": "Existential global acceptance versus per-seed universal entry obligations; cycles already covered, divergent-orbit coverage remains unresolved.",
+    "sources": [
+      {
+        "source_id": "H3",
+        "file": "chart_completeness_explanation.md",
+        "library_file_id": "libfile_6a714c71b2b8819192a5ba029eb71c8e",
+        "file_id": "file_0000000027bc823088b89ff7daf0ff4d",
+        "sections": "§6 and closing update"
+      },
+      {
+        "source_id": "H10",
+        "file": "PROOF.md",
+        "library_file_id": "libfile_54fc40d352c0819190d1aca7c3dd4b24",
+        "file_id": "file_00000000bd7482308451594936fd09bf",
+        "sections": "Exact predicate; Soundness for Collatz"
+      }
+    ],
+    "attribution": "User-supplied Pass03–Pass05 Collatz corpus; independently reconstructed in h_obstruction_audit.md.",
+    "novelty": "No historical novelty established; theorem/artifact candidate within corpus.",
+    "limitations": "Neither completeness theorem is proved by H, G, diagonal F, or the 20-state H execution.",
+    "significance": "Essential statement of the outstanding mathematical bridge."
+  }
+]

@@ -1,0 +1,705 @@
+{
+  "audit_date": "2026-10-21",
+  "scope": "Constraint Maturation excluding Comparative/Region Navigation and binary-machine branches; selected root closure/creative continuations. Prioritizes recent reports, not a claim to audit every Library file.",
+  "sources": [
+    {
+      "source_id": "FJ",
+      "library_file_id": "libfile_cef0e72a251481919ad273e04fb1a8e6",
+      "file_id": "file_000000000e9c820da09f9ebc75fa745f",
+      "title": "01_MAIN_REPORT.md",
+      "path": "/Collatz Notation Transform/Constraint Maturation Route/Faithful Jets and Closure 2026-10-17/01_MAIN_REPORT.md",
+      "version_id": null,
+      "retrieved_line_intervals": [
+        [
+          1,
+          421
+        ]
+      ],
+      "total_lines": 421,
+      "retrieval_complete": true,
+      "audit_status": "section-level proof audit; see audited_sections",
+      "audited_sections": "Full main report: injection, bit separator, lattice classification, bounded replay theorem.",
+      "attribution": "Internal source signed GPT-6 Astra Pro unless its own text names another contributor; external mathematical inputs preserved in claim ledger.",
+      "claim_ids": [
+        "CL20",
+        "CL21",
+        "CL22",
+        "CL23"
+      ]
+    },
+    {
+      "source_id": "CC",
+      "library_file_id": "libfile_de9a2563abfc81919269e171e4e83c14",
+      "file_id": "file_00000000ae6c81f99f79c9f8ce3eb158",
+      "title": "01_MAIN_REPORT.md",
+      "path": "/Collatz Notation Transform/Constraint Maturation Route/Comparison Closure 2026-10-17/01_MAIN_REPORT.md",
+      "version_id": null,
+      "retrieved_line_intervals": [
+        [
+          1,
+          623
+        ]
+      ],
+      "total_lines": 623,
+      "retrieval_complete": true,
+      "audit_status": "section-level proof audit; see audited_sections",
+      "audited_sections": "Full main mathematical sections: carry decomposition, false quotient cycle, primitive kernel, rank bridge.",
+      "attribution": "Internal source signed GPT-6 Astra Pro unless its own text names another contributor; external mathematical inputs preserved in claim ledger.",
+      "claim_ids": [
+        "CL19",
+        "CL22",
+        "CL23"
+      ]
+    },
+    {
+      "source_id": "CR08",
+      "library_file_id": "libfile_66c043f1ecb48191a4b72046f1b1f83f",
+      "file_id": "file_000000005a44820c926d2fda57323fb6",
+      "title": "Collatz_Creative_Closure_08_Clock_Grade_Source_Handoffs_2026-10-20.md",
+      "path": "/Collatz Notation Transform/Constraint Maturation Route/Creative Closure 08 - 2026-10-20/Collatz_Creative_Closure_08_Clock_Grade_Source_Handoffs_2026-10-20.md",
+      "version_id": "1",
+      "retrieved_line_intervals": [
+        [
+          1,
+          1269
+        ]
+      ],
+      "total_lines": 1269,
+      "retrieval_complete": true,
+      "audit_status": "section-level proof audit; see audited_sections",
+      "audited_sections": "Clock-grade/source-owner handoffs, finite grammar separation, weighted coercivity and matched controls; full text retrieved.",
+      "attribution": "Internal source signed GPT-6 Astra Pro unless its own text names another contributor; external mathematical inputs preserved in claim ledger.",
+      "claim_ids": [
+        "CL18",
+        "CL35"
+      ]
+    },
+    {
+      "source_id": "CR09",
+      "library_file_id": "libfile_ed5cbaa1bbdc81919608521cb93c4ff0",
+      "file_id": "file_0000000040e4822fb5ac4f2637a4a604",
+      "title": "Collatz_Creative_Closure_09_Repunit_Receivers_and_Clock_Budgets_2026-10-20.md",
+      "path": "/Collatz_Creative_Closure_09_Repunit_Receivers_and_Clock_Budgets_2026-10-20.md",
+      "version_id": null,
+      "retrieved_line_intervals": [
+        [
+          1,
+          1169
+        ]
+      ],
+      "total_lines": 1169,
+      "retrieval_complete": true,
+      "audit_status": "section-level proof audit; see audited_sections",
+      "audited_sections": "Repunit ownership/preview theorem, uniform repetition bounds, individual phase and external packing/summability argument; full text retrieved.",
+      "attribution": "Internal source signed GPT-6 Astra Pro unless its own text names another contributor; external mathematical inputs preserved in claim ledger.",
+      "claim_ids": [
+        "CL36",
+        "CL37",
+        "CL38",
+        "CL39",
+        "CL40"
+      ]
+    },
+    {
+      "source_id": "AX",
+      "library_file_id": "libfile_ace77384863481919928da859800a604",
+      "file_id": "file_0000000037b4820dab3555920e074705",
+      "title": "ATLAS_CROSSCHECK_AND_PROOF_INTEGRATION_2026-10-17.md",
+      "path": "/Collatz Notation Transform/Constraint Maturation Route/Atlas Crosscheck 2026-10-17/ATLAS_CROSSCHECK_AND_PROOF_INTEGRATION_2026-10-17.md",
+      "version_id": null,
+      "retrieved_line_intervals": [
+        [
+          1,
+          197
+        ]
+      ],
+      "total_lines": 197,
+      "retrieval_complete": true,
+      "audit_status": "section-level proof audit; see audited_sections",
+      "audited_sections": "Full integration requirements/route status; inherited Atlas package proofs delegated elsewhere.",
+      "attribution": "Internal source signed GPT-6 Astra Pro unless its own text names another contributor; external mathematical inputs preserved in claim ledger.",
+      "claim_ids": [
+        "CL24"
+      ]
+    },
+    {
+      "source_id": "libfile_6563f1bf7e908191b668e20ff6aa8d32",
+      "library_file_id": "libfile_6563f1bf7e908191b668e20ff6aa8d32",
+      "file_id": "file_00000000cbc4820daaa695572146e6e8",
+      "title": "03_AUDIT_AND_HANDOFF.md",
+      "path": "/Collatz Notation Transform/Constraint Maturation Route/Comparison Closure 2026-10-17/03_AUDIT_AND_HANDOFF.md",
+      "version_id": null,
+      "retrieved_line_intervals": [
+        [
+          1,
+          49
+        ]
+      ],
+      "total_lines": 49,
+      "retrieval_complete": true,
+      "audit_status": "section-level proof audit; see audited_sections",
+      "audited_sections": "Read audit/handoff/index as secondary status and provenance; no independent proof claim from its labels.",
+      "attribution": "Internal source signed GPT-6 Astra Pro unless its own text names another contributor; external mathematical inputs preserved in claim ledger.",
+      "claim_ids": []
+    },
+    {
+      "source_id": "libfile_6024cc0299408191ae825015b1498155",
+      "library_file_id": "libfile_6024cc0299408191ae825015b1498155",
+      "file_id": "file_00000000d3dc820ca647f16c9f68f47e",
+      "title": "02_AUDIT_AND_NEXT_ARGUMENT.md",
+      "path": "/Collatz Notation Transform/Constraint Maturation Route/Faithful Jets and Closure 2026-10-17/02_AUDIT_AND_NEXT_ARGUMENT.md",
+      "version_id": null,
+      "retrieved_line_intervals": [
+        [
+          1,
+          49
+        ]
+      ],
+      "total_lines": 49,
+      "retrieval_complete": true,
+      "audit_status": "section-level proof audit; see audited_sections",
+      "audited_sections": "Read audit/handoff/index as secondary status and provenance; no independent proof claim from its labels.",
+      "attribution": "Internal source signed GPT-6 Astra Pro unless its own text names another contributor; external mathematical inputs preserved in claim ledger.",
+      "claim_ids": []
+    },
+    {
+      "source_id": "libfile_e45052b5955c8191966ded3686700d30",
+      "library_file_id": "libfile_e45052b5955c8191966ded3686700d30",
+      "file_id": "file_00000000890082308fa41a438b8ad3f7",
+      "title": "CONFIRMED_ATLAS_REVIEW_2026-10-17.md",
+      "path": "/Collatz Notation Transform/Constraint Maturation Route/Atlas Crosscheck 2026-10-17/CONFIRMED_ATLAS_REVIEW_2026-10-17.md",
+      "version_id": null,
+      "retrieved_line_intervals": [
+        [
+          1,
+          114
+        ]
+      ],
+      "total_lines": 114,
+      "retrieval_complete": true,
+      "audit_status": "section-level proof audit; see audited_sections",
+      "audited_sections": "Read audit/handoff/index as secondary status and provenance; no independent proof claim from its labels.",
+      "attribution": "Internal source signed GPT-6 Astra Pro unless its own text names another contributor; external mathematical inputs preserved in claim ledger.",
+      "claim_ids": []
+    },
+    {
+      "source_id": "libfile_de9d7e7376348191a5185be8a379bd59",
+      "library_file_id": "libfile_de9d7e7376348191a5185be8a379bd59",
+      "file_id": "file_00000000e9d8820d87e3296d08e324f5",
+      "title": "00_BRANCH_INDEX.md",
+      "path": "/Collatz Notation Transform/Constraint Maturation Route/00_BRANCH_INDEX.md",
+      "version_id": "9",
+      "retrieved_line_intervals": [
+        [
+          1,
+          124
+        ]
+      ],
+      "total_lines": 124,
+      "retrieval_complete": true,
+      "audit_status": "section-level proof audit; see audited_sections",
+      "audited_sections": "Read audit/handoff/index as secondary status and provenance; no independent proof claim from its labels.",
+      "attribution": "Internal source signed GPT-6 Astra Pro unless its own text names another contributor; external mathematical inputs preserved in claim ledger.",
+      "claim_ids": []
+    },
+    {
+      "source_id": "libfile_d9ab6cd29f348191a4c672d8f6088e4f",
+      "library_file_id": "libfile_d9ab6cd29f348191a4c672d8f6088e4f",
+      "file_id": "file_00000000d7f08210b07609ca169d5e2c",
+      "title": "03_PROOF_ROUTES_AND_OBSTRUCTIONS.md",
+      "path": "/Collatz Notation Transform/Constraint Maturation Route/03_PROOF_ROUTES_AND_OBSTRUCTIONS.md",
+      "version_id": null,
+      "retrieved_line_intervals": [
+        [
+          1,
+          147
+        ]
+      ],
+      "total_lines": 147,
+      "retrieval_complete": true,
+      "audit_status": "section-level proof audit; see audited_sections",
+      "audited_sections": "Read audit/handoff/index as secondary status and provenance; no independent proof claim from its labels.",
+      "attribution": "Internal source signed GPT-6 Astra Pro unless its own text names another contributor; external mathematical inputs preserved in claim ledger.",
+      "claim_ids": []
+    },
+    {
+      "source_id": "CC18",
+      "library_file_id": "libfile_bce485c7c5548191b639ca2672d1b32e",
+      "file_id": "file_000000001c8481f6a8ac1c8f3db1ebe4",
+      "title": "Pass18_01_MAIN_REPORT.md",
+      "path": "/Collatz Notation Transform/Constraint Maturation Route/Pass18_01_MAIN_REPORT.md",
+      "version_id": null,
+      "retrieved_line_intervals": [
+        [
+          1,
+          485
+        ]
+      ],
+      "total_lines": 485,
+      "retrieval_complete": true,
+      "audit_status": "section-level proof audit; see audited_sections",
+      "audited_sections": "Full main restricted theorem proofs, inverse-shadow barrier, delayed merger and guard scope.",
+      "attribution": "Internal source signed GPT-6 Astra Pro unless its own text names another contributor; external mathematical inputs preserved in claim ledger.",
+      "claim_ids": [
+        "CL25",
+        "CL26"
+      ]
+    },
+    {
+      "source_id": "CC17",
+      "library_file_id": "libfile_9919e3c0c30c8191bad1c81b7ca3488f",
+      "file_id": "file_00000000d68081f78a6a059ad866894a",
+      "title": "Pass17_01_MAIN_REPORT.md",
+      "path": "/Collatz Notation Transform/Constraint Maturation Route/Pass17_01_MAIN_REPORT.md",
+      "version_id": null,
+      "retrieved_line_intervals": [
+        [
+          1,
+          392
+        ]
+      ],
+      "total_lines": 392,
+      "retrieval_complete": true,
+      "audit_status": "section-level proof audit; see audited_sections",
+      "audited_sections": "Sibling compiler and capacity handoff sections only; not all21 templates independently rederived.",
+      "attribution": "Internal source signed GPT-6 Astra Pro unless its own text names another contributor; external mathematical inputs preserved in claim ledger.",
+      "claim_ids": []
+    },
+    {
+      "source_id": "CC16",
+      "library_file_id": "libfile_629777c3b32c8191bc1584f4fa3bbf32",
+      "file_id": "file_00000000687881f9a28e37a7eabc8b71",
+      "title": "Pass16_01_MAIN_REPORT.md",
+      "path": "/Collatz Notation Transform/Constraint Maturation Route/Pass16_01_MAIN_REPORT.md",
+      "version_id": null,
+      "retrieved_line_intervals": [
+        [
+          1,
+          387
+        ]
+      ],
+      "total_lines": 387,
+      "retrieval_complete": true,
+      "audit_status": "section-level proof audit; see audited_sections",
+      "audited_sections": "Cubic receiving-capacity calculation and failed quadratic cut; symbolic residual coverage limits.",
+      "attribution": "Internal source signed GPT-6 Astra Pro unless its own text names another contributor; external mathematical inputs preserved in claim ledger.",
+      "claim_ids": [
+        "CL24"
+      ]
+    },
+    {
+      "source_id": "SW2",
+      "library_file_id": "libfile_fc8da13f5e908191b6b829989cca6ae6",
+      "file_id": "file_00000000364081f7b6a29006a1775b7b",
+      "title": "Signed_Word_Elimination_Further_Proofs_2026-10-18.md",
+      "path": "/Signed_Word_Elimination_Further_Proofs_2026-10-18.md",
+      "version_id": null,
+      "retrieved_line_intervals": [
+        [
+          1,
+          1695
+        ]
+      ],
+      "total_lines": 1695,
+      "retrieval_complete": true,
+      "audit_status": "section-level proof audit; see audited_sections",
+      "audited_sections": "Birth normal form, incidence theorem, direct-word constraints, density/regularity countercontrols; ancillary computational counts not reproduced.",
+      "attribution": "Internal source signed GPT-6 Astra Pro unless its own text names another contributor; external mathematical inputs preserved in claim ledger.",
+      "claim_ids": [
+        "CL14",
+        "CL15"
+      ]
+    },
+    {
+      "source_id": "SW1",
+      "library_file_id": "libfile_a51cf773e2988191bd64af2f01bbf854",
+      "file_id": "file_0000000082c881f78eaa19894be17f0a",
+      "title": "Signed_Word_Elimination_Structure_Proof_2026-10-18.md",
+      "path": "/Signed_Word_Elimination_Structure_Proof_2026-10-18.md",
+      "version_id": null,
+      "retrieved_line_intervals": [
+        [
+          1,
+          741
+        ]
+      ],
+      "total_lines": 741,
+      "retrieval_complete": true,
+      "audit_status": "section-level proof audit; see audited_sections",
+      "audited_sections": "§§1–10: compiler, integral presentation, merger equivalence, norm/dual gap.",
+      "attribution": "Internal source signed GPT-6 Astra Pro unless its own text names another contributor; external mathematical inputs preserved in claim ledger.",
+      "claim_ids": [
+        "CL12",
+        "CL13",
+        "CL40"
+      ]
+    },
+    {
+      "source_id": "LG",
+      "library_file_id": "libfile_5363ea00b6008191a648d465fe333b0a",
+      "file_id": "file_00000000e400820d9d9416b377414a2d",
+      "title": "Local_to_Global_Closure_Solution_2026-10-18.md",
+      "path": "/Local_to_Global_Closure_Solution_2026-10-18.md",
+      "version_id": null,
+      "retrieved_line_intervals": [
+        [
+          1,
+          569
+        ]
+      ],
+      "total_lines": 569,
+      "retrieval_complete": true,
+      "audit_status": "section-level proof audit; see audited_sections",
+      "audited_sections": "Main hereditary closure theorem and transport appendix; no Collatz instantiation asserted.",
+      "attribution": "Internal source signed GPT-6 Astra Pro unless its own text names another contributor; external mathematical inputs preserved in claim ledger.",
+      "claim_ids": [
+        "CL17",
+        "CL18",
+        "CL40"
+      ]
+    },
+    {
+      "source_id": "CF",
+      "library_file_id": "libfile_51e5757d787c81918e6b2d482876a5cc",
+      "file_id": "file_00000000f35081f7910efa743507231b",
+      "title": "Concrete_Closure_Follow_Up_Answer_and_Proof_2026-10-18.txt",
+      "path": "/Concrete_Closure_Follow_Up_Answer_and_Proof_2026-10-18.txt",
+      "version_id": null,
+      "retrieved_line_intervals": [
+        [
+          1,
+          462
+        ]
+      ],
+      "total_lines": 462,
+      "retrieval_complete": true,
+      "audit_status": "section-level proof audit; see audited_sections",
+      "audited_sections": "Key exact correspondence and stated limitations; ancillary finite tables not independently audited.",
+      "attribution": "Internal source signed GPT-6 Astra Pro unless its own text names another contributor; external mathematical inputs preserved in claim ledger.",
+      "claim_ids": [
+        "CL16"
+      ]
+    },
+    {
+      "source_id": "CA",
+      "library_file_id": "libfile_76235aa7ab348191bbff865cd4d1fef8",
+      "file_id": "file_00000000724c81f5a144599b01414a10",
+      "title": "Concrete_Closure_Additional_Structure_Results_2026-10-18.txt",
+      "path": "/Concrete_Closure_Additional_Structure_Results_2026-10-18.txt",
+      "version_id": null,
+      "retrieved_line_intervals": [
+        [
+          1,
+          1656
+        ]
+      ],
+      "total_lines": 1656,
+      "retrieval_complete": true,
+      "audit_status": "section-level proof audit; see audited_sections",
+      "audited_sections": "Pinned compactness, finite graph extraction, weighted/dual distinctions; other supplementary calculations sampled only.",
+      "attribution": "Internal source signed GPT-6 Astra Pro unless its own text names another contributor; external mathematical inputs preserved in claim ledger.",
+      "claim_ids": [
+        "CL16"
+      ]
+    },
+    {
+      "source_id": "CC05",
+      "library_file_id": "libfile_998d99cf20708191a555fc1f0c40481a",
+      "file_id": "file_00000000ce2c822fbb7b7d59bb3eb70a",
+      "title": "Pass05_01_PROOF_ATTEMPT_AND_NEW_THEOREMS.md",
+      "path": "/Collatz Notation Transform/Constraint Maturation Route/Pass05_01_PROOF_ATTEMPT_AND_NEW_THEOREMS.md",
+      "version_id": "1",
+      "retrieved_line_intervals": [
+        [
+          1,
+          188
+        ]
+      ],
+      "total_lines": 188,
+      "retrieval_complete": true,
+      "audit_status": "section-level proof audit; see audited_sections",
+      "audited_sections": "Full theorem arguments: factor complexity, switches, finite-vs-infinite and two-place countercontrols.",
+      "attribution": "Internal source signed GPT-6 Astra Pro unless its own text names another contributor; external mathematical inputs preserved in claim ledger.",
+      "claim_ids": [
+        "CL01",
+        "CL02",
+        "CL03"
+      ]
+    },
+    {
+      "source_id": "CC09",
+      "library_file_id": "libfile_46b186c4bb748191ace4e2613fdbbbc5",
+      "file_id": "file_00000000d724820cb184b69a4f895369",
+      "title": "Pass09_01_RATIONAL_CENTER_BRIDGE_AND_SUBSTITUTION_RIGIDITY.md",
+      "path": "/Collatz Notation Transform/Constraint Maturation Route/Pass09_01_RATIONAL_CENTER_BRIDGE_AND_SUBSTITUTION_RIGIDITY.md",
+      "version_id": null,
+      "retrieved_line_intervals": [
+        [
+          1,
+          229
+        ]
+      ],
+      "total_lines": 229,
+      "retrieval_complete": true,
+      "audit_status": "section-level proof audit; see audited_sections",
+      "audited_sections": "Finite rational-center bridge and balanced substitution theorem; limitations.",
+      "attribution": "Internal source signed GPT-6 Astra Pro unless its own text names another contributor; external mathematical inputs preserved in claim ledger.",
+      "claim_ids": [
+        "CL02",
+        "CL03"
+      ]
+    },
+    {
+      "source_id": "CC11",
+      "library_file_id": "libfile_1f2e21c675b88191882800e4a6197d8a",
+      "file_id": "file_000000000da481f99adb647248e4c43f",
+      "title": "Pass11_01_MAIN_REPORT.md",
+      "path": "/Collatz Notation Transform/Constraint Maturation Route/Pass11_01_MAIN_REPORT.md",
+      "version_id": null,
+      "retrieved_line_intervals": [
+        [
+          1,
+          306
+        ]
+      ],
+      "total_lines": 306,
+      "retrieval_complete": true,
+      "audit_status": "section-level proof audit; see audited_sections",
+      "audited_sections": "Renewal identity, nondegenerate S-unit argument and comparator controls.",
+      "attribution": "Internal source signed GPT-6 Astra Pro unless its own text names another contributor; external mathematical inputs preserved in claim ledger.",
+      "claim_ids": [
+        "CL04"
+      ]
+    },
+    {
+      "source_id": "CC12",
+      "library_file_id": "libfile_e252a84e49488191866e570b6c62dff4",
+      "file_id": "file_000000006340820dbb8f9260d3d2d59c",
+      "title": "Pass12_01_MAIN_REPORT.md",
+      "path": "/Collatz Notation Transform/Constraint Maturation Route/Pass12_01_MAIN_REPORT.md",
+      "version_id": null,
+      "retrieved_line_intervals": [
+        [
+          1,
+          385
+        ]
+      ],
+      "total_lines": 385,
+      "retrieval_complete": true,
+      "audit_status": "section-level proof audit; see audited_sections",
+      "audited_sections": "Fixed-q return finiteness, two-bit restrictions, fresh-prime counterexample. Some auxiliary reports not independently reproduced.",
+      "attribution": "Internal source signed GPT-6 Astra Pro unless its own text names another contributor; external mathematical inputs preserved in claim ledger.",
+      "claim_ids": [
+        "CL04",
+        "CL06"
+      ]
+    },
+    {
+      "source_id": "CC13",
+      "library_file_id": "libfile_8a1287785fdc81918ca0bdbff0a26709",
+      "file_id": "file_00000000ac38820d98da709c03656a68",
+      "title": "Pass13_01_MAIN_REPORT.md",
+      "path": "/Collatz Notation Transform/Constraint Maturation Route/Pass13_01_MAIN_REPORT.md",
+      "version_id": null,
+      "retrieved_line_intervals": [
+        [
+          1,
+          407
+        ]
+      ],
+      "total_lines": 407,
+      "retrieval_complete": true,
+      "audit_status": "section-level proof audit; see audited_sections",
+      "audited_sections": "§§1–5: moving dictionaries and rank/coset counting; later computational inventories not reproduced.",
+      "attribution": "Internal source signed GPT-6 Astra Pro unless its own text names another contributor; external mathematical inputs preserved in claim ledger.",
+      "claim_ids": [
+        "CL05"
+      ]
+    },
+    {
+      "source_id": "CR07",
+      "library_file_id": "libfile_69e6c604e4c88191bf33d5ed919e20b1",
+      "file_id": "file_00000000072c81f5ada5c4efa581fde1",
+      "title": "Collatz_Creative_Exploration_07_Transported_Sources_and_Collective_Receivers_2026-10-19.md",
+      "path": "/Collatz_Creative_Exploration_07_Transported_Sources_and_Collective_Receivers_2026-10-19.md",
+      "version_id": null,
+      "retrieved_line_intervals": [
+        [
+          1,
+          3641
+        ]
+      ],
+      "total_lines": 3641,
+      "retrieval_complete": true,
+      "audit_status": "section-level proof audit; see audited_sections",
+      "audited_sections": "PartsIII§§3–7(typed dispatch,fusion,burst),IV§§3–6(source transport and complete benchmark mergers),V§3(general transport),VI§§3–5(sparse grammar and non-CFL),VIII cross-audit. Other creative modules inherited, not all rederived.",
+      "attribution": "Internal source signed GPT-6 Astra Pro unless its own text names another contributor; external mathematical inputs preserved in claim ledger.",
+      "claim_ids": [
+        "CL29",
+        "CL30",
+        "CL31",
+        "CL32",
+        "CL33",
+        "CL34"
+      ]
+    },
+    {
+      "source_id": "CON",
+      "library_file_id": "libfile_d92b32e2272c8191ba301063d600d39c",
+      "file_id": "file_000000001e7881f5919f3156c6456fba",
+      "title": "Collatz_Conceptual_Closing_Arguments_2026-10-19.md",
+      "path": "/Collatz_Conceptual_Closing_Arguments_2026-10-19.md",
+      "version_id": null,
+      "retrieved_line_intervals": [
+        [
+          1,
+          843
+        ]
+      ],
+      "total_lines": 843,
+      "retrieval_complete": true,
+      "audit_status": "section-level proof audit; see audited_sections",
+      "audited_sections": "§3 source/ternary fork and §§6–16 conditional architectures/status; full text retrieved, not every portfolio identity rederived.",
+      "attribution": "Internal source signed GPT-6 Astra Pro unless its own text names another contributor; external mathematical inputs preserved in claim ledger.",
+      "claim_ids": []
+    },
+    {
+      "source_id": "CR04",
+      "library_file_id": "libfile_b792c584582c8191b6e9f348ad40d89d",
+      "file_id": "file_00000000fa10820c9c749e412683ae66",
+      "title": "Collatz_Creative_Exploration_04_Full_Proof_Architectures_2026-10-19.md",
+      "path": "/Collatz_Creative_Exploration_04_Full_Proof_Architectures_2026-10-19.md",
+      "version_id": null,
+      "retrieved_line_intervals": [
+        [
+          1,
+          1735
+        ]
+      ],
+      "total_lines": 1735,
+      "retrieval_complete": true,
+      "audit_status": "section-level proof audit; see audited_sections",
+      "audited_sections": "PartIII§6(two-base certified subset, bounded odd depth, regular inverse itineraries), PartIV§§3–7(last seam, conditional rank, terminal carrier, carry memory); earlier portfolio context skimmed.",
+      "attribution": "Internal source signed GPT-6 Astra Pro unless its own text names another contributor; external mathematical inputs preserved in claim ledger.",
+      "claim_ids": [
+        "CL17",
+        "CL27",
+        "CL28",
+        "CL40"
+      ]
+    },
+    {
+      "source_id": "DEC",
+      "library_file_id": "libfile_b602d7dc05e08191a11650714df40b35",
+      "file_id": "file_00000000c6bc81f687b7cb5ea91a878f",
+      "title": "decoder_table.md",
+      "path": "/Collatz Notation Transform/Constraint Maturation Route/Faithful Jets and Closure 2026-10-17/decoder_table.md",
+      "version_id": null,
+      "retrieved_line_intervals": [
+        [
+          1,
+          52
+        ]
+      ],
+      "total_lines": 52,
+      "retrieval_complete": true,
+      "audit_status": "section-level proof audit; see audited_sections",
+      "audited_sections": "All40 table rows and three cycles independently reproduced with exact quadratic-ring arithmetic.",
+      "attribution": "Internal source signed GPT-6 Astra Pro unless its own text names another contributor; external mathematical inputs preserved in claim ledger.",
+      "claim_ids": [
+        "CL21"
+      ]
+    },
+    {
+      "source_id": "CC14",
+      "library_file_id": "libfile_9de3288a34888191940f763c4b347d7a",
+      "file_id": "file_00000000804c820ca946235a4ca82711",
+      "title": "CMR_Pass14_Connected_Cancellation_2026-10-17.zip",
+      "path": "/CMR_Pass14_Connected_Cancellation_2026-10-17.zip",
+      "version_id": null,
+      "sections": "Main report complete; CC14 connected-cancellation lemma complete",
+      "archive_members": "CMR_Pass14_Two_Switch_Rigidity_2026-10-17/01_MAIN_REPORT.md; 02_CONNECTED_CANCELLATION_LEMMA.md",
+      "retrieval_complete": true,
+      "materialization": "Owned archive downloaded through authenticated current-task Library helper; inspected extracted text, no bundled code executed.",
+      "audit_status": "complete mathematical proof audit of specified archive members",
+      "audited_sections": "CC14 unrestricted-depth fixed-switch theorem and portable anchored cancellation lemma; CC15 source carry, endpoint trap, legal comparison and matched-center repair.",
+      "claim_ids": [
+        "CL07",
+        "CL08"
+      ]
+    },
+    {
+      "source_id": "CC15",
+      "library_file_id": "libfile_6247a16dff4c8191adf802fdebfe680d",
+      "file_id": "file_00000000d1c881f7b514da68ac7b8d01",
+      "title": "CMR_Pass15_Comparative_Mechanism_Transfer_2026-10-17.zip",
+      "path": "/CMR_Pass15_Comparative_Mechanism_Transfer_2026-10-17.zip",
+      "version_id": null,
+      "sections": "Main report complete; CC14 connected-cancellation lemma complete",
+      "archive_members": "01_MAIN_REPORT.md",
+      "retrieval_complete": true,
+      "materialization": "Owned archive downloaded through authenticated current-task Library helper; inspected extracted text, no bundled code executed.",
+      "audit_status": "complete mathematical proof audit of specified archive members",
+      "audited_sections": "CC14 unrestricted-depth fixed-switch theorem and portable anchored cancellation lemma; CC15 source carry, endpoint trap, legal comparison and matched-center repair.",
+      "claim_ids": [
+        "CL09",
+        "CL10",
+        "CL11"
+      ]
+    }
+  ],
+  "independent_checks": "audits/closure_focused_checks.py and .json",
+  "corrections": [
+    "Sibling barrier explicitly requires k>=1 and1<=m<=L; m=0 handled separately.",
+    "Mahler paper title corrected to A problem around Mahler functions.",
+    "Reciprocal summability credits García–Tal antecedent plus immediate Sharpe influence."
+  ],
+  "not_claimed": [
+    "No Lean build",
+    "No general Collatz convergence",
+    "No independent verification of every inherited script count",
+    "No historical priority certification"
+  ],
+  "inherited_not_independently_audited": [
+    "Creative01,02,03,05,06 full reports: retained through later explicit provenance; Creative04/07 selected proofs audited.",
+    "CMR Pass01–04,06–08,10 and remaining auxiliary reports: earlier material referenced only through audited later results.",
+    "Atlas source extracts R/GDR and Comparative/Region Navigation handled by other survey chapters."
+  ],
+  "external_primary_checks": [
+    {
+      "source": "Shmerkin–Solomyak",
+      "url": "https://arxiv.org/abs/math/0504545",
+      "scope": "bibliography and double-zero context"
+    },
+    {
+      "source": "Fernández-Duque–Weiermann",
+      "url": "https://arxiv.org/abs/2004.09110",
+      "scope": "bibliography and Goodstein inspiration"
+    },
+    {
+      "source": "Adamczewski–Bell",
+      "url": "https://arxiv.org/abs/1303.2019",
+      "scope": "exact title and theorem context"
+    },
+    {
+      "source": "Christol et al.",
+      "url": "https://numdam.org/articles/10.24033/bsmf.1926/",
+      "scope": "primary bibliographic record"
+    },
+    {
+      "source": "Dershowitz–Manna",
+      "url": "https://www.cs.tau.ac.il/~nachumd/papers/LNCS/Multisets.pdf",
+      "scope": "full primary paper opened, multiset termination theorem"
+    },
+    {
+      "source": "Esparza et al.",
+      "url": "https://arxiv.org/abs/1006.3825",
+      "scope": "primary abstract confirms Parikh semilinearity; bibliography"
+    },
+    {
+      "source": "García–Tal",
+      "url": "https://matwbn.icm.edu.pl/ksiazki/aa/aa90/aa9033.pdf",
+      "scope": "Direct open403; literature chapter independently auditing primary. October15 internal transport read."
+    }
+  ]
+}

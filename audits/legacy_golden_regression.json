@@ -1,0 +1,55 @@
+{
+  "tower_levels": 17,
+  "finite_intersections": 108,
+  "late_defect_cases": 378,
+  "beta_0947_empty_intersections": [
+    {
+      "K": 2,
+      "first_empty_m": 7
+    },
+    {
+      "K": 3,
+      "first_empty_m": 7
+    },
+    {
+      "K": 4,
+      "first_empty_m": 7
+    },
+    {
+      "K": 5,
+      "first_empty_m": 7
+    },
+    {
+      "K": 6,
+      "first_empty_m": 13
+    },
+    {
+      "K": 7,
+      "first_empty_m": 13
+    },
+    {
+      "K": 8,
+      "first_empty_m": 13
+    },
+    {
+      "K": 9,
+      "first_empty_m": 13
+    },
+    {
+      "K": 10,
+      "first_empty_m": 13
+    },
+    {
+      "K": 11,
+      "first_empty_m": 17
+    },
+    {
+      "K": 12,
+      "first_empty_m": 17
+    },
+    {
+      "K": 13,
+      "first_empty_m": 17
+    }
+  ]
+}

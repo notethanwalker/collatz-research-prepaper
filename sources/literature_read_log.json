@@ -1,0 +1,904 @@
+{
+  "audit_date": "2026-10-21",
+  "purpose": "Exact present inspection scope, including explicit distinctions between current direct reading, companion reading, historical records, metadata and inaccessible originals.",
+  "primary_and_related_read_entries": [
+    {
+      "id": "L01",
+      "authors": [
+        "Riho Terras"
+      ],
+      "title": "A stopping time problem on the positive integers",
+      "year": 1976,
+      "url": "https://matwbn.icm.edu.pl/ksiazki/aa/aa30/aa3034.pdf",
+      "inspection_basis": "current_direct_inspection",
+      "inspection_scope": "Primary scan downloaded; OCR generated; visually inspected printed pp.242–243, Theorems1.1–1.2 and Cor1.3–1.4. Introduction and density discussion read; not whole paper independently reproved.",
+      "read_date": "2026-10-21",
+      "local_path": "sources/literature/Terras_1976.pdf",
+      "sha256": "2b9c296a05541c5b52f63482a09982519546eba36f581bddd853af6ca014bf89"
+    },
+    {
+      "id": "L02",
+      "authors": [
+        "Riho Terras"
+      ],
+      "title": "On the existence of a density",
+      "year": 1979,
+      "url": "https://matwbn.icm.edu.pl/ksiazki/aa/aa35/aa3518.pdf",
+      "inspection_basis": "current_direct_inspection",
+      "inspection_scope": "Both pages OCR-read, printed p101 visually inspected; statement and short proof checked.",
+      "read_date": "2026-10-21",
+      "local_path": "sources/literature/Terras_1979.pdf",
+      "sha256": "6cb5efbda449752cc0e815f630680f4153aa3ee62a548307041f7968b5d0e47b"
+    },
+    {
+      "id": "L03",
+      "authors": [
+        "C. J. Everett"
+      ],
+      "title": "Iteration of the number-theoretic function f(2n)=n, f(2n+1)=3n+2",
+      "year": 1977,
+      "url": "https://doi.org/10.1016/0001-8708(77)90087-1",
+      "inspection_basis": "historical_metadata_plus_primary_corroboration",
+      "inspection_scope": "Original publisher retrieval403; no original-proof inspection this pass.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L04",
+      "authors": [
+        "Daniel J. Bernstein",
+        "Jeffrey C. Lagarias"
+      ],
+      "title": "The 3x+1 conjugacy map",
+      "year": 1996,
+      "url": "https://websites.umich.edu/~lagarias/doc/bernstein.pdf",
+      "inspection_basis": "current_direct_inspection",
+      "inspection_scope": "Primary PDF introduction pp1–3 and displayed conjugacy/series/Periodicity Conjecture inspected.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L05",
+      "authors": [
+        "Alex V. Kontorovich",
+        "Jeffrey C. Lagarias"
+      ],
+      "title": "Stochastic Models for the 3x+1 and 5x+1 Problems",
+      "year": 2010,
+      "url": "https://arxiv.org/abs/0910.1944",
+      "inspection_basis": "current_direct_inspection",
+      "inspection_scope": "Primary2009 manuscript §§1–2, Theorems2.1–2.2 read now; further §§3.1–3.2 inspection recorded in historical atlas.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L06",
+      "authors": [
+        "Terence Tao"
+      ],
+      "title": "Almost all orbits of the Collatz map attain almost bounded values",
+      "year": 2022,
+      "url": "https://arxiv.org/abs/1909.03562",
+      "inspection_basis": "current_direct_inspection",
+      "inspection_scope": "Primary v6 HTML Theorem1.3, Remark1.4, Syracuse §1.2, affine identity1.7 and parity-cylinder discussion inspected; journal2022 and v7 historical inspections distinguished.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L07",
+      "authors": [
+        "Manuel V. P. Garcia",
+        "Fabio A. Tal"
+      ],
+      "title": "A note on the generalized 3n+1 problem",
+      "year": 1999,
+      "url": "https://doi.org/10.4064/aa-90-3-245-250",
+      "inspection_basis": "current_direct_inspection",
+      "inspection_scope": "Entire six-page primary PDF text read; Lemmas1–3, Prop1–2, Theorem1/eq6, Cor1 checked; cited Heppner original not reread.",
+      "read_date": "2026-10-21",
+      "local_path": "sources/literature/Garcia_Tal_1999.pdf",
+      "sha256": "dc2ab0a006bdc25430cd14f578439937b37eda3cda0701688be12e49d5c51dd8"
+    },
+    {
+      "id": "L08",
+      "authors": [
+        "E. Heppner"
+      ],
+      "title": "Eine Bemerkung zum Hasse–Syracuse Algorithmus",
+      "year": 1978,
+      "url": "https://doi.org/10.4064/aa-90-3-245-250",
+      "inspection_basis": "primary_citation_chain",
+      "inspection_scope": "Bibliography and attributed Proposition1 in García–Tal inspected; original article not retrieved.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L09",
+      "authors": [
+        "Michael Sharpe",
+        "Collatz proof project (manuscript byline)"
+      ],
+      "title": "Reciprocal Summability of Every Unbounded Natural Collatz Orbit: A Lean Proof",
+      "year": 2026,
+      "url": "https://github.com/msharpe248/collatz/blob/ec8174b567d5cab4960024782210b5f5db02bd3a/paper/orbit_summability.tex",
+      "inspection_basis": "current_direct_inspection",
+      "inspection_scope": "Full TeX source read at pinned commit. Root inspected OrbitPacking.lean; no local Lean build or kernel replay here.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L10",
+      "authors": [
+        "Michael Sharpe",
+        "Collatz proof project (manuscript byline)"
+      ],
+      "title": "Classification of Positive Natural Collatz Seeds with Mechanical Parity Itineraries",
+      "year": 2026,
+      "url": "https://github.com/msharpe248/collatz/blob/main/paper/mechanical_classification.tex",
+      "inspection_basis": "current_direct_inspection",
+      "inspection_scope": "Full TeX theorem/definition/proof read from main; pinned-path fetch failed; current-source snapshot not same verified pin as L09. No Lean build.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L11",
+      "authors": [
+        "Michael Sharpe"
+      ],
+      "title": "DefectHeight.lean",
+      "year": 2026,
+      "url": "https://github.com/msharpe248/collatz/blob/main/lean/Collatz/DefectHeight.lean",
+      "inspection_basis": "current_companion_auditor_inspection",
+      "inspection_scope": "Source inspected by legacy chapter auditor; no Lean build.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L12",
+      "authors": [
+        "Pulowski (MathOverflow display name)"
+      ],
+      "title": "Is it known that a divergent Collatz trajectory must have summable reciprocals?",
+      "year": 2026,
+      "url": "https://mathoverflow.net/questions/513539",
+      "inspection_basis": "current_direct_inspection",
+      "inspection_scope": "Full question text read; page says Jul24, repository dates observation July2026. Identity beyond displayed name not inferred.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L13",
+      "authors": [
+        "Christian Hercher"
+      ],
+      "title": "There are no Collatz m-Cycles with m≤91",
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2201.00406",
+      "inspection_basis": "current_direct_inspection",
+      "inspection_scope": "Primary v3 PDF Lemma8, Lemma9 full proof pp4–5, Remark10 and cycle theorem scope inspected.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L14",
+      "authors": [
+        "Kenneth M. Monks"
+      ],
+      "title": "The sufficiency of arithmetic progressions for the 3x+1 conjecture",
+      "year": 2006,
+      "url": "https://monks.scranton.edu/files/pubs/SufficiencyRev4.pdf",
+      "inspection_basis": "historical_atlas_inspection",
+      "inspection_scope": "Historical atlas AN05/GS01 records Theorem1.1, inverse formulas and proof inspection; not newly reopened by attribution auditor.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L15",
+      "authors": [
+        "Keenan Monks",
+        "Kenneth G. Monks",
+        "Kenneth M. Monks",
+        "Maria Monks"
+      ],
+      "title": "Strongly sufficient sets and the distribution of arithmetic sequences in the 3x+1 graph",
+      "year": 2013,
+      "url": "https://arxiv.org/abs/1204.3904",
+      "inspection_basis": "current_direct_inspection",
+      "inspection_scope": "Primary PDF Cor5.8 and §6 definitions/Prop6.3/Thm6.4 inspected. Served PDF title date2024 differs from publication2013; publication year retained.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L16",
+      "authors": [
+        "David Gale"
+      ],
+      "title": "A theorem on flows in networks",
+      "year": 1957,
+      "url": "https://msp.org/pjm/1957/7-2/pjm-v7-n2-p04-p.pdf",
+      "inspection_basis": "current_direct_inspection",
+      "inspection_scope": "Primary §1–2 definitions, Feasibility Theorem and minimum-cut interface read.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L17",
+      "authors": [
+        "Kwok Chi Chim"
+      ],
+      "title": "Lower bounds for linear forms in two p-adic logarithms",
+      "year": 2025,
+      "url": "https://doi.org/10.1016/j.jnt.2024.07.012",
+      "inspection_basis": "current_metadata_and_historical_application",
+      "inspection_scope": "Author/institution abstract and publication metadata inspected; linked PDF403. Older project carries specific application audit; no new full theorem inspection here.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L18",
+      "authors": [
+        "Kunrui Yu"
+      ],
+      "title": "p-adic logarithmic forms and group varieties. II",
+      "year": 1999,
+      "url": "https://doi.org/10.4064/aa-89-4-337-378",
+      "inspection_basis": "current_companion_auditor_metadata",
+      "inspection_scope": "Original publisher metadata verified by Antihydra auditor; original PDF403, not reread.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L19",
+      "authors": [
+        "Bernadette Faye",
+        "Florian Luca",
+        "Volker Ziegler"
+      ],
+      "title": "On a variant of Pillai’s problem with factorials and S-units",
+      "year": 2024,
+      "url": "https://link.springer.com/article/10.1007/s11139-023-00787-1",
+      "inspection_basis": "current_companion_auditor_inspection",
+      "inspection_scope": "Theorem4/eq5 inspected and constant specialization checked by Antihydra auditor; author metadata reopened directly.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L20",
+      "authors": [
+        "Jan-Hendrik Evertse",
+        "Hans Peter Schlickewei",
+        "Wolfgang M. Schmidt"
+      ],
+      "title": "Linear equations in variables which lie in a multiplicative group",
+      "year": 2002,
+      "url": "https://arxiv.org/abs/math/0409604",
+      "inspection_basis": "current_direct_inspection",
+      "inspection_scope": "Primary introduction/Theorem1.1 and nondegeneracy/dimension discussion inspected now; not full proof.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L21",
+      "authors": [
+        "Jason P. Bell",
+        "Jeffrey Diller",
+        "Mattias Jonsson",
+        "Holly Krieger"
+      ],
+      "title": "Birational maps with transcendental dynamical degree",
+      "year": 2024,
+      "url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/c62d2578-8916-4829-97b1-20459f149466/content",
+      "inspection_basis": "current_companion_auditor_inspection",
+      "inspection_scope": "Primary institutional PDF Theorem4.1 p19 and Theorem4.4 p21 inspected by Antihydra auditor.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L22",
+      "authors": [
+        "Alan Cobham"
+      ],
+      "title": "On the base-dependence of sets of numbers recognizable by finite automata",
+      "year": 1969,
+      "url": "https://research.ibm.com/publications/on-the-base-dependence-of-sets-of-numbers-recognizable-by-finite-automata",
+      "inspection_basis": "current_primary_abstract",
+      "inspection_scope": "Primary IBM publication abstract/metadata inspected; original full proof not reread.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L23",
+      "authors": [
+        "Jean-Paul Allouche",
+        "Jeffrey Shallit"
+      ],
+      "title": "Automatic Sequences: Theory, Applications, Generalizations",
+      "year": 2003,
+      "url": "https://www.cambridge.org/core/books/abs/automatic-sequences/cobhams-theorem/C070C48818D5A1C8602FE789386D264D",
+      "inspection_basis": "historical_project_citation",
+      "inspection_scope": "Chapter11 pointer recorded by Pass03 source audit; no claim full book inspected.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L24",
+      "authors": [
+        "Hong-Yi Chen",
+        "Byron Cook",
+        "Carsten Fuhs",
+        "Kaustubh Nimkar",
+        "Peter O’Hearn"
+      ],
+      "title": "Proving nontermination via safety",
+      "year": 2014,
+      "url": "https://discovery.ucl.ac.uk/1455006/1/TACAS14-nontermination.pdf",
+      "inspection_basis": "current_companion_auditor_inspection",
+      "inspection_scope": "Section2 recurrence-set definitions checked by machine auditor.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L25",
+      "authors": [
+        "Krishnendu Chatterjee",
+        "Ehsan Kafshdar Goharshady",
+        "Petr Novotný",
+        "Đorđe Žikelić"
+      ],
+      "title": "Proving Non-termination by Program Reversal",
+      "year": 2021,
+      "url": "https://arxiv.org/abs/2104.01189",
+      "inspection_basis": "current_primary_abstract",
+      "inspection_scope": "Primary abstract and author list inspected; detailed completeness hypotheses not independently audited in this pass.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L26",
+      "authors": [
+        "Emre Yolcu",
+        "Scott Aaronson",
+        "Marijn J. H. Heule"
+      ],
+      "title": "An Automated Approach to the Collatz Conjecture",
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2105.14697",
+      "inspection_basis": "current_direct_metadata_plus_companion_inspection",
+      "inspection_scope": "Primary abstract/metadata reopened; chapter auditors inspect exact rewrite system and semantics; source-level credit recorded.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L27",
+      "authors": [
+        "Cristian S. Calude"
+      ],
+      "title": "The Collatz Problem, the Halting Problem and Randomness",
+      "year": 2019,
+      "url": "https://www.cs.auckland.ac.nz/~cristian/collatzproblem.pdf",
+      "inspection_basis": "current_direct_inspection",
+      "inspection_scope": "Complete two-page primary note read; Question1 and its preceding nonconstructive-existence claim directly inspected.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L28",
+      "authors": [
+        "Pascal Michel"
+      ],
+      "title": "Simulation of the Collatz 3x+1 function by Turing machines",
+      "year": 2014,
+      "url": "https://arxiv.org/abs/1409.7322",
+      "inspection_basis": "current_primary_abstract",
+      "inspection_scope": "Primary arXiv metadata/abstract read; pointwise simulator distinction verified; not full machine proofs reread.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L29",
+      "authors": [
+        "GettysburgResearch (repository account)"
+      ],
+      "title": "Collatz research RESULTS_CATALOG",
+      "year": null,
+      "url": "https://github.com/GettysburgResearch/collatz/blob/main/research/RESULTS_CATALOG.md",
+      "inspection_basis": "historical_project_citation",
+      "inspection_scope": "Historical citation only; moving catalog not exhaustively audited.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L30",
+      "authors": [
+        "Gilles Christol",
+        "Teturo Kamae",
+        "Michel Mendès France",
+        "Gérard Rauzy"
+      ],
+      "title": "Suites algébriques, automates et substitutions",
+      "year": 1980,
+      "url": "https://numdam.org/articles/10.24033/bsmf.1926/",
+      "inspection_basis": "current_companion_metadata_and_historical_inspection",
+      "inspection_scope": "Primary record reopened by closure auditor; exact theorem interfaces recorded historically.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L31",
+      "authors": [
+        "Boris Adamczewski",
+        "Jason P. Bell"
+      ],
+      "title": "A problem around Mahler functions",
+      "year": 2017,
+      "url": "https://arxiv.org/abs/1303.2019",
+      "inspection_basis": "current_companion_metadata_and_historical_inspection",
+      "inspection_scope": "Primary title corrected by closure auditor; historical theorem-level inspection in atlasFA09.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L32",
+      "authors": [
+        "Pablo Shmerkin",
+        "Boris Solomyak"
+      ],
+      "title": "Zeros of {-1,0,1}-power series and connectedness loci for self-affine sets",
+      "year": 2006,
+      "url": "https://arxiv.org/abs/math/0504545",
+      "inspection_basis": "current_companion_inspection",
+      "inspection_scope": "Primary record reopened by closure auditor; documentary use in faithful-jet source verified.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L33",
+      "authors": [
+        "David Fernández-Duque",
+        "Andreas Weiermann"
+      ],
+      "title": "A Walk with Goodstein",
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2004.09110",
+      "inspection_basis": "current_companion_inspection",
+      "inspection_scope": "Primary record reopened by closure auditor; project source explicitly records comparison.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L34",
+      "authors": [
+        "Nachum Dershowitz",
+        "Zohar Manna"
+      ],
+      "title": "Proving Termination with Multiset Orderings",
+      "year": 1979,
+      "url": "https://www.cs.tau.ac.il/~nachumd/papers/LNCS/Multisets.pdf",
+      "inspection_basis": "current_companion_inspection",
+      "inspection_scope": "Primary theorem source reopened by closure auditor.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L35",
+      "authors": [
+        "Shawn Ligocki"
+      ],
+      "title": "BB(6) is Hard (Antihydra)",
+      "year": 2024,
+      "url": "https://www.sligocki.com/2024/07/06/bb-6-2-is-hard.html",
+      "inspection_basis": "current_companion_auditor_inspection",
+      "inspection_scope": "Primary author account exact macros/credit checked by Antihydra auditor.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L36",
+      "authors": [
+        "BBChallenge contributors"
+      ],
+      "title": "Antihydra",
+      "year": null,
+      "url": "https://bbchallenge.org/antihydra",
+      "inspection_basis": "current_companion_auditor_inspection",
+      "inspection_scope": "Table/arithmetic/status checked21Oct2026 by Antihydra auditor.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L37",
+      "authors": [
+        "Shawn Ligocki"
+      ],
+      "title": "BB(2,5) is Hard (Hydra)",
+      "year": 2024,
+      "url": "https://www.sligocki.com/2024/05/10/bb-2-5-is-hard.html",
+      "inspection_basis": "current_companion_auditor_inspection",
+      "inspection_scope": "Primary author account read by Antihydra auditor.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L38",
+      "authors": [
+        "Pascal Michel"
+      ],
+      "title": "Behavior of Busy Beavers",
+      "year": null,
+      "url": "https://bbchallenge.org/~pascal.michel/beh",
+      "inspection_basis": "current_companion_auditor_inspection",
+      "inspection_scope": "Champion table/macros/counts and analysis credits inspected by Antihydra auditor; precise discovery year withheld pending date discrepancy.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L39",
+      "authors": [
+        "BBChallenge collaboration",
+        "mxdys (announcement)"
+      ],
+      "title": "We have proved BB(5)=47,176,870",
+      "year": 2024,
+      "url": "https://discuss.bbchallenge.org/t/july-2nd-2024-we-have-proved-bb-5-47-176-870/237",
+      "inspection_basis": "current_companion_auditor_inspection",
+      "inspection_scope": "Official announcement and contributor scope checked by Antihydra auditor; no full formal project rebuild here.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L40",
+      "authors": [
+        "Jason Yuen (int-y1)",
+        "Maja Kądziołka"
+      ],
+      "title": "Skelet #33 does not halt: Coq proof",
+      "year": null,
+      "url": "https://discuss.bbchallenge.org/t/skelet-33-doesnt-halt-coq-proof/180",
+      "inspection_basis": "current_companion_auditor_inspection",
+      "inspection_scope": "Forum account plus Skelet33.v reset_invariant, step_reset, do_reset, E_next inspected by Antihydra auditor; no Coq build.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L41",
+      "authors": [
+        "Shawn Ligocki",
+        "Maja Kądziołka (formal proof/correction)"
+      ],
+      "title": "Skelet #34; Skelet #34 and #35 Coq proof",
+      "year": 2023,
+      "url": "https://www.sligocki.com/2023/02/02/skelet-34.html",
+      "inspection_basis": "current_companion_auditor_inspection",
+      "inspection_scope": "Author account and https://discuss.bbchallenge.org/t/skelet-34-and-35-coq-proof/165 inspected by Antihydra auditor.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L42",
+      "authors": [
+        "Shawn Ligocki",
+        "Pavel Kropitz",
+        "uni-cycle",
+        "Maja Kądziołka"
+      ],
+      "title": "Skelet #1 is infinite",
+      "year": 2023,
+      "url": "https://www.sligocki.com/2023/03/13/skelet-1-infinite.html",
+      "inspection_basis": "current_companion_auditor_inspection",
+      "inspection_scope": "Primary account checked by Antihydra auditor; page includes later updates.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L43",
+      "authors": [
+        "Chris Xu"
+      ],
+      "title": "Skelet #17 and the fifth Busy Beaver number",
+      "year": 2024,
+      "url": "https://arxiv.org/html/2407.02426v1",
+      "inspection_basis": "current_companion_auditor_inspection",
+      "inspection_scope": "Primary arXiv metadata/abstract verified directly; relevant macro/endgame sections read by Antihydra auditor.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L44",
+      "authors": [
+        "Newcomb Greenleaf"
+      ],
+      "title": "Proof for the chaotic four-state machine",
+      "year": 1992,
+      "url": "https://turbotm.de/~heiner/BB/TM4-proof.txt",
+      "inspection_basis": "current_companion_auditor_inspection",
+      "inspection_scope": "Full primary proof text read by Antihydra auditor.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L45",
+      "authors": [
+        "Julien Cassaigne",
+        "Bastiàn Espinoza",
+        "Michel Rigo",
+        "Manon Stipulanti"
+      ],
+      "title": "Symbols frequencies in the Thue–Morse word in base3/2 and related conjectures",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2602.21895",
+      "inspection_basis": "current_primary_abstract",
+      "inspection_scope": "Primary arXiv abstract/metadata read directly; population sequence frequency1/2 distinguished from fixed Antihydra branch.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L46",
+      "authors": [
+        "Mélodie Andrieu",
+        "Shalom Eliahou",
+        "Léo Vivion"
+      ],
+      "title": "A Normality Conjecture on Rational Base Number Systems",
+      "year": 2025,
+      "url": "https://arxiv.org/html/2510.11723v2",
+      "inspection_basis": "current_primary_abstract",
+      "inspection_scope": "Primary metadata/abstract read directly; companion auditor opened v2HTML and normality conjecture. Not full theorem-by-theorem audit.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L47",
+      "authors": [
+        "Lubor Brim",
+        "Jakub Chaloupka",
+        "Laurent Doyen",
+        "Raffaella Gentilini",
+        "Jean-François Raskin"
+      ],
+      "title": "Faster Algorithms for Mean-Payoff Games",
+      "year": 2011,
+      "url": "https://lsv.ens-paris-saclay.fr/~doyen/papers/Faster_Algorithms_for_Mean-Payoff_Games.pdf",
+      "inspection_basis": "current_companion_auditor_inspection",
+      "inspection_scope": "Introduction and progress-measure context inspected by Antihydra auditor; related method, not documented original inspiration.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L48",
+      "authors": [
+        "Edmund M. Clarke",
+        "Orna Grumberg",
+        "Somesh Jha",
+        "Yuan Lu",
+        "Helmut Veith"
+      ],
+      "title": "Counterexample-Guided Abstraction Refinement",
+      "year": 2000,
+      "url": "https://web.stanford.edu/class/cs357/cegar.pdf",
+      "inspection_basis": "current_companion_auditor_inspection",
+      "inspection_scope": "Primary methodological description inspected by Antihydra auditor; similarity does not prove historical influence.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L49",
+      "authors": [
+        "Olivier Rozier"
+      ],
+      "title": "The 3x+1 problem: a lower bound hypothesis",
+      "year": 2017,
+      "url": "https://www.ipgp.fr/~rozier/pub/LBHv4.pdf",
+      "inspection_basis": "current_direct_inspection",
+      "inspection_scope": "Primary author PDF §§2.1–2.2, Lemma2.5 and full Theorem2.6 proof pp5–7 inspected; introduction explicitly credits Lagarias and Terras/Everett.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L50",
+      "authors": [
+        "Michael John Curry"
+      ],
+      "title": "An Explicit Windowed Sparsity Bound for Divergent 3x+1 Orbits, with Logarithmic-Floor Exclusion beyond the Harmonic Barrier",
+      "year": 2026,
+      "url": "https://doi.org/10.5281/zenodo.22087163",
+      "inspection_basis": "current_primary_unavailable_citation_chain",
+      "inspection_scope": "DOI and Zenodo record failed to open currently, as in October15 audit. Title/attribution via De Jesús repository; original not read.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L51",
+      "authors": [
+        "Elias De Jesús"
+      ],
+      "title": "A Global Occupation Conjecture for the Accelerated 3x+1 Map: Divergent-Orbit Sparsity, Exact Realizers, and the Moving-Anchor Problem; companion EOC Lean Verification repository",
+      "year": 2026,
+      "url": "https://github.com/innerlightr-wq/eoc-lean-verification",
+      "inspection_basis": "current_direct_inspection",
+      "inspection_scope": "Current README sections on open frontier, manuscript highlights, literature and citations inspected. No Lean build; manuscript itself not inspected.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L52",
+      "authors": [
+        "Shigeki Akiyama",
+        "Masayuki Shirasaka"
+      ],
+      "title": "Recursively renewable words and coding of irrational rotations",
+      "year": 2007,
+      "url": "https://www.jstage.jst.go.jp/article/jmath/59/4/59_4_1199/_article/-char/en",
+      "inspection_basis": "current_primary_abstract",
+      "inspection_scope": "Primary journal metadata and abstract read; full theorem hypotheses not independently recertified.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L53",
+      "authors": [
+        "Fabien Durand"
+      ],
+      "title": "A characterization of substitutive sequences using return words",
+      "year": 1998,
+      "url": "https://arxiv.org/pdf/0807.3322",
+      "inspection_basis": "current_companion_auditor_inspection",
+      "inspection_scope": "Legacy auditor inspected §2.3 and Proposition6 in author arXiv posting. Not independently reread by bibliography auditor.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L54",
+      "authors": [
+        "Rohit J. Parikh"
+      ],
+      "title": "On Context-Free Languages",
+      "year": 1966,
+      "url": "https://doi.org/10.1145/321356.321364",
+      "inspection_basis": "current_primary_citation_chain",
+      "inspection_scope": "Original attribution identified; current original full text not inspected. Standard semilinearity theorem corroborated by Esparza et al primary abstract.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L55",
+      "authors": [
+        "Javier Esparza",
+        "Pierre Ganty",
+        "Stefan Kiefer",
+        "Michael Luttenberger"
+      ],
+      "title": "Parikh’s Theorem: A simple and direct automaton construction",
+      "year": 2011,
+      "url": "https://arxiv.org/abs/1006.3825",
+      "inspection_basis": "current_companion_primary_abstract",
+      "inspection_scope": "Closure auditor inspected primary arXiv abstract and metadata; semilinearity of context-free Parikh images explicitly stated.",
+      "read_date": "2026-10-21"
+    },
+    {
+      "id": "L56",
+      "authors": [
+        "Dimitri Bertsekas"
+      ],
+      "title": "Affine Monotonic and Risk-Sensitive Models in Dynamic Programming",
+      "year": 2016,
+      "url": "https://arxiv.org/abs/1608.01393",
+      "associated_claims": [
+        "NAV-089",
+        "NAV-090",
+        "NAV-095"
+      ],
+      "support": "Navigation14 documents this as methodological comparison for affine Bellman inequalities and policy iteration. No result from the paper is required by the independently checked rational edge certificate.",
+      "inspection_scope": "Primary arXiv abstract and bibliographic metadata read21October2026; full paper not read in this audit. First submitted3August2016; version2 revised28November2017.",
+      "source_kind": "primary_research",
+      "inspection_basis": "current_direct_abstract_inspection",
+      "read_date": "2026-10-21",
+      "novelty_assessment": "Methodological comparison, not a claim that Bertsekas proved the project-specific Collatz band theorem."
+    }
+  ],
+  "project_attribution_reads": [
+    {
+      "id": "A05",
+      "evidence": {
+        "library_file_id": "libfile_e6bcc042dc6481918b3e375ae1c523a7",
+        "path": "sources/legacy/Collatz_Notation_Transform_06_Sorting_and_Division_Surplus_Hypothesis_2026-10-07.md",
+        "anchor": "Origin header and §1",
+        "reported_date": "2026-10-07",
+        "reported_discussions": "10:32,10:42,11:03 CDT"
+      },
+      "scope": "Origin/credit passage and surrounding scope, not complete proof recertification."
+    },
+    {
+      "id": "A06",
+      "evidence": {
+        "library_file_id": "libfile_70ca1e98257c8191850d7093abff74af",
+        "path": "sources/legacy/Collatz_FP_02_Alternation_Mixing_and_Its_Domain_2026-10-08.md",
+        "anchor": "Header and §§0–1"
+      },
+      "scope": "Origin/credit passage and surrounding scope, not complete proof recertification."
+    },
+    {
+      "id": "A07",
+      "evidence": {
+        "library_file_id": "libfile_7046e905ce2c81919ba4b29ed85037db",
+        "path": "sources/legacy/Collatz_Infinite_Survivor_Intersection_Checkpoint_2026-10-12.md",
+        "anchor": "Opening priority statement",
+        "date_scope": "October11 America/Chicago; October12 UTC as report labels"
+      },
+      "scope": "Origin/credit passage and surrounding scope, not complete proof recertification."
+    },
+    {
+      "id": "A08",
+      "evidence": {
+        "path": "sources/gdr/GDR_Route_01_Foundation_2026-10-14.md",
+        "anchor": "§1 and referenced conversation IDs"
+      },
+      "scope": "Origin/credit passage and surrounding scope, not complete proof recertification."
+    },
+    {
+      "id": "A09",
+      "evidence": {
+        "library_file_id": "libfile_ce760bd4954881918b982366854624be",
+        "path": "sources/gdr/Collatz_Summable_Budgets_From_Arithmetic_2026-10-20.md",
+        "anchor": "Purpose and motivation"
+      },
+      "scope": "Origin/credit passage and surrounding scope, not complete proof recertification."
+    },
+    {
+      "id": "A10",
+      "evidence": {
+        "library_file_id": "libfile_a6b2d1f3a7248191af9581d459bb43d7",
+        "path": "sources/antihydra/Collatz_Machines_Arithmetic_Observer_Research_Direction_2026-10-20.md",
+        "anchor": "User’s proposed change of emphasis"
+      },
+      "scope": "Origin/credit passage and surrounding scope, not complete proof recertification."
+    },
+    {
+      "id": "A16",
+      "evidence": {
+        "library_file_id": "libfile_c583ff1b4d10819189ecca97bcb7c053",
+        "path": "sources/legacy/Collatz_Research_15_Golden_Rotation_Proof_HANDOFF_2026-10-06.md",
+        "bibliography_ids": [
+          "L10",
+          "L52"
+        ]
+      },
+      "scope": "Origin/credit passage and surrounding scope, not complete proof recertification."
+    }
+  ],
+  "companion_logs": [
+    {
+      "path": "sources/antihydra_read_log.json",
+      "sha256_at_inspection": "c2b855e054c1260be25fd8e56117b037f57e486b34c7ef4e44a427103a003ba5",
+      "scope": "Source-local substantive reviews remain authoritative; bibliography audit read relevant credit/dependency portions, not a second complete proof review."
+    },
+    {
+      "path": "sources/certificates_machines_read_log.json",
+      "sha256_at_inspection": "8c22a8962eb90f9c1340e4f6f9d9b2c8d98f32ff0a26b82ce8a542962f7ef5f6",
+      "scope": "Source-local substantive reviews remain authoritative; bibliography audit read relevant credit/dependency portions, not a second complete proof review."
+    },
+    {
+      "path": "sources/h_obstructions_read_log.json",
+      "sha256_at_inspection": "32061502ce27d2ae789ae0276bb1b1d8aef0e005497c06bd5d360d90892b2a94",
+      "scope": "Source-local substantive reviews remain authoritative; bibliography audit read relevant credit/dependency portions, not a second complete proof review."
+    },
+    {
+      "path": "sources/gdr_read_log.json",
+      "sha256_at_inspection": "124fb3107c78558cbac82b6120ac0f7a6202d6b4a827fe06d17898685045ba83",
+      "scope": "Source-local substantive reviews remain authoritative; bibliography audit read relevant credit/dependency portions, not a second complete proof review."
+    },
+    {
+      "path": "sources/legacy_read_log.json",
+      "sha256_at_inspection": "7bb43121ea2b6487ccd8c4f861b67c7357bcee1660b52ab20b47544092174383",
+      "scope": "Source-local substantive reviews remain authoritative; bibliography audit read relevant credit/dependency portions, not a second complete proof review."
+    },
+    {
+      "path": "sources/recent_navigation_read_log.json",
+      "sha256_at_inspection": "9a4cfe2fb61b17f3fa356d6c3e34ae7aa5d9755f99ffbb1aef3a43eb62aec4b8",
+      "scope": "Source-local substantive reviews remain authoritative; bibliography audit read relevant credit/dependency portions, not a second complete proof review."
+    }
+  ],
+  "historical_atlas": {
+    "archive": "sources/gdr/GDR_2.0_Proof_Route_Atlas_2026-10-16.zip",
+    "selected_extraction_root": "sources/literature/atlas",
+    "extraction_rule": "Selected entries containing source_index, literature, or crosswalk; each resolved output checked to remain within extraction root.",
+    "metrics_as_recorded": {
+      "external_source_records": 191,
+      "internal_proof_records": 2,
+      "external_substantive_inspection_records": 156,
+      "source_records": 193,
+      "substantive_inspection_records": 158,
+      "access_levels": {
+        "theorem_or_section_inspected": 153,
+        "metadata_only": 16,
+        "abstract_only": 14,
+        "full_text_inspected": 5,
+        "inaccessible": 5
+      },
+      "normalized_work_clusters_total": 173,
+      "external_work_clusters": 171,
+      "internal_proof_clusters": 2,
+      "routes_covered": 36,
+      "mechanism_families_retained": 22,
+      "tool_or_interface_variants": 34,
+      "all_routes_have_two_substantively_inspected_sources": true
+    },
+    "scope": "SOURCE_INDEX and route crosswalk read; targeted cycle05 sparsity/summability and domain passages read. Historical153 theorem/section records do not represent new full inspections."
+  },
+  "access_failures": [
+    {
+      "target": "Chim2025 institutional full PDF",
+      "outcome": "HTTP403; metadata/abstract obtained, no current theorem reading."
+    },
+    {
+      "target": "Yu1999 original journal PDF",
+      "outcome": "Companion received403; original metadata only, rational statement checked via Faye–Luca–Ziegler."
+    },
+    {
+      "target": "Everett1977 original publisher",
+      "outcome": "403; primary co-credit corroboration via Terras1979 and Kontorovich–Lagarias, not original rereading."
+    },
+    {
+      "target": "Curry2026 DOI10.5281/zenodo.22087163 and Zenodo record",
+      "outcome": "Tool inaccessible; related-author citation verified, theorem not imported."
+    },
+    {
+      "target": "Terras1976/1979 and García–Tal1999 original primary scans",
+      "outcome": "Initial web route failed, permitted author/institutional downloads succeeded; local hashes in bibliography. Terras scans OCRed and relevant pages visually inspected."
+    }
+  ],
+  "verification_limits": [
+    "No new external Lean or Coq project build performed by this bibliography audit.",
+    "A publication title or abstract is not a verified theorem application.",
+    "A public repository claim of compilation is author-reported unless companion log explicitly records a build.",
+    "The historical atlas is preserved as credit evidence, not silently converted into current primary verification."
+  ]
+}

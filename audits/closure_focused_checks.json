@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "scope": "Exact representative checks; analytic proofs control unbounded parameters. No downloaded scripts run and no Lean build claimed.",
+  "decoder_table_rows": 40,
+  "decoder_cycles": [
+    [
+      9,
+      30
+    ],
+    [
+      16
+    ],
+    [
+      23
+    ]
+  ],
+  "finite_decoder_inputs": 4096,
+  "benchmark_certificates": [
+    {
+      "ell": 109,
+      "source_below_original": true,
+      "target_length": 341,
+      "source_length": 339
+    },
+    {
+      "ell": 201,
+      "source_below_original": true,
+      "target_length": 616,
+      "source_length": 614
+    },
+    {
+      "ell": 157,
+      "source_below_original": true,
+      "target_length": 487,
+      "source_length": 485
+    }
+  ],
+  "capacity_lambda": "384169/419904",
+  "grammar_exponent": "19/20, exact twentieth-power inequalities",
+  "scalar_false_quotient_cycle": "15->23;25->19, with equal P15=P19 and P23=P25",
+  "draft_correction": "Sibling obstruction requires k>=1,1<=m<=L; m=0 separately E_k(X)>3X."
+}

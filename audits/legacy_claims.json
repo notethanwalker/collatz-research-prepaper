@@ -1,0 +1,1211 @@
+[
+  {
+    "id": "LEG-01",
+    "title": "Centered-run ledger and exact mixed-valuation switch law",
+    "status": "checked_proof",
+    "statement": "D_a=2^a−3, S_a(n)=D_a n−1 satisfies S_a(U(n))=(3/2^a)S_a(n). A maximal a-run of length r exiting to b has entrance valuation ar+min(a,b). Its signed {2,3}-stripped shape is invariant. At a switch, D_b3^t s+epsilon=D_a2^rho3^k s_next, epsilon=(2^b−2^a)/2^min(a,b), rho≥1. Nonterminal shape satisfies |s|<n_entry/2.",
+    "assumptions": "Actual positive odd runs, nonterminal for the strict shape bound; exact valuations, not arbitrary formal affine words.",
+    "map_clock": "Accelerated odd U, with run/switch clock separately identified.",
+    "proof_summary": "Direct substitution, valuation comparison at the first changed branch, elimination of the common switch state. Reconstruction x=(1+2^m3^t s)/D_a.",
+    "sources": [
+      {
+        "source_key": "LEG-S24",
+        "library_file_id": "libfile_74a76f04d2a88191874e8e645994469e",
+        "title": "Collatz_Binary_Route_03_All_Exponent_Centers_and_Run_Ledger_2026-10-06.md",
+        "library_path": "/Collatz_Binary_Route_03_All_Exponent_Centers_and_Run_Ledger_2026-10-06.md",
+        "version_id": null,
+        "sections": "All-exponent centered-run definition and exact ledger; later audit controls final statements"
+      },
+      {
+        "source_key": "LEG-S03",
+        "library_file_id": "libfile_1974ea494ff881918ff5a9d83647d4ec",
+        "title": "Collatz_Binary_Route_Audit_and_Proof_Integration_2026-10-07.md",
+        "library_path": "/Collatz_Binary_Route_Audit_and_Proof_Integration_2026-10-07.md",
+        "version_id": null,
+        "sections": "§§1–10: full mathematical correction audit; §11 exact regression script rerun"
+      }
+    ],
+    "attribution": "Binary03 project algebra, corrected/consolidated by ChatGPT/Codex Binary audit; rational centers and affine coding are classical.",
+    "novelty": "Useful exact normalization; historical novelty not established.",
+    "limitations": "6-free means coprime to6, not squarefree. Regeneration is encoded, not excluded.",
+    "significance": "Foundation for later arithmetic recurrence bounds without iid assumptions.",
+    "review_scope": "Actual source read and stated proof/countercontrol reconstructed at the scope specified; no external referee or proof-assistant certification.",
+    "specialist_review_required": false
+  },
+  {
+    "id": "LEG-02",
+    "title": "Finite capped-parameter capacity and logarithmic cap growth",
+    "status": "conditional",
+    "statement": "Under a,b≤H and |s|,|s_next|<2^H, the Route08 argument gives t,rho=O(H logH), O(H^3 logH 2^H) distinct switches, and N≤C_start+O(H^4(logH)^2 2^H); hence H≥log2N−O(loglogN).",
+    "assumptions": "Actual distinct nonterminal histories; Chim two-2-adic-logarithm bound applied as specified, multiplicatively dependent A=±3^q treated separately.",
+    "map_clock": "Accelerated clock N versus branch/shape parameter H.",
+    "proof_summary": "Bound recharge by p-adic logarithms, compare real/ternary sizes, count reconstructing tuples, and bound lengths of capped runs.",
+    "sources": [
+      {
+        "source_key": "LEG-S23",
+        "library_file_id": "libfile_23a916bd51d08191980214e92baa7a67",
+        "title": "Collatz_Binary_Route_08_Finite_Height_Capacity_and_Near_Linear_Bit_Height_2026-10-07.md",
+        "library_path": "/Collatz_Binary_Route_08_Finite_Height_Capacity_and_Near_Linear_Bit_Height_2026-10-07.md",
+        "version_id": null,
+        "sections": "Finite cap and logarithmic-form application read with later audit; primary Chim paper opened, application not externally certified"
+      },
+      {
+        "source_key": "LEG-S03",
+        "library_file_id": "libfile_1974ea494ff881918ff5a9d83647d4ec",
+        "title": "Collatz_Binary_Route_Audit_and_Proof_Integration_2026-10-07.md",
+        "library_path": "/Collatz_Binary_Route_Audit_and_Proof_Integration_2026-10-07.md",
+        "version_id": null,
+        "sections": "§§1–10: full mathematical correction audit; §11 exact regression script rerun"
+      }
+    ],
+    "attribution": "K. C. Chim, Journal of Number Theory paper DOI10.1016/j.jnt.2024.07.012 is the imported Diophantine input; project Route08 and corrective audit perform the application.",
+    "novelty": "No literature priority established.",
+    "limitations": "Application inspected against the saved audit but not specialist-certified; logarithmic H versus N, not linear time growth. No contradiction without an upper cap.",
+    "significance": "An explicit arithmetic finiteness theorem for a defined restricted regime.",
+    "review_scope": "Actual source read and stated proof/countercontrol reconstructed at the scope specified; no external referee or proof-assistant certification.",
+    "specialist_review_required": true
+  },
+  {
+    "id": "LEG-03",
+    "title": "Shared-shape gcd divisibility and local CRT constraints",
+    "status": "checked_proof",
+    "statement": "gcd(|s|,|s_next|) divides2^|a−b|−1. At unit exits, x+1=2*3^t*g*u and D_b*x−1=2^(rho+1)*3^k*g*v with gcd(u,v)=1 and g|2^(b−1)−1. A fixed signature(b,u,v) lies in one residue class modulo uv.",
+    "assumptions": "Actual switch, a≠b; unit-exit specialization a=1,b≥2.",
+    "map_clock": "Accelerated switch clock.",
+    "proof_summary": "Reduce exact switch equation modulo gcd; eliminate x; CRT uses one common unknown and coprime quotient moduli.",
+    "sources": [
+      {
+        "source_key": "LEG-S03",
+        "library_file_id": "libfile_1974ea494ff881918ff5a9d83647d4ec",
+        "title": "Collatz_Binary_Route_Audit_and_Proof_Integration_2026-10-07.md",
+        "library_path": "/Collatz_Binary_Route_Audit_and_Proof_Integration_2026-10-07.md",
+        "version_id": null,
+        "sections": "§§1–10: full mathematical correction audit; §11 exact regression script rerun"
+      },
+      {
+        "source_key": "LEG-S05",
+        "library_file_id": "libfile_594ac686141c81918ff0aea50dd4498b",
+        "title": "Collatz_Binary_Route_22_Subpolynomial_Component_Recurrence_2026-10-07.md",
+        "library_path": "/Collatz_Binary_Route_22_Subpolynomial_Component_Recurrence_2026-10-07.md",
+        "version_id": null,
+        "sections": "Full subpolynomial component recurrence proof"
+      }
+    ],
+    "attribution": "Project Binary route; elementary divisibility and CRT are classical.",
+    "novelty": "Presentation/consequence may be useful; novelty unestablished.",
+    "limitations": "A residue class is not a spent range resource; conditions at different times cannot be multiplied independently.",
+    "significance": "Correct finite arithmetic constraints for signatures.",
+    "review_scope": "Actual source read and stated proof/countercontrol reconstructed at the scope specified; no external referee or proof-assistant certification.",
+    "specialist_review_required": false
+  },
+  {
+    "id": "LEG-04",
+    "title": "Source-only or new-prime interpretation of gcd quotients",
+    "status": "refuted",
+    "statement": "The claim that u=|s|/g contains only primes absent from s_next is false. Actual195→293→55 gives s=−49,s_next=119,g=7,u=7,v=17, so7 divides both u and s_next.",
+    "assumptions": "Original proposed interpretation of gcd-normalized components.",
+    "map_clock": "Actual accelerated branches1 then4.",
+    "proof_summary": "Direct integer counterexample, rerun in the exact regression.",
+    "sources": [
+      {
+        "source_key": "LEG-S03",
+        "library_file_id": "libfile_1974ea494ff881918ff5a9d83647d4ec",
+        "title": "Collatz_Binary_Route_Audit_and_Proof_Integration_2026-10-07.md",
+        "library_path": "/Collatz_Binary_Route_Audit_and_Proof_Integration_2026-10-07.md",
+        "version_id": null,
+        "sections": "§§1–10: full mathematical correction audit; §11 exact regression script rerun"
+      }
+    ],
+    "attribution": "Correction in October7 Binary audit; counterexample belongs to the audited project record.",
+    "novelty": "Correction, not novelty claim.",
+    "limitations": "Coprimality of u and v remains true; many distinct values does not imply new prime support.",
+    "significance": "Removes a false independent-information premise from capacity arguments.",
+    "review_scope": "Actual source read and stated proof/countercontrol reconstructed at the scope specified; no external referee or proof-assistant certification.",
+    "specialist_review_required": false
+  },
+  {
+    "id": "LEG-05",
+    "title": "Subpolynomial component multiplicity and corrected one-use threshold",
+    "status": "checked_proof",
+    "statement": "For distinct unit exits at height≤M, each fixed u or v occurs M^o(1) times. Under M_N≤N^(D+o1), E_N=Omega(N/logN) exits exist, and for each eta>0 all but o(E_N) have u,v≥N^(1−eta). If D<2, almost all fixed(b,u,v) signatures are one-use.",
+    "assumptions": "Distinct states; polynomial maximum-height bound for the N-asymptotics; eta fixed first.",
+    "map_clock": "Accelerated N and complete unit-exit count E_N.",
+    "proof_summary": "Q(M)=sum_{b≤log2(3M+1)}tau(2^(b−1)−1)=M^o1; all exponents O(logM); fixed component determines only subpolynomially many states. Log ledger supplies unit-step count. CRT gives occurrence≤1+floor(M/(uv)).",
+    "sources": [
+      {
+        "source_key": "LEG-S05",
+        "library_file_id": "libfile_594ac686141c81918ff0aea50dd4498b",
+        "title": "Collatz_Binary_Route_22_Subpolynomial_Component_Recurrence_2026-10-07.md",
+        "library_path": "/Collatz_Binary_Route_22_Subpolynomial_Component_Recurrence_2026-10-07.md",
+        "version_id": null,
+        "sections": "Full subpolynomial component recurrence proof"
+      },
+      {
+        "source_key": "LEG-S03",
+        "library_file_id": "libfile_1974ea494ff881918ff5a9d83647d4ec",
+        "title": "Collatz_Binary_Route_Audit_and_Proof_Integration_2026-10-07.md",
+        "library_path": "/Collatz_Binary_Route_Audit_and_Proof_Integration_2026-10-07.md",
+        "version_id": null,
+        "sections": "§§1–10: full mathematical correction audit; §11 exact regression script rerun"
+      }
+    ],
+    "attribution": "Binary22 and later audit; uses standard divisor bounds and CRT.",
+    "novelty": "Potential restricted arithmetic lemma; no priority claim.",
+    "limitations": "D<2 corrects older4/3; one-use signatures may be plentiful enough for all N states, so no escape contradiction.",
+    "significance": "Sharpens exactly what component novelty is forced in polynomial ranges.",
+    "review_scope": "Actual source read and stated proof/countercontrol reconstructed at the scope specified; no external referee or proof-assistant certification.",
+    "specialist_review_required": false
+  },
+  {
+    "id": "LEG-06",
+    "title": "Uniform persistent-prime renewal-language bound",
+    "status": "checked_proof",
+    "statement": "A prime p≥5 persisting through consecutive shapes forces all branch labels into one class mod ord_p2≥3. Its binary language has growth at most lambda^L up to a uniform constant, lambda^3−lambda^2−1=0. A distinct persistence episode below M has length O(M^log2lambda+logM), log2lambda=.5514630897….",
+    "assumptions": "One persistent prime, actual distinct episode, finite range cap M.",
+    "map_clock": "Accelerated labels expanded into shortcut blocks10^(a−1).",
+    "proof_summary": "Gcd divisibility restricts labels; renewal composition count is bounded by the worst residue-class language; parity-residue injection bounds distinct starts.",
+    "sources": [
+      {
+        "source_key": "LEG-S03",
+        "library_file_id": "libfile_1974ea494ff881918ff5a9d83647d4ec",
+        "title": "Collatz_Binary_Route_Audit_and_Proof_Integration_2026-10-07.md",
+        "library_path": "/Collatz_Binary_Route_Audit_and_Proof_Integration_2026-10-07.md",
+        "version_id": null,
+        "sections": "§§1–10: full mathematical correction audit; §11 exact regression script rerun"
+      }
+    ],
+    "attribution": "October7 Binary audit, using classical renewal counting and finite parity coding.",
+    "novelty": "Historical novelty not established.",
+    "limitations": "Not a universal height threshold, not an exclusion of episodes switching primes.",
+    "significance": "Quantifies the cost of one precise form of long arithmetic persistence.",
+    "review_scope": "Actual source read and stated proof/countercontrol reconstructed at the scope specified; no external referee or proof-assistant certification.",
+    "specialist_review_required": false
+  },
+  {
+    "id": "LEG-07",
+    "title": "The switch correction stream telescopes to endpoints",
+    "status": "checked_proof",
+    "statement": "For z_j s_(j+1)=s_j+delta_j, sum_{j<m}Z_j delta_j=Z_m s_m−s_0, and Z_m=(D_a0/D_am)2^sumrho 3^sum(k−t). The latter ternary sum telescopes with run lengths.",
+    "assumptions": "Full switch labels and exact signed shapes retained.",
+    "map_clock": "Run-switch clock.",
+    "proof_summary": "Multiply consecutive affine identities and telescope. Fresh regression checks exact rational identities.",
+    "sources": [
+      {
+        "source_key": "LEG-S07",
+        "library_file_id": "libfile_b74d2a5eed888191a5a73f38c1856886",
+        "title": "Collatz_Binary_Route_23_Endpoint_Collapse_of_Correction_Stream_2026-10-07.md",
+        "library_path": "/Collatz_Binary_Route_23_Endpoint_Collapse_of_Correction_Stream_2026-10-07.md",
+        "version_id": null,
+        "sections": "Full endpoint-collapse identities"
+      },
+      {
+        "source_key": "LEG-S03",
+        "library_file_id": "libfile_1974ea494ff881918ff5a9d83647d4ec",
+        "title": "Collatz_Binary_Route_Audit_and_Proof_Integration_2026-10-07.md",
+        "library_path": "/Collatz_Binary_Route_Audit_and_Proof_Integration_2026-10-07.md",
+        "version_id": null,
+        "sections": "§§1–10: full mathematical correction audit; §11 exact regression script rerun"
+      }
+    ],
+    "attribution": "Binary23 correction; elementary affine cocycle algebra.",
+    "novelty": "A valuable negative-result correction, not a claim to discover telescoping.",
+    "limitations": "Intermediate corrections cannot be charged as independent lost information.",
+    "significance": "Explains why a tempting accumulated-capacity proof has no demonstrated surplus.",
+    "review_scope": "Actual source read and stated proof/countercontrol reconstructed at the scope specified; no external referee or proof-assistant certification.",
+    "specialist_review_required": false
+  },
+  {
+    "id": "LEG-08",
+    "title": "Affine-word precision packing and periodic-program rigidity",
+    "status": "checked_proof",
+    "statement": "A fixed full switch word W with R=sumrho has realizing initial shapes congruent mod2^(R+1), so Occ(W)≤1+floor(S/2^R) for |s|≤S. This gives J−ell+1≤|F_ell|+S sum_W2^(−R(W)); in polynomial range exponentD, words longer than(D+o1)log2N are one-use. Eventual repetition of one full affine program forces a periodic orbit.",
+    "assumptions": "Distinct realizing states for packing; fixed full labels include valuations, not a coarse branch word; eventual periodicity for final conclusion.",
+    "map_clock": "Switch-word clock; N is accelerated when using the polynomial range cap.",
+    "proof_summary": "Subtract identical word evaluations to get increasing binary divisibility, use interval packing; repeated infinite word gives unique2-adic source, hence actual periodicity.",
+    "sources": [
+      {
+        "source_key": "LEG-S06",
+        "library_file_id": "libfile_4e92a94150648191887bc7ea6b606873",
+        "title": "Collatz_Binary_Route_24_Affine_Word_Precision_Packing_2026-10-07.md",
+        "library_path": "/Collatz_Binary_Route_24_Affine_Word_Precision_Packing_2026-10-07.md",
+        "version_id": null,
+        "sections": "Full affine-word precision and packing proof; constants corrected by later audit"
+      },
+      {
+        "source_key": "LEG-S04",
+        "library_file_id": "libfile_f2a45ffa7cac8191ba84fe1ec6a62b73",
+        "title": "Collatz_Binary_Route_25_Periodic_Recycling_Closure_and_Three_Question_Resolution_2026-10-07.md",
+        "library_path": "/Collatz_Binary_Route_25_Periodic_Recycling_Closure_and_Three_Question_Resolution_2026-10-07.md",
+        "version_id": null,
+        "sections": "Full periodic full-affine-program argument and its stated aperiodic boundary; subordinate to later audit"
+      },
+      {
+        "source_key": "LEG-S03",
+        "library_file_id": "libfile_1974ea494ff881918ff5a9d83647d4ec",
+        "title": "Collatz_Binary_Route_Audit_and_Proof_Integration_2026-10-07.md",
+        "library_path": "/Collatz_Binary_Route_Audit_and_Proof_Integration_2026-10-07.md",
+        "version_id": null,
+        "sections": "§§1–10: full mathematical correction audit; §11 exact regression script rerun"
+      }
+    ],
+    "attribution": "Binary24/25, corrected by audit; classical periodic-itinerary/2-adic rigidity.",
+    "novelty": "No priority claim.",
+    "limitations": "Finite alphabet or finite algorithm need not imply periodic output; no exclusion of aperiodic reuse or nonterminal cycles.",
+    "significance": "A precise restricted recycling theorem with corrected D rather than2D threshold.",
+    "review_scope": "Actual source read and stated proof/countercontrol reconstructed at the scope specified; no external referee or proof-assistant certification.",
+    "specialist_review_required": false
+  },
+  {
+    "id": "LEG-09",
+    "title": "General Hamming recurrence and periodic-template edit floor",
+    "status": "checked_proof",
+    "statement": "For unbounded shortcut orbit and lagq, D_q(L)≥log_alpha(1+(alpha−1)L/(ceil log2(x0+1)+cq+1))−O1, alpha=log2 3,c=alpha−1. Fixedq gives1.505007…log2L shift disagreements and at least .752503…log2L edits against a periodic template; q≤L^theta costs factor1−theta.",
+    "assumptions": "Unbounded positive orbit, hence distinct; constant/end-window conventions retained; fixed source.",
+    "map_clock": "Shortcut time L; accelerated exception conversion uses expanded clock A_N.",
+    "proof_summary": "Clean windows longer than height bits force two states equal. Geometrically growing disjoint windows each contain a mismatch. Every template edit accounts for at most two shift disagreements.",
+    "sources": [
+      {
+        "source_key": "LEG-S01",
+        "library_file_id": "libfile_d9f52b1db2fc819183e2b2a1ebbe7cd7",
+        "title": "Collatz_Proof_Shortcut_Research_15_General_Hamming_Recurrence_Barrier_2026-10-06.md",
+        "library_path": "/Collatz_Proof_Shortcut_Research_15_General_Hamming_Recurrence_Barrier_2026-10-06.md",
+        "version_id": null,
+        "sections": "§§1–6: clean-window construction, general shift barrier, edit corollaries, credits"
+      },
+      {
+        "source_key": "LEG-S18",
+        "library_file_id": "libfile_d5fdee1838a0819191b71815fc7315ec",
+        "title": "Collatz_Proof_Shortcut_Research_14_Height_Optimized_Defect_Floor_2026-10-06.md",
+        "library_path": "/Collatz_Proof_Shortcut_Research_14_Height_Optimized_Defect_Floor_2026-10-06.md",
+        "version_id": null,
+        "sections": "Height-optimized transition/exception floor and clock conversion"
+      }
+    ],
+    "attribution": "Explicitly inherits M. Sharpe DefectHeight.lean/ParityDefects.lean mechanism; project Shortcut14/15 optimizes exact real growth envelope.",
+    "novelty": "Constant/extension contribution relative to credited mechanism; not a new parity-coding principle.",
+    "limitations": "Logarithmic lower bound, not positive density or finite-capacity upper bound.",
+    "significance": "Quantitative anti-periodicity usable without probabilistic assumptions.",
+    "review_scope": "Actual source read and stated proof/countercontrol reconstructed at the scope specified; no external referee or proof-assistant certification.",
+    "specialist_review_required": false
+  },
+  {
+    "id": "LEG-10",
+    "title": "Finite entropy-height inequality and current universal maximum exponent",
+    "status": "checked_proof",
+    "statement": "For M distinct shortcut states, H=max state,r=ceil log2(H+1),p=odd fraction,q=p−(r−1)/(2M)≥1/2: log2M≤r h2(q). Therefore any infinite injective positive orbit has liminf logH_M/logM≥1/h2(log_3 2)=1.0526808586079714…. An occupation variant includes B(r−1)/(2M) for B visit intervals.",
+    "assumptions": "Distinct actual states, exact future parity blocks; fixed initial source for asymptotic arithmetic odd-fraction bound.",
+    "map_clock": "Shortcut M; maximum height, not last value.",
+    "proof_summary": "Uniformly sample an actual index, inject into r-bit words, apply entropy subadditivity/concavity and the O(r/M) shift boundary. Log growth and distinct harmonic correction force odd density≥log_3 2−o1.",
+    "sources": [
+      {
+        "source_key": "LEG-S30",
+        "library_file_id": "libfile_7821d95a48f481919818d1c01fbd47ce",
+        "title": "Entropy_Height_Finite_Lemma_2026-10-08.md",
+        "library_path": "/Collatz Notation Transform/Entropy_Height_Finite_Lemma_2026-10-08.md",
+        "version_id": null,
+        "sections": "Complete finite entropy proof, exact height identity, all-time consequence and boundary-controlled occupation addendum"
+      },
+      {
+        "source_key": "LEG-S29",
+        "library_file_id": "libfile_203830d6183881919bb35b8331121fcf",
+        "title": "Collatz_Strategy_01_Full_Project_Review_and_One_Goal_2026-10-08.md",
+        "library_path": "/Collatz Notation Transform/Collatz_Strategy_01_Full_Project_Review_and_One_Goal_2026-10-08.md",
+        "version_id": null,
+        "sections": "Current strategy synthesis and corrected entropy threshold; inherited full-project coverage not reproduced"
+      }
+    ],
+    "attribution": "ChatGPT/Codex finite lemma; inherits parity-block packing from earlier project routes; García–Tal1999 spatial sparsity is classical antecedent with different locality. Olivier Rozier, The3x+1 Problem: A Lower Bound Hypothesis, Lemma2.5/Theorem2.6 provides the distinct-odd harmonic-correction antecedent; parity/entropy capacity is classical.",
+    "novelty": "Candidate quantitative reformulation with explicit chronological boundary costs; no established novelty, pending detailed priority comparison.",
+    "limitations": "Does not prove last-term growth, an upper bound, or cycle exclusion.1.1 is a target, older1.044667 not the current universal threshold. Occupation boundary cannot be dropped.",
+    "significance": "Clear quantitative arithmetic–entropy restriction on any hypothetical escape.",
+    "review_scope": "Actual source read and stated proof/countercontrol reconstructed at the scope specified; no external referee or proof-assistant certification.",
+    "specialist_review_required": false
+  },
+  {
+    "id": "LEG-11",
+    "title": "Empirical pair entropy forces positive event density at polynomial height",
+    "status": "checked_proof",
+    "statement": "FP59 finite inequality (g/S)log2g≤h2(N/S)+(k−1)[(N/S)h2(D/N)+(E/S)h2(D/E)] with E=S−N,k=ceil log2(3H/2),g=S−k+1. Under H≤N^(d+o1), limitingdelta=D/N obeys h2(delta)+(alpha−1)h2(delta/(alpha−1))≥alpha/d; atd2 eventuallyD/N>1/16.",
+    "assumptions": "Actual distinct accelerated prefix; g>0; endpoints and wrap cost retained.",
+    "map_clock": "Accelerated N expanded to shortcut lengthS.",
+    "proof_summary": "Exact cyclic pair counts11=N−D,10=01=D,00=E−D; distinct actual windows lower entropy, conditional-entropy chain upper bound. No Markov assumption.",
+    "sources": [
+      {
+        "source_key": "LEG-S22",
+        "library_file_id": "libfile_8cb680b391448191908ac448d3371490",
+        "title": "Collatz_FP_59_Chronological_Entropy_Growing_Description_Costs_and_Relocation_Barriers_2026-10-11.md",
+        "library_path": "/Collatz_FP_59_Chronological_Entropy_Growing_Description_Costs_and_Relocation_Barriers_2026-10-11.md",
+        "version_id": null,
+        "sections": "Complete empirical conditional-entropy, growing-machine, relocation proofs and embedded audits"
+      }
+    ],
+    "attribution": "FP59; credits Strategy01 finite injection and Shortcut10/11 transition/language framework.",
+    "novelty": "Potential finite refinement; optimized universal exponent duplicates existing entropy bound.",
+    "limitations": "Polynomial-height assumption essential; no universal density or FP.",
+    "significance": "Separates genuine chronological constraints from a guessed stochastic model.",
+    "review_scope": "Actual source read and stated proof/countercontrol reconstructed at the scope specified; no external referee or proof-assistant certification.",
+    "specialist_review_required": false
+  },
+  {
+    "id": "LEG-12",
+    "title": "Explicit growing-dictionary and prediction costs",
+    "status": "checked_proof",
+    "statement": "M-state binary reference with repair fractionrho has H(W_k)≤log2M+k[h2(rho)+rho log2(2M)]. In polynomial height exponentd, fixed machines require positive repair density; M_N≤(logN)^(a+o1) implies liminf R_N log2log2N/N≥alpha/(2ad). Generic block dictionaries attain the same N/loglogN order.",
+    "assumptions": "Stated finite-state model and repair convention; expansion charges at most two binary repairs per depth repair.",
+    "map_clock": "Binary window lengthk and accelerated repair countR_N distinguished.",
+    "proof_summary": "Encode initial state, repair locations and repair labels; combine with actual-window entropy. Universal ell-block dictionary has≤ell2^ell states and≤2m/ell+1 repairs.",
+    "sources": [
+      {
+        "source_key": "LEG-S22",
+        "library_file_id": "libfile_8cb680b391448191908ac448d3371490",
+        "title": "Collatz_FP_59_Chronological_Entropy_Growing_Description_Costs_and_Relocation_Barriers_2026-10-11.md",
+        "library_path": "/Collatz_FP_59_Chronological_Entropy_Growing_Description_Costs_and_Relocation_Barriers_2026-10-11.md",
+        "version_id": null,
+        "sections": "Complete empirical conditional-entropy, growing-machine, relocation proofs and embedded audits"
+      }
+    ],
+    "attribution": "FP59 elementary coding argument; finite-state information-theory antecedents acknowledged.",
+    "novelty": "Useful explicit complexity tradeoff, not a universal algorithmic-complexity theorem.",
+    "limitations": "Does not exclude finite programs with unbounded memory or provide a growing-dimension Diophantine theorem.",
+    "significance": "Makes previously hidden description costs quantitative.",
+    "review_scope": "Actual source read and stated proof/countercontrol reconstructed at the scope specified; no external referee or proof-assistant certification.",
+    "specialist_review_required": false
+  },
+  {
+    "id": "LEG-13",
+    "title": "Real and 2-adic correction-series convergence coexist",
+    "status": "checked_proof",
+    "statement": "S_N=sum_{i<N}2^A_i/3^(i+1) converges2-adically to−n0. For an escaping positive orbit, imported reciprocal summability and n0+S_N=n0 product(1+1/(3n_i)) give a finite positive real limit. Thus sum2^(−(i log2 3−A_i))<infinity and i log2 3−A_i→infinity.",
+    "assumptions": "Actual accelerated positive orbit; escape for real summability statement.",
+    "map_clock": "Accelerated clock.",
+    "proof_summary": "Exact inverse affine identity gives v2(n0+S_N)=A_N; product formula follows telescopically. Summability is imported from classical spatial packing, not reproved here.",
+    "sources": [
+      {
+        "source_key": "LEG-S20",
+        "library_file_id": "libfile_eacff95010648191a84bb714dd93e23c",
+        "title": "Collatz_Proof_Shortcut_Research_06_Bi_Convergent_Correction_Series_and_Revised_Endgame_2026-10-06.md",
+        "library_path": "/Collatz_Proof_Shortcut_Research_06_Bi_Convergent_Correction_Series_and_Revised_Endgame_2026-10-06.md",
+        "version_id": null,
+        "sections": "Bi-convergent correction identities, inherited summability, failed product-formula route and E-sequence comparison"
+      },
+      {
+        "source_key": "LEG-S33",
+        "library_file_id": "libfile_9c2fdfcab858819198879234fa150c05",
+        "title": "Collatz_Proof_Shortcut_Research_01_Critical_Survival_Entropy_and_Fixed_Source_Stabilization_2026-10-06.md",
+        "library_path": "/Collatz_Proof_Shortcut_Research_01_Critical_Survival_Entropy_and_Fixed_Source_Stabilization_2026-10-06.md",
+        "version_id": null,
+        "sections": "Critical-survival and stabilization framing; latest standalone checkpoints prioritized"
+      }
+    ],
+    "attribution": "García–Tal1999 implies reciprocal summability; immediate documented source Sharpe orbit_summability.tex/OrbitPacking.lean, datedSept5,2026, itself credits García–Tal. E-sequence comparison credited to SanMin Wang in project.",
+    "novelty": "Not a novel summability theorem.",
+    "limitations": "Different real/2-adic limits are compatible. No algebraicity of real limit, strict positive density drift, or independent product-formula margin.",
+    "significance": "Correctly constrains a hypothetical escaping depth sequence and records why an apparent contradiction fails.",
+    "review_scope": "Actual source read and stated proof/countercontrol reconstructed at the scope specified; no external referee or proof-assistant certification.",
+    "specialist_review_required": false
+  },
+  {
+    "id": "LEG-14",
+    "title": "Golden bridge-unit composition and failure of residue-growth inference",
+    "status": "checked_proof",
+    "statement": "K(W)=3^(−h)[4c(W)+2^(|W|+1)−3^h] obeys K(AB)=K(A)+2^|A|3^(−|A|1)(K(B)−1). Prefix nesting does not imply least positive residue growth: W=1^r gives K=3−2^(r+1)/3^r with residue3 mod2^(r+1).",
+    "assumptions": "Exact binary affine word coding.",
+    "map_clock": "Finite shortcut words and Fibonacci block transport.",
+    "proof_summary": "Direct concatenation algebra; explicit nested-palindrome counterexample.",
+    "sources": [
+      {
+        "source_key": "LEG-S21",
+        "library_file_id": "libfile_d8b59830fd00819182703cc08a925cee",
+        "title": "Collatz_Research_13_Golden_Renormalization_Bridge_Cocycle_2026-10-05.md",
+        "library_path": "/Collatz_Research_13_Golden_Renormalization_Bridge_Cocycle_2026-10-05.md",
+        "version_id": null,
+        "sections": "Bridge-unit definition/composition law, phase/substitution and transported-residue claims read against later repair"
+      },
+      {
+        "source_key": "LEG-S28",
+        "library_file_id": "libfile_013245ae4b5c8191afbdfe4b9f4929c3",
+        "title": "Collatz_Audit_Repair_HANDOFF_2026-10-05_2148_CDT.md",
+        "library_path": "/Collatz_Audit_Repair_HANDOFF_2026-10-05_2148_CDT.md",
+        "version_id": "1",
+        "sections": "Entire October5 repair: phase hypothesis, residue-nesting counterexample, corrected numerical scope"
+      }
+    ],
+    "attribution": "Research13 cocycle, October5 repair; Akiyama–Shirasaka phase hypothesis is an external input properly restricted to quadratic-field phases.",
+    "novelty": "Exact project normalization, novelty unestablished.",
+    "limitations": "Transported least-residue lower growth remains unproved. Common finite factor language is not arbitrary-phase primitive substitutivity.",
+    "significance": "Preserves the useful identity while removing two invalid endgame premises.",
+    "review_scope": "Actual source read and stated proof/countercontrol reconstructed at the scope specified; no external referee or proof-assistant certification.",
+    "specialist_review_required": false
+  },
+  {
+    "id": "LEG-15",
+    "title": "No eventual arbitrary-width single-interval golden-rotation parity tail",
+    "status": "checked_proof",
+    "statement": "For theta=(sqrt5−1)/2, any0<beta<1 and any phase x, no positive shortcut Collatz orbit eventually has b_t=1_[0,beta)({x+t theta}).",
+    "assumptions": "Exact golden angle, single interval, arbitrary width and phase; positive integer shortcut orbit.",
+    "map_clock": "Shortcut parity clock.",
+    "proof_summary": "Clean equal-word interval length≤c(s+q)+O_source1. Fibonacci lagq, horizonQ has≤2 defects by explicit half-open tower partition.0/1defects violateQ/q→phi>c²+2c. Persistent2defects force both boundary phases into a finite center set by nested intersections, leaving a too-long clean prefix.",
+    "sources": [
+      {
+        "source_key": "LEG-S02",
+        "library_file_id": "libfile_c583ff1b4d10819189ecca97bcb7c053",
+        "title": "Collatz_Research_15_Golden_Rotation_Proof_HANDOFF_2026-10-06.md",
+        "library_path": "/Collatz_Research_15_Golden_Rotation_Proof_HANDOFF_2026-10-06.md",
+        "version_id": null,
+        "sections": "Complete restricted theorem and §§1–5: interval partition, two-defect argument, endpoint intersection, verifier"
+      },
+      {
+        "source_key": "LEG-S28",
+        "library_file_id": "libfile_013245ae4b5c8191afbdfe4b9f4929c3",
+        "title": "Collatz_Audit_Repair_HANDOFF_2026-10-05_2148_CDT.md",
+        "library_path": "/Collatz_Audit_Repair_HANDOFF_2026-10-05_2148_CDT.md",
+        "version_id": "1",
+        "sections": "Entire October5 repair: phase hypothesis, residue-nesting counterexample, corrected numerical scope"
+      },
+      {
+        "source_key": "LEG-S34",
+        "library_file_id": "libfile_41829de61b7c8191bfb26efc0e4c7fd3",
+        "title": "collatz_golden_geometry_verify.py",
+        "library_path": "/collatz_golden_geometry_verify.py",
+        "version_id": null,
+        "sections": "Exact Q(sqrt5) arithmetic; half-open circle partitions; finite intersection and late-defect regressions"
+      }
+    ],
+    "attribution": "Research15 signed Astra max. Elementary Collatz coding/growth and golden rotation geometry are antecedents; Sharpe Sept5 mechanical classification subsumes mechanical special cases, not automatically arbitrary independent width.",
+    "novelty": "Needs broader rotation-coding literature comparison; no novelty claim.",
+    "limitations": "Not all irrational/quadratic rotations, not arbitrary itineraries. Complete research proof draft, no external referee/formalization; finite verifier not infinite proof.",
+    "significance": "A fully articulated restricted exclusion that bypasses the unproved transported-residue growth conjecture.",
+    "review_scope": "Actual source read and stated proof/countercontrol reconstructed at the scope specified; no external referee or proof-assistant certification.",
+    "specialist_review_required": true
+  },
+  {
+    "id": "LEG-16",
+    "title": "Finite-resolution and absolutely-continuous Haar mixing",
+    "status": "checked_proof",
+    "statement": "For oddc≥3 on odd2-adics, Pf(q)=sum_{a≥1}2^(−a)f((2^a q−1)/c) lowers finite residue resolution by one; density mod2^r becomes Haar afterr−1steps. General absolutely continuous densities converge in total variation via conditional-expectation approximation.",
+    "assumptions": "Probability density with respect to normalized odd Haar measure; absolute continuity essential.",
+    "map_clock": "Accelerated odd-multiplier map population evolution.",
+    "proof_summary": "Inverse branches have weights2^(−a), odd c is a residue bijection, and transfer is L1-contracting.",
+    "sources": [
+      {
+        "source_key": "LEG-S31",
+        "library_file_id": "libfile_70ca1e98257c8191850d7093abff74af",
+        "title": "Collatz_FP_02_Alternation_Mixing_and_Its_Domain_2026-10-08.md",
+        "library_path": "/Collatz Notation Transform/Collatz_FP_02_Alternation_Mixing_and_Its_Domain_2026-10-08.md",
+        "version_id": null,
+        "sections": "Entire finite-resolution/absolutely-continuous mixing proof and singular-population controls"
+      },
+      {
+        "source_key": "LEG-S32",
+        "library_file_id": "libfile_1716c045b5648191921ef654996ac281",
+        "title": "Collatz_FP_14_Statistical_Fairness_Mechanisms_2026-10-08.md",
+        "library_path": "/Collatz Notation Transform/Collatz_FP_14_Statistical_Fairness_Mechanisms_2026-10-08.md",
+        "version_id": null,
+        "sections": "Fairness mechanism survey and domain restrictions; used as background rather than independent proof of a trajectory law"
+      }
+    ],
+    "attribution": "User alternation/bias-erasure intuition explicitly credited by FP02; standard2-adic/Markov and Kontorovich–Lagarias stochastic-model background.",
+    "novelty": "Precise project formulation; no historical novelty established.",
+    "limitations": "Point sources singular. Mersenne family demonstrates noncommuting limits, not a fixed divergent orbit. Coarse bias may temporarily increase.",
+    "significance": "Genuine ensemble theorem with the exact missing individual-orbit transfer exposed.",
+    "review_scope": "Actual source read and stated proof/countercontrol reconstructed at the scope specified; no external referee or proof-assistant certification.",
+    "specialist_review_required": false
+  },
+  {
+    "id": "LEG-17",
+    "title": "Full FP forcing remains an unproved target with a necessary domain restriction",
+    "status": "conjecture",
+    "statement": "The proposed target FP_N→1 on a hypothetical distinct positive accelerated orbit is unproved. Exact size arithmetic instead gives liminfW_N≥2−log2 3 and limsupFP_N≤1/(3−log2 3), so proving target would exclude escape. On terminal1 continued indefinitely, FP_N→1/2.",
+    "assumptions": "W_N=sum_r|Q_N(r)−2^(1−r)|,Q_N(r)=N^(−1)#{a_i≥r}; target only hypothetical distinct-survivor domain.",
+    "map_clock": "Accelerated odd clock.",
+    "proof_summary": "Sum_rQ_N=A_N/N; log identity on distinct orbit gives limsup mean depth≤log2 3. Difference of means bounds W.",
+    "sources": [
+      {
+        "source_key": "LEG-S09",
+        "library_file_id": "libfile_45d19c53ee748191b7ee395bbfd24d59",
+        "title": "Collatz_FP_60_Proof_Routes_and_Checked_Progress_2026-10-11.md",
+        "library_path": "/Collatz Notation Transform/Collatz_FP_60_Proof_Routes_and_Checked_Progress_2026-10-11.md",
+        "version_id": null,
+        "sections": "Complete executive report and embedded three research components: repair occupation, cycle consequence, inverse constructions and controls"
+      },
+      {
+        "source_key": "LEG-S08",
+        "library_file_id": "libfile_10e8dae86bc08191bfd8c0a963bb80f3",
+        "title": "Collatz_FP_Current_Handoff.md",
+        "library_path": "/Collatz Notation Transform/Collatz_FP_Current_Handoff.md",
+        "version_id": "37",
+        "sections": "Opening current FP60 summary and inherited material through line1000 only; not a proof substitute"
+      }
+    ],
+    "attribution": "FP project target, domain correction already inFP40 and retainedFP60; user fairness motivation distinct from proof.",
+    "novelty": "No claim of proven new global law.",
+    "limitations": "All-orbit formulation false; no iid statement; exclusion of escape would still require separate cycle handling.",
+    "significance": "Prevents a prominent research objective from being reported as a theorem.",
+    "review_scope": "Actual source read and stated proof/countercontrol reconstructed at the scope specified; no external referee or proof-assistant certification.",
+    "specialist_review_required": false
+  },
+  {
+    "id": "LEG-18",
+    "title": "Fixed-event prefix bound and superlogarithmic events",
+    "status": "checked_proof",
+    "statement": "For fixedR≥0,epsilon>0 every actual positive-odd prefix of lengthh fromx with≤R depths≥2 satisfies h≤(1+epsilon)log2(x+1)+C_R,epsilon, uniformly in exceptional depths. Constants ineffective. ConsequentlyD_N/log(N+2)→infinity on every continued positive orbit.",
+    "assumptions": "R fixed before the contradiction sequence, fixed dimension and forms; standard p-adic Subspace and fixed-term S-unit theorems.",
+    "map_clock": "Accelerated prefix lengthh; multiplicative time windows for event-rate consequence.",
+    "proof_summary": "Normalized shifted ledger Z=2^A(n+1)/3^t. Fixed-width event clusters yield integer-vector form product≤C(x+1)2^(−h)3^sum widths; actual excess cancels. Subspace relation reduces to cluster increments; minimal S-unit subsums cannot bridge diverging event gaps, contradicting positive increments.",
+    "sources": [
+      {
+        "source_key": "LEG-S25",
+        "library_file_id": "libfile_f02753504dcc819181cda6f3947c66f2",
+        "title": "Collatz_FP_57_Fixed_Event_Prefix_Bound_and_Bounded_Deficit_Closure_2026-10-10.md",
+        "library_path": "/Collatz Notation Transform/Collatz_FP_57_Fixed_Event_Prefix_Bound_and_Bounded_Deficit_Closure_2026-10-10.md",
+        "version_id": null,
+        "sections": "Complete fixed-event prefix proof, Subspace/S-unit dependencies, primitive rescaling, exceptional-subspace resolution and rate consequences"
+      }
+    ],
+    "attribution": "FP57 signed GPT-6 Astra Pro. Schlickewei1977 theorem via Evertse2011, Evertse–Schlickewei–Schmidt2002 explicitly credited; earlier shifted ledgers inherited.",
+    "novelty": "Potentially substantial project proof; historical novelty undetermined.",
+    "limitations": "Complete analytical draft reread, not external certification. No effectiveness/uniform growingR, no positive density or fullFP.",
+    "significance": "Crosses the elementary logarithmic-event barrier with a fixed-dimensional arithmetic argument.",
+    "review_scope": "Complete source analytical proof reread, fixed dimensionality, external theorem hypotheses, primitive rescaling and exceptional-subspace/minimal-S-unit cancellation resolution checked. This is reconstruction of a research proof draft, not independent publication-level or formal certification. Specialist Diophantine review required.",
+    "specialist_review_required": true
+  },
+  {
+    "id": "LEG-19",
+    "title": "Fixed rational dictionary prefix bound and high-floor closure",
+    "status": "checked_proof",
+    "statement": "For fixed finite rational periodic reference dictionaryC and≤R repairs, B_h≤(1+epsilon)log2(x+1)+K and h≤((1+epsilon)/beta)log2(x+1)+Kprime. Negative dictionaries allow all positive prefixes; mixed dictionaries require all actual states≥ceil(2max|c|)+2. Eventual bounded repairs per canonical turnover force boundedness/eventual periodicity.",
+    "assumptions": "Pattern or phase changes charged as repairs; C,R,epsilon fixed. beta least reference mean depth≥1. Imported fixed-dimensional Diophantine theorems.",
+    "map_clock": "Accelerated clock and canonical turnover clock.",
+    "proof_summary": "Signed reference ledger. Zero-correction cluster maps one rational center exactly to another; forward/back denominator argument forces the unique genuine reference path, so repairs removable. Nonzero clusters use same finite-form/S-unit proof. Two-turnover positive potential rules out distinct escape.",
+    "sources": [
+      {
+        "source_key": "LEG-S26",
+        "library_file_id": "libfile_644b115ffb2081918e82715730d1d6d0",
+        "title": "Collatz_FP_58_Complete_Report_and_Symbolic_Scope_Check_2026-10-10.md",
+        "library_path": "/Collatz Notation Transform/Collatz_FP_58_Complete_Report_and_Symbolic_Scope_Check_2026-10-10.md",
+        "version_id": null,
+        "sections": "Complete report in two reads; finite negative/mixed reference prefix proof, zero-cluster removal, high-floor restriction, symbolic family and external-reference notes"
+      },
+      {
+        "source_key": "LEG-S25",
+        "library_file_id": "libfile_f02753504dcc819181cda6f3947c66f2",
+        "title": "Collatz_FP_57_Fixed_Event_Prefix_Bound_and_Bounded_Deficit_Closure_2026-10-10.md",
+        "library_path": "/Collatz Notation Transform/Collatz_FP_57_Fixed_Event_Prefix_Bound_and_Bounded_Deficit_Closure_2026-10-10.md",
+        "version_id": null,
+        "sections": "Complete fixed-event prefix proof, Subspace/S-unit dependencies, primitive rescaling, exceptional-subspace resolution and rate consequences"
+      }
+    ],
+    "attribution": "FP58 signed GPT-6 Astra Pro; FP57 and classical Diophantine inputs inherited; rational periodic centers classical.",
+    "novelty": "Potential significant fixed-description theorem; priority undetermined.",
+    "limitations": "High floor cannot be omitted for positive centers; no growing dictionary/repair uniformity; eventual periodicity not trivial-cycle classification.",
+    "significance": "Allows adaptive aperiodic template choices while excluding bounded cost per turnover.",
+    "review_scope": "Complete source analytical proof reread, fixed dimensionality, external theorem hypotheses, primitive rescaling and exceptional-subspace/minimal-S-unit cancellation resolution checked. This is reconstruction of a research proof draft, not independent publication-level or formal certification. Specialist Diophantine review required.",
+    "specialist_review_required": true
+  },
+  {
+    "id": "LEG-20",
+    "title": "Positive repair occupation without polynomial-height hypothesis",
+    "status": "checked_proof",
+    "statement": "For each fixedC and each fixedR, any hypothetical distinct orbit has lower turnover density of r_j>R at least c_beta=−logrho/[2(logalpha−logrho)]>1/10, rho=(sqrt(1+4alpha/beta)−1)/2. Mean repairs per turnover→infinity. For fixedC and bounded average repairs, only finitely many positive cycles qualify.",
+    "assumptions": "FP58 fixed-dictionary theorem; r_j minimal repairs on canonical first-depth-crossing turnover; fixedR before limit.",
+    "map_clock": "Canonical turnovers L=ceil log2(x+1),K=first A_K≥L,e=A_K−L.",
+    "proof_summary": "Sharp endpointL_next≤alphaK−e+1. Low-low pair gives L_next+L_nextnext≤chiL+O_R1. Potential(1+rho)L+L_next contracts byrho on such pairs and grows at mostalpha elsewhere. Telescoping log and pair incidence yield density. Distinct cycle minima escape any fixed floor, giving finiteness corollary.",
+    "sources": [
+      {
+        "source_key": "LEG-S09",
+        "library_file_id": "libfile_45d19c53ee748191b7ee395bbfd24d59",
+        "title": "Collatz_FP_60_Proof_Routes_and_Checked_Progress_2026-10-11.md",
+        "library_path": "/Collatz Notation Transform/Collatz_FP_60_Proof_Routes_and_Checked_Progress_2026-10-11.md",
+        "version_id": null,
+        "sections": "Complete executive report and embedded three research components: repair occupation, cycle consequence, inverse constructions and controls"
+      },
+      {
+        "source_key": "LEG-S26",
+        "library_file_id": "libfile_644b115ffb2081918e82715730d1d6d0",
+        "title": "Collatz_FP_58_Complete_Report_and_Symbolic_Scope_Check_2026-10-10.md",
+        "library_path": "/Collatz Notation Transform/Collatz_FP_58_Complete_Report_and_Symbolic_Scope_Check_2026-10-10.md",
+        "version_id": null,
+        "sections": "Complete report in two reads; finite negative/mixed reference prefix proof, zero-cluster removal, high-floor restriction, symbolic family and external-reference notes"
+      }
+    ],
+    "attribution": "FP60 with internal audit/research agents; explicitly inheritsFP44/49 endpoint bound andFP58 theorem.",
+    "novelty": "New within project checkpoint, not literature priority established.",
+    "limitations": "Conditional on acceptance of deep FP58 draft; no effective cycle list, no theorem that all orbits have bounded repair cost.",
+    "significance": "Quantitative all-height exclusion of low-description-cost escape profiles.",
+    "review_scope": "Elementary occupation deduction reconstructed; depends on FP58 research proof draft and inherits its specialist-review requirement.",
+    "specialist_review_required": true
+  },
+  {
+    "id": "LEG-21",
+    "title": "Infinite families of actual strictly smaller coalescing sources",
+    "status": "checked_proof",
+    "statement": "For M≥0,q=M+4,positiveX with3^q|2^(2M+1)X+1 and3^MX≡3mod4, setV=(2^(2M+1)X+1)/3^q,x=3^MX,z=2^(q+1)V−1. The actual alternate word(1^q,2^M,3) reachesU(x), and z=(64/81)(8/9)^M*x+2(2/3)^q−1<x.",
+    "assumptions": "Explicit ternary and binary congruences; positive integerX. CRT gives infinitely many, not all sources of one valuation.",
+    "map_clock": "Accelerated alternate word with growing clock.",
+    "proof_summary": "Exact intermediate formulas verify every depth; affine elimination yields endpoint equality and strict size inequality. A second(1^q,2^m,3,3) family covers additional progressions.",
+    "sources": [
+      {
+        "source_key": "LEG-S09",
+        "library_file_id": "libfile_45d19c53ee748191b7ee395bbfd24d59",
+        "title": "Collatz_FP_60_Proof_Routes_and_Checked_Progress_2026-10-11.md",
+        "library_path": "/Collatz Notation Transform/Collatz_FP_60_Proof_Routes_and_Checked_Progress_2026-10-11.md",
+        "version_id": null,
+        "sections": "Complete executive report and embedded three research components: repair occupation, cycle consequence, inverse constructions and controls"
+      }
+    ],
+    "attribution": "FP60 inverse component, project source-reduction program; CRT/affine inverse coding classical.",
+    "novelty": "Potential elementary constructive note; no broad priority claim.",
+    "limitations": "No universal coverage. Entire three-block architecture(1^q,2^r,3^s) missesx≡19mod108, even with prescribed finite initial unit runs.",
+    "significance": "Positive actual arithmetic constructions beyond merely identifying obstructions.",
+    "review_scope": "Actual source read and stated proof/countercontrol reconstructed at the scope specified; no external referee or proof-assistant certification.",
+    "specialist_review_required": false
+  },
+  {
+    "id": "LEG-22",
+    "title": "Changed-clock lower bound and three-block coverage obstruction",
+    "status": "checked_proof",
+    "statement": "If z<x reaches the endpoint of an initialk-unit run fromx afterh accelerated rounds, h>k; ifM=v3(x)≥1, h≥k+M+2. Complete(1^q,2^r,3^s) architecture fails for allx≡19mod108.",
+    "assumptions": "Positive integer smaller source, exact common endpoint; arbitrary alternate depths for clock obstruction; source classx≡3mod4 for three-block classification.",
+    "map_clock": "Original clockk versus alternateh, not silently synchronized.",
+    "proof_summary": "Positive-shadow/inverse affine congruences; classification restricts possible terminal3-block lengths usingv3(5x+1) and checks remaining ternary/binary conditions.",
+    "sources": [
+      {
+        "source_key": "LEG-S09",
+        "library_file_id": "libfile_45d19c53ee748191b7ee395bbfd24d59",
+        "title": "Collatz_FP_60_Proof_Routes_and_Checked_Progress_2026-10-11.md",
+        "library_path": "/Collatz Notation Transform/Collatz_FP_60_Proof_Routes_and_Checked_Progress_2026-10-11.md",
+        "version_id": null,
+        "sections": "Complete executive report and embedded three research components: repair occupation, cycle consequence, inverse constructions and controls"
+      }
+    ],
+    "attribution": "FP60 inverse component; earlier equal-endpoint and source-order framework inherited.",
+    "novelty": "Project restricted obstruction; novelty undetermined.",
+    "limitations": "Does not rule out other words, changed endpoints or universally successful changed-clock architectures.",
+    "significance": "Explains why some natural source-reduction searches must change form rather than extend budgets.",
+    "review_scope": "Actual source read and stated proof/countercontrol reconstructed at the scope specified; no external referee or proof-assistant certification.",
+    "specialist_review_required": false
+  },
+  {
+    "id": "LEG-23",
+    "title": "Two-position division reallocation cannot create a new descent certificate",
+    "status": "checked_proof",
+    "statement": "MovingDelta divisions from laterj to earlieri in a fixed length/total-depth word changes carry by(2^Delta−1)sum_{t=i+1}^j3^(h−1−t)2^A_t. Equal-endpoint source integral iff2*3^j dividesDelta. Sincea_j>Delta, original trajectory already descends below its source.",
+    "assumptions": "0≤i<j<h,Delta≥1,a_j−Delta≥1, all other depths and endpoint unchanged; j measured from original source.",
+    "map_clock": "Fixed accelerated clockh and total budget.",
+    "proof_summary": "Unique lowest ternary valuation of last affected term, lifting valuation of2^Delta−1, thenU(n)≤2n to show direct descent.",
+    "sources": [
+      {
+        "source_key": "LEG-S22",
+        "library_file_id": "libfile_8cb680b391448191908ac448d3371490",
+        "title": "Collatz_FP_59_Chronological_Entropy_Growing_Description_Costs_and_Relocation_Barriers_2026-10-11.md",
+        "library_path": "/Collatz_FP_59_Chronological_Entropy_Growing_Description_Costs_and_Relocation_Barriers_2026-10-11.md",
+        "version_id": null,
+        "sections": "Complete empirical conditional-entropy, growing-machine, relocation proofs and embedded audits"
+      }
+    ],
+    "attribution": "FP59 Component04; elementary valuation/lifting argument.",
+    "novelty": "Potential useful infinite-family negative result, no novelty claim.",
+    "limitations": "Not many-edit, mixed-sign, changed-clock or changed-endpoint obstruction; positivity remains needed for an actual candidate.",
+    "significance": "Closes an unbounded surgery family rather than a finite search list.",
+    "review_scope": "Actual source read and stated proof/countercontrol reconstructed at the scope specified; no external referee or proof-assistant certification.",
+    "specialist_review_required": false
+  },
+  {
+    "id": "LEG-24",
+    "title": "Region parser and uniform contraction of H-only episodes",
+    "status": "checked_proof",
+    "statement": "FamiliesS,A,B,C,D partition positive odds byv2(3n−1)=1,2,4,3,≥5. NonterminalH={S,C,D} blocks contract by at most91/107; individual sharp boundsS7/9,C11/19,even-D91/107,odd-D5/11. H-only episode length≤floor(logn0/log(107/91)) before1orA/B.",
+    "assumptions": "Exact macro parser, nonterminal blocks and correct first-return endpoints.",
+    "map_clock": "Region macroblock clock, with1,2,or≥3 accelerated rounds per block.",
+    "proof_summary": "Closed affine formulas and exactvaluation subcases give endpoint ratios; multiply strict contractions. Counterfamily3*8^(M+1)−5 hasM B blocks thenC yet final(3*9^(M+1)−5)/2 exceeds sourceforM≥5.",
+    "sources": [
+      {
+        "source_key": "LEG-S13",
+        "library_file_id": "libfile_3c60af12c4708191813403e13b8918ec",
+        "title": "Region_Family_Analysis_Current_State_2026-10-12.md",
+        "library_path": "/Collatz Notation Transform/Region Family Analysis/Region_Family_Analysis_Current_State_2026-10-12.md",
+        "version_id": "9",
+        "sections": "Current opening consolidation through line1000 only, especially family parser, contraction, transition matrix, compensation counterfamily; historical remainder not certified"
+      }
+    ],
+    "attribution": "Region Family Analysis current state; project family definitions and elementary affine arithmetic.",
+    "novelty": "Restricted lemma, novelty not assessed.",
+    "limitations": "Contracting next block does not imply compensation for earlier expansion or original-source descent. Large cumulative handoff only opening1000lines read.",
+    "significance": "One genuine fixed-source termination theorem for a precisely defined subsystem.",
+    "review_scope": "Actual source read and stated proof/countercontrol reconstructed at the scope specified; no external referee or proof-assistant certification.",
+    "specialist_review_required": false
+  },
+  {
+    "id": "LEG-25",
+    "title": "Exact history-conditioned A/B transition and survival laws",
+    "status": "checked_proof",
+    "statement": "After maximalA run, nextB,C,D probabilities1/4,1/2,1/4; afterB, nextA,C,D4/7,2/7,1/7. These remain true after any fixed finite history including run lengths. SubstochasticQ=[[0,1/4],[4/7,0]],Q²=I/7; survival ofkfullpairs has density7^(−k).",
+    "assumptions": "Uniform eligible entry residue population, not pooled trajectory visits; finite history fixed before source-range limit.",
+    "map_clock": "Maximal Region A/B runs and pair-return clock.",
+    "proof_summary": "Normalize entries, odd multipliers3^L,9^M biject higher residue bits; truncate run lengths to justify natural densities with controlled tail mass.",
+    "sources": [
+      {
+        "source_key": "LEG-S15",
+        "library_file_id": "libfile_b28c8f86f62481918af0ce6a99ead535",
+        "title": "Collatz_AB_History_Conditioned_Transition_Probabilities_2026-10-12.md",
+        "library_path": "/Collatz Notation Transform/Region Family Analysis/Collatz_AB_History_Conditioned_Transition_Probabilities_2026-10-12.md",
+        "version_id": null,
+        "sections": "Entire maximal-run history-conditioned laws, finite-history density proof and scope limits"
+      },
+      {
+        "source_key": "LEG-S14",
+        "library_file_id": "libfile_7046e905ce2c81919ba4b29ed85037db",
+        "title": "Collatz_Infinite_Survivor_Intersection_Checkpoint_2026-10-12.md",
+        "library_path": "/Collatz Notation Transform/Region Family Analysis/Collatz_Infinite_Survivor_Intersection_Checkpoint_2026-10-12.md",
+        "version_id": null,
+        "sections": "Entire fixed-source survivor-intersection checkpoint"
+      }
+    ],
+    "attribution": "Region project exact residue analysis; no iid fresh-bit assumption.",
+    "novelty": "Useful closed population law; historical novelty not established.",
+    "limitations": "Not an individual orbit frequency, no uniform interchange ofhistory depth and range, no infinite-set emptiness.",
+    "significance": "Strong exact statistical theorem with its correct domain.",
+    "review_scope": "Actual source read and stated proof/countercontrol reconstructed at the scope specified; no external referee or proof-assistant certification.",
+    "specialist_review_required": false
+  },
+  {
+    "id": "LEG-26",
+    "title": "Exponential survivor density does not imply no positive survivor",
+    "status": "refuted",
+    "statement": "Inference mu(S_k)=7^(−k)⇒intersectionS_k^+ empty is invalid. E_k={7^k|n} andF_k=E_k union{1} have the same densities but different positive intersections. For nested positive sets, emptiness iff minimum surviving integer→infinity; binary history residues must be shown not to stabilize at a positive integer.",
+    "assumptions": "Nested finite-stage survivor sets; Haar versus natural density distinguished.",
+    "map_clock": "Fixed positive source across all pair-return depths.",
+    "proof_summary": "Explicit countersets; elementary monotonicity of minima. RepeatedA1B1 schedule has finite valuation budget centered11u+2, but changing schedules not covered.",
+    "sources": [
+      {
+        "source_key": "LEG-S14",
+        "library_file_id": "libfile_7046e905ce2c81919ba4b29ed85037db",
+        "title": "Collatz_Infinite_Survivor_Intersection_Checkpoint_2026-10-12.md",
+        "library_path": "/Collatz Notation Transform/Region Family Analysis/Collatz_Infinite_Survivor_Intersection_Checkpoint_2026-10-12.md",
+        "version_id": null,
+        "sections": "Entire fixed-source survivor-intersection checkpoint"
+      },
+      {
+        "source_key": "LEG-S15",
+        "library_file_id": "libfile_b28c8f86f62481918af0ce6a99ead535",
+        "title": "Collatz_AB_History_Conditioned_Transition_Probabilities_2026-10-12.md",
+        "library_path": "/Collatz Notation Transform/Region Family Analysis/Collatz_AB_History_Conditioned_Transition_Probabilities_2026-10-12.md",
+        "version_id": null,
+        "sections": "Entire maximal-run history-conditioned laws, finite-history density proof and scope limits"
+      }
+    ],
+    "attribution": "User explicitly identified fractional survival versus fixed integer as central priority; October12 checkpoint formalizes it.",
+    "novelty": "Foundational measure-theoretic distinction, not novel probability; valuable project correction.",
+    "limitations": "No actual positive infinite A/B survivor constructed, and none excluded universally.",
+    "significance": "Identifies the exact remaining quantifier/arithmetic obligation.",
+    "review_scope": "Actual source read and stated proof/countercontrol reconstructed at the scope specified; no external referee or proof-assistant certification.",
+    "specialist_review_required": false
+  },
+  {
+    "id": "LEG-27",
+    "title": "Rational-base gate renewal and exact nonindependent size accounting",
+    "status": "checked_proof",
+    "statement": "In canonicalbase3/2, evenn≥8 with gate0 has gate1 after halving; odd steps preserve gate1. Extra deletionsD≥floor((E−1)/2), with low terminal exception. But D=(log_(3/2)2−1)E−sum_odd log_(3/2)(1+1/(3n))+bounded endpoint term, so gates are not independent dissipation.",
+    "assumptions": "Canonical rational-base length; stated low-state boundary; actual shortcut steps.",
+    "map_clock": "Shortcut odd/even event clock and numeral digit length.",
+    "proof_summary": "Thresholdq_(l+1)=ceil3q_l/2 proves gate renewal; subtract exact log-size ledger from exact digit-length ledger.1110 repeating word centered11n+19 admits arbitrary finite growth with growing seed.",
+    "sources": [
+      {
+        "source_key": "LEG-S27",
+        "library_file_id": "libfile_196b889001488191814f6769360ab155",
+        "title": "Collatz_Notation_Transform_03_Gate_Renewal_Theorem_and_Size_Accounting_Audit_2026-10-07.md",
+        "library_path": "/Collatz Notation Transform/Collatz_Notation_Transform_03_Gate_Renewal_Theorem_and_Size_Accounting_Audit_2026-10-07.md",
+        "version_id": null,
+        "sections": "Entire gate-renewal theorem, rational-base length accounting, finite growing block and CRT scope control"
+      },
+      {
+        "source_key": "LEG-S11",
+        "library_file_id": "libfile_d11b29c093208191880ae17334f9d1f8",
+        "title": "Collatz_Notation_Transform_04_Breakthrough_Assessment_and_Prior_Art_2026-10-07.md",
+        "library_path": "/Collatz Notation Transform/Collatz_Notation_Transform_04_Breakthrough_Assessment_and_Prior_Art_2026-10-07.md",
+        "version_id": null,
+        "sections": "Entire prior-art assessment and listed rational-base/rewriting antecedents"
+      },
+      {
+        "source_key": "LEG-S12",
+        "library_file_id": "libfile_e6bcc042dc6481918b3e375ae1c523a7",
+        "title": "Collatz_Notation_Transform_06_Sorting_and_Division_Surplus_Hypothesis_2026-10-07.md",
+        "library_path": "/Collatz Notation Transform/Collatz_Notation_Transform_06_Sorting_and_Division_Surplus_Hypothesis_2026-10-07.md",
+        "version_id": null,
+        "sections": "Entire note; §1 user-origin quotes, exact sorting targets, audited drift heuristic"
+      }
+    ],
+    "attribution": "User sorting/division-surplus intuition; numeral-system antecedents Akiyama–Frougny–Sakarovitch2008, Eliahou–Verger-Gaugry2025; rewriting comparisons documentedNT04.",
+    "novelty": "Renewal/accounting formulation may be useful; base3/2 is known, no new-number-system claim.",
+    "limitations": "No control of odd-event supply, no independent information loss; populationmean depth2 not individual law.",
+    "significance": "Extracts a valid combinatorial lemma and the exact reason a proposed new resource cancels.",
+    "review_scope": "Actual source read and stated proof/countercontrol reconstructed at the scope specified; no external referee or proof-assistant certification.",
+    "specialist_review_required": false
+  },
+  {
+    "id": "LEG-28",
+    "title": "Carryless comparison has exact fixed-source regenerating growth rays",
+    "status": "checked_proof",
+    "statement": "For K(n)=oddpart(n XOR(n<<2) XOR1),n_m=(10*8^m−3)/7,m=2^r*u,uodd, the first two runs1^(3m),2^(2^r) send n_m ton_(2m) iff3u+1=4^j. These give unbounded positive fixed-source rays. Withk=4^j, full mean depth has liminf2k/(2k−1),limsup(k+1)/k.",
+    "assumptions": "Carryless comparison map, not original3n+1or5n+1; exact characteristic2 polynomial coding.",
+    "map_clock": "Accelerated carryless round clock; growth ledgerbitlength2N−A_N.",
+    "proof_summary": "R=1+z+z², Rf_m+1=z^(3m+1)(1+z); afterrunpair Rh+1=z(1+z)[(1+z^(2L))^(3u+1)+1]/z^(2L). Frobenius collapses exactly at power2, iteratesL→2L; partial-run extremes give liminf/limsup.",
+    "sources": [
+      {
+        "source_key": "LEG-S17",
+        "library_file_id": "libfile_8d6e32a9b7b88191a01da00811f96ca0",
+        "title": "Archaeology_Pass05_Analysis_2026-10-13.md",
+        "library_path": "/Collatz Notation Transform/Causality Map Route/Archaeology_Pass05_Analysis_2026-10-13.md",
+        "version_id": null,
+        "sections": "Entire Pass05 analysis; exact algebra checked at exposition level; underlying large-trajectory bundles not rerun"
+      },
+      {
+        "source_key": "LEG-S16",
+        "library_file_id": "libfile_7322ca927ce88191988839ca80383f9c",
+        "title": "Archaeology_Pass05_Causality_Map_2026-10-13.md",
+        "library_path": "/Collatz Notation Transform/Causality Map Route/Archaeology_Pass05_Causality_Map_2026-10-13.md",
+        "version_id": null,
+        "sections": "Entire Pass05 map and distinctions between original maps, interventions and carryless control"
+      }
+    ],
+    "attribution": "ArchaeologyPass05 latest completed causal route, grounded in earlier carryless controls; characteristic2 Frobenius classical.",
+    "novelty": "Potential exact countermodel note, no Collatz novelty claim.",
+    "limitations": "Ordinary carry restoration gives5n−1not5n+1. No inference of Collatz divergence.",
+    "significance": "Demonstrates that finite reference depth laws and exhausted local reserves can coexist with indefinite adverse renewal.",
+    "review_scope": "Actual source read and stated proof/countercontrol reconstructed at the scope specified; no external referee or proof-assistant certification.",
+    "specialist_review_required": false
+  },
+  {
+    "id": "LEG-29",
+    "title": "Causal interventions and finite navigation countercontrols",
+    "status": "computational",
+    "statement": "Pass05 matched-entry and high-bit interventions preserve specified immediate depths/reference laws while subsequent cumulative division signs differ or reverse; same integer163 with different retained controller bit leads to different cycles. The exact six-cycle entry family7+2^15h repeatsfloor(v2h/14)+1timesforh>0, permanentath0.",
+    "assumptions": "Named intervention maps/controller state, not original Collatz; finite experiments separated from exact template identities.",
+    "map_clock": "5n+1-derived accelerated controller-map clock; finite horizons up to8192in cited report.",
+    "proof_summary": "Exact return algebra givesvaluationbudget; stored experimental comparisons isolate full-state versus integer-only matching. This audit read the report but did not rerun large bit-length trajectories.",
+    "sources": [
+      {
+        "source_key": "LEG-S17",
+        "library_file_id": "libfile_8d6e32a9b7b88191a01da00811f96ca0",
+        "title": "Archaeology_Pass05_Analysis_2026-10-13.md",
+        "library_path": "/Collatz Notation Transform/Causality Map Route/Archaeology_Pass05_Analysis_2026-10-13.md",
+        "version_id": null,
+        "sections": "Entire Pass05 analysis; exact algebra checked at exposition level; underlying large-trajectory bundles not rerun"
+      },
+      {
+        "source_key": "LEG-S16",
+        "library_file_id": "libfile_7322ca927ce88191988839ca80383f9c",
+        "title": "Archaeology_Pass05_Causality_Map_2026-10-13.md",
+        "library_path": "/Collatz Notation Transform/Causality Map Route/Archaeology_Pass05_Causality_Map_2026-10-13.md",
+        "version_id": null,
+        "sections": "Entire Pass05 map and distinctions between original maps, interventions and carryless control"
+      }
+    ],
+    "attribution": "Causality-map project Pass05 and earlier intervention work; user comparison/probing program.",
+    "novelty": "Methodological controls, not a universal arithmetic theorem.",
+    "limitations": "Finite observations not escape proof; release not compensation; some exact intervention assertions remain inherited from earlier bundles rather than independently rebuilt here.",
+    "significance": "Warns against interpreting local pattern, next-depth preservation or ensemble mixing as a causal all-source descent mechanism.",
+    "review_scope": "Actual source read and stated proof/countercontrol reconstructed at the scope specified; no external referee or proof-assistant certification.",
+    "specialist_review_required": false
+  },
+  {
+    "id": "LEG-30",
+    "title": "Cross-completion irrationality transfer objection is valid only at the general-principle level",
+    "status": "checked_proof",
+    "statement": "b_n=floor((3/2)^n sqrt2),a_n=2^n b_n/3^n tends tosqrt2inR and0inQ2. Thus common rational approximants and odd denominators do not transfer real irrationality to2-adic irrationality. Saved objection to López–Stoll arXiv2101.12747v1 is a dependency quarantine, not disproof of its theorem.",
+    "assumptions": "General common-approximant transfer claim; no claim this sequence satisfies the paper-specificCollatz constraints.",
+    "map_clock": "Approximation indexn, not orbit time.",
+    "proof_summary": "Real error<(2/3)^n andv2(a_n)≥n. Paper-specific missing justification must be addressed separately.",
+    "sources": [
+      {
+        "source_key": "LEG-S10",
+        "library_file_id": "libfile_4725015f52688191b921b7a14f5bbd7a",
+        "title": "Lopez_Stoll_Proof_Objection_Draft_2026-10-06.md",
+        "library_path": "/Lopez_Stoll_Proof_Objection_Draft_2026-10-06.md",
+        "version_id": null,
+        "sections": "Entire private unsent objection draft, including general cross-completion counterexample"
+      },
+      {
+        "source_key": "LEG-S20",
+        "library_file_id": "libfile_eacff95010648191a84bb714dd93e23c",
+        "title": "Collatz_Proof_Shortcut_Research_06_Bi_Convergent_Correction_Series_and_Revised_Endgame_2026-10-06.md",
+        "library_path": "/Collatz_Proof_Shortcut_Research_06_Bi_Convergent_Correction_Series_and_Revised_Endgame_2026-10-06.md",
+        "version_id": null,
+        "sections": "Bi-convergent correction identities, inherited summability, failed product-formula route and E-sequence comparison"
+      }
+    ],
+    "attribution": "Private unsent project objection draft for EthanWalker; paper authors López andStoll retain credit for their work; no correspondence or response claimed.",
+    "novelty": "Elementary counterexample to a general inference, not a claimed new counterexample to published theorem.",
+    "limitations": "Primarypaper opened but no full theorem refutation verified; special structural argument might repair questioned passage.",
+    "significance": "Prevents a questionable external dependency from silently underwriting project conclusions.",
+    "review_scope": "Actual source read and stated proof/countercontrol reconstructed at the scope specified; no external referee or proof-assistant certification.",
+    "specialist_review_required": false
+  },
+  {
+    "id": "LEG-31",
+    "title": "Finite rank, prefix trees and surviving Padé denominator alone do not force descent",
+    "status": "refuted",
+    "statement": "Research39 constructs an exact rank-two generalized-series counterexample using the Thue–Morse series and a series-valued edge unitR=Ea/(xEb). Specialized Padé value is0 with nonzero denominator. Durand start-to-start returns need not be prefix-free: Fibonacci10,100 have equal correction1/3. End-to-endWu=uV repairs the local prefix convention, withc(V)=[c(W)+(z(W)−1)c(u)]/z(u).",
+    "assumptions": "Generalized-series edge model, not actual bounded-height finite Collatz data; local marker/end boundary conventions.",
+    "map_clock": "Coarse return-word / formal series clock.",
+    "proof_summary": "Explicit order23/22 Padé errors and determinant26x^22+12x^23 define exact canceling unit. Thue–Morse aperiodicity rules out rational projected series. Concatenation algebra proves boundary conjugacy.",
+    "sources": [
+      {
+        "source_key": "LEG-S40",
+        "library_file_id": "libfile_b6d38042fbc88191b6f58c453adcc69d",
+        "title": "Collatz_Research_39_Two_Leaf_Descent_Audit_and_Return_Word_Repair_2026-10-06.md",
+        "library_path": "/Collatz_Research_39_Two_Leaf_Descent_Audit_and_Return_Word_Repair_2026-10-06.md",
+        "version_id": null,
+        "sections": "Entire Research39. Generalized-edge two-leaf counterexample, return-word convention correction, local conjugacy and jet warnings. Source reproduction archive not rerun."
+      }
+    ],
+    "attribution": "Research39 signedChatGPT/Codex. Durand return-word definition and Prop6 primary source inspected; code versus prefix-code distinction classical. Exact stress test project-created.",
+    "novelty": "Countercontrol and correction; no counterexample toCollatz or original arithmetic-specific tower conjecture.",
+    "limitations": "Series-valued edges are not established as actual rational corrections of heightO(M). Local boundary repair does not prove interlevel tower alignment.",
+    "significance": "Preserves a decisive historical correction rather than reporting superseded finite-rank breakthrough language.",
+    "review_scope": "Actual complete note read and local argument reconstructed. Relevant assumptions and historical corrections retained. No external referee or proof-assistant certification.",
+    "specialist_review_required": false
+  },
+  {
+    "id": "LEG-32",
+    "title": "Fixed-series Padé height rigidity and compatible pointwise jet rescue",
+    "status": "checked_proof",
+    "statement": "If fixedF∈Q[[x]]∩Z2[[x]],m_j=v2(x_j)→infinity,h(x_j)≤gamma*m_j+o(m_j)withgamma<2,h(r_j)≤A*m_j+o(m_j),andv2(r_j−F(x_j))/m_j→infinity,thenF∈Q(x). EulerD0=q*x∂x+(p−q)t∂t andD1=t∂t+qY∂Y preserve t^q=Yx^(p−q),normal degrees andx^N. Minimum surviving pair jets preserve high precision pointwise, not necessarily as formal rescued errors.",
+    "assumptions": "One fixed rational-coefficient2-adically integral series, fixed height constants; nonzero torus coordinates; formal evaluation convergence and minimum-order pair jet.",
+    "map_clock": "Rational evaluation scale m_j versus formal series order.",
+    "proof_summary": "Choose degree d with2d+1>A+gamma d,Padé QF−P of order≥2d+1. Fixed leading coefficient determines valuation; homogenized rational height is h(r)+d h(x)+O1,contradiction. Euler derivations preserve ideal/filtration; lower pair jets vanish at a minimal-jet evaluation and remove Leibniz cross terms only there.",
+    "sources": [
+      {
+        "source_key": "LEG-S39",
+        "library_file_id": "libfile_9d1af27c208c8191a4776b0468e72a19",
+        "title": "Collatz_Research_40_Height_Rigidity_and_Compatible_Jet_Repair_2026-10-06.md",
+        "library_path": "/Collatz_Research_40_Height_Rigidity_and_Compatible_Jet_Repair_2026-10-06.md",
+        "version_id": null,
+        "sections": "Entire Research40. Fixed-series height rigidity proof and compatible Euler jets, including minimum-jet evaluation identity and restrictions."
+      }
+    ],
+    "attribution": "Research40 ChatGPT/Codex; elementary classical Padé/height technique and derivations, no claimed new general approximation theorem.",
+    "novelty": "Useful local formulation; priority not established.",
+    "limitations": "Not a theorem for moving arbitraryF_j. Jets do not eliminate genuine cancellation with surviving denominator. Later amendment explicitly forbids false formal-order inference.",
+    "significance": "A sound arithmetic restriction excluding the earlier information-bearing-edge mechanism in its fixed-scale model.",
+    "review_scope": "Actual complete note read and local argument reconstructed. Relevant assumptions and historical corrections retained. No external referee or proof-assistant certification.",
+    "specialist_review_required": true
+  },
+  {
+    "id": "LEG-33",
+    "title": "Rank-two correction elimination and prefix-code nondegeneracy",
+    "status": "checked_proof",
+    "statement": "ForP_n=product_{s<n}z_v_s,G=sumP_n,H=sumv_nP_n,Psi=c0G+(c1−c0)H: G−1=z0G+(z1−z0)H and(z1−z0)Psi=[c1(1−z0)−c0(1−z1)]G−(c1−c0). For distinct actual prefix-code blocksD=c1(1−z0)−c0(1−z1)≠0. Unequal multipliers therefore makeG rational of linear height wheneverPsi is.",
+    "assumptions": "Actual finite binary prefix-code blocks, positive2-adic multiplier valuations; rational grouped scalar heightO(M).",
+    "map_clock": "Coarse rank-two path clock.",
+    "proof_summary": "Sum exact one-step path recursion. IfD0,periodic inverse-parity valuesc/(1−z)agree; parity injectivity forcesU^infty=V^infty,so finiteU,V prefix-comparable,contradiction.",
+    "sources": [
+      {
+        "source_key": "LEG-S37",
+        "library_file_id": "libfile_7b132917bcc4819186f94654d85344b3",
+        "title": "Collatz_Research_42_Rank_Two_Correction_Elimination_and_Fixed_Shape_Descent_2026-10-06.md",
+        "library_path": "/Collatz_Research_42_Rank_Two_Correction_Elimination_and_Fixed_Shape_Descent_2026-10-06.md",
+        "version_id": null,
+        "sections": "Entire Research42. Exact correction elimination, prefix-code nondegeneracy, weighted-path rationality, fixed monomial shape height and compactness theorem."
+      },
+      {
+        "source_key": "LEG-S38",
+        "library_file_id": "libfile_c1c9e98217988191a23a803257d76741",
+        "title": "Collatz_Research_41_Equal_Multiplier_Rank_Two_Compactness_Descent_2026-10-06(2).md",
+        "library_path": "/Collatz_Research_41_Equal_Multiplier_Rank_Two_Compactness_Descent_2026-10-06(2).md",
+        "version_id": null,
+        "sections": "Entire Research41 latest numberedcopy(2). Equal-(length,odd-count) collapse, compactness precision, height-rigidity application, explicit aperiodic-limit/alignment assumptions."
+      },
+      {
+        "source_key": "LEG-S40",
+        "library_file_id": "libfile_b6d38042fbc88191b6f58c453adcc69d",
+        "title": "Collatz_Research_39_Two_Leaf_Descent_Audit_and_Return_Word_Repair_2026-10-06.md",
+        "library_path": "/Collatz_Research_39_Two_Leaf_Descent_Audit_and_Return_Word_Repair_2026-10-06.md",
+        "version_id": null,
+        "sections": "Entire Research39. Generalized-edge two-leaf counterexample, return-word convention correction, local conjugacy and jet warnings. Source reproduction archive not rerun."
+      }
+    ],
+    "attribution": "Research42 GPT-5.6Sol; classical affine coding and parity injectivity. Boundary conversion fromResearch39 preserves fixed-point inequality.",
+    "novelty": "Potential clean algebraic lemma; no priority claim.",
+    "limitations": "Rationality/height of alignedPsi must be supplied, not assumed from an arbitrary tower; higher rank elimination not proved.",
+    "significance": "Removes moving correction variables exactly at rank two.",
+    "review_scope": "Actual complete note read and local argument reconstructed. Relevant assumptions and historical corrections retained. No external referee or proof-assistant certification.",
+    "specialist_review_required": false
+  },
+  {
+    "id": "LEG-34",
+    "title": "Equal and fixed-monomial-shape rank-two exclusion",
+    "status": "checked_proof",
+    "statement": "No aligned rank-two tower with rational grouped scalar of linear height and an aperiodic coarse compactness limit can have growing equal multipliers, or fixed shapez_j,a=alpha_a*t_j^p_a with positive fixedp_a and rational fixednonzeroalpha_a. Identical shapes reduce to equal multipliers; distinct pairs make the weighted path series rational iffcoarse word eventually periodic.",
+    "assumptions": "Growing block scale, distinct prefix-code blocks after boundary normalization, exact fixed rational shape, linear rational height, aperiodic subsequential coarse limit.",
+    "map_clock": "Coarse word clock and p-adic evaluation scale.",
+    "proof_summary": "Equal case solves for binary coefficient seriesf_j(z_j). Fixed-shape case uses support gaps p_a and coefficient ratios alpha_a; finite normalized recurrence states force eventual periodicity. Actual multipliers give height/valuation≤log2 3+o1<2; prefix matching gives superlinear approximation andResearch40contradiction.",
+    "sources": [
+      {
+        "source_key": "LEG-S37",
+        "library_file_id": "libfile_7b132917bcc4819186f94654d85344b3",
+        "title": "Collatz_Research_42_Rank_Two_Correction_Elimination_and_Fixed_Shape_Descent_2026-10-06.md",
+        "library_path": "/Collatz_Research_42_Rank_Two_Correction_Elimination_and_Fixed_Shape_Descent_2026-10-06.md",
+        "version_id": null,
+        "sections": "Entire Research42. Exact correction elimination, prefix-code nondegeneracy, weighted-path rationality, fixed monomial shape height and compactness theorem."
+      },
+      {
+        "source_key": "LEG-S38",
+        "library_file_id": "libfile_c1c9e98217988191a23a803257d76741",
+        "title": "Collatz_Research_41_Equal_Multiplier_Rank_Two_Compactness_Descent_2026-10-06(2).md",
+        "library_path": "/Collatz_Research_41_Equal_Multiplier_Rank_Two_Compactness_Descent_2026-10-06(2).md",
+        "version_id": null,
+        "sections": "Entire Research41 latest numberedcopy(2). Equal-(length,odd-count) collapse, compactness precision, height-rigidity application, explicit aperiodic-limit/alignment assumptions."
+      },
+      {
+        "source_key": "LEG-S39",
+        "library_file_id": "libfile_9d1af27c208c8191a4776b0468e72a19",
+        "title": "Collatz_Research_40_Height_Rigidity_and_Compatible_Jet_Repair_2026-10-06.md",
+        "library_path": "/Collatz_Research_40_Height_Rigidity_and_Compatible_Jet_Repair_2026-10-06.md",
+        "version_id": null,
+        "sections": "Entire Research40. Fixed-series height rigidity proof and compatible Euler jets, including minimum-jet evaluation identity and restrictions."
+      }
+    ],
+    "attribution": "Research41/42 GPT-5.6Sol; finite-state rational-series periodicity and classical Padé ideas. Thue–Morse example is a control, not a claimed new exclusion.",
+    "novelty": "Restricted project theorem; novelty undetermined.",
+    "limitations": "Aperiodic words can converge to periodic limits; alignment/marker costs and aperiodicity-preserving transfer not automatic. No all finite-rank/LR/global theorem.",
+    "significance": "A stronger robust restricted class surviving theResearch39audit.",
+    "review_scope": "Actual complete note read and local argument reconstructed. Relevant assumptions and historical corrections retained. No external referee or proof-assistant certification.",
+    "specialist_review_required": true
+  },
+  {
+    "id": "LEG-35",
+    "title": "Irrational-slope Newton leading-term rigidity",
+    "status": "checked_proof",
+    "statement": "For fixed nonzero E=P0+P1*G_v(X,Y), with a fixed Laurent polynomial pair and a fixed aperiodic binary word v, the error coefficients range over a finite rational set. At rational points X_j=2^L0/3^K0 and Y_j=2^L1/3^K1 with L0→infinity and L1/L0→rho>0 irrational, E is eventually nonzero and v2(E)=O(L0).",
+    "assumptions": "Fixed polynomial pair and fixed formal path series; nonzero error; positive irrational limiting ratio. No moving correction-series coefficients.",
+    "map_clock": "Formal bivariate exponent weights versus block lengths.",
+    "proof_summary": "After one fixed Laurent monomial shift, the support is nonnegative. Weight a+b*rho has a unique minimum and a positive gap. Only finitely many support points lie near the minimum, and positivity uniformly separates the rest. Bounded coefficient valuations prevent cancellation.",
+    "sources": [
+      {
+        "source_key": "LEG-S36",
+        "library_file_id": "libfile_bc120f43f71481918463d79c0b5e51ea",
+        "title": "Collatz_Research_43_Irrational_Length_Slope_Exclusion_and_Newton_Face_Rigidity_2026-10-06.md",
+        "library_path": "/Collatz_Research_43_Irrational_Length_Slope_Exclusion_and_Newton_Face_Rigidity_2026-10-06.md",
+        "version_id": null,
+        "sections": "Entire Research43. Formal path-series nonrationality, multiplier-only Padé count, irrational Newton lemma, tower application. Standalone theorem omits common-frequency/residual-height input required by its proof."
+      },
+      {
+        "source_key": "LEG-S37",
+        "library_file_id": "libfile_7b132917bcc4819186f94654d85344b3",
+        "title": "Collatz_Research_42_Rank_Two_Correction_Elimination_and_Fixed_Shape_Descent_2026-10-06.md",
+        "library_path": "/Collatz_Research_42_Rank_Two_Correction_Elimination_and_Fixed_Shape_Descent_2026-10-06.md",
+        "version_id": null,
+        "sections": "Entire Research42. Exact correction elimination, prefix-code nondegeneracy, weighted-path rationality, fixed monomial shape height and compactness theorem."
+      }
+    ],
+    "attribution": "Research43 GPT-5.6Sol; elementary Newton-weight/ultrametric argument.",
+    "novelty": "Useful local lemma, priority not claimed.",
+    "limitations": "The original Research43 standalone tower theorem requires an additional common-frequency or residual-height hypothesis used in its proof but omitted from the final statement. The local Newton lemma alone supplies no orbit coverage.",
+    "significance": "Controls exact-zero escape in a precisely fixed multiplier-only series.",
+    "review_scope": "Actual complete note read and local argument reconstructed. Relevant assumptions and historical corrections retained. No external referee or proof-assistant certification.",
+    "specialist_review_required": false
+  },
+  {
+    "id": "LEG-36",
+    "title": "Rational limiting slope gives sublinear residual height and fixed-root reduction",
+    "status": "checked_proof",
+    "statement": "If L1/L0→p/q and both K_a/L_a→delta, then Y=z1^q/z0^p=2^DeltaL*3^(−DeltaK) has h(Y)=o(L0). The normal weights n+s(p−q)/q, with 0≤s<q, are distinct with gap at least1/q. A fixed leading coefficient polynomial A(Y) either has nonzero valuation o(L0), or Y freezes at a rational root along a subsequence and the multiplier pair has fixed monomial shape.",
+    "assumptions": "Common fine-letter frequency and rational limiting ratio p/q in lowest terms. The normal pair and coefficient polynomial are fixed. Infinite-tail dominance requires the separate LEG-37 amendment.",
+    "map_clock": "Block-scaleL0 and normal-form exponent weights.",
+    "proof_summary": "DeltaL=o(L0) and DeltaK=delta*DeltaL+o(L0) give the height bound. Coprimality of p−q and q gives weight uniqueness. A fixed polynomial has finitely many rational roots; fixed prime2 and prime3 exponent relations then parameterize z0=alpha0*tau^q and z1=alpha1*tau^p.",
+    "sources": [
+      {
+        "source_key": "LEG-S35",
+        "library_file_id": "libfile_0ee99dbc95308191bb9ad5df5ea1ba2e",
+        "title": "Collatz_Research_44_Rational_Slope_Residual_Rigidity_and_Rank_Two_Closure_2026-10-06.md",
+        "library_path": "/Collatz_Research_44_Rational_Slope_Residual_Rigidity_and_Rank_Two_Closure_2026-10-06.md",
+        "version_id": null,
+        "sections": "Entire Research44. Rational residual height, regraded Padé count, normal-weight separation, fixed residual root reduction, final claimed rank-two theorem. Missing infinite-tail estimate repaired separately in2026-10-21audit."
+      },
+      {
+        "source_key": "LEG-S37",
+        "library_file_id": "libfile_7b132917bcc4819186f94654d85344b3",
+        "title": "Collatz_Research_42_Rank_Two_Correction_Elimination_and_Fixed_Shape_Descent_2026-10-06.md",
+        "library_path": "/Collatz_Research_42_Rank_Two_Correction_Elimination_and_Fixed_Shape_Descent_2026-10-06.md",
+        "version_id": null,
+        "sections": "Entire Research42. Exact correction elimination, prefix-code nondegeneracy, weighted-path rationality, fixed monomial shape height and compactness theorem."
+      }
+    ],
+    "attribution": "Research44 GPT-5.6Sol, elementaryheight/valuationalgebra.",
+    "novelty": "Local restricted lemma, no historicalnovelty asserted.",
+    "limitations": "Fixed-coefficient estimates do not by themselves control the infinite tail with growing Y-degree. The missing uniform estimate is supplied separately by the October21 audit, not attributed to the original Research44 text.",
+    "significance": "Precisely isolates the residual variable that must not carry full-scale cancellation.",
+    "review_scope": "Actual complete note read and local argument reconstructed. Relevant assumptions and historical corrections retained. No external referee or proof-assistant certification.",
+    "specialist_review_required": false
+  },
+  {
+    "id": "LEG-37",
+    "title": "Amended common-frequency rank-two exclusion under explicit tower hypotheses",
+    "status": "checked_proof",
+    "statement": "No positive Collatz lift can satisfy all of these conditions at infinitely many aligned rank-two levels: growing bounded-distortion actual binary prefix-code blocks; a common limiting fine-letter frequency; rational grouped scalar of height O(L0); and a subsequential coarse-word limit that is not eventually periodic. This amended conclusion includes the separately documented October21 residual-height, uniform Y-tail and pointwise jet repairs to Research41–44.",
+    "assumptions": "The full strengthened tower hypotheses are in audits/legacy_rank_two_amendment.md §A. Padé degrees and a selected jet are fixed before the tower limit. This is not the broader unamended standalone Research43 wording.",
+    "map_clock": "Base scale m=L0, not maximum length without its distortion factor. Coarse-prefix convergence and tower-level limits are distinguished.",
+    "proof_summary": "For fixed polynomial degrees x≤d, t<q, Y≤e, normal reduction of a path term gives Y-degree at most e+floor(l/q)+1 at x-degree l. With epsilon=|v2(Y)|=o(m), the uniform tail valuation is at least N*m−(e+N/q+1)*epsilon−O(1)=N*m−o(m), including compatible Euler jets. The minimum-order pair-jet identity holds only at the evaluation point; coarse-prefix errors have superlinear valuation. A nonzero rational Padé value violates the height margin2−log2(3). A zero value forces superlinear precision of a fixed formal error, contradicting the irrational Newton argument or the rational leading-form/fixed-shape reduction.",
+    "sources": [
+      {
+        "source_key": "LEG-S35",
+        "library_file_id": "libfile_0ee99dbc95308191bb9ad5df5ea1ba2e",
+        "title": "Collatz_Research_44_Rational_Slope_Residual_Rigidity_and_Rank_Two_Closure_2026-10-06.md",
+        "library_path": "/Collatz_Research_44_Rational_Slope_Residual_Rigidity_and_Rank_Two_Closure_2026-10-06.md",
+        "version_id": null,
+        "sections": "Entire Research44. Rational residual height, regraded Padé count, normal-weight separation, fixed residual root reduction, final claimed rank-two theorem. Missing infinite-tail estimate repaired separately in2026-10-21audit."
+      },
+      {
+        "source_key": "LEG-S36",
+        "library_file_id": "libfile_bc120f43f71481918463d79c0b5e51ea",
+        "title": "Collatz_Research_43_Irrational_Length_Slope_Exclusion_and_Newton_Face_Rigidity_2026-10-06.md",
+        "library_path": "/Collatz_Research_43_Irrational_Length_Slope_Exclusion_and_Newton_Face_Rigidity_2026-10-06.md",
+        "version_id": null,
+        "sections": "Entire Research43. Formal path-series nonrationality, multiplier-only Padé count, irrational Newton lemma, tower application. Standalone theorem omits common-frequency/residual-height input required by its proof."
+      },
+      {
+        "source_key": "LEG-S37",
+        "library_file_id": "libfile_7b132917bcc4819186f94654d85344b3",
+        "title": "Collatz_Research_42_Rank_Two_Correction_Elimination_and_Fixed_Shape_Descent_2026-10-06.md",
+        "library_path": "/Collatz_Research_42_Rank_Two_Correction_Elimination_and_Fixed_Shape_Descent_2026-10-06.md",
+        "version_id": null,
+        "sections": "Entire Research42. Exact correction elimination, prefix-code nondegeneracy, weighted-path rationality, fixed monomial shape height and compactness theorem."
+      },
+      {
+        "source_key": "LEG-S38",
+        "library_file_id": "libfile_c1c9e98217988191a23a803257d76741",
+        "title": "Collatz_Research_41_Equal_Multiplier_Rank_Two_Compactness_Descent_2026-10-06(2).md",
+        "library_path": "/Collatz_Research_41_Equal_Multiplier_Rank_Two_Compactness_Descent_2026-10-06(2).md",
+        "version_id": null,
+        "sections": "Entire Research41 latest numberedcopy(2). Equal-(length,odd-count) collapse, compactness precision, height-rigidity application, explicit aperiodic-limit/alignment assumptions."
+      },
+      {
+        "source_key": "LEG-S39",
+        "library_file_id": "libfile_9d1af27c208c8191a4776b0468e72a19",
+        "title": "Collatz_Research_40_Height_Rigidity_and_Compatible_Jet_Repair_2026-10-06.md",
+        "library_path": "/Collatz_Research_40_Height_Rigidity_and_Compatible_Jet_Repair_2026-10-06.md",
+        "version_id": null,
+        "sections": "Entire Research40. Fixed-series height rigidity proof and compatible Euler jets, including minimum-jet evaluation identity and restrictions."
+      },
+      {
+        "source_key": "LEG-S41",
+        "library_file_id": "libfile_c58c9990ac5c81919f539ce629b0a479",
+        "title": "Collatz_Research_35_Decorated_Scalar_Pade_Higher_Rank_Count_2026-10-06(2).md",
+        "library_path": "/Collatz_Research_35_Decorated_Scalar_Pade_Higher_Rank_Count_2026-10-06(2).md",
+        "version_id": null,
+        "sections": "Entire Research35 latest numberedcopy(2). Decorated scalar construction, common-frequency residual height, fixed-rank dimension count and unresolved specialization boundary."
+      }
+    ],
+    "attribution": "October6 Research35/39–44 by GPT-5.6 Sol and ChatGPT/Codex. The October21 pre-paper audit supplies explicitly new missing estimates. A targeted independent argument-level audit accepted the repair in audits/adversarial_rank_two_addendum.md. This is not external or formal certification.",
+    "novelty": "Candidate amended restricted theorem; no historical novelty claim. The new audit repair must not be attributed to the October6 originals.",
+    "limitations": "Original Research43 is insufficiently stated for its proof; original Research44 omits an infinite-tail estimate. No arbitrary-rank theorem, linearly recurrent transfer, universal alignment or aperiodic-limit theorem, high-complexity coverage, nonterminal-cycle exclusion or Collatz proof is obtained.",
+    "significance": "Preserves the latest canonical checkpoint and its correction chain, rather than stopping at the earlier golden-rotation result.",
+    "review_scope": "Complete new amendment received targeted independent argument-level acceptance, including growing-degree convergence, finite-cutoff dominance, height coefficients, pointwise minimum-jet identity and parameter quantifiers. Mathematical manuscript review, not proof assistant or external referee.",
+    "specialist_review_required": true,
+    "audit_amendments": [
+      "audits/legacy_rank_two_amendment.md",
+      "audits/adversarial_rank_two_addendum.md"
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "counts": {
+    "R27_all_preterminal_integer_checks": 111,
+    "regional_clock_checks": 4999,
+    "merger_checks": 2500,
+    "complement_contractions": 9373,
+    "complete_small_packet_radical_certificates": 512,
+    "certified_odd_base_inputs": 1536,
+    "exact_cross_coefficient_depth_words": 4092,
+    "pair_burst_and_regeneration_checks": 32
+  },
+  "scope": "Finite independent exact-integer/regression checks; universal statements rest on displayed proofs, not sampling."
+}

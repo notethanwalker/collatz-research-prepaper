@@ -1,0 +1,462 @@
+{
+  "status": "PASS",
+  "counts": {
+    "v2_positive_quartic_declined": 1,
+    "v1_positive_quartic_declined": 1,
+    "positive_quartic_samples": 101,
+    "v2_eventual_monotonicity_caveat": 1,
+    "v1_declines_new_quadratic": 1,
+    "base4_v2_accepts": 1,
+    "base4_v1_rejects": 1,
+    "rewritten_tail_v1_accepts": 1,
+    "C3_arithmetic_nontransfer": 2,
+    "H_dynamics_small_exact": 1000,
+    "native_blank_trace": 2,
+    "native_snapshot_match": 2,
+    "affine_schema_equivalence": 11664
+  },
+  "total_checks": 12778,
+  "native": {
+    "machine": {
+      "states": 20,
+      "halt_steps": 18,
+      "final_head": 4,
+      "sha256": "2e8cceb3e370c04b7ffb835844f89cb50a24d7aabfc8e1b4161f6ae003e55ed6",
+      "trace": [
+        {
+          "step": 0,
+          "state": 13,
+          "head": 0,
+          "ones": []
+        },
+        {
+          "step": 1,
+          "state": 14,
+          "head": -1,
+          "ones": [
+            0
+          ]
+        },
+        {
+          "step": 2,
+          "state": 15,
+          "head": -2,
+          "ones": [
+            0
+          ]
+        },
+        {
+          "step": 3,
+          "state": 16,
+          "head": -3,
+          "ones": [
+            -2,
+            0
+          ]
+        },
+        {
+          "step": 4,
+          "state": 17,
+          "head": -4,
+          "ones": [
+            -2,
+            0
+          ]
+        },
+        {
+          "step": 5,
+          "state": 18,
+          "head": -5,
+          "ones": [
+            -4,
+            -2,
+            0
+          ]
+        },
+        {
+          "step": 6,
+          "state": 19,
+          "head": -6,
+          "ones": [
+            -4,
+            -2,
+            0
+          ]
+        },
+        {
+          "step": 7,
+          "state": 0,
+          "head": -7,
+          "ones": [
+            -6,
+            -4,
+            -2,
+            0
+          ]
+        },
+        {
+          "step": 8,
+          "state": 1,
+          "head": -6,
+          "ones": [
+            -6,
+            -4,
+            -2,
+            0
+          ]
+        },
+        {
+          "step": 9,
+          "state": 2,
+          "head": -5,
+          "ones": [
+            -6,
+            -4,
+            -2,
+            0
+          ]
+        },
+        {
+          "step": 10,
+          "state": 3,
+          "head": -4,
+          "ones": [
+            -6,
+            -4,
+            -2,
+            0
+          ]
+        },
+        {
+          "step": 11,
+          "state": 4,
+          "head": -3,
+          "ones": [
+            -6,
+            -4,
+            -2,
+            0
+          ]
+        },
+        {
+          "step": 12,
+          "state": 5,
+          "head": -2,
+          "ones": [
+            -6,
+            -4,
+            -2,
+            0
+          ]
+        },
+        {
+          "step": 13,
+          "state": 6,
+          "head": -1,
+          "ones": [
+            -6,
+            -4,
+            -2,
+            0
+          ]
+        },
+        {
+          "step": 14,
+          "state": 7,
+          "head": 0,
+          "ones": [
+            -6,
+            -4,
+            -2,
+            0
+          ]
+        },
+        {
+          "step": 15,
+          "state": 8,
+          "head": 1,
+          "ones": [
+            -6,
+            -4,
+            -2,
+            0
+          ]
+        },
+        {
+          "step": 16,
+          "state": 9,
+          "head": 2,
+          "ones": [
+            -6,
+            -4,
+            -2,
+            0
+          ]
+        },
+        {
+          "step": 17,
+          "state": 11,
+          "head": 3,
+          "ones": [
+            -6,
+            -4,
+            -2,
+            0
+          ]
+        },
+        {
+          "step": 18,
+          "state": "H",
+          "head": 4,
+          "ones": [
+            -6,
+            -4,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    "machine.full_writer": {
+      "states": 25,
+      "halt_steps": 23,
+      "final_head": 1,
+      "sha256": "f0547e6cf6566e0dd8d9d037fda6269f99e9809297d9f63fcfda9404306f0221",
+      "trace": [
+        {
+          "step": 0,
+          "state": 13,
+          "head": 0,
+          "ones": []
+        },
+        {
+          "step": 1,
+          "state": 14,
+          "head": -1,
+          "ones": []
+        },
+        {
+          "step": 2,
+          "state": 15,
+          "head": -2,
+          "ones": []
+        },
+        {
+          "step": 3,
+          "state": 16,
+          "head": -3,
+          "ones": []
+        },
+        {
+          "step": 4,
+          "state": 17,
+          "head": -4,
+          "ones": [
+            -3
+          ]
+        },
+        {
+          "step": 5,
+          "state": 18,
+          "head": -5,
+          "ones": [
+            -3
+          ]
+        },
+        {
+          "step": 6,
+          "state": 19,
+          "head": -6,
+          "ones": [
+            -5,
+            -3
+          ]
+        },
+        {
+          "step": 7,
+          "state": 20,
+          "head": -7,
+          "ones": [
+            -5,
+            -3
+          ]
+        },
+        {
+          "step": 8,
+          "state": 21,
+          "head": -8,
+          "ones": [
+            -7,
+            -5,
+            -3
+          ]
+        },
+        {
+          "step": 9,
+          "state": 22,
+          "head": -9,
+          "ones": [
+            -7,
+            -5,
+            -3
+          ]
+        },
+        {
+          "step": 10,
+          "state": 23,
+          "head": -10,
+          "ones": [
+            -9,
+            -7,
+            -5,
+            -3
+          ]
+        },
+        {
+          "step": 11,
+          "state": 24,
+          "head": -9,
+          "ones": [
+            -9,
+            -7,
+            -5,
+            -3
+          ]
+        },
+        {
+          "step": 12,
+          "state": 0,
+          "head": -10,
+          "ones": [
+            -9,
+            -7,
+            -5,
+            -3
+          ]
+        },
+        {
+          "step": 13,
+          "state": 1,
+          "head": -9,
+          "ones": [
+            -9,
+            -7,
+            -5,
+            -3
+          ]
+        },
+        {
+          "step": 14,
+          "state": 2,
+          "head": -8,
+          "ones": [
+            -9,
+            -7,
+            -5,
+            -3
+          ]
+        },
+        {
+          "step": 15,
+          "state": 3,
+          "head": -7,
+          "ones": [
+            -9,
+            -7,
+            -5,
+            -3
+          ]
+        },
+        {
+          "step": 16,
+          "state": 4,
+          "head": -6,
+          "ones": [
+            -9,
+            -7,
+            -5,
+            -3
+          ]
+        },
+        {
+          "step": 17,
+          "state": 5,
+          "head": -5,
+          "ones": [
+            -9,
+            -7,
+            -5,
+            -3
+          ]
+        },
+        {
+          "step": 18,
+          "state": 6,
+          "head": -4,
+          "ones": [
+            -9,
+            -7,
+            -5,
+            -3
+          ]
+        },
+        {
+          "step": 19,
+          "state": 7,
+          "head": -3,
+          "ones": [
+            -9,
+            -7,
+            -5,
+            -3
+          ]
+        },
+        {
+          "step": 20,
+          "state": 8,
+          "head": -2,
+          "ones": [
+            -9,
+            -7,
+            -5,
+            -3
+          ]
+        },
+        {
+          "step": 21,
+          "state": 9,
+          "head": -1,
+          "ones": [
+            -9,
+            -7,
+            -5,
+            -3
+          ]
+        },
+        {
+          "step": 22,
+          "state": 11,
+          "head": 0,
+          "ones": [
+            -9,
+            -7,
+            -5,
+            -3
+          ]
+        },
+        {
+          "step": 23,
+          "state": "H",
+          "head": 1,
+          "ones": [
+            -9,
+            -7,
+            -5,
+            -3
+          ]
+        }
+      ]
+    }
+  },
+  "scope": "Finite regression evidence only. Universal proofs are in the chapter. Prior independent audits were separately re-executed without corpus edits."
+}

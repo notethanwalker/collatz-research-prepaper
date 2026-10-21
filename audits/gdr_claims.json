@@ -1,0 +1,398 @@
+[
+  {
+    "id": "GDR-01",
+    "title": "Exact affine ledger and finite depth-word coding",
+    "status": "known_external",
+    "statement": "Ordinary prefixes satisfy n_t=(3^M X+B)/2^H with B=sum 3^(M-j)2^(halvings before odd j); each positive finite odd-depth word for odd coefficient c is one odd residue class modulo2^(H+1).",
+    "assumptions": "Positive integer sources; odd coefficient; exact clock and depth guards.",
+    "map_clock": "Explicit in statement/chapter: ordinaryT, shortcutC, oddS and proof-reduction clocks kept separate.",
+    "proof_summary": "Induct the affine updates; use the final odd congruence and reduce it at each prior depth.",
+    "sources": [
+      {
+        "library_file_id": "libfile_726ad16d3f4c81919cac28b547e963f1",
+        "title": "R_Formula_1.5_Eventual_Upper_Bound_Dip_2026-10-14.md",
+        "section": "2–6",
+        "sha256": "4a1c55219f9005e9ae7eadaf1b57ee02eeec27ef0a1c6d12377dfab34f443810"
+      }
+    ],
+    "attribution": "Standard parity/affine coding; Terras/Everett and Syracuse literature.",
+    "novelty": "No established priority claim; distinguish standard inputs from project-specific formulation.",
+    "limitations": "Foundational accounting, not a novel convergence theorem.",
+    "significance": "See corresponding argument and pre-paper assessment in chapter.",
+    "argument_file": "chapters/gdr_bounds_transport.md"
+  },
+  {
+    "id": "GDR-02",
+    "title": "Single source-dependent dip is a sufficient certificate",
+    "status": "checked_proof",
+    "statement": "A sound enclosure U_X(t)<1 at one finite admissible horizon certifies first descent. Universal availability would prove Collatz by strong induction.",
+    "assumptions": "Preterminal domain or explicit no-prior-descent case split; actual count/correction included.",
+    "map_clock": "Explicit in statement/chapter: ordinaryT, shortcutC, oddS and proof-reduction clocks kept separate.",
+    "proof_summary": "The endpoint is below its source, or descent already occurred; induction then applies.",
+    "sources": [
+      {
+        "library_file_id": "libfile_726ad16d3f4c81919cac28b547e963f1",
+        "title": "R_Formula_1.5_Eventual_Upper_Bound_Dip_2026-10-14.md",
+        "section": "1–9",
+        "sha256": "4a1c55219f9005e9ae7eadaf1b57ee02eeec27ef0a1c6d12377dfab34f443810"
+      }
+    ],
+    "attribution": "User-directed eventual-dip objective; standard strong induction.",
+    "novelty": "No established priority claim; distinguish standard inputs from project-specific formulation.",
+    "limitations": "Universality of available dips is not proved.",
+    "significance": "See corresponding argument and pre-paper assessment in chapter.",
+    "argument_file": "chapters/gdr_bounds_transport.md"
+  },
+  {
+    "id": "GDR-03",
+    "title": "27 refutes generic preterminal-envelope completeness",
+    "status": "checked_proof",
+    "statement": "The frozen generic correction bound stays strictly above1 at all111 valid preterminal horizons for X=27, even with exact odd counts.",
+    "assumptions": "Exactly the displayed generic enclosure, not joint or conditional variants.",
+    "map_clock": "Explicit in statement/chapter: ordinaryT, shortcutC, oddS and proof-reduction clocks kept separate.",
+    "proof_summary": "Complete111 integer inequalities; both candidate expressions monotone in count; actual first descent is96 to23.",
+    "sources": [
+      {
+        "library_file_id": "libfile_609e82d012c481918d98164330429d1a",
+        "title": "R15_Proposition_Test_Setup_And_Counterexample_2026-10-14.md",
+        "section": "1–5",
+        "sha256": "33bbf443baf5331a0f3509f3c2fe63911fab0740e1aee6b2b7e6653e7fb5ea97"
+      }
+    ],
+    "attribution": "Project counterexample to its own proposed bound; Lean draft explicitly uncompiled.",
+    "novelty": "No established priority claim; distinguish standard inputs from project-specific formulation.",
+    "limitations": "A sound bound can be permanently too weak; not a Collatz counterexample.",
+    "significance": "See corresponding argument and pre-paper assessment in chapter.",
+    "argument_file": "chapters/gdr_bounds_transport.md"
+  },
+  {
+    "id": "GDR-04",
+    "title": "Fixed-k projected filter has all-horizon failure",
+    "status": "checked_proof",
+    "statement": "For the specified projected filter and X=2^k-1, the maximal alternating candidate survives every horizon and keeps U_X(t)>1.",
+    "assumptions": "The frozen k-bit endpoint/parity projection; no extra source-size restriction.",
+    "map_clock": "Explicit in statement/chapter: ordinaryT, shortcutC, oddS and proof-reduction clocks kept separate.",
+    "proof_summary": "Factor candidate numerator as3^M(X+1)-2^M; projected tests retain the all-shallow alternative.",
+    "sources": [
+      {
+        "library_file_id": "libfile_726ad16d3f4c81919cac28b547e963f1",
+        "title": "R_Formula_1.5_Eventual_Upper_Bound_Dip_2026-10-14.md",
+        "section": "8",
+        "sha256": "4a1c55219f9005e9ae7eadaf1b57ee02eeec27ef0a1c6d12377dfab34f443810"
+      }
+    ],
+    "attribution": "Project-specific fixed-precision obstruction; classical Mersenne-shadow mechanism.",
+    "novelty": "No established priority claim; distinguish standard inputs from project-specific formulation.",
+    "limitations": "Does not exclude every congruence method or increasing-precision policy.",
+    "significance": "See corresponding argument and pre-paper assessment in chapter.",
+    "argument_file": "chapters/gdr_bounds_transport.md"
+  },
+  {
+    "id": "GDR-05",
+    "title": "Offset-interval relaxation adds no coverage",
+    "status": "checked_proof",
+    "statement": "GM02 interval endpoint relaxation admits an expanding endpoint for all X>0,K>=4, while shorter-horizon successes were already covered.",
+    "assumptions": "Shortcut clock and exact interval [3^M-2^M,2^(K-M)(3^M-2^M)].",
+    "map_clock": "Explicit in statement/chapter: ordinaryT, shortcutC, oddS and proof-reduction clocks kept separate.",
+    "proof_summary": "ChooseM=K-1; the interval spans every residue modulo2^K and homogeneous multiplier exceeds1.",
+    "sources": [
+      {
+        "library_file_id": "libfile_be640de10bc88191b46129852815d2d4",
+        "title": "Great_Minds_03_Combined_Bounds_2026-10-15.md",
+        "section": "2",
+        "sha256": "5a105f9e1f63d91052c1f510a1de8be435340310bcbb01f30ae4886d5885383f"
+      }
+    ],
+    "attribution": "Project autopsy of a relaxation; no historical-priority claim.",
+    "novelty": "No established priority claim; distinguish standard inputs from project-specific formulation.",
+    "limitations": "Precise obstruction from discarding joint offset/path correlation.",
+    "significance": "See corresponding argument and pre-paper assessment in chapter.",
+    "argument_file": "chapters/gdr_bounds_transport.md"
+  },
+  {
+    "id": "GDR-06",
+    "title": "Six-schema residual and total complement reduction",
+    "status": "checked_proof",
+    "statement": "The specified frozen residual after root inverse/merger reductions is exactly the six-schema core K; every exterior n>1 has explicit finite common-future partner D(n)<n.",
+    "assumptions": "Specified historical envelope and priority menu, not all possible certificates.",
+    "map_clock": "Explicit in statement/chapter: ordinaryT, shortcutC, oddS and proof-reduction clocks kept separate.",
+    "proof_summary": "Valuation classification; legal regional formulas; direct inverse and Hercher merger.",
+    "sources": [
+      {
+        "library_file_id": "libfile_83d51c573b2881918a0c05a9b1d461f0",
+        "title": "Great_Minds_Pass_08_Execution_2026-10-15.md",
+        "section": "1–3",
+        "sha256": "8d84bf952e125a9043b753284138aef44ba078314d88637ae6ab4a30c67918ec"
+      }
+    ],
+    "attribution": "Hercher Lemma9 is the imported merger; project classifies its integration with retained rules.",
+    "novelty": "No established priority claim; distinguish standard inputs from project-specific formulation.",
+    "limitations": "Six unbounded schemata are not six invariant states or a finite proof of convergence.",
+    "significance": "See corresponding argument and pre-paper assessment in chapter.",
+    "argument_file": "chapters/gdr_bounds_transport.md"
+  },
+  {
+    "id": "GDR-07",
+    "title": "Shifted contraction and composable core budget",
+    "status": "checked_proof",
+    "statement": "D(n)+5 <=(6/7)(n+5) off K; core edge multiplierg_h=3^h/2^(h+1); a connected path satisfies shifted ratio <=3^H/2^(H+k)*(6/7)^r.",
+    "assumptions": "All guards along the same actual proof path; n>1; common-future edges certified.",
+    "map_clock": "Explicit in statement/chapter: ordinaryT, shortcutC, oddS and proof-reduction clocks kept separate.",
+    "proof_summary": "Exhaustive branch inequalities and telescoping; n+5 and6/7 optimal only in a stated constant-translation class.",
+    "sources": [
+      {
+        "library_file_id": "libfile_83d51c573b2881918a0c05a9b1d461f0",
+        "title": "Great_Minds_Pass_08_Execution_2026-10-15.md",
+        "section": "4–5",
+        "sha256": "8d84bf952e125a9043b753284138aef44ba078314d88637ae6ab4a30c67918ec"
+      }
+    ],
+    "attribution": "Earlier project n+5 normalization plus Hercher/inverse rules.",
+    "novelty": "No established priority claim; distinguish standard inputs from project-specific formulation.",
+    "limitations": "Does not force enough complement edges; proof-step clock differs from trajectory time.",
+    "significance": "See corresponding argument and pre-paper assessment in chapter.",
+    "argument_file": "chapters/gdr_bounds_transport.md"
+  },
+  {
+    "id": "GDR-08",
+    "title": "Divisibility threshold gives bounded forward certificate",
+    "status": "checked_proof",
+    "statement": "On K, v2(3^(h+1)u-5)>=2j_h forces a checkpoint below X within8h ordinary operations; its success set lies inside first-excursion success.",
+    "assumptions": "j_h leastj with(3/2)^h(3/4)^j<=3/4; h>=2.",
+    "map_clock": "Explicit in statement/chapter: ordinaryT, shortcutC, oddS and proof-reduction clocks kept separate.",
+    "proof_summary": "Exact repeated two-halving formula; large exit valuation places the first exit in a contracting region.",
+    "sources": [
+      {
+        "library_file_id": "libfile_83d51c573b2881918a0c05a9b1d461f0",
+        "title": "Great_Minds_Pass_08_Execution_2026-10-15.md",
+        "section": "7",
+        "sha256": "8d84bf952e125a9043b753284138aef44ba078314d88637ae6ab4a30c67918ec"
+      }
+    ],
+    "attribution": "Standard repeated-block algebra specialized to the residual.",
+    "novelty": "No established priority claim; distinguish standard inputs from project-specific formulation.",
+    "limitations": "Proof compression, not independent extra coverage.",
+    "significance": "See corresponding argument and pre-paper assessment in chapter.",
+    "argument_file": "chapters/gdr_bounds_transport.md"
+  },
+  {
+    "id": "GDR-09",
+    "title": "Fixed schema continuation saturation",
+    "status": "checked_proof",
+    "statement": "Each fixed core schema and permitted h realizes every finite depth word after a short release; no forward lookahead depending only on schema,h can cover all cofactors.",
+    "assumptions": "Cofactor/source may vary with the requested finite word.",
+    "map_clock": "Explicit in statement/chapter: ordinaryT, shortcutC, oddS and proof-reduction clocks kept separate.",
+    "proof_summary": "Released sources form r+2cj with c odd; invert c modulo the needed power of2.",
+    "sources": [
+      {
+        "library_file_id": "libfile_83d51c573b2881918a0c05a9b1d461f0",
+        "title": "Great_Minds_Pass_08_Execution_2026-10-15.md",
+        "section": "8",
+        "sha256": "8d84bf952e125a9043b753284138aef44ba078314d88637ae6ab4a30c67918ec"
+      }
+    ],
+    "attribution": "Standard finite parity coding applied with root-family constraints.",
+    "novelty": "No established priority claim; distinguish standard inputs from project-specific formulation.",
+    "limitations": "Does not construct an infinite positive all-shallow source or rule out source-dependent methods.",
+    "significance": "See corresponding argument and pre-paper assessment in chapter.",
+    "argument_file": "chapters/gdr_bounds_transport.md"
+  },
+  {
+    "id": "GDR-10",
+    "title": "Normalize packets onto core, but obligation can recycle",
+    "status": "checked_proof",
+    "statement": "Under frozen induction at N, a finite reference packet normalizes into {1} union K∩[N,(3N+1)/2] without more packet vertices; at27 it returns exactlye27.",
+    "assumptions": "Finite authentic common-future chains and independently supplied proofs below originalN.",
+    "map_clock": "Explicit in statement/chapter: ordinaryT, shortcutC, oddS and proof-reduction clocks kept separate.",
+    "proof_summary": "Push each boundary vertex through decreasing D, retain all boundary corrections; D(41)=27 and D(40) reaches1.",
+    "sources": [
+      {
+        "library_file_id": "libfile_545198ced0348191bdc49991f40fda46",
+        "title": "Collatz_GDR_Great_Minds_Failure_Set_Assessment_2026-10-19.md",
+        "section": "4–7",
+        "sha256": "5ab82f9154959fcdbed9f145c330ce78bd572050d942a85abafba1842efba131"
+      }
+    ],
+    "attribution": "Composition of retained project complement and creative packet constructions.",
+    "novelty": "No established priority claim; distinguish standard inputs from project-specific formulation.",
+    "limitations": "No bound on later repair support or universal receiver; source ownership remains essential.",
+    "significance": "See corresponding argument and pre-paper assessment in chapter.",
+    "argument_file": "chapters/gdr_bounds_transport.md"
+  },
+  {
+    "id": "GDR-11",
+    "title": "Countable-menu flow and gate-local slack",
+    "status": "checked_proof",
+    "statement": "Finite literal cut inequalities imply a countable supported flow with prescribed summable row demands/column capacities; nonnegative positive gate slack excludes every terminal-free closed component meeting the gate.",
+    "assumptions": "Countability; summable receiving capacities; nonnegative slack <=w; all finite cut inequalities.",
+    "map_clock": "Explicit in statement/chapter: ordinaryT, shortcutC, oddS and proof-reduction clocks kept separate.",
+    "proof_summary": "Finite neighborhood-pattern aggregation and weighted Hall, then uniform row-tail tightness in a compact array space; Tonelli on closed component.",
+    "sources": [
+      {
+        "library_file_id": "libfile_15eed1fb89d0819191574ca8e52e1add",
+        "title": "GDR2_COUNTABLE_MENUS.md",
+        "section": "Statement–5",
+        "sha256": "51b9c4a1e36a98ecbc0047ceca7912de7b93acc5ff7b64862738810793e88309"
+      }
+    ],
+    "attribution": "Gale finite flow, standard compactness/transport; Monks et al gate import separately.",
+    "novelty": "No established priority claim; distinguish standard inputs from project-specific formulation.",
+    "limitations": "No Collatz-specific cut inequality is proved; do not substitute path-label multiplicity for literal target capacity.",
+    "significance": "See corresponding argument and pre-paper assessment in chapter.",
+    "argument_file": "chapters/gdr_bounds_transport.md"
+  },
+  {
+    "id": "GDR-12",
+    "title": "Four-entry progression packet contraction",
+    "status": "checked_proof",
+    "statement": "For oddd and oddn>=1024d+1, sum sqrt(S(n+2jd)-1) overj=0..3 <=.99 sum sqrt(n+2jd-1).",
+    "assumptions": "C3 odd acceleration and actual four residue classes modulo8.",
+    "map_clock": "Explicit in statement/chapter: ordinaryT, shortcutC, oddS and proof-reduction clocks kept separate.",
+    "proof_summary": "Depths1,1,2,>=3 giveq0=(5sqrt6+2sqrt3)/16 and exact radical bound.",
+    "sources": [
+      {
+        "library_file_id": "libfile_ce760bd4954881918b982366854624be",
+        "title": "Collatz_Summable_Budgets_From_Arithmetic_2026-10-20.md",
+        "section": "5",
+        "sha256": "d65d70b99ab6585508449dcd4b401250ba4fb51fc2e03cd10189e7c9d69b46cd"
+      }
+    ],
+    "attribution": "Classical finite valuation law; project explicit packet and constants.",
+    "novelty": "No established priority claim; distinguish standard inputs from project-specific formulation.",
+    "limitations": "Transported orbit masses need not remain balanced packet companions.",
+    "significance": "See corresponding argument and pre-paper assessment in chapter.",
+    "argument_file": "chapters/gdr_bounds_transport.md"
+  },
+  {
+    "id": "GDR-13",
+    "title": "Unmatched transported-mass budget suffices",
+    "status": "conditional",
+    "statement": "Exact packet decomposition givesV_(t+1)<=.99V_t+(sqrt2-.99)U_t; harmonic summability of actual U_t excludes all permanent survivors.",
+    "assumptions": "Permanent weights X^-2; killing at certified base; packet masses are actual transported masses, not replenished samples.",
+    "map_clock": "Explicit in statement/chapter: ordinaryT, shortcutC, oddS and proof-reduction clocks kept separate.",
+    "proof_summary": "Packet contraction and pointwise sqrt2 bound; weighted telescoping and fixed positive surviving atom.",
+    "sources": [
+      {
+        "library_file_id": "libfile_ce760bd4954881918b982366854624be",
+        "title": "Collatz_Summable_Budgets_From_Arithmetic_2026-10-20.md",
+        "section": "3–6,10",
+        "sha256": "d65d70b99ab6585508449dcd4b401250ba4fb51fc2e03cd10189e7c9d69b46cd"
+      }
+    ],
+    "attribution": "User integration/summability direction; earlier project Fairness Series; elementary Tonelli.",
+    "novelty": "No established priority claim; distinguish standard inputs from project-specific formulation.",
+    "limitations": "Arithmetic bound on unmatched mass is completely open.",
+    "significance": "See corresponding argument and pre-paper assessment in chapter.",
+    "argument_file": "chapters/gdr_bounds_transport.md"
+  },
+  {
+    "id": "GDR-14",
+    "title": "Divergent logarithmic occupation and cheap bursts",
+    "status": "checked_proof",
+    "statement": "Any infinite unresolved odd orbit has infinite reciprocal-log occupation, but one depth-one burst costs<1/log2 and one repeated(1,2) burst costs<2/(3log2); the engineered family has immediate renewed budgetO(logk/k).",
+    "assumptions": "Fixed original source; exact burst clocks; claim about immediate renewal only.",
+    "map_clock": "Explicit in statement/chapter: ordinaryT, shortcutC, oddS and proof-reduction clocks kept separate.",
+    "proof_summary": "Exponential growth ceiling gives harmonic lower bound; valuation divisibility bounds burst length; LTE givesv2(9^k-1)=3+v2(k).",
+    "sources": [
+      {
+        "library_file_id": "libfile_ce760bd4954881918b982366854624be",
+        "title": "Collatz_Summable_Budgets_From_Arithmetic_2026-10-20.md",
+        "section": "7–8",
+        "sha256": "d65d70b99ab6585508449dcd4b401250ba4fb51fc2e03cd10189e7c9d69b46cd"
+      }
+    ],
+    "attribution": "Earlier project occupation charge; standard valuations/LTE and Mersenne runs.",
+    "novelty": "No established priority claim; distinguish standard inputs from project-specific formulation.",
+    "limitations": "No bound on accumulated renewal across arbitrary switching.",
+    "significance": "See corresponding argument and pre-paper assessment in chapter.",
+    "argument_file": "chapters/gdr_bounds_transport.md"
+  },
+  {
+    "id": "GDR-15",
+    "title": "Higher lattice copies have summable weighted mass",
+    "status": "checked_proof",
+    "statement": "For s>1, all nonminimal representatives over words of lengthm contribute at most zeta(s)2^-s(2^s-1)^-m.",
+    "assumptions": "Positive exact depth words; fixed source weights X^-s; least representative separated.",
+    "map_clock": "Explicit in statement/chapter: ordinaryT, shortcutC, oddS and proof-reduction clocks kept separate.",
+    "proof_summary": "Bound each lattice tail byzeta(s)Q^-s and factor the sum over all finite depth words.",
+    "sources": [
+      {
+        "library_file_id": "libfile_ce760bd4954881918b982366854624be",
+        "title": "Collatz_Summable_Budgets_From_Arithmetic_2026-10-20.md",
+        "section": "9",
+        "sha256": "d65d70b99ab6585508449dcd4b401250ba4fb51fc2e03cd10189e7c9d69b46cd"
+      }
+    ],
+    "attribution": "Refines project Compatibility Pressure partition; elementary geometric sums.",
+    "novelty": "No established priority claim; distinguish standard inputs from project-specific formulation.",
+    "limitations": "Every fixed source eventually lies in unresolved least-representative sector.",
+    "significance": "See corresponding argument and pre-paper assessment in chapter.",
+    "argument_file": "chapters/gdr_bounds_transport.md"
+  },
+  {
+    "id": "GDR-16",
+    "title": "Bounded power-law supermeasure correction is impossible",
+    "status": "checked_proof",
+    "statement": "No global inverse supermeasure comparable above and below to n^-s can hold on all large surviving actual odd states.",
+    "assumptions": "Positive fixed comparison constants; s>0; P is the unweighted deterministic push-forward (Ph)(y)=sum_{x:S(x)=y}h(x), restricted to surviving odd states, not an arbitrary weighted inverse operator.",
+    "map_clock": "Explicit in statement/chapter: ordinaryT, shortcutC, oddS and proof-reduction clocks kept separate.",
+    "proof_summary": "Along each edge h cannot decrease; Mersenne burst endpoint/source ratio is unbounded.",
+    "sources": [
+      {
+        "library_file_id": "libfile_ce760bd4954881918b982366854624be",
+        "title": "Collatz_Summable_Budgets_From_Arithmetic_2026-10-20.md",
+        "section": "11",
+        "sha256": "d65d70b99ab6585508449dcd4b401250ba4fb51fc2e03cd10189e7c9d69b46cd"
+      }
+    ],
+    "attribution": "Classical long ascending prefixes applied to a specific transport proposal.",
+    "novelty": "No established priority claim; distinguish standard inputs from project-specific formulation.",
+    "limitations": "Does not exclude irregular/history-dependent weights or packet/variable-time bounds.",
+    "significance": "See corresponding argument and pre-paper assessment in chapter.",
+    "argument_file": "chapters/gdr_bounds_transport.md"
+  },
+  {
+    "id": "GDR-17",
+    "title": "Exact cross-coefficient matched-word scaling",
+    "status": "checked_proof",
+    "statement": "For one legal word R_c/R_3=(c/3)^(M/(M+H))*2^((E_c-E_3)/(M+H)); near-neutral C3 words have large-source per-odd factorc/3, unlike fair-depth referencec/4.",
+    "assumptions": "Same operation word, appropriate source for each coefficient; additive correction retained; clocks fixed.",
+    "map_clock": "Explicit in statement/chapter: ordinaryT, shortcutC, oddS and proof-reduction clocks kept separate.",
+    "proof_summary": "Subtract exact logarithmic affine ledgers.",
+    "sources": [
+      {
+        "library_file_id": "libfile_dfadf9746a808191ac495cb0c5bfca35",
+        "title": "Collatz_GDR_Resistant_C3_C5_C7_Cross_Coefficient_2026-10-19.md",
+        "section": "1–3",
+        "sha256": "f95beb77b65492cfb3b407b2a877cc328fd88b163ad42c5824754f2ec38bdbf3"
+      }
+    ],
+    "attribution": "User matched-comparison design; standard stochastic-model references only as background.",
+    "novelty": "No established priority claim; distinguish standard inputs from project-specific formulation.",
+    "limitations": "Not a universal C5/C7 sustainable-growth bound or fairness theorem.",
+    "significance": "See corresponding argument and pre-paper assessment in chapter.",
+    "argument_file": "chapters/gdr_bounds_transport.md"
+  },
+  {
+    "id": "GDR-18",
+    "title": "Finite cross-coefficient release observations",
+    "status": "computational",
+    "statement": "Selected copied C3-critical words grow faster underC5/C7; after release, measured new segments lie near fair-depth model, unlike blended whole-prefix rates.",
+    "assumptions": "Exact recorded words and selected seeds; finite horizons and sampling protocol only.",
+    "map_clock": "Explicit in statement/chapter: ordinaryT, shortcutC, oddS and proof-reduction clocks kept separate.",
+    "proof_summary": "Guard-checked word transplantation and recorded finite continuations, with count-matched synthetic and genuinely copied words distinguished.",
+    "sources": [
+      {
+        "library_file_id": "libfile_dfadf9746a808191ac495cb0c5bfca35",
+        "title": "Collatz_GDR_Resistant_C3_C5_C7_Cross_Coefficient_2026-10-19.md",
+        "section": "2–7",
+        "sha256": "f95beb77b65492cfb3b407b2a877cc328fd88b163ad42c5824754f2ec38bdbf3"
+      }
+    ],
+    "attribution": "Project comparison experiments directed by user; Tao/standard models contextual.",
+    "novelty": "No established priority claim; distinguish standard inputs from project-specific formulation.",
+    "limitations": "No infinite divergence, source-uniform extremum, or limiting law established.",
+    "significance": "See corresponding argument and pre-paper assessment in chapter.",
+    "argument_file": "chapters/gdr_bounds_transport.md"
+  }
+]

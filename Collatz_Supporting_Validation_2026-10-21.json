@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-10-21",
+  "status": "PASS",
+  "claim_count": 258,
+  "unique_claim_ids": 258,
+  "duplicate_claim_ids": [],
+  "status_counts": {
+    "checked_proof": 195,
+    "computational": 11,
+    "conditional": 16,
+    "conjecture": 13,
+    "known_external": 8,
+    "refuted": 15
+  },
+  "group_counts": {
+    "recent_navigation": 97,
+    "antihydra": 26,
+    "certificates_machines": 30,
+    "h_obstructions": 10,
+    "closure": 40,
+    "gdr": 18,
+    "legacy": 37
+  },
+  "schema_validation": {
+    "required_fields": [
+      "id",
+      "title",
+      "status",
+      "statement",
+      "assumptions",
+      "map_clock",
+      "proof_summary",
+      "sources",
+      "attribution",
+      "novelty",
+      "limitations",
+      "significance"
+    ],
+    "all_required_fields_present": true,
+    "typed_required_fields_valid": true,
+    "allowed_statuses_only": true,
+    "nonempty_source_arrays": true
+  },
+  "dependency_edges_checked": 182,
+  "missing_dependency_targets": [],
+  "lossless_claim_json_roundtrip": true,
+  "csv_rows_excluding_header": 258,
+  "csv_id_order_matches_json": true,
+  "csv_status_counts_match_json": true,
+  "project_coverage_entries": 172,
+  "project_coverage_ids_unique": true,
+  "core_bibliography_ids_unique": true,
+  "attribution_ids_unique": true,
+  "attribution_bibliography_references_checked": 59,
+  "missing_attribution_bibliography_references": [],
+  "historical_bibliography_records": 193,
+  "historical_bibliography_ids_unique": true,
+  "input_claim_ledger_sha256": {
+    "recent_navigation_claims.json": "81f86900053e5cdd35782ac9c9eefce60943361a34fa30614d77f6c8be72daf7",
+    "antihydra_claims.json": "4223005c0ac105eb35e70f8126e9a105e3a7337c105b78ae460060f5c4132ed2",
+    "certificates_machines_claims.json": "d1d571082ed2631637a8b3d14166577f69a33dc814bfbffc79b4d4ec8ca316fc",
+    "h_obstructions_claims.json": "1b3525603aa418537610a3a104b98b75afdbb5efd590f07c1f26fdf1a78e3756",
+    "closure_claims.json": "e17dd54e0c7957ec6ae5c9a3b8b01560f09700b0f39cefe86ae7d0edf304739f",
+    "gdr_claims.json": "a0d04396ab920ed87862943a5cab6414c2a419986276d9a23bbc0a9c94faa6e0",
+    "legacy_claims.json": "b060a5e6a6ae0e2bcd1d9b1fb6bca30361fcc544a12484651b8e649fabc88c5f"
+  },
+  "output_files": [
+    {
+      "filename": "Collatz_Claim_Ledger_2026-10-21.json",
+      "bytes": 554216,
+      "sha256": "b9de214b2a82b9406a41e77efd4f207e47e403976657d6bc56a7b130c0f01f24"
+    },
+    {
+      "filename": "Collatz_Claim_Ledger_2026-10-21.csv",
+      "bytes": 336535,
+      "sha256": "0d4e031e58235df664b36f01e45fc26cb34b1efaf2e9b32c1385e48d8481450f"
+    },
+    {
+      "filename": "Collatz_Source_Coverage_2026-10-21.json",
+      "bytes": 280210,
+      "sha256": "aba51b5dda548b6b4770f793ab60d720f8c180a0fbab24e3d4ef830c0d6131e6"
+    },
+    {
+      "filename": "Collatz_Source_Coverage_2026-10-21.md",
+      "bytes": 98959,
+      "sha256": "76375a9e5b5bb34a43235241a95f0ff5f770eddecfdbf800800d3580d78cc61f"
+    },
+    {
+      "filename": "Collatz_Primary_Bibliography_2026-10-21.json",
+      "bytes": 276563,
+      "sha256": "f36fd2c9989d858e1867dd82628656136fd582b418d3e66b7ed86a6dd36dca13"
+    },
+    {
+      "filename": "Collatz_Attribution_Ledger_2026-10-21.json",
+      "bytes": 28000,
+      "sha256": "53cbf372fef7fb14110a0b44fe558ea9ba084f972e315a5bb29ecd0fb0c28a36"
+    },
+    {
+      "filename": "README.md",
+      "bytes": 7344,
+      "sha256": "467c2552a8034394f057ec52ed740bb9bdcad3eb7bbcc2764accbe73b6b2ecfb"
+    }
+  ],
+  "hygiene_checks": {
+    "signed_or_private_download_urls_detected": false,
+    "absolute_workspace_paths_detected": false,
+    "raw_inventory_paths_detected": false,
+    "raw_tool_outputs_included": false,
+    "third_party_papers_or_ocr_included": false
+  },
+  "limits": "Structural validation only. No new mathematical checker execution, external peer review, proof-assistant verification or historical priority certification is implied."
+}

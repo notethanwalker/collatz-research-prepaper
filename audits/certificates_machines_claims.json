@@ -1,0 +1,667 @@
+[
+  {
+    "id": "MC-A1",
+    "title": "Exact all-base finite carry checker",
+    "status": "checked_proof",
+    "statement": "A q-state base-b DFA can be checked exactly for nonempty forward closure excluding 1; the branch 2m=an+e needs at most 16q²(a+3) product states.",
+    "assumptions": "Positive integers; exact unbounded mathematical arithmetic.",
+    "map_clock": "T(n)=n/2 for even n and (3n+1)/2 for odd n; one shortcut step.",
+    "proof_summary": "Carry r_next=(r+a*x-2*y)/b stays in [-2,a]. Positivity plus acceptance at the last nonzero digit implements canonical padded semantics. Finite reachability is equivalent to a real failing pair.",
+    "sources": [
+      {
+        "library_file_id": "libfile_734f7d825644819183a60339ea9db540",
+        "title": "completeness_routes_audit.md",
+        "section": "§§1–9"
+      },
+      {
+        "library_file_id": "libfile_6d02905c800c8191b4f11025410fe3b0",
+        "title": "Collatz_Native_Machine_03_24021_All_Base_and_20403_Binary_2026-10-21.zip",
+        "section": "all_base_machine/ALL_BASE_MACHINE_PROOF.md"
+      }
+    ],
+    "attribution": "Local deduction using established elementary arithmetic, automata, or computability methods; no priority established.",
+    "novelty": "Not established; publication candidate where indicated, subject to literature review.",
+    "limitations": "Does not prove full Collatz or completeness of a counterexample-certificate language.",
+    "significance": "Explicit decidable infinite-invariant verification, not finite numerical sampling."
+  },
+  {
+    "id": "MC-A2",
+    "title": "Fair all-base search and cycle coverage",
+    "status": "checked_proof",
+    "statement": "The no-input search halts iff an automatic bad trap exists in some integer base; every nontrivial cycle is detected.",
+    "assumptions": "Positive integers; exact unbounded mathematical arithmetic.",
+    "map_clock": "T(n)=n/2 for even n and (3n+1)/2 for odd n; one shortcut step.",
+    "proof_summary": "Enumerate b+q diagonally and finitely many tables/masks per pair; every checker terminates. A finite cycle is regular in every base.",
+    "sources": [
+      {
+        "library_file_id": "libfile_734f7d825644819183a60339ea9db540",
+        "title": "completeness_routes_audit.md",
+        "section": "§§1–9"
+      },
+      {
+        "library_file_id": "libfile_6d02905c800c8191b4f11025410fe3b0",
+        "title": "Collatz_Native_Machine_03_24021_All_Base_and_20403_Binary_2026-10-21.zip",
+        "section": "all_base_machine/ALL_BASE_MACHINE_PROOF.md"
+      }
+    ],
+    "attribution": "Local deduction using established elementary arithmetic, automata, or computability methods; no priority established.",
+    "novelty": "Not established; publication candidate where indicated, subject to literature review.",
+    "limitations": "Divergent C3 orbits need not be known to admit an automatic enclosure.",
+    "significance": "Sharpens the exact scope of effective finite certification."
+  },
+  {
+    "id": "MC-A3",
+    "title": "One-state-cost dyadic normalization",
+    "status": "checked_proof",
+    "statement": "Every q-state binary-automatic bad trap has a doubling/halving-invariant automatic enlargement with at most q+1 states.",
+    "assumptions": "Positive integers; exact unbounded mathematical arithmetic.",
+    "map_clock": "T(n)=n/2 for even n and (3n+1)/2 for odd n; one shortcut step.",
+    "proof_summary": "Take union 2^k I, equivalently oddpart preimage; add a fresh initial zero-skipping state. Odd members already lie in I.",
+    "sources": [
+      {
+        "library_file_id": "libfile_829449ba14f08191805f41cce25e72e8",
+        "title": "Collatz_Native_Certificate_Search_02_45224_States_2026-10-21.zip",
+        "section": "automatic_bridge.md; automatic_density_audit.md"
+      }
+    ],
+    "attribution": "Local deduction using established elementary arithmetic, automata, or computability methods; no priority established.",
+    "novelty": "Not established; publication candidate where indicated, subject to literature review.",
+    "limitations": "Binary normalization does not confer recognizability in an unrelated base or odd-inverse closure.",
+    "significance": "Sharpens the exact scope of effective finite certification."
+  },
+  {
+    "id": "MC-A4",
+    "title": "Divergent orbits meet every binary prefix",
+    "status": "checked_proof",
+    "statement": "Every non-eventually-periodic C3 orbit has infinitely many members with each canonical binary leading prefix.",
+    "assumptions": "Orbit is not eventually periodic; deterministic positive-integer dynamics make it tend to infinity.",
+    "map_clock": "T(n)=n/2 for even n and (3n+1)/2 for odd n; one shortcut step.",
+    "proof_summary": "Odd-term log mantissas follow irrational rotation log_2(3) with errors tending to zero. The omega-limit set is compact, nonempty and forward rotation invariant, hence the whole circle.",
+    "sources": [
+      {
+        "library_file_id": "libfile_829449ba14f08191805f41cce25e72e8",
+        "title": "Collatz_Native_Certificate_Search_02_45224_States_2026-10-21.zip",
+        "section": "automatic_bridge.md; automatic_density_audit.md"
+      }
+    ],
+    "attribution": "Local deduction using established elementary arithmetic, automata, or computability methods; no priority established.",
+    "novelty": "Not established; publication candidate where indicated, subject to literature review.",
+    "limitations": "Topological density only, not equidistribution, a rate, or existence of divergence.",
+    "significance": "Exact arithmetic input for the automatic density restrictions."
+  },
+  {
+    "id": "MC-A5",
+    "title": "Automatic enclosure of divergence is positive-density",
+    "status": "checked_proof",
+    "statement": "A q-state binary automatic set containing a divergent C3 orbit has lower density at least 2^(-q-1); if doubling-invariant it meets every aligned block of length 2^(q-1).",
+    "assumptions": "Positive integers; exact unbounded mathematical arithmetic.",
+    "map_clock": "T(n)=n/2 for even n and (3n+1)/2 for odd n; one shortcut step.",
+    "proof_summary": "Reverse DFA to q-state NFA; each canonical prefix has a completion of length at most q-1. Count distinct prefixes; in normalized case pad completions with zeros.",
+    "sources": [
+      {
+        "library_file_id": "libfile_829449ba14f08191805f41cce25e72e8",
+        "title": "Collatz_Native_Certificate_Search_02_45224_States_2026-10-21.zip",
+        "section": "automatic_bridge.md; automatic_density_audit.md"
+      }
+    ],
+    "attribution": "Local deduction using established elementary arithmetic, automata, or computability methods; no priority established.",
+    "novelty": "Not established; publication candidate where indicated, subject to literature review.",
+    "limitations": "Necessary conditional restriction, not an existence theorem for such enclosures.",
+    "significance": "Sharpens the exact scope of effective finite certification."
+  },
+  {
+    "id": "MC-A6",
+    "title": "Explicit terminating-prefix family",
+    "status": "checked_proof",
+    "statement": "Every canonical binary prefix extends to an explicitly terminating seed n=2^j(2^a+1)/3^j-1 for suitable j and odd a divisible by 3^(j-1).",
+    "assumptions": "Positive integers; exact unbounded mathematical arithmetic.",
+    "map_clock": "T(n)=n/2 for even n and (3n+1)/2 for odd n; one shortcut step.",
+    "proof_summary": "Irrational rotation chooses strict mantissa inequalities; choose a large enough for the subunit correction. LTE makes u integral and exact j-step identity reaches 2^a.",
+    "sources": [
+      {
+        "library_file_id": "libfile_9fb80679d2a08191a5f24551f7204105",
+        "title": "collatz_regular_closure.md",
+        "section": "§§1–7"
+      }
+    ],
+    "attribution": "Local deduction using established elementary arithmetic, automata, or computability methods; no priority established.",
+    "novelty": "Not established; publication candidate where indicated, subject to literature review.",
+    "limitations": "No useful small uniform size bound or consecutive interval coverage is supplied.",
+    "significance": "Unconditional arithmetic prefix coverage complementary to the hypothetical divergent-orbit prefix theorem."
+  },
+  {
+    "id": "MC-A7",
+    "title": "Terminating prefix coverage in every numeral base",
+    "status": "checked_proof",
+    "statement": "Every canonical finite base-b prefix extends to a terminating C3 seed for every integer b≥2.",
+    "assumptions": "Positive integers; exact unbounded mathematical arithmetic.",
+    "map_clock": "T(n)=n/2 for even n and (3n+1)/2 for odd n; one shortcut step.",
+    "proof_summary": "For b not a power of two use dense mantissas of powers of two. For b=2^r use the binary construction and a final doubling alignment.",
+    "sources": [
+      {
+        "library_file_id": "libfile_932f9b3858848191b5db4942aaeaeef6",
+        "title": "all_base_density_restriction.md",
+        "section": "Theorems 1–2"
+      },
+      {
+        "library_file_id": "libfile_9fb80679d2a08191a5f24551f7204105",
+        "title": "collatz_regular_closure.md",
+        "section": "§§1–7"
+      }
+    ],
+    "attribution": "Local deduction using established elementary arithmetic, automata, or computability methods; no priority established.",
+    "novelty": "Not established; publication candidate where indicated, subject to literature review.",
+    "limitations": "Does not prove full Collatz or completeness of a counterexample-certificate language.",
+    "significance": "Sharpens the exact scope of effective finite certification."
+  },
+  {
+    "id": "MC-A8",
+    "title": "Automatic bad traps have positive-density complements",
+    "status": "checked_proof",
+    "statement": "A base-b q-state automatic bad trap has complement lower density at least (b-1)b^(-q-1); normalized binary traps containing divergence have both colors syndetic.",
+    "assumptions": "Positive integers; exact unbounded mathematical arithmetic.",
+    "map_clock": "T(n)=n/2 for even n and (3n+1)/2 for odd n; one shortcut step.",
+    "proof_summary": "All terminating seeds lie in the complement. Reverse complemented DFA, use short completion and count prefixes; doubling allows exact-length completion only in normalized binary case.",
+    "sources": [
+      {
+        "library_file_id": "libfile_932f9b3858848191b5db4942aaeaeef6",
+        "title": "all_base_density_restriction.md",
+        "section": "Theorems 1–2"
+      },
+      {
+        "library_file_id": "libfile_9fb80679d2a08191a5f24551f7204105",
+        "title": "collatz_regular_closure.md",
+        "section": "§§1–7"
+      }
+    ],
+    "attribution": "Local deduction using established elementary arithmetic, automata, or computability methods; no priority established.",
+    "novelty": "Not established; publication candidate where indicated, subject to literature review.",
+    "limitations": "General-base bounded gaps do not follow without membership invariance under multiplication by b.",
+    "significance": "Sharpens the exact scope of effective finite certification."
+  },
+  {
+    "id": "MC-A9",
+    "title": "Uniform accepting tail exclusion",
+    "status": "checked_proof",
+    "statement": "No binary word ending in 1 can map every reachable DFA state into acceptance for a C3 bad trap.",
+    "assumptions": "Positive integers; exact unbounded mathematical arithmetic.",
+    "map_clock": "T(n)=n/2 for even n and (3n+1)/2 for odd n; one shortcut step.",
+    "proof_summary": "Such a word accepts an entire proportional interval for every lower-digit length. Explicit terminating-prefix construction meets it at every sufficiently high scale.",
+    "sources": [
+      {
+        "library_file_id": "libfile_9fb80679d2a08191a5f24551f7204105",
+        "title": "collatz_regular_closure.md",
+        "section": "§§1–7"
+      }
+    ],
+    "attribution": "Local deduction using established elementary arithmetic, automata, or computability methods; no priority established.",
+    "novelty": "Not established; publication candidate where indicated, subject to literature review.",
+    "limitations": "Unproductive rejecting resets are not excluded; synchronization notions must be distinguished.",
+    "significance": "Sharpens the exact scope of effective finite certification."
+  },
+  {
+    "id": "MC-A10",
+    "title": "Popcount-only and normalized commuting exclusion",
+    "status": "checked_proof",
+    "statement": "No nonempty popcount-only set is a bad trap; normalized commuting digit actions are therefore excluded.",
+    "assumptions": "Commuting-action statement assumes initial zero action fixes start; popcount statement needs no regularity.",
+    "map_clock": "T(n)=n/2 for even n and (3n+1)/2 for odd n; one shortcut step.",
+    "proof_summary": "z_j=(4^j-1)/3 has popcount j and maps in one shortcut step to a power of two. Commuting actions with initial zero-loop force the zero action to be identity on all reachable states.",
+    "sources": [
+      {
+        "library_file_id": "libfile_9fb80679d2a08191a5f24551f7204105",
+        "title": "collatz_regular_closure.md",
+        "section": "§§1–7"
+      }
+    ],
+    "attribution": "Local deduction using established elementary arithmetic, automata, or computability methods; no priority established.",
+    "novelty": "Not established; publication candidate where indicated, subject to literature review.",
+    "limitations": "Does not prove full Collatz or completeness of a counterexample-certificate language.",
+    "significance": "Sharpens the exact scope of effective finite certification."
+  },
+  {
+    "id": "MC-A11",
+    "title": "Two involutions excluded without normalization",
+    "status": "checked_proof",
+    "statement": "A binary DFA whose digit transformations satisfy a²=b²=id cannot recognize a nonempty C3 bad trap, for any start state.",
+    "assumptions": "Positive integers; exact unbounded mathematical arithmetic.",
+    "map_clock": "T(n)=n/2 for even n and (3n+1)/2 for odd n; one shortcut step.",
+    "proof_summary": "With r=b∘a every reachable state is r^k(s) or r^k b(s). Terminating families 2z_j and z_j cover those two finite orbits.",
+    "sources": [
+      {
+        "library_file_id": "libfile_0cd944bd1a7081918d27d7efcc2f9c37",
+        "title": "Native_Machine_04_Noncommuting_Memory_2026-10-21.md",
+        "section": "involution/idempotent theorems and countercontrols"
+      }
+    ],
+    "attribution": "Local use of repunit termination and standard dihedral normal forms; not an invention of the underlying group theory.",
+    "novelty": "Not established; publication candidate where indicated, subject to literature review.",
+    "limitations": "Does not prove full Collatz or completeness of a counterexample-certificate language.",
+    "significance": "Short structural exclusion of genuinely noncommuting dihedral automata."
+  },
+  {
+    "id": "MC-A12",
+    "title": "Two idempotents excluded without normalization",
+    "status": "checked_proof",
+    "statement": "A binary DFA with a²=a,b²=b cannot recognize a nonempty C3 bad trap.",
+    "assumptions": "Positive integers; exact unbounded mathematical arithmetic.",
+    "map_clock": "T(n)=n/2 for even n and (3n+1)/2 for odd n; one shortcut step.",
+    "proof_summary": "Collapse adjacent equal letters of each canonical LSB word; the alternating result represents z_j or 2z_j and preserves its state.",
+    "sources": [
+      {
+        "library_file_id": "libfile_0cd944bd1a7081918d27d7efcc2f9c37",
+        "title": "Native_Machine_04_Noncommuting_Memory_2026-10-21.md",
+        "section": "involution/idempotent theorems and countercontrols"
+      }
+    ],
+    "attribution": "Local deduction using established elementary arithmetic, automata, or computability methods; no priority established.",
+    "novelty": "Not established; publication candidate where indicated, subject to literature review.",
+    "limitations": "Does not prove full Collatz or completeness of a counterexample-certificate language.",
+    "significance": "Exact noninvertible-semigroup exclusion, stronger than finite enumeration."
+  },
+  {
+    "id": "MC-A13",
+    "title": "Semilinear traps detect exactly cycles",
+    "status": "checked_proof",
+    "statement": "Every semilinear C3 bad trap is finite; an exact semilinear-trap search halts iff a nontrivial cycle exists.",
+    "assumptions": "Positive integers; exact unbounded mathematical arithmetic.",
+    "map_clock": "T(n)=n/2 for even n and (3n+1)/2 for odd n; one shortcut step.",
+    "proof_summary": "An infinite one-dimensional semilinear set contains an arithmetic progression; Monks sufficiency makes that progression meet the basin of 1. Finite invariants contain cycles.",
+    "sources": [
+      {
+        "library_file_id": "libfile_d8786c596bd08191b55317b6bd5b1622",
+        "title": "Collatz_Halting_Equivalence_01_Construction_And_Checks_2026-10-21.zip",
+        "section": "logical_machine_routes.md"
+      },
+      {
+        "url": "https://monks.scranton.edu/files/pubs/SufficiencyRev4.pdf",
+        "title": "The Sufficiency of Arithmetic Progressions for the 3x+1 Conjecture",
+        "section": "Theorem 1.1"
+      }
+    ],
+    "attribution": "Derived corollary of Kenneth M. Monks, The Sufficiency of Arithmetic Progressions for the 3x+1 Conjecture, Theorem 1.1.",
+    "novelty": "Not established; publication candidate where indicated, subject to literature review.",
+    "limitations": "Does not apply to arbitrary automatic sets.",
+    "significance": "Sharpens the exact scope of effective finite certification."
+  },
+  {
+    "id": "MC-A14",
+    "title": "Context pumping is equivalent to a nontrivial cycle",
+    "status": "checked_proof",
+    "statement": "In the specific 11-rule mixed-base C3 rewriting system, a finite s→+usv witness exists iff a positive nontrivial cycle exists.",
+    "assumptions": "Positive integers; exact unbounded mathematical arithmetic.",
+    "map_clock": "Published mixed binary/ternary rewrite system; D rules implement shortcut T, A/B preserve value.",
+    "proof_summary": "Boundary order is preserved; blocks lacking B or D terminate by lexicographic digit/inversion measures. A pump must change an internal canonical block and return its exact value. Conversely normalize after each cycle step.",
+    "sources": [
+      {
+        "library_file_id": "libfile_2ce24ca25d2c8191910288284b2fd56a",
+        "title": "Native_Machine_04_Rewrite_Pumping_2026-10-21.md",
+        "section": "main theorem and subsequence control"
+      },
+      {
+        "url": "https://www.cs.cmu.edu/~mheule/publications/collatz.pdf",
+        "title": "An Automated Approach to the Collatz Conjecture",
+        "section": "§3.2, Lemma 3 and Theorem 3"
+      }
+    ],
+    "attribution": "Yolcu–Aaronson–Heule supply the rewriting presentation; cycle-only pumping classification is the corpus’s separate deduction.",
+    "novelty": "Not established; publication candidate where indicated, subject to literature review.",
+    "limitations": "Does not prove full Collatz or completeness of a counterexample-certificate language.",
+    "significance": "A concrete negative result showing a tempting certificate enlargement adds no divergence coverage."
+  },
+  {
+    "id": "MC-A15",
+    "title": "Subsequence pumping shortcut is false",
+    "status": "refuted",
+    "statement": "Scattered subsequence growth is not a valid nontermination certificate for the actual mixed-base C3 rules.",
+    "assumptions": "Positive integers; exact unbounded mathematical arithmetic.",
+    "map_clock": "T(n)=n/2 for even n and (3n+1)/2 for odd n; one shortcut step.",
+    "proof_summary": "The terminating seed-3 trace has /t. as a subsequence of /ft., yet reaches /. The rewrite relation lacks the required insertion compatibility.",
+    "sources": [
+      {
+        "library_file_id": "libfile_2ce24ca25d2c8191910288284b2fd56a",
+        "title": "Native_Machine_04_Rewrite_Pumping_2026-10-21.md",
+        "section": "main theorem and subsequence control"
+      }
+    ],
+    "attribution": "Local deduction using established elementary arithmetic, automata, or computability methods; no priority established.",
+    "novelty": "Not established; publication candidate where indicated, subject to literature review.",
+    "limitations": "Refutes the stated surrogate, not all well-quasi-order approaches.",
+    "significance": "Small exact false-positive regression guarding future completeness arguments."
+  },
+  {
+    "id": "MC-S1",
+    "title": "Frozen-v1 normalization and positivity soundness",
+    "status": "checked_proof",
+    "statement": "Identical frozen-v1 normal forms imply equality on all natural parameters; nonnegative nonconstant coefficients and value at zero at least 2 imply avoidance of 1.",
+    "assumptions": "Positive integers; exact unbounded mathematical arithmetic.",
+    "map_clock": "T(n)=n/2 for even n and (3n+1)/2 for odd n; one shortcut step.",
+    "proof_summary": "Structural induction over ring expressions and fixed-base powers; natural exponent decomposition uses only valid exponent laws. Natural atoms are nonnegative and nondecreasing.",
+    "sources": [
+      {
+        "library_file_id": "libfile_5ace602808e08191a1b398923eafc682",
+        "title": "Native_Machine_04_Symbolic_Certificates_2026-10-21.md",
+        "section": "normalization, positivity, soundness and comparison theorems"
+      }
+    ],
+    "attribution": "Local deduction using established elementary arithmetic, automata, or computability methods; no priority established.",
+    "novelty": "Not established; publication candidate where indicated, subject to literature review.",
+    "limitations": "Normal-form equality is not complete for semantic equality; positivity is sufficient syntax, not an oracle.",
+    "significance": "Sharpens the exact scope of effective finite certification."
+  },
+  {
+    "id": "MC-S2",
+    "title": "Exhaustive symbolic charts certify traps",
+    "status": "checked_proof",
+    "statement": "Every accepted v1 chart certificate is a nonempty actual C3 bad trap.",
+    "assumptions": "Positive integers; exact unbounded mathematical arithmetic.",
+    "map_clock": "T(n)=n/2 for even n and (3n+1)/2 for odd n; one shortcut step.",
+    "proof_summary": "Every parameter has a residue row and nonnegative affine target; checked integer identities both prove successor equality and force the correct parity.",
+    "sources": [
+      {
+        "library_file_id": "libfile_5ace602808e08191a1b398923eafc682",
+        "title": "Native_Machine_04_Symbolic_Certificates_2026-10-21.md",
+        "section": "normalization, positivity, soundness and comparison theorems"
+      }
+    ],
+    "attribution": "Local deduction using established elementary arithmetic, automata, or computability methods; no priority established.",
+    "novelty": "Not established; publication candidate where indicated, subject to literature review.",
+    "limitations": "No proof every divergent C3 orbit, or any actual nontrivial C3 invariant, has this syntax.",
+    "significance": "Sharpens the exact scope of effective finite certification."
+  },
+  {
+    "id": "MC-S3",
+    "title": "Equational calculus has exactly v1 equality coverage",
+    "status": "checked_proof",
+    "statement": "A pair of valid v1 terms has identical normal form iff the finite equality calculus proves their equality.",
+    "assumptions": "Positive integers; exact unbounded mathematical arithmetic.",
+    "map_clock": "T(n)=n/2 for even n and (3n+1)/2 for odd n; one shortcut step.",
+    "proof_summary": "Every schema preserves normal form. Conversely derive finite normalization by ring expansion, natural exponent splitting and literal arithmetic.",
+    "sources": [
+      {
+        "library_file_id": "libfile_452715f241cc8191a5d83bffb68d1128",
+        "title": "Pass06_Baseline_01_Source_Proofs_Reports.zip",
+        "section": "native_joint/trace_calculus/EQUATIONAL_NATIVE_CONTRACT.md; PROOF_KINDS.md; FORMAT.md"
+      }
+    ],
+    "attribution": "Local deduction using established elementary arithmetic, automata, or computability methods; no priority established.",
+    "novelty": "Not established; publication candidate where indicated, subject to literature review.",
+    "limitations": "Proof sizes may be astronomical; exact semantic identity beyond v1 is not admitted.",
+    "significance": "Sharpens the exact scope of effective finite certification."
+  },
+  {
+    "id": "MC-S4",
+    "title": "Native positivity witness exactly preserves v1",
+    "status": "checked_proof",
+    "statement": "An accepted lower witness P=(2+d)+(U-U(0)), d≥0 and natural U, exists iff v1’s coefficient/zero-value positivity check succeeds.",
+    "assumptions": "Positive integers; exact unbounded mathematical arithmetic.",
+    "map_clock": "T(n)=n/2 for even n and (3n+1)/2 for odd n; one shortcut step.",
+    "proof_summary": "Reify v1 nonconstant positive part as U, set d=P(0)-2 and invoke equality coverage; reverse follows from nonnegative coefficients of natural U and cancellation of its ground value.",
+    "sources": [
+      {
+        "library_file_id": "libfile_452715f241cc8191a5d83bffb68d1128",
+        "title": "Pass06_Baseline_01_Source_Proofs_Reports.zip",
+        "section": "native_joint/trace_calculus/EQUATIONAL_NATIVE_CONTRACT.md; PROOF_KINDS.md; FORMAT.md"
+      }
+    ],
+    "attribution": "Local deduction using established elementary arithmetic, automata, or computability methods; no priority established.",
+    "novelty": "Not established; publication candidate where indicated, subject to literature review.",
+    "limitations": "Does not prove full Collatz or completeness of a counterexample-certificate language.",
+    "significance": "Preserves full frozen-v1 rather than a smaller positivity fragment."
+  },
+  {
+    "id": "MC-S5",
+    "title": "Symbolic charts strictly beat all-base automata on H_sq",
+    "status": "checked_proof",
+    "statement": "The chart 2^(2^k) covers every bad seed of H_sq, while no nonempty H_sq bad trap is automatic in any base.",
+    "assumptions": "Positive integers; exact unbounded mathematical arithmetic.",
+    "map_clock": "H_sq(n)=n² for n=2^(2^j),j≥0, and 1 otherwise; not Collatz.",
+    "proof_summary": "A bad trap is a tower tail; its numeral lengths have increasing gaps. Pumping a regular language produces an arithmetic progression of lengths, impossible here. The chart has exact squaring update.",
+    "sources": [
+      {
+        "library_file_id": "libfile_5ace602808e08191a1b398923eafc682",
+        "title": "Native_Machine_04_Symbolic_Certificates_2026-10-21.md",
+        "section": "normalization, positivity, soundness and comparison theorems"
+      }
+    ],
+    "attribution": "Local deduction using established elementary arithmetic, automata, or computability methods; no priority established.",
+    "novelty": "Not established; publication candidate where indicated, subject to literature review.",
+    "limitations": "Strictness is across comparison-system certificate methods, not proved extra C3 detection.",
+    "significance": "Sharpens the exact scope of effective finite certification."
+  },
+  {
+    "id": "MC-L1",
+    "title": "First descent and least survivor stabilization",
+    "status": "checked_proof",
+    "statement": "Full Collatz is equivalent to universal eventual first descent; the computable nondecreasing least no-dip survivor sequence stabilizes iff Collatz is false.",
+    "assumptions": "Positive integers; exact unbounded mathematical arithmetic.",
+    "map_clock": "T(n)=n/2 for even n and (3n+1)/2 for odd n; one shortcut step.",
+    "proof_summary": "Strong induction proves descent equivalence. All-odd prefixes make each finite survivor set nonempty; nested sets yield monotonicity and stabilization characterizes an eternal survivor.",
+    "sources": [
+      {
+        "library_file_id": "libfile_d8786c596bd08191b55317b6bd5b1622",
+        "title": "Collatz_Halting_Equivalence_01_Construction_And_Checks_2026-10-21.zip",
+        "section": "logical_machine_routes.md"
+      }
+    ],
+    "attribution": "Local deduction using established elementary arithmetic, automata, or computability methods; no priority established.",
+    "novelty": "Not established; publication candidate where indicated, subject to literature review.",
+    "limitations": "No finite last-increase or stabilization detector follows.",
+    "significance": "Sharpens the exact scope of effective finite certification."
+  },
+  {
+    "id": "MC-L2",
+    "title": "Seedwise nontermination detection is stronger",
+    "status": "checked_proof",
+    "statement": "A machine semideciding every bad C3 seed exists iff the actual C3 terminating basin is decidable; a global existential refuter requires only one certificate somewhere.",
+    "assumptions": "Positive integers; exact unbounded mathematical arithmetic.",
+    "map_clock": "T(n)=n/2 for even n and (3n+1)/2 for odd n; one shortcut step.",
+    "proof_summary": "Dovetail good-seed trajectory simulation with the proposed bad-seed recognizer. The converse uses the assumed decider.",
+    "sources": [
+      {
+        "library_file_id": "libfile_734f7d825644819183a60339ea9db540",
+        "title": "completeness_routes_audit.md",
+        "section": "§§1–9"
+      },
+      {
+        "library_file_id": "libfile_d8786c596bd08191b55317b6bd5b1622",
+        "title": "Collatz_Halting_Equivalence_01_Construction_And_Checks_2026-10-21.zip",
+        "section": "logical_machine_routes.md"
+      }
+    ],
+    "attribution": "Local deduction using established elementary arithmetic, automata, or computability methods; no priority established.",
+    "novelty": "Not established; publication candidate where indicated, subject to literature review.",
+    "limitations": "Neither fixed-basin undecidability nor impossibility of a global C3 refuter is asserted.",
+    "significance": "Sharpens the exact scope of effective finite certification."
+  },
+  {
+    "id": "MC-L3",
+    "title": "Conditional computable budgets characterize global refuters",
+    "status": "checked_proof",
+    "statement": "An explicit complete blank-tape C3 refuter can be exchanged for an explicitly total computable b(n) whose first-descent adequacy follows under Collatz, and conversely.",
+    "assumptions": "Positive integers; exact unbounded mathematical arithmetic.",
+    "map_clock": "T(n)=n/2 for even n and (3n+1)/2 for odd n; one shortcut step.",
+    "proof_summary": "Dovetail refuter with each descent computation to totalize b; conversely halt on the first budget failure, necessarily witnessed by the least bad seed if one exists.",
+    "sources": [
+      {
+        "library_file_id": "libfile_734f7d825644819183a60339ea9db540",
+        "title": "completeness_routes_audit.md",
+        "section": "§§1–9"
+      }
+    ],
+    "attribution": "Local deduction using established elementary arithmetic, automata, or computability methods; no priority established.",
+    "novelty": "Not established; publication candidate where indicated, subject to literature review.",
+    "limitations": "No actual total conditionally adequate budget is provided.",
+    "significance": "Exact constructive target, stronger than arbitrary large finite cutoffs."
+  },
+  {
+    "id": "MC-L4",
+    "title": "Finite counterexample-hitting bound gives truth-side halting",
+    "status": "conditional",
+    "statement": "Given a proved finite B hitting some bad seed whenever any exist, dovetail 1,...,B and halt when all converge; this halts iff full Collatz.",
+    "assumptions": "An explicit B plus a proved universal counterexample-hitting theorem.",
+    "map_clock": "T(n)=n/2 for even n and (3n+1)/2 for odd n; one shortcut step.",
+    "proof_summary": "Truth makes the finitely many computations finish; falsehood leaves one incomplete by the hitting theorem.",
+    "sources": [
+      {
+        "library_file_id": "libfile_d8786c596bd08191b55317b6bd5b1622",
+        "title": "Collatz_Halting_Equivalence_01_Construction_And_Checks_2026-10-21.zip",
+        "section": "logical_machine_routes.md"
+      }
+    ],
+    "attribution": "Local deduction using established elementary arithmetic, automata, or computability methods; no priority established.",
+    "novelty": "Not established; publication candidate where indicated, subject to literature review.",
+    "limitations": "The required hitting theorem remains unproved; a finite verification bound alone is insufficient.",
+    "significance": "Sharpens the exact scope of effective finite certification."
+  },
+  {
+    "id": "MC-L5",
+    "title": "Proof search maximality within a fixed theory",
+    "status": "checked_proof",
+    "statement": "If F proves Halt(M)⇒not-C and M actually halts, then F proves not-C, provided F proves concrete finite executions.",
+    "assumptions": "Effective proof system with adequate elementary arithmetic; relevant soundness needed for proof⇒truth.",
+    "map_clock": "T(n)=n/2 for even n and (3n+1)/2 for odd n; one shortcut step.",
+    "proof_summary": "Combine the finite execution proof with the fixed soundness implication. The F-proof enumerator thus covers every actual halt of F-certified refuters.",
+    "sources": [
+      {
+        "library_file_id": "libfile_734f7d825644819183a60339ea9db540",
+        "title": "completeness_routes_audit.md",
+        "section": "§§1–9"
+      }
+    ],
+    "attribution": "Elementary metatheorem from ordinary proof enumeration and finite-run representability; not claimed novel.",
+    "novelty": "Not established; publication candidate where indicated, subject to literature review.",
+    "limitations": "No truth⇒provability, independence, or impossibility result follows.",
+    "significance": "Sharpens the exact scope of effective finite certification."
+  },
+  {
+    "id": "MC-L6",
+    "title": "Ultimately periodic parity cannot encode divergence",
+    "status": "checked_proof",
+    "statement": "Every positive source with an ultimately periodic shortcut parity itinerary eventually enters a cycle.",
+    "assumptions": "Positive integers; exact unbounded mathematical arithmetic.",
+    "map_clock": "T(n)=n/2 for even n and (3n+1)/2 for odd n; one shortcut step.",
+    "proof_summary": "Repeat an affine parity block (3^s x+B)/2^L; integrality forces divisibility of a fixed integer by every 2^(Lr), hence fixes the block.",
+    "sources": [
+      {
+        "library_file_id": "libfile_d8786c596bd08191b55317b6bd5b1622",
+        "title": "Collatz_Halting_Equivalence_01_Construction_And_Checks_2026-10-21.zip",
+        "section": "logical_machine_routes.md"
+      },
+      {
+        "library_file_id": "libfile_734f7d825644819183a60339ea9db540",
+        "title": "completeness_routes_audit.md",
+        "section": "§§1–9"
+      }
+    ],
+    "attribution": "Local deduction using established elementary arithmetic, automata, or computability methods; no priority established.",
+    "novelty": "Not established; publication candidate where indicated, subject to literature review.",
+    "limitations": "Does not exclude finite-state descriptions with aperiodic paths.",
+    "significance": "Sharpens the exact scope of effective finite certification."
+  },
+  {
+    "id": "MC-M1",
+    "title": "Native full-v1 OR automatic semantics",
+    "status": "checked_proof",
+    "statement": "The final blank-tape machine has exactly the all-base-automatic OR frozen-v1-chart existential acceptance predicate.",
+    "assumptions": "Positive integers; exact unbounded mathematical arithmetic.",
+    "map_clock": "T(n)=n/2 for even n and (3n+1)/2 for odd n; one shortcut step.",
+    "proof_summary": "Diagonal B,C symbolic enumeration is exhaustive; each check terminates; one symbolic rejection check interleaves each automatic rejection. Only genuine whole-certificate acceptance reaches HALT.",
+    "sources": [
+      {
+        "library_file_id": "libfile_452715f241cc8191a5d83bffb68d1128",
+        "title": "Pass06_Baseline_01_Source_Proofs_Reports.zip",
+        "section": "native_joint/trace_calculus/EQUATIONAL_NATIVE_CONTRACT.md; PROOF_KINDS.md; FORMAT.md"
+      },
+      {
+        "library_file_id": "libfile_a18b1049cbf081919c9ccfbbe6584eef",
+        "title": "Collatz_Pass08_Selected_499710_Compact_Reproduction.zip",
+        "section": "PROOF_AND_SCOPE.md; independent_audit/AUDIT.md; native checker and compiler sources"
+      },
+      {
+        "library_file_id": "libfile_d5a4157b8d9c8191a5baf492cfa97b3e",
+        "title": "Native_Machine_08_Final_Reduction_Report_2026-10-21.md",
+        "section": "Result; Verification and its limits; The mathematical boundary is unchanged"
+      }
+    ],
+    "attribution": "Local deduction using established elementary arithmetic, automata, or computability methods; no priority established.",
+    "novelty": "Not established; publication candidate where indicated, subject to literature review.",
+    "limitations": "v2 is not included; full Collatz equivalence and strict extra C3 coverage remain unproved.",
+    "significance": "Sharpens the exact scope of effective finite certification."
+  },
+  {
+    "id": "MC-M2",
+    "title": "Semantics-preserving native reduction chain",
+    "status": "checked_proof",
+    "statement": "The audited register, calling-convention, canonical-safe completion, binary lowering and exact quotient transformations preserve blank-tape halting.",
+    "assumptions": "Explicit source/compiler contracts and finite transformation certificates; source-level and executable audits, not proof-assistant formalization.",
+    "map_clock": "T(n)=n/2 for even n and (3n+1)/2 for odd n; one shortcut step.",
+    "proof_summary": "Canonical unary-register invariant and finite macro simulations; reserved register/liveness discipline; zero-before-setup tag induction; valid-input-safe TRAP completion; final write/move/target homomorphism.",
+    "sources": [
+      {
+        "library_file_id": "libfile_a18b1049cbf081919c9ccfbbe6584eef",
+        "title": "Collatz_Pass08_Selected_499710_Compact_Reproduction.zip",
+        "section": "PROOF_AND_SCOPE.md; independent_audit/AUDIT.md; native checker and compiler sources"
+      }
+    ],
+    "attribution": "Local deduction using established elementary arithmetic, automata, or computability methods; no priority established.",
+    "novelty": "Not established; publication candidate where indicated, subject to literature review.",
+    "limitations": "Source rewrites preserve halting with stuttering, not old runtimes; safe completion need not preserve arbitrary malformed inputs.",
+    "significance": "Sharpens the exact scope of effective finite certification."
+  },
+  {
+    "id": "MC-M3",
+    "title": "Final 499710-state artifact and exhaustive quotient rerun",
+    "status": "computational",
+    "statement": "Selected machine has 499710 working states, binary alphabet and separate H; exact quotient of 653205 raw states. Review rerun validated 1306410 quotient equations and 999420 text rows.",
+    "assumptions": "Positive integers; exact unbounded mathematical arithmetic.",
+    "map_clock": "T(n)=n/2 for even n and (3n+1)/2 for odd n; one shortcut step.",
+    "proof_summary": "Independent auditor recomputes reachability, map surjectivity, every write/move/target equation and text/JSON/packed hashes.",
+    "sources": [
+      {
+        "library_file_id": "libfile_a18b1049cbf081919c9ccfbbe6584eef",
+        "title": "Collatz_Pass08_Selected_499710_Compact_Reproduction.zip",
+        "section": "PROOF_AND_SCOPE.md; independent_audit/AUDIT.md; native checker and compiler sources"
+      },
+      {
+        "library_file_id": "libfile_d5a4157b8d9c8191a5baf492cfa97b3e",
+        "title": "Native_Machine_08_Final_Reduction_Report_2026-10-21.md",
+        "section": "Result; Verification and its limits; The mathematical boundary is unchanged"
+      }
+    ],
+    "attribution": "Local deduction using established elementary arithmetic, automata, or computability methods; no priority established.",
+    "novelty": "Not established; publication candidate where indicated, subject to literature review.",
+    "limitations": "No global minimality; finite replay is not an all-execution proof. Hashes bind exact audited artifact.",
+    "significance": "Reproducible native proof-checker artifact, 69.09% fewer states than first full merged table."
+  },
+  {
+    "id": "MC-GAP",
+    "title": "Global certificate completeness remains open",
+    "status": "conjecture",
+    "statement": "It is unproved that falsehood of full Collatz implies at least one accepted automatic or frozen-v1 symbolic certificate.",
+    "assumptions": "Positive integers; exact unbounded mathematical arithmetic.",
+    "map_clock": "T(n)=n/2 for even n and (3n+1)/2 for odd n; one shortcut step.",
+    "proof_summary": "Soundness and cycle coverage are proved; generic comparison controls defeat claims based on representability or computability alone.",
+    "sources": [
+      {
+        "library_file_id": "libfile_d5a4157b8d9c8191a5baf492cfa97b3e",
+        "title": "Native_Machine_08_Final_Reduction_Report_2026-10-21.md",
+        "section": "Result; Verification and its limits; The mathematical boundary is unchanged"
+      },
+      {
+        "library_file_id": "libfile_734f7d825644819183a60339ea9db540",
+        "title": "completeness_routes_audit.md",
+        "section": "§§1–9"
+      },
+      {
+        "library_file_id": "libfile_5ace602808e08191a1b398923eafc682",
+        "title": "Native_Machine_04_Symbolic_Certificates_2026-10-21.md",
+        "section": "normalization, positivity, soundness and comparison theorems"
+      }
+    ],
+    "attribution": "Local deduction using established elementary arithmetic, automata, or computability methods; no priority established.",
+    "novelty": "Not established; publication candidate where indicated, subject to literature review.",
+    "limitations": "Do not relabel the machine predicate as full Collatz falsehood or require seedwise coverage unnecessarily.",
+    "significance": "Precisely identifies the missing mathematical theorem."
+  }
+]

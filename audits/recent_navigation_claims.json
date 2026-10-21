@@ -1,0 +1,3217 @@
+[
+  {
+    "id": "NAV-001",
+    "title": "Exact finite-word affine cylinders",
+    "status": "checked_proof",
+    "statement": "A depth word has F_w(n)=(Pn+B)/2^H, P=c^m rho^(H-m), and exactly one odd source class n=(2^H-B)P^-1 modulo 2^(H+1).",
+    "assumptions": [
+      "Odd positive c,rho in stated family; exact positive depths; absorption handled separately."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Compose affine branches. Final odd integrality forces every intermediate exact division, since odd multipliers cannot remove a previous power-of-two denominator. Positive high lifts realize every finite word.",
+    "proof_dependencies": [],
+    "sources": [
+      {
+        "source_key": "N05",
+        "library_file_id": "libfile_7388d1bfc1388191baec7625b569b152",
+        "file_title": "Comparative_Navigation_05_Neutral_Strides_Deviation_Events_and_Recoverable_Memory_2026-10-20.md",
+        "section": "§9",
+        "version_time": "2026-10-20T23:27:11.650409Z",
+        "local_path": "sources/N05_a.md"
+      },
+      {
+        "source_key": "N08-C",
+        "library_file_id": "libfile_943968303adc8191ae727849c43947e7",
+        "file_title": "Comparative_Navigation_08_Arithmetic_Counters_History_Mergers_and_Tail_Control_2026-10-20.md",
+        "section": "§1",
+        "version_time": "2026-10-21T03:14:49.718357Z",
+        "local_path": "sources/N08_counters.md"
+      },
+      {
+        "source_key": "N12",
+        "library_file_id": "libfile_250eca26a5ac8191a75a1b209b7a9e47",
+        "file_title": "Comparative_Navigation_12_Region_Resolved_Recovery_and_Bounded_Debt_Grammars_2026-10-21.md",
+        "section": "§1",
+        "version_time": "2026-10-21T14:37:25.744372Z",
+        "local_path": "sources/N12.md"
+      }
+    ],
+    "attribution": "Inherited project affine compiler and classical parity/two-adic coding; N06 cites Bernstein–Lagarias as background.",
+    "novelty": "Not new to this navigation series.",
+    "limitations": "Finite source realizations do not authenticate one ordinary source for an infinite word.",
+    "significance": "Foundational source guard for every subsequent macro.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-002",
+    "title": "Exact baseline-growth coordinate",
+    "status": "checked_proof",
+    "statement": "For d=c rho-4, Z=dn+rho, lambda=c rho/4 and eta=rho/2, Z(F(n))=lambda eta^(a-2)Z+rho(1-eta^(a-2)); depth two gives Z′=lambda Z.",
+    "assumptions": [
+      "Actual depth a; the three principal parameter pairs."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Direct substitution retains the +1 term exactly.",
+    "proof_dependencies": [
+      "NAV-001"
+    ],
+    "sources": [
+      {
+        "source_key": "N05",
+        "library_file_id": "libfile_7388d1bfc1388191baec7625b569b152",
+        "file_title": "Comparative_Navigation_05_Neutral_Strides_Deviation_Events_and_Recoverable_Memory_2026-10-20.md",
+        "section": "§2, Theorem 2.1",
+        "version_time": "2026-10-20T23:27:11.650409Z",
+        "local_path": "sources/N05_a.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Z is signed for C3; zero at terminal one is separate.",
+    "significance": "Gives a common exact baseline instead of an asymptotic multiplier.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-003",
+    "title": "Maximal neutral stride",
+    "status": "checked_proof",
+    "statement": "Outside the C3 terminal zero, depth-two stride length is floor((v2(Z)-1)/2); exit valuations 1 and 2 identify shallow and deep next updates.",
+    "assumptions": [
+      "Positive odd states; Z nonzero."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "cZ=d(cn+1)+4 gives the valuation trichotomy; each neutral step subtracts two from v2(Z).",
+    "proof_dependencies": [
+      "NAV-002"
+    ],
+    "sources": [
+      {
+        "source_key": "N05",
+        "library_file_id": "libfile_7388d1bfc1388191baec7625b569b152",
+        "file_title": "Comparative_Navigation_05_Neutral_Strides_Deviation_Events_and_Recoverable_Memory_2026-10-20.md",
+        "section": "§2, Theorem 2.2",
+        "version_time": "2026-10-20T23:27:11.650409Z",
+        "local_path": "sources/N05_a.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "A local finite clock does not bound future successive strides.",
+    "significance": "Faithful all-input macro with explicit exit.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-004",
+    "title": "Common canonical E/G arithmetic parser",
+    "status": "checked_proof",
+    "statement": "Q=c(c rho-4)n+(c rho-4)+2rho has valuation q; q=1 gives S, q=2j gives E_j, q=2j+1 gives longer G with h=v2(c(c rho)^(j-1)u-1).",
+    "assumptions": [
+      "Signed u=Q/2^q, actual source retained; E lookahead is unconsumed."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Execute the first shallow update then the exact neutral stride; substitute into cZ=d(cn+1)+4 for endpoints and terminal depth.",
+    "proof_dependencies": [
+      "NAV-002",
+      "NAV-003"
+    ],
+    "sources": [
+      {
+        "source_key": "N05",
+        "library_file_id": "libfile_7388d1bfc1388191baec7625b569b152",
+        "file_title": "Comparative_Navigation_05_Neutral_Strides_Deviation_Events_and_Recoverable_Memory_2026-10-20.md",
+        "section": "§3",
+        "version_time": "2026-10-20T23:27:11.650409Z",
+        "local_path": "sources/N05_a.md"
+      },
+      {
+        "source_key": "N12",
+        "library_file_id": "libfile_250eca26a5ac8191a75a1b209b7a9e47",
+        "file_title": "Comparative_Navigation_12_Region_Resolved_Recovery_and_Bounded_Debt_Grammars_2026-10-21.md",
+        "section": "§2.1",
+        "version_time": "2026-10-21T14:37:25.744372Z",
+        "local_path": "sources/N12.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Trailing ambiguous fragments remain unclassified; positive-cofactor C3 convention in N09 has opposite sign.",
+    "significance": "Connects all three maps with one grammar without equalizing their outcomes.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-005",
+    "title": "Deviation-event clocks and reference law",
+    "status": "checked_proof",
+    "statement": "An event a≠2 followed by L neutral updates has M=L+1, H=a+2L, discrepancy a-2; its event-section reference law is 2^-a 4^-L.",
+    "assumptions": [
+      "Actual event maximality; probability statement only in normalized two-adic source ensemble."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Neutral updates add duration without discrepancy. Initial and final non-two section factors 3/4 cancel in the cylinder density.",
+    "proof_dependencies": [
+      "NAV-001",
+      "NAV-003"
+    ],
+    "sources": [
+      {
+        "source_key": "N05",
+        "library_file_id": "libfile_7388d1bfc1388191baec7625b569b152",
+        "file_title": "Comparative_Navigation_05_Neutral_Strides_Deviation_Events_and_Recoverable_Memory_2026-10-20.md",
+        "section": "§§4–5",
+        "version_time": "2026-10-20T23:27:11.650409Z",
+        "local_path": "sources/N05_a.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Event shallow share 2/3 and canonical E share 1/2 sample different sections; neither is a named-orbit law.",
+    "significance": "Separates signed cost from elapsed baseline time.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-006",
+    "title": "Antihydra event endpoint decoder",
+    "status": "checked_proof",
+    "statement": "At an Antihydra event endpoint y, v3(5y+3)=2L+1_(deep); this recovers L, event type, original depth, and predecessor.",
+    "assumptions": [
+      "Endpoint belongs to the actual event image; otherwise perform integrality, parity, positivity and section checks."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Shallow post-event prime record is zero and deep record exactly one; each neutral phase adds two. Reverse neutral multiplication, then decode a=1+v3(phase output).",
+    "proof_dependencies": [
+      "NAV-002",
+      "NAV-003"
+    ],
+    "sources": [
+      {
+        "source_key": "N05",
+        "library_file_id": "libfile_7388d1bfc1388191baec7625b569b152",
+        "file_title": "Comparative_Navigation_05_Neutral_Strides_Deviation_Events_and_Recoverable_Memory_2026-10-20.md",
+        "section": "§§6.3–7",
+        "version_time": "2026-10-20T23:27:11.650409Z",
+        "local_path": "sources/N05_a.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "A known cut is needed; decoding past arithmetic does not supply future credit.",
+    "significance": "Exact history retention contradicts explanations requiring total memory erasure.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-007",
+    "title": "Ordinary incoming-event atlas",
+    "status": "checked_proof",
+    "statement": "For p=3,5 and event endpoint y, all previous neutral durations lie in 0≤L≤v_p((p-4)y+1); each valid duration has one exponent congruence class of incoming depths.",
+    "assumptions": [
+      "y>1, non-two section; a≥1,a≠2, positivity and exact guards."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Reverse L neutral multiplications to m_L; solve x=(2^a m_L-1)/p. For L<t, m_L=1/4 modulo p, forcing a=2 modulo ord_p(2).",
+    "proof_dependencies": [
+      "NAV-001",
+      "NAV-003"
+    ],
+    "sources": [
+      {
+        "source_key": "N05",
+        "library_file_id": "libfile_7388d1bfc1388191baec7625b569b152",
+        "file_title": "Comparative_Navigation_05_Neutral_Strides_Deviation_Events_and_Recoverable_Memory_2026-10-20.md",
+        "section": "§8, Theorem 8.1",
+        "version_time": "2026-10-20T23:27:11.650409Z",
+        "local_path": "sources/N05_a.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "The same endpoint valuation may arise from neutral duration or deep resonance.",
+    "significance": "Complete predecessor classification on a useful event section.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-008",
+    "title": "Forward forest encoding and reflection identity",
+    "status": "checked_proof",
+    "statement": "Depth a has a-1 ordered children; Delta=Q-K-1 and K=-min Delta. A complete m-node tree has H=2m-1.",
+    "assumptions": [
+      "Preorder pending-slot parser, initial Q=1, immediate restart after completion."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Each node changes pending count by a-2; negative jumps are only -1, so new negative minima exactly count roots.",
+    "proof_dependencies": [
+      "NAV-001"
+    ],
+    "sources": [
+      {
+        "source_key": "N06",
+        "library_file_id": "libfile_6f94cba960148191832f11dd86ad963e",
+        "file_title": "Comparative_Navigation_06_Critical_Forests_and_the_Deterministic_Bridge_2026-10-20.md",
+        "section": "§3",
+        "version_time": "2026-10-21T00:59:56.441019Z",
+        "local_path": "sources/N06_a.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Forward depth trees are not inverse Collatz trees; frontier is not height.",
+    "significance": "Uniform recursive syntax covers arbitrary finite shape and explicit unfinished boundaries.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-009",
+    "title": "Arbitrary-frontier packet action and coupling",
+    "status": "checked_proof",
+    "statement": "For packet total δ, minimum μ, maximum ν, ordered upward excursion R: k=max(0,1-q-μ), q′=q+δ+k, peak=max(q+ν,1+R). Two frontiers synchronize iff μ_t≤1-q2.",
+    "assumptions": [
+      "q≥1; same depth word; include empty prefixes."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Use reflected slot count max(q+d_t,1+d_t-min_(s≤t)d_s); take endpoint and maximum. The formula also yields composition and bounded frontier differences.",
+    "proof_dependencies": [
+      "NAV-008"
+    ],
+    "sources": [
+      {
+        "source_key": "N07",
+        "library_file_id": "libfile_3b278a4d14cc8191a2813c11e50e8961",
+        "file_title": "Comparative_Navigation_07_Parser_Interfaces_Shape_Envelopes_and_Deterministic_Controls_2026-10-20.md",
+        "section": "§2",
+        "version_time": "2026-10-21T02:16:24.956265Z",
+        "local_path": "sources/N07_a.md"
+      },
+      {
+        "source_key": "N08-S",
+        "library_file_id": "libfile_a5082de052808191a213b21eb1dd2ee0",
+        "file_title": "Comparative_Navigation_08_Sampling_Interfaces_Subtree_Mergers_and_Arithmetic_Counters_2026-10-20.md",
+        "section": "§2.1",
+        "version_time": "2026-10-21T03:24:39.971411Z",
+        "local_path": "sources/N08_sampling.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Equal counters do not erase previous ancestry or identify an unmarked starting cut.",
+    "significance": "Allows macros in any surrounding forest context.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-010",
+    "title": "Critical geometric tree reference",
+    "status": "known_external",
+    "statement": "Reference tree size has P(T=m)=Catalan(m-1)/2^(2m-1), P(T>m)=binom(2m,m)/4^m and infinite mean.",
+    "assumptions": [
+      "Independent geometric depth law in source ensemble, not at a named positive integer."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Every complete tree has equal H=2m-1; Catalan enumeration or f=z/(2-f) gives f=1-sqrt(1-z).",
+    "proof_dependencies": [
+      "NAV-001",
+      "NAV-008"
+    ],
+    "sources": [
+      {
+        "source_key": "N06",
+        "library_file_id": "libfile_6f94cba960148191832f11dd86ad963e",
+        "file_title": "Comparative_Navigation_06_Critical_Forests_and_the_Deterministic_Bridge_2026-10-20.md",
+        "section": "§5",
+        "version_time": "2026-10-21T00:59:56.441019Z",
+        "local_path": "sources/N06_a.md"
+      },
+      {
+        "source_key": "N08-S",
+        "library_file_id": "libfile_a5082de052808191a213b21eb1dd2ee0",
+        "file_title": "Comparative_Navigation_08_Sampling_Interfaces_Subtree_Mergers_and_Arithmetic_Counters_2026-10-20.md",
+        "section": "§2",
+        "version_time": "2026-10-21T03:24:39.971411Z",
+        "local_path": "sources/N08_sampling.md"
+      }
+    ],
+    "attribution": "Classical Galton–Watson, ordered-tree/Catalan and cyclic-forest theory; Janson 2012 explicitly cited.",
+    "novelty": "Classical result specialized to inherited source cylinders.",
+    "limitations": "Not the no-descent stopping tail; not a fixed-source completion theorem.",
+    "significance": "Explains large open trees and distinguishes critical from tilted recovery sections.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-011",
+    "title": "Exact bulk-boundary growth criterion",
+    "status": "checked_proof",
+    "statement": "Homogeneous growth is (c rho/4)^m(rho/2)^(Q-K-1); Delta/m→0 iff Q/m→0 and K/m→0.",
+    "assumptions": [
+      "Infinite positive-depth stream for equivalence; actual arithmetic growth additionally retains positive additions."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Substitute forest identity. If Delta=o(m), its running negative minimum is o(m), hence K=o(m) and then Q=o(m).",
+    "proof_dependencies": [
+      "NAV-008"
+    ],
+    "sources": [
+      {
+        "source_key": "N06",
+        "library_file_id": "libfile_6f94cba960148191832f11dd86ad963e",
+        "file_title": "Comparative_Navigation_06_Critical_Forests_and_the_Deterministic_Bridge_2026-10-20.md",
+        "section": "§4",
+        "version_time": "2026-10-21T00:59:56.441019Z",
+        "local_path": "sources/N06_a.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Equivalent target, not proof of source-specific boundary control; exact rates need vanishing average addition correction.",
+    "significance": "Compresses internal shape out of homogeneous growth.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-012",
+    "title": "C3 clears any finite pending workload",
+    "status": "checked_proof",
+    "statement": "Starting with q pending slots, C3 clears them or reaches one in at most 1+[log(n/3)+(q-1)log2]/log(6/5) odd rounds.",
+    "assumptions": [
+      "n>1, q≥1; do not restart roots until original pending work clears; stop on actual one."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Unfinished prefix has H_j≥2j+1-q, and each preabsorption input is at least three. Then n_j/n≤2^(q-1)(5/6)^j contradicts n_j≥3 for long j.",
+    "proof_dependencies": [
+      "NAV-008"
+    ],
+    "sources": [
+      {
+        "source_key": "N06",
+        "library_file_id": "libfile_6f94cba960148191832f11dd86ad963e",
+        "file_title": "Comparative_Navigation_06_Critical_Forests_and_the_Deterministic_Bridge_2026-10-20.md",
+        "section": "§6.1",
+        "version_time": "2026-10-21T00:59:56.441019Z",
+        "local_path": "sources/N06_a.md"
+      },
+      {
+        "source_key": "N08-S",
+        "library_file_id": "libfile_a5082de052808191a213b21eb1dd2ee0",
+        "file_title": "Comparative_Navigation_08_Sampling_Interfaces_Subtree_Mergers_and_Arithmetic_Counters_2026-10-20.md",
+        "section": "§2.2",
+        "version_time": "2026-10-21T03:24:39.971411Z",
+        "local_path": "sources/N08_sampling.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "No bound on how many subsequent workloads may start.",
+    "significance": "An all-shape inner termination theorem, not a Collatz proof.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-013",
+    "title": "Complete-tree growth sign classification",
+    "status": "checked_proof",
+    "statement": "C3 complete trees grow exactly for sizes one and two; all sizes≥3 descend. Every complete C5 tree grows; infinitely many completions imply escape.",
+    "assumptions": [
+      "Actual stopped C3/C5 paths; complete exact tree guards."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Enumerate the two size-three C3 words; for m≥4 bound by 2(5/6)^m<1. C5 homogeneous multiplier is 2(5/4)^m. Infinite bounded-state returns would force periodicity, incompatible with growing tree endpoints.",
+    "proof_dependencies": [
+      "NAV-008",
+      "NAV-012"
+    ],
+    "sources": [
+      {
+        "source_key": "N06",
+        "library_file_id": "libfile_6f94cba960148191832f11dd86ad963e",
+        "file_title": "Comparative_Navigation_06_Critical_Forests_and_the_Deterministic_Bridge_2026-10-20.md",
+        "section": "§§6.2–7.1",
+        "version_time": "2026-10-21T00:59:56.441019Z",
+        "local_path": "sources/N06_a.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Chronology of short C3 trees and infinite completion on named C5 sources remain open.",
+    "significance": "Substantive all-shape theorem, but large C3 trees were already numerically favorable.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-014",
+    "title": "Sharp all-tree native credit bound",
+    "status": "checked_proof",
+    "statement": "An m-node Antihydra tree earns m+1 native units and needs at most max(0,m-3) entering units; the star attains the bound.",
+    "assumptions": [
+      "Complete tree and phase/native semantics."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "At proper prefix t, pending count≤m-t; substitute into b=t+1-Q. First star phase attains deficit m-3.",
+    "proof_dependencies": [
+      "NAV-008"
+    ],
+    "sources": [
+      {
+        "source_key": "N06",
+        "library_file_id": "libfile_6f94cba960148191832f11dd86ad963e",
+        "file_title": "Comparative_Navigation_06_Critical_Forests_and_the_Deterministic_Bridge_2026-10-20.md",
+        "section": "§7.2",
+        "version_time": "2026-10-21T00:59:56.441019Z",
+        "local_path": "sources/N06_a.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Net gain cannot retrospectively pay early expense.",
+    "significance": "Uniform safety interface for arbitrary shapes.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-015",
+    "title": "Capped-root conditional C3 descent bridge",
+    "status": "conditional",
+    "statement": "4K≤m implies descent; at complete roots, sum min(T_i,16)≥4J suffices. A root cap-five liminf mean above 1/(2-log2 3) excludes an escaping C3 orbit.",
+    "assumptions": [
+      "Actual root-selected sample; no absorption in the compared prefix; cap-five argument assumes escape to make additions o(m)."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Forest identity yields H≥7m/4 for the finite condition. At complete boundaries growth log is -(2-log2 3)m+J+o(m).",
+    "proof_dependencies": [
+      "NAV-008",
+      "NAV-011",
+      "NAV-012"
+    ],
+    "sources": [
+      {
+        "source_key": "N06",
+        "library_file_id": "libfile_6f94cba960148191832f11dd86ad963e",
+        "file_title": "Comparative_Navigation_06_Critical_Forests_and_the_Deterministic_Bridge_2026-10-20.md",
+        "section": "§8",
+        "version_time": "2026-10-21T00:59:56.441019Z",
+        "local_path": "sources/N06_a.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "The 7/4 threshold is inherited; the capped-tree formulation is this series specialization.",
+    "limitations": "No actual-source frequency theorem is proved. Cap-five escape exclusion alone does not exclude nontrivial cycles.",
+    "significance": "A bounded observable can suffice; full reference law is unnecessary.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-016",
+    "title": "Exact capped-tree masks",
+    "status": "checked_proof",
+    "statement": "min(T(n),R) depends only on n modulo 2^(2R-2); cap-five counts are 64,16,8,5,35 among 128 odd residues.",
+    "assumptions": [
+      "Formal first-tree time, infinity allowed; absorption reported separately in observed chains."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Union first-tree cylinders with sizes<R, whose moduli are 2^(2t). Independent audit recomputed cap-five masks in all three maps.",
+    "proof_dependencies": [
+      "NAV-001",
+      "NAV-008"
+    ],
+    "sources": [
+      {
+        "source_key": "N08-S",
+        "library_file_id": "libfile_a5082de052808191a213b21eb1dd2ee0",
+        "file_title": "Comparative_Navigation_08_Sampling_Interfaces_Subtree_Mergers_and_Arithmetic_Counters_2026-10-20.md",
+        "section": "§3",
+        "version_time": "2026-10-21T03:24:39.971411Z",
+        "local_path": "sources/N08_sampling.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Finite local query does not control its values at actual selected roots.",
+    "significance": "Removes any need for an oracle to measure a capped recursive statistic.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-017",
+    "title": "Sharp tree affine-offset envelopes",
+    "status": "checked_proof",
+    "statement": "B/P=(1/c)sum_i(4/(c rho))^i(2/rho)^Delta_i. Unary/star trees attain the size-only offset extrema; ordinary and retaining maps have opposite order.",
+    "assumptions": [
+      "Complete m-node trees for extrema; arbitrary words for weighted-prefix formula."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Compose additions divided by P. For trees, 0≤Delta_i≤m-1-i; monotonicity in Delta gives exact extrema and geometric sums.",
+    "proof_dependencies": [
+      "NAV-001",
+      "NAV-008"
+    ],
+    "sources": [
+      {
+        "source_key": "N07",
+        "library_file_id": "libfile_3b278a4d14cc8191a2813c11e50e8961",
+        "file_title": "Comparative_Navigation_07_Parser_Interfaces_Shape_Envelopes_and_Deterministic_Controls_2026-10-20.md",
+        "section": "§4",
+        "version_time": "2026-10-21T02:16:24.956265Z",
+        "local_path": "sources/N07_a.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Different shapes have different source guards; one cannot reorder a fixed orbit freely.",
+    "significance": "Exact shape dependence in one weighted functional.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-018",
+    "title": "Resource and endpoint ordering can conflict",
+    "status": "checked_proof",
+    "statement": "Increasing required entering credit minimizes credit over positive-gain child permutations, whereas increasing beta/(alpha-1) minimizes affine endpoint offset for alpha>1. These orders can disagree.",
+    "assumptions": [
+      "Complete child trees with positive gains; C5/Antihydra alpha>1 for endpoint rule."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Adjacent-exchange proofs. N07 gives two ten-node Antihydra words with offset ordering opposite safety requirement 0 versus 3.",
+    "proof_dependencies": [
+      "NAV-014",
+      "NAV-017"
+    ],
+    "sources": [
+      {
+        "source_key": "N07",
+        "library_file_id": "libfile_3b278a4d14cc8191a2813c11e50e8961",
+        "file_title": "Comparative_Navigation_07_Parser_Interfaces_Shape_Envelopes_and_Deterministic_Controls_2026-10-20.md",
+        "section": "§5",
+        "version_time": "2026-10-21T02:16:24.956265Z",
+        "local_path": "sources/N07_a.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Counterfactual child orders usually require different original sources.",
+    "significance": "Rejects one-scalar optimization of both growth and safety.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-019",
+    "title": "Ruler and rotor comparison controls",
+    "status": "checked_proof",
+    "statement": "The ruler depth 1+v2(t) has H_N=2N-popcount(N) and exact geometric marginals without random-reference regional or forest law; a separate deterministic rotor controller also yields logarithmic discrepancy.",
+    "assumptions": [
+      "Formal comparison streams, not authenticated infinite positive arithmetic orbits."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Count multiples of powers of two; telescope binary digit sums. Rotor controller uses an explicit balanced local schedule and ruler rewards.",
+    "proof_dependencies": [
+      "NAV-008"
+    ],
+    "sources": [
+      {
+        "source_key": "N07",
+        "library_file_id": "libfile_3b278a4d14cc8191a2813c11e50e8961",
+        "file_title": "Comparative_Navigation_07_Parser_Interfaces_Shape_Envelopes_and_Deterministic_Controls_2026-10-20.md",
+        "section": "§§6–7",
+        "version_time": "2026-10-21T02:16:24.956265Z",
+        "local_path": "sources/N07_a.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Raw actual records reject literal ruler coding; finite word realizations are not one infinite source.",
+    "significance": "Shows full random-looking structure is stronger than required for mean depth.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-020",
+    "title": "Deterministic routing-error identity",
+    "status": "checked_proof",
+    "statement": "If h-Ph=f-pi f, any state path has sum(f-pi f)=h(start)-h(end)+sum_(i,j)(Nij-NiPij)h(j).",
+    "assumptions": [
+      "Finite reference matrix and a solution h; no stochastic assumption on actual path."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Telescoping h and grouping outgoing transition counts proves the identity. E/G specialization adds actual G-reward error and bounded boundary correction.",
+    "proof_dependencies": [],
+    "sources": [
+      {
+        "source_key": "N07",
+        "library_file_id": "libfile_3b278a4d14cc8191a2813c11e50e8961",
+        "file_title": "Comparative_Navigation_07_Parser_Interfaces_Shape_Envelopes_and_Deterministic_Controls_2026-10-20.md",
+        "section": "§7",
+        "version_time": "2026-10-21T02:16:24.956265Z",
+        "local_path": "sources/N07_a.md"
+      },
+      {
+        "source_key": "N12",
+        "library_file_id": "libfile_250eca26a5ac8191a75a1b209b7a9e47",
+        "file_title": "Comparative_Navigation_12_Region_Resolved_Recovery_and_Bounded_Debt_Grammars_2026-10-21.md",
+        "section": "§5.3",
+        "version_time": "2026-10-21T14:37:25.744372Z",
+        "local_path": "sources/N12.md"
+      }
+    ],
+    "attribution": "Poisson-potential telescoping is classical; Holroyd–Propp rotor work is documented inspiration, not a transferred arithmetic theorem.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Reference matrix existence is not a bound on actual weighted routing errors.",
+    "significance": "An exact interface for deterministic control with possible cancellation.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-021",
+    "title": "Root-count and unfinished-age reference laws",
+    "status": "known_external",
+    "statement": "With u_N=binom(2N,N)/4^N and S_N=(2N+1)u_N, E K_N=S_N-1, Var K_N=2N+2-S_N-S_N²; last renewal law P(G_N=g)=u_g u_(N-g), with arcsine scaled limit.",
+    "assumptions": [
+      "Critical geometric reference renewal process."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Generating functions from f=1-sqrt(1-z); renewal at g times survival of the next tree. Age variance is N(N+1)/8.",
+    "proof_dependencies": [
+      "NAV-010"
+    ],
+    "sources": [
+      {
+        "source_key": "N07",
+        "library_file_id": "libfile_3b278a4d14cc8191a2813c11e50e8961",
+        "file_title": "Comparative_Navigation_07_Parser_Interfaces_Shape_Envelopes_and_Deterministic_Controls_2026-10-20.md",
+        "section": "§9",
+        "version_time": "2026-10-21T02:16:24.956265Z",
+        "local_path": "sources/N07_a.md"
+      },
+      {
+        "source_key": "N08-C",
+        "library_file_id": "libfile_943968303adc8191ae727849c43947e7",
+        "file_title": "Comparative_Navigation_08_Arithmetic_Counters_History_Mergers_and_Tail_Control_2026-10-20.md",
+        "section": "§6",
+        "version_time": "2026-10-21T03:14:49.718357Z",
+        "local_path": "sources/N08_counters.md"
+      }
+    ],
+    "attribution": "Classical renewal/arcsine methods specialized by direct generating-function derivations; Janson cited for tree background.",
+    "novelty": "Not a new probability law.",
+    "limitations": "No confidence statement or probability assignment for one named source.",
+    "significance": "Clarifies sparse root samples and ordinary reference occurrence of old open trees.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-022",
+    "title": "Packet digit rewrite and finite quotient balance",
+    "status": "checked_proof",
+    "statement": "For z=(n-1)/2, a packet is z=r+2^H t→z′=Pt+b. Over 128 consecutive t, cap-five output values are exactly balanced.",
+    "assumptions": [
+      "P odd; input lifts sufficiently high for any stopping guard; actual quotient retained."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "An odd-affine map permutes residues modulo 128. Exhaustive odd slopes give interval constants 1097/128 (C3/C5), 1001/128 (Antihydra), independently recomputed.",
+    "proof_dependencies": [
+      "NAV-001",
+      "NAV-016"
+    ],
+    "sources": [
+      {
+        "source_key": "N08-S",
+        "library_file_id": "libfile_a5082de052808191a213b21eb1dd2ee0",
+        "file_title": "Comparative_Navigation_08_Sampling_Interfaces_Subtree_Mergers_and_Arithmetic_Counters_2026-10-20.md",
+        "section": "§4",
+        "version_time": "2026-10-21T03:24:39.971411Z",
+        "local_path": "sources/N08_sampling.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "This varies the source. Actual chronological traversal remains unproved; an unrelated well-distributed counter can coexist with all depths one.",
+    "significance": "Precise target for deriving a real branch-test counter.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-023",
+    "title": "Isometric-counter full-tail estimate",
+    "status": "checked_proof",
+    "statement": "If v2(z_t-z_s)=v2(t-s), observed depths 1+v2(z_t) have exact residue-tail counts; on length L with maximum valuation R, full-tail error times L is <R+2.",
+    "assumptions": [
+      "Integer nonzero observations; the isometry holds on the indexed sequence."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Each residue occurs once per power-of-two period, so each finite tail count errs by <1. Sum to R and add geometric tail L2^-R<2.",
+    "proof_dependencies": [],
+    "sources": [
+      {
+        "source_key": "N08-C",
+        "library_file_id": "libfile_943968303adc8191ae727849c43947e7",
+        "file_title": "Comparative_Navigation_08_Arithmetic_Counters_History_Mergers_and_Tail_Control_2026-10-20.md",
+        "section": "§§2.1–2.3",
+        "version_time": "2026-10-21T03:14:49.718357Z",
+        "local_path": "sources/N08_counters.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Not automatically a Collatz observable; mean control requires a bound on R.",
+    "significance": "Separates traversal from unbounded observation cost.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-024",
+    "title": "Fixed-exponential-counter logarithmic valuation bound",
+    "status": "known_external",
+    "statement": "For fixed admissible A,u,v and nonzero terms, v2(uA^t+v)=O_(A,u,v)(log(t+2)); combined with NAV-023 gives deterministic full-depth control.",
+    "assumptions": [
+      "A≡1 mod4, fixed odd u,v; independent squared rational bases use Chim; dependent cases handled separately."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "The N08-C reduction uses Chim Theorem 2.1; its exact statement was checked in the primary PDF, printed pp.297–299. Constants depend on fixed bases.",
+    "proof_dependencies": [
+      "NAV-023"
+    ],
+    "sources": [
+      {
+        "source_key": "N08-C",
+        "library_file_id": "libfile_943968303adc8191ae727849c43947e7",
+        "file_title": "Comparative_Navigation_08_Arithmetic_Counters_History_Mergers_and_Tail_Control_2026-10-20.md",
+        "section": "§§2.4–2.6",
+        "version_time": "2026-10-21T03:14:49.718357Z",
+        "local_path": "sources/N08_counters.md"
+      }
+    ],
+    "attribution": "Kwok Chi Chim, Journal of Number Theory 266 (2025), 295–349, Theorem 2.1, DOI 10.1016/j.jnt.2024.07.012. Anashin is related generator background.",
+    "novelty": "Imported theorem; specialization is not a new logarithmic-form result.",
+    "limitations": "No uniform constant when cofactors change; external theorem proof not reconstructed.",
+    "significance": "A genuine non-elementary input, not an empirical analogy.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-025",
+    "title": "Fixed-cofactor constant-or-counter channels",
+    "status": "checked_proof",
+    "statement": "For fixed odd U,V and A≡1 mod4, A>1, if v2(U+V)<v2(A-1) the valuation is constant; otherwise normalized outputs obey the isometry. This classifies fixed-cofactor region-parameter channels.",
+    "assumptions": [
+      "Fixed cofactors; split legal parameter classes; handle a zero separately."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "LTE gives v2(A^d-1)=v2(A-1)+v2(d); compare U(A^t-1) with U+V. Exact successor proportions follow by residue counting.",
+    "proof_dependencies": [
+      "NAV-004",
+      "NAV-023",
+      "NAV-024"
+    ],
+    "sources": [
+      {
+        "source_key": "N08-C",
+        "library_file_id": "libfile_943968303adc8191ae727849c43947e7",
+        "file_title": "Comparative_Navigation_08_Arithmetic_Counters_History_Mergers_and_Tail_Control_2026-10-20.md",
+        "section": "§2.8",
+        "version_time": "2026-10-21T03:14:49.718357Z",
+        "local_path": "sources/N08_counters.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Parameter-family frequencies are not fixed-orbit frequencies; changing-cofactor logarithmic estimates need their own constants.",
+    "significance": "Authentic arithmetic family law with correct sampling variable.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-026",
+    "title": "Deep-tail obligation and sparse-spike rejection",
+    "status": "checked_proof",
+    "statement": "With fixed-depth frequency convergence, mean depth two is equivalent to vanishing lim_R limsup_N N^-1 sum(a_i-R)_+. Sparse huge spikes can preserve every bounded finite-word frequency but destroy the mean.",
+    "assumptions": [
+      "Positive depth stream; finite-prefix arithmetic realizations only for formal countercontrols."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Exact cap-plus-excess decomposition. Add 2^j at ruler index 2^j; only O(log N) terms change while normalized excess remains order one.",
+    "proof_dependencies": [
+      "NAV-019"
+    ],
+    "sources": [
+      {
+        "source_key": "N08-C",
+        "library_file_id": "libfile_943968303adc8191ae727849c43947e7",
+        "file_title": "Comparative_Navigation_08_Arithmetic_Counters_History_Mergers_and_Tail_Control_2026-10-20.md",
+        "section": "§5",
+        "version_time": "2026-10-21T03:14:49.718357Z",
+        "local_path": "sources/N08_counters.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "No infinite positive arithmetic source for the spiked sequence is asserted.",
+    "significance": "Prevents bounded statistics from silently proving an unbounded-cost conclusion.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-027",
+    "title": "Time-sampled cap does not transfer to roots",
+    "status": "refuted",
+    "statement": "A favorable all-time capped-tree average automatically supplies the root-selected average needed for C3 descent.",
+    "assumptions": [
+      "Refuted even by whole finite source families with no early descent."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "At each node the local tree is its fringe subtree. Words 1^L 2^(L-1)1 have time cap5 mean 3-5/L≥5/2 but root mean (L+5)/(L+1)→1; all C3 prefix multipliers exceed one.",
+    "proof_dependencies": [
+      "NAV-001",
+      "NAV-008",
+      "NAV-015",
+      "NAV-016"
+    ],
+    "sources": [
+      {
+        "source_key": "N09",
+        "library_file_id": "libfile_e66b38adf1f4819185a63ad431c088c8",
+        "file_title": "Comparative_Navigation_09_Hypothesis_Tests_Cofactor_Turnover_and_Source_Ownership_2026-10-20.md",
+        "section": "§4",
+        "version_time": "2026-10-21T04:54:02.263614Z",
+        "local_path": "sources/N09_a.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "This does not refute every possible theorem using time averages; a separate selection relation is required.",
+    "significance": "A strong arithmetic countercontrol against sample substitution.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-028",
+    "title": "Equal-clock source-merger criterion",
+    "status": "checked_proof",
+    "statement": "Equal-clock words have an integer-source common endpoint iff B_v=B_w modulo P. A larger B gives a smaller positive companion for every actual positive source in formal arithmetic.",
+    "assumptions": [
+      "Same M,H,P; actual odd endpoint; stopping and budget guards separate."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Subtract affine maps. Shift is even; final integrality authenticates all depths. A negative odd companion would remain negative, contradicting the positive common endpoint.",
+    "proof_dependencies": [
+      "NAV-001"
+    ],
+    "sources": [
+      {
+        "source_key": "N08-S",
+        "library_file_id": "libfile_a5082de052808191a213b21eb1dd2ee0",
+        "file_title": "Comparative_Navigation_08_Sampling_Interfaces_Subtree_Mergers_and_Arithmetic_Counters_2026-10-20.md",
+        "section": "§6",
+        "version_time": "2026-10-21T03:24:39.971411Z",
+        "local_path": "sources/N08_sampling.md"
+      },
+      {
+        "source_key": "N08-C",
+        "library_file_id": "libfile_943968303adc8191ae727849c43947e7",
+        "file_title": "Comparative_Navigation_08_Arithmetic_Counters_History_Mergers_and_Tail_Control_2026-10-20.md",
+        "section": "§3.1",
+        "version_time": "2026-10-21T03:14:49.718357Z",
+        "local_path": "sources/N08_counters.md"
+      }
+    ],
+    "attribution": "General equal-clock principle and fixed-prefix obstruction already present in Creative Closure 08; N08 specializes to tree image classes.",
+    "novelty": "Do not credit the general merger principle as first discovered here.",
+    "limitations": "A local smaller source need not be smaller than the original seed.",
+    "significance": "Turns symbolic shape changes into exact arithmetic contacts.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-029",
+    "title": "Tree endpoint-code capacity",
+    "status": "checked_proof",
+    "statement": "At most (c rho)^(m-1) endpoint codes occur among Catalan(m-1) complete m-node trees; at most one shape per code lacks a smaller-source representative. C3 uncovered fraction tends to zero.",
+    "assumptions": [
+      "Fixed tree size and exact source-family interpretation; final depth one."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Final step fixes B modulo c; different trees cannot have identical full offset. Choose largest B per code. Catalan asymptotics compare base 4 with c rho.",
+    "proof_dependencies": [
+      "NAV-008",
+      "NAV-013",
+      "NAV-028"
+    ],
+    "sources": [
+      {
+        "source_key": "N08-S",
+        "library_file_id": "libfile_a5082de052808191a213b21eb1dd2ee0",
+        "file_title": "Comparative_Navigation_08_Sampling_Interfaces_Subtree_Mergers_and_Arithmetic_Counters_2026-10-20.md",
+        "section": "§7",
+        "version_time": "2026-10-21T03:24:39.971411Z",
+        "local_path": "sources/N08_sampling.md"
+      },
+      {
+        "source_key": "N08-C",
+        "library_file_id": "libfile_943968303adc8191ae727849c43947e7",
+        "file_title": "Comparative_Navigation_08_Arithmetic_Counters_History_Mergers_and_Tail_Control_2026-10-20.md",
+        "section": "§4",
+        "version_time": "2026-10-21T03:14:49.718357Z",
+        "local_path": "sources/N08_counters.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Does not force a named orbit to select a reducible shape; favorable large C3 trees already descend. Counting alone fails in resistant low-depth regime.",
+    "significance": "Connects source coding and homogeneous growth scale without confusing them.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-030",
+    "title": "Unchanged-prefix source ownership gate",
+    "status": "checked_proof",
+    "statement": "A local shift d after unchanged prefix U lifts to original shift 2^H_U d/P_U iff P_U divides d; tree suffix codes must agree modulo P_U P_T.",
+    "assumptions": [
+      "Same earlier word is preserved exactly; native guards separately checked."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Invert the prefix affine relation. Odd P_U is coprime to 2^H_U, giving the exact divisibility gate.",
+    "proof_dependencies": [
+      "NAV-001",
+      "NAV-028"
+    ],
+    "sources": [
+      {
+        "source_key": "N08-C",
+        "library_file_id": "libfile_943968303adc8191ae727849c43947e7",
+        "file_title": "Comparative_Navigation_08_Arithmetic_Counters_History_Mergers_and_Tail_Control_2026-10-20.md",
+        "section": "§4.2",
+        "version_time": "2026-10-21T03:14:49.718357Z",
+        "local_path": "sources/N08_counters.md"
+      },
+      {
+        "source_key": "N09",
+        "library_file_id": "libfile_e66b38adf1f4819185a63ad431c088c8",
+        "file_title": "Comparative_Navigation_09_Hypothesis_Tests_Cofactor_Turnover_and_Source_Ownership_2026-10-20.md",
+        "section": "§6.1–6.2",
+        "version_time": "2026-10-21T04:54:02.263614Z",
+        "local_path": "sources/N09_a.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Inherited gate, extended by depth-resolved censuses in N09.",
+    "limitations": "Does not forbid constructions that change the earlier history; local shift four cannot pass an ordinary-map prefix unchanged.",
+    "significance": "Essential induction/source authentication constraint.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-031",
+    "title": "Counting-only preserved-ancestry obstruction",
+    "status": "checked_proof",
+    "statement": "For a fixed C3 source, sufficiently late next trees cannot be large enough for the simple past-preserving shape-capacity pigeonhole guarantee.",
+    "assumptions": [
+      "Entire r-round past unchanged; next complete tree obeys actual C3 source-height bound."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Counting needs asymptotic m/r>log3/log(4/3); actual tree bound has smaller slope log(3/2)/log(6/5). Exact upper bound (4/3)^C(64/81)^r→0 avoids numerical logs.",
+    "proof_dependencies": [
+      "NAV-012",
+      "NAV-029",
+      "NAV-030"
+    ],
+    "sources": [
+      {
+        "source_key": "N09",
+        "library_file_id": "libfile_e66b38adf1f4819185a63ad431c088c8",
+        "file_title": "Comparative_Navigation_09_Hypothesis_Tests_Cofactor_Turnover_and_Source_Ownership_2026-10-20.md",
+        "section": "§6.3–6.4",
+        "version_time": "2026-10-21T04:54:02.263614Z",
+        "local_path": "sources/N09_a.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Not an impossibility theorem for specific congruence mergers or modified earlier histories.",
+    "significance": "Rules out an attractive counting-only completion strategy.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-032",
+    "title": "Compulsory cofactor turnover at E handoffs",
+    "status": "checked_proof",
+    "statement": "Positive E-entry cofactors satisfy gcd(u,u′)=1, u>1 and u′≠u; two consecutive handoffs also constrain gcd(u0,u2) by the explicit connector.",
+    "assumptions": [
+      "Positive conventions 3n-1,5n+3,15n+11; legal E entries."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Successor equations are 2^h u′=3^j u+1, 5^j u-1, or 3^(2j-1)u+1. A shared divisor divides one; entry congruences exclude u=1.",
+    "proof_dependencies": [
+      "NAV-004",
+      "NAV-025"
+    ],
+    "sources": [
+      {
+        "source_key": "N09",
+        "library_file_id": "libfile_e66b38adf1f4819185a63ad431c088c8",
+        "file_title": "Comparative_Navigation_09_Hypothesis_Tests_Cofactor_Turnover_and_Source_Ownership_2026-10-20.md",
+        "section": "§5",
+        "version_time": "2026-10-21T04:54:02.263614Z",
+        "local_path": "sources/N09_a.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Coprimality is not independence or balance; all-A finite source families satisfy it.",
+    "significance": "Rejects literal fixed-u temporal traversal while preserving family-wise counter laws.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-033",
+    "title": "Named-source 9/4 depth cone",
+    "status": "conjecture",
+    "statement": "For C5 from 7 and 21 and Antihydra shifted source 7 separately, H_m≤9m/4 for every formal prefix.",
+    "assumptions": [
+      "Named source; formal continuation for infinite outcome claim; native finite initialization."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Only finite exact checks are supplied. Conditional C5 lower factor 5/2^(9/4)>1 and Antihydra b=(3m+W)/4 establish intended consequences.",
+    "proof_dependencies": [
+      "NAV-001",
+      "NAV-011"
+    ],
+    "sources": [
+      {
+        "source_key": "N09",
+        "library_file_id": "libfile_e66b38adf1f4819185a63ad431c088c8",
+        "file_title": "Comparative_Navigation_09_Hypothesis_Tests_Cofactor_Turnover_and_Source_Ownership_2026-10-20.md",
+        "section": "§2",
+        "version_time": "2026-10-21T04:54:02.263614Z",
+        "local_path": "sources/N09_a.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Formulated after inspecting data; known C5 cycles and changed Antihydra source16 disprove a universal-source version.",
+    "significance": "Useful outcome target stronger than native safety, weaker than exact mean depth two.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-034",
+    "title": "Actual Antihydra ordering optimality",
+    "status": "refuted",
+    "statement": "Every completed subtree on source-eight Antihydra has resource-optimal sibling ordering.",
+    "assumptions": [
+      "Actual source-eight chronology, not a free-cylinder counterexample."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "The 62-node subtree at phase19, shifted state7634069, begins 6,6 and needs six native units versus optimized three; actual entering budget23 pays the difference.",
+    "proof_dependencies": [
+      "NAV-018"
+    ],
+    "sources": [
+      {
+        "source_key": "N09",
+        "library_file_id": "libfile_e66b38adf1f4819185a63ad431c088c8",
+        "file_title": "Comparative_Navigation_09_Hypothesis_Tests_Cofactor_Turnover_and_Source_Ownership_2026-10-20.md",
+        "section": "§3",
+        "version_time": "2026-10-21T04:54:02.263614Z",
+        "local_path": "sources/N09_a.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Does not show unsafe execution; it rejects the strongest greedy-safety explanation.",
+    "significance": "Source-authenticated mechanism rejection.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-035",
+    "title": "A finite depth prefix is not a source-free cone invariant",
+    "status": "refuted",
+    "statement": "Same finite history, earned budget and W margin suffice to preserve the 9/4 cone at all source lifts.",
+    "assumptions": [
+      "19-phase prefix matching shifted source7."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Changed source82463372083207 shares all19 depths and earned b=23,W=35 but next depth12 produces W=-4; actual source7 next depth is6.",
+    "proof_dependencies": [
+      "NAV-001",
+      "NAV-033"
+    ],
+    "sources": [
+      {
+        "source_key": "N09",
+        "library_file_id": "libfile_e66b38adf1f4819185a63ad431c088c8",
+        "file_title": "Comparative_Navigation_09_Hypothesis_Tests_Cofactor_Turnover_and_Source_Ownership_2026-10-20.md",
+        "section": "§2.6",
+        "version_time": "2026-10-21T04:54:02.263614Z",
+        "local_path": "sources/N09_a.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Does not refute source7 or native safety; it shows full source restriction is missing.",
+    "significance": "Demonstrates why a successful prefix must not be called a closed invariant.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-036",
+    "title": "Ordinary prime-record retention gate and local contraction",
+    "status": "checked_proof",
+    "statement": "At a maximal depth-a to depth-b switch with old record ν, retention iff b-a divisible by (p-1)p^(ν-1); the old run plus first new update contracts by ≤25/36 (C3) or ≤4/9 (C5).",
+    "assumptions": [
+      "p=3,5; nonterminal odd states; ν≥run length≥1."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Affine-center determinant identity and LTE force a large depth difference. Bound each step by (p+1/3)/2^depth and maximize over run length.",
+    "proof_dependencies": [
+      "NAV-001"
+    ],
+    "sources": [
+      {
+        "source_key": "N10",
+        "library_file_id": "libfile_fa0590416ffc81919ee873ebd4f50b2c",
+        "file_title": "Comparative_Navigation_10_Prime_Record_Resets_and_Safety_Hypotheses_2026-10-21.md",
+        "section": "§2",
+        "version_time": "2026-10-21T12:19:03.762171Z",
+        "local_path": "sources/N10.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Packets overlap unless explicitly parsed disjointly, so factors cannot automatically be multiplied.",
+    "significance": "A true all-input arithmetic restriction across mode changes.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-037",
+    "title": "Complete ordinary no-reset corridors are finite",
+    "status": "checked_proof",
+    "statement": "Record-retaining depth changes occur within O(log log n) rounds; the whole no-reset corridor ends in O(log n) rounds with the explicit bit-length bound.",
+    "assumptions": [
+      "Stop on absorption or immediately before first resetting new-depth step; positive odd initial source."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Old prime record increases with elapsed rounds, forcing exponential depth gaps, while arithmetic size bounds depths linearly in elapsed rounds; remaining constant run has a finite centered-reserve clock.",
+    "proof_dependencies": [
+      "NAV-036"
+    ],
+    "sources": [
+      {
+        "source_key": "N10",
+        "library_file_id": "libfile_fa0590416ffc81919ee873ebd4f50b2c",
+        "file_title": "Comparative_Navigation_10_Prime_Record_Resets_and_Safety_Hypotheses_2026-10-21.md",
+        "section": "§3",
+        "version_time": "2026-10-21T12:19:03.762171Z",
+        "local_path": "sources/N10.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "No total-corridor count or global contraction law follows.",
+    "significance": "Compresses an unbounded changing-mode family with explicit exit.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-038",
+    "title": "No uniform retaining-switch cap or corridor contraction",
+    "status": "refuted",
+    "statement": "All no-reset corridors have a source-independent bounded number of retaining changes, or necessarily contract overall.",
+    "assumptions": [
+      "Counterfamilies vary their positive source."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "CRT constructs depths (1,p,p²,...) with all changes retaining. Separate (3,1^L) and (5,1^L) corridors grow by unbounded factors before a reset.",
+    "proof_dependencies": [
+      "NAV-001",
+      "NAV-036",
+      "NAV-037"
+    ],
+    "sources": [
+      {
+        "source_key": "N10",
+        "library_file_id": "libfile_fa0590416ffc81919ee873ebd4f50b2c",
+        "file_title": "Comparative_Navigation_10_Prime_Record_Resets_and_Safety_Hypotheses_2026-10-21.md",
+        "section": "§4",
+        "version_time": "2026-10-21T12:19:03.762171Z",
+        "local_path": "sources/N10.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Compatible with finite source-dependent duration; not a fixed-source infinite counterexample.",
+    "significance": "Prevents overextending local contraction and local clocks.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-039",
+    "title": "Antihydra maximal backward run decoder and reset",
+    "status": "checked_proof",
+    "statement": "For output y, a=1+v3(y), D_a=(3^a-2^a)y+3^(a-1); maximal backward same-cost length is floor(v3(D_a)/a). At a genuine change a→b, new record is min(a,b)-1.",
+    "assumptions": [
+      "Image checks for arbitrary candidate output; positive odd arithmetic."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Each reverse phase subtracts a from reserve ternary valuation; divisibility by 3^a-2^a and positivity authenticate the inverse. At change, unequal term valuations give their minimum.",
+    "proof_dependencies": [
+      "NAV-006"
+    ],
+    "sources": [
+      {
+        "source_key": "N10",
+        "library_file_id": "libfile_fa0590416ffc81919ee873ebd4f50b2c",
+        "file_title": "Comparative_Navigation_10_Prime_Record_Resets_and_Safety_Hypotheses_2026-10-21.md",
+        "section": "§5",
+        "version_time": "2026-10-21T12:19:03.762171Z",
+        "local_path": "sources/N10.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Past decoding neither calculates all original earned credit without full ancestry nor bounds the next exceptional valuation.",
+    "significance": "Precise distinction between local record reset and retained full history.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-040",
+    "title": "Global seven-feature potential proposal",
+    "status": "refuted",
+    "statement": "A linear potential in constant, bit length, popcount, number of 1-runs, v2(x),v2(x-1),v2(x+1) satisfies all global native-counter inequalities from source8.",
+    "assumptions": [
+      "All integer x≥2; coefficients of either sign; nonnegative potential, initial potential≤0, one-step subsolution inequality."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Eight nonnegative rationally weighted necessary inequalities cancel all seven coefficients and sum to 0≤-1. Audit independently recomputed the exact certificate.",
+    "proof_dependencies": [],
+    "sources": [
+      {
+        "source_key": "N10",
+        "library_file_id": "libfile_fa0590416ffc81919ee873ebd4f50b2c",
+        "file_title": "Comparative_Navigation_10_Prime_Record_Resets_and_Safety_Hypotheses_2026-10-21.md",
+        "section": "§6",
+        "version_time": "2026-10-21T12:19:03.762171Z",
+        "local_path": "sources/N10.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Does not reject guarded, nonlinear, relational or macro-level potentials.",
+    "significance": "Exact finite negative result worth retaining instead of refitting the same class.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-041",
+    "title": "Sharp bounded-degree tree resource envelope",
+    "status": "checked_proof",
+    "statement": "For m-node trees with depths≤d and score p-qa, p≥2q, maximum credit is max(0,max_(1≤t<m) min((qd-p)t,q(m-1)-(p-q)t)).",
+    "assumptions": [
+      "m≥2; one-node case zero; positive q; all finite tree shapes allowed."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Combine Δ_t≤(d-2)t with Δ_t≤m-1-t. A queued-sibling path followed by leaves/unary extensions attains the maximizing bound.",
+    "proof_dependencies": [
+      "NAV-008",
+      "NAV-014"
+    ],
+    "sources": [
+      {
+        "source_key": "N10",
+        "library_file_id": "libfile_fa0590416ffc81919ee873ebd4f50b2c",
+        "file_title": "Comparative_Navigation_10_Prime_Record_Resets_and_Safety_Hypotheses_2026-10-21.md",
+        "section": "§7",
+        "version_time": "2026-10-21T12:19:03.762171Z",
+        "local_path": "sources/N10.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "A bounded largest depth alone cannot bound accumulated cost; source-selected shape remains relevant.",
+    "significance": "Controls arbitrary moderate-depth clusters and identifies active-ancestor debt.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-042",
+    "title": "Dyadic gain-and-borrowing closure proposal",
+    "status": "conjecture",
+    "statement": "At N=2^j≥512, W_(2N)-W_N≥N/2 and worst borrowing below W_N in the block≤N/4.",
+    "assumptions": [
+      "Each named growing candidate separately; authenticated initial W_N≥N/2 and earlier safe prefix."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "If true, dyadic induction gives W≥0 on all future times. Thirty complete retained blocks pass; no source theorem proves the inequalities.",
+    "proof_dependencies": [
+      "NAV-033"
+    ],
+    "sources": [
+      {
+        "source_key": "N10",
+        "library_file_id": "libfile_fa0590416ffc81919ee873ebd4f50b2c",
+        "file_title": "Comparative_Navigation_10_Prime_Record_Resets_and_Safety_Hypotheses_2026-10-21.md",
+        "section": "§8.3",
+        "version_time": "2026-10-21T12:19:03.762171Z",
+        "local_path": "sources/N10.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Stronger than the desired cone; finite passed blocks do not establish an invariant.",
+    "significance": "Separates internal safety from successor reserve.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-043",
+    "title": "Recovery queue and strict/weak packet calculus",
+    "status": "checked_proof",
+    "statement": "D′=max(0,D+4a-9); completed weak packets have H=(9L-g)/4 and 0≤g≤5, with g=5 only for length-one depth1. Strict packets concatenate zero weak recoveries and a positive one.",
+    "assumptions": [
+      "Start at a running maximum; retain unfinished attempts; stop separately on actual absorption."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Running-maximum definition gives Lindley recursion; last positive step is at most5 and has depth1 or2.",
+    "proof_dependencies": [
+      "NAV-008"
+    ],
+    "sources": [
+      {
+        "source_key": "N11",
+        "library_file_id": "libfile_d6dc469f6a108191bd899788ddd4bc32",
+        "file_title": "Comparative_Navigation_11_Recovery_Packets_Source_Deadlines_and_Deterministic_Queue_Control_2026-10-21.md",
+        "section": "§2",
+        "version_time": "2026-10-21T13:34:11.749207Z",
+        "local_path": "sources/N11.md"
+      }
+    ],
+    "attribution": "Classical Lindley reflection, explicitly credited to D. V. Lindley 1952; specialized deterministic arithmetic cuts.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Completion is not assumed; critical forest and recovery cuts are distinct.",
+    "significance": "A tilted stopping section with finite reference mean.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-044",
+    "title": "Sharp recovery-packet credit envelopes",
+    "status": "checked_proof",
+    "statement": "For packet length L,gain g: R_W≤max(0,5(L-1)-g), R_b≤max(0,(5L-g-8)/4), attained for every admissible pair.",
+    "assumptions": [
+      "Completed weak or strict packet; all-shape envelope."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Remaining depths are≥1, giving H_t≤H-L+t. Frontload all excess depth into the first update and follow by ones to attain the bound.",
+    "proof_dependencies": [
+      "NAV-043"
+    ],
+    "sources": [
+      {
+        "source_key": "N11",
+        "library_file_id": "libfile_d6dc469f6a108191bd899788ddd4bc32",
+        "file_title": "Comparative_Navigation_11_Recovery_Packets_Source_Deadlines_and_Deterministic_Queue_Control_2026-10-21.md",
+        "section": "§3",
+        "version_time": "2026-10-21T13:34:11.749207Z",
+        "local_path": "sources/N11.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "The sufficient worst-shape bound may greatly exceed the actual cost.",
+    "significance": "A certified duration and gain can fund an arbitrary internal shape.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-045",
+    "title": "Sharp recovery shape-offset extremes",
+    "status": "checked_proof",
+    "statement": "Balanced proper cumulative depths minimize B in C3/C5 and maximize it in Antihydra; frontloaded depths give opposite extrema at fixed L,g.",
+    "assumptions": [
+      "Completed strict or weak recovery; corresponding proper-prefix floor/ceiling bounds."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Use weighted-prefix offset formula with simultaneous lower and upper feasible cumulative-depth envelopes.",
+    "proof_dependencies": [
+      "NAV-017",
+      "NAV-043",
+      "NAV-044"
+    ],
+    "sources": [
+      {
+        "source_key": "N11",
+        "library_file_id": "libfile_d6dc469f6a108191bd899788ddd4bc32",
+        "file_title": "Comparative_Navigation_11_Recovery_Packets_Source_Deadlines_and_Deterministic_Queue_Control_2026-10-21.md",
+        "section": "§4",
+        "version_time": "2026-10-21T13:34:11.749207Z",
+        "local_path": "sources/N11.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Extremal words have different source cylinders; no rearrangement of a named orbit is authorized.",
+    "significance": "Quantifies duration-only conservatism and shape-dependent arithmetic.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-046",
+    "title": "C3 recovery-or-absorption and sign",
+    "status": "checked_proof",
+    "statement": "Every C3 recovery attempt ends or absorbs within 1+log(n/3)/log(2^(9/4)/(10/3)); every completed packet except one depth1 update contracts.",
+    "assumptions": [
+      "n>1, actual stopped C3; strict or weak convention."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Unfinished H_j≥9j/4 forces geometric contraction. Completed nontrivial packets have H≥2L; length-one depth2 also contracts.",
+    "proof_dependencies": [
+      "NAV-043"
+    ],
+    "sources": [
+      {
+        "source_key": "N11",
+        "library_file_id": "libfile_d6dc469f6a108191bd899788ddd4bc32",
+        "file_title": "Comparative_Navigation_11_Recovery_Packets_Source_Deadlines_and_Deterministic_Queue_Control_2026-10-21.md",
+        "section": "§5.1",
+        "version_time": "2026-10-21T13:34:11.749207Z",
+        "local_path": "sources/N11.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Does not control the chronology of growing one-step packets.",
+    "significance": "Another proved all-shape inner operation.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-047",
+    "title": "C5 completion growth and Antihydra net gain",
+    "status": "checked_proof",
+    "statement": "Every completed C5 recovery grows by more than (5/2^(9/4))^L; infinitely many imply escape. Every completed Antihydra recovery gains (3L+g)/4>0 native units.",
+    "assumptions": [
+      "Complete guarded packets; internal native budget separately funded."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Substitute H=(9L-g)/4 into exact product and credit identities. A bounded recurrent C5 state would force a cycle incompatible with unbounded endpoints.",
+    "proof_dependencies": [
+      "NAV-043",
+      "NAV-044"
+    ],
+    "sources": [
+      {
+        "source_key": "N11",
+        "library_file_id": "libfile_d6dc469f6a108191bd899788ddd4bc32",
+        "file_title": "Comparative_Navigation_11_Recovery_Packets_Source_Deadlines_and_Deterministic_Queue_Control_2026-10-21.md",
+        "section": "§5.2–5.3",
+        "version_time": "2026-10-21T13:34:11.749207Z",
+        "local_path": "sources/N11.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Infinite completion is unproved and source-universal completion fails on the cycle from83.",
+    "significance": "Separates completion reward from proof of completion and safety.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-048",
+    "title": "H11-R64 named-source fast recovery",
+    "status": "conjecture",
+    "statement": "Every weak recovery at a running-maximum boundary t≥2048 completes within64 ceil(log2(t+2)).",
+    "assumptions": [
+      "Each of C5 7, C5 21, Antihydra shifted7 separately; formal infinite arithmetic for C5."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Only finite complete packet checks and a source-reference tail motivation are provided.",
+    "proof_dependencies": [
+      "NAV-043"
+    ],
+    "sources": [
+      {
+        "source_key": "N11",
+        "library_file_id": "libfile_d6dc469f6a108191bd899788ddd4bc32",
+        "file_title": "Comparative_Navigation_11_Recovery_Packets_Source_Deadlines_and_Deterministic_Queue_Control_2026-10-21.md",
+        "section": "§6",
+        "version_time": "2026-10-21T13:34:11.749207Z",
+        "local_path": "sources/N11.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Includes completion, not merely a conditional estimate on packets that finish; data-informed proposal.",
+    "significance": "A concrete but still source-sensitive sufficient target.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-049",
+    "title": "Fast-recovery conditional outcome theorem",
+    "status": "conditional",
+    "statement": "H11-R64 plus an authenticated bootstrap gives native Antihydra safety and C5 lower growth n0 lambda^m/[2(m+2)]^80, lambda=5/2^(9/4)>1.",
+    "assumptions": [
+      "All future packets satisfy H11-R64; actual initial checkpoint and earlier execution checked."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "3t≥320 ceil(log2(t+2))-8 funds the sharp packet envelope. C5 internal W deficit≤320log gives the polynomial loss in its exact product.",
+    "proof_dependencies": [
+      "NAV-044",
+      "NAV-047",
+      "NAV-048"
+    ],
+    "sources": [
+      {
+        "source_key": "N11",
+        "library_file_id": "libfile_d6dc469f6a108191bd899788ddd4bc32",
+        "file_title": "Comparative_Navigation_11_Recovery_Packets_Source_Deadlines_and_Deterministic_Queue_Control_2026-10-21.md",
+        "section": "§6.1–6.2",
+        "version_time": "2026-10-21T13:34:11.749207Z",
+        "local_path": "sources/N11.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Does not prove the waiting-time hypothesis or the precise5/4 rate.",
+    "significance": "Removes an unnecessary separate positive-W-gain premise.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-050",
+    "title": "Sharp capped recovery precision",
+    "status": "checked_proof",
+    "statement": "min(τ,R) is determined by modulo2^floor((9R-5)/4) weak, and2^floor((9R-6)/4) strict; these precision exponents are sharp.",
+    "assumptions": [
+      "R≥2; formal arithmetic; absorption retained separately."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Union short-completion source cylinders. A maximal-depth frontloaded word and a2^H source perturbation force distinct capped outcomes at the final prescribed step.",
+    "proof_dependencies": [
+      "NAV-001",
+      "NAV-043"
+    ],
+    "sources": [
+      {
+        "source_key": "N11",
+        "library_file_id": "libfile_d6dc469f6a108191bd899788ddd4bc32",
+        "file_title": "Comparative_Navigation_11_Recovery_Packets_Source_Deadlines_and_Deterministic_Queue_Control_2026-10-21.md",
+        "section": "§7.1",
+        "version_time": "2026-10-21T13:34:11.749207Z",
+        "local_path": "sources/N11.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Not the critical-tree cap mask. Audit independently recomputed both cap-five tables, not all R.",
+    "significance": "Finite exact observable of a potentially infinite recovery time.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-051",
+    "title": "Reference recovery exponential tail and finite mean",
+    "status": "known_external",
+    "statement": "Under iid geometric depths, P(τ>N)≤μ^N with μ=(5/4)/(10/9)^(9/4)<1; Eτ=Eg is finite.",
+    "assumptions": [
+      "Source-reference process, not a named orbit."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Exponential Markov bound on H_N≥9N/4; μ^4 is exact rational<1. Integrable stopped-sum identity gives Eτ=Eg.",
+    "proof_dependencies": [
+      "NAV-010",
+      "NAV-043"
+    ],
+    "sources": [
+      {
+        "source_key": "N11",
+        "library_file_id": "libfile_d6dc469f6a108191bd899788ddd4bc32",
+        "file_title": "Comparative_Navigation_11_Recovery_Packets_Source_Deadlines_and_Deterministic_Queue_Control_2026-10-21.md",
+        "section": "§7.2–7.3",
+        "version_time": "2026-10-21T13:34:11.749207Z",
+        "local_path": "sources/N11.md"
+      }
+    ],
+    "attribution": "Classical exponential moments, stopping sums and queue/ladder ideas specialized to the geometric source law.",
+    "novelty": "No new probability theorem claimed.",
+    "limitations": "Reference eventual logarithmic waits do not authenticate any positive integer; reported exact DP mean enclosures were not rerun here.",
+    "significance": "Explains why tilted recoveries differ sharply from critical trees.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-052",
+    "title": "Arbitrarily long safe bounded-debt recoveries",
+    "status": "checked_proof",
+    "statement": "Z_r=(3,2,2)(3,2,2,2)^r(2) is a weak zero-gain packet of length4r+4 with W cost≤4 and no native Antihydra spending.",
+    "assumptions": [
+      "Every finite r has positive source lifts; varying r changes source."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Compute proper score prefixes; all depths≤3. Every maximal constant run has length≤4 despite arbitrarily long recovery.",
+    "proof_dependencies": [
+      "NAV-001",
+      "NAV-043"
+    ],
+    "sources": [
+      {
+        "source_key": "N11",
+        "library_file_id": "libfile_d6dc469f6a108191bd899788ddd4bc32",
+        "file_title": "Comparative_Navigation_11_Recovery_Packets_Source_Deadlines_and_Deterministic_Queue_Control_2026-10-21.md",
+        "section": "§9",
+        "version_time": "2026-10-21T13:34:11.749207Z",
+        "local_path": "sources/N11.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Not a counterexample to named-source R64, but refutes automatic fast recovery from short local runs/resets.",
+    "significance": "Keeps paid slow-language proofs active.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-053",
+    "title": "Exact canonical-region queue action",
+    "status": "checked_proof",
+    "statement": "Longer G has D_W′=max(D_W-j-5+4h,4h-1); E/S use reflected net gain. V has no concealed boundary maximum.",
+    "assumptions": [
+      "Canonical region definitions with lookahead retained."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Longer G earns j+4 before spending4h-1. Compute maximum including interior prefix; V first drops3 then rises.",
+    "proof_dependencies": [
+      "NAV-004",
+      "NAV-043"
+    ],
+    "sources": [
+      {
+        "source_key": "N12",
+        "library_file_id": "libfile_250eca26a5ac8191a75a1b209b7a9e47",
+        "file_title": "Comparative_Navigation_12_Region_Resolved_Recovery_and_Bounded_Debt_Grammars_2026-10-21.md",
+        "section": "§2.1–2.2",
+        "version_time": "2026-10-21T14:37:25.744372Z",
+        "local_path": "sources/N12.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Positive net gain does not imply no drawdown; drawdown is not actual negative credit.",
+    "significance": "Corrects a dangerous loss from net-only region sampling.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-054",
+    "title": "Nonaccumulating hidden-peak correction",
+    "status": "checked_proof",
+    "statement": "At canonical boundaries,0≤D_W-D_coarse≤max_i min(j_i+4,4h_i-1).",
+    "assumptions": [
+      "All complete longer G regions up to the boundary; initial maximum zero included."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Each internal maximum lies at most its concealed-peak amount above a neighboring boundary maximum; take the maximum, not the sum.",
+    "proof_dependencies": [
+      "NAV-053"
+    ],
+    "sources": [
+      {
+        "source_key": "N12",
+        "library_file_id": "libfile_250eca26a5ac8191a75a1b209b7a9e47",
+        "file_title": "Comparative_Navigation_12_Region_Resolved_Recovery_and_Bounded_Debt_Grammars_2026-10-21.md",
+        "section": "§2, Theorem2.2",
+        "version_time": "2026-10-21T14:37:25.744372Z",
+        "local_path": "sources/N12.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Correction unbounded across arbitrary sources; no future constant bound follows from finite maxima.",
+    "significance": "Makes region-level control usable with one explicit local error field.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-055",
+    "title": "One-pass E drainage",
+    "status": "refuted",
+    "statement": "Once recovery enters an E-led earning stage it finishes before another deep spending event.",
+    "assumptions": [
+      "Named-source actual packet witness."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "At Antihydra phase88, depths7,1,1,1,4,1,1,3,1 produce scores -19,-14,-9,-4,-11,-6,-1,-4,1; debt is spent again before recovery. C5 witnesses also exist.",
+    "proof_dependencies": [
+      "NAV-053"
+    ],
+    "sources": [
+      {
+        "source_key": "N12",
+        "library_file_id": "libfile_250eca26a5ac8191a75a1b209b7a9e47",
+        "file_title": "Comparative_Navigation_12_Region_Resolved_Recovery_and_Bounded_Debt_Grammars_2026-10-21.md",
+        "section": "§3.2",
+        "version_time": "2026-10-21T14:37:25.744372Z",
+        "local_path": "sources/N12.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Rejects only the one-pass mechanism, not positive E service or the queue identities.",
+    "significance": "Requires persistent debt across multiple region transitions.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-056",
+    "title": "H10-D16 logarithmic drawdown",
+    "status": "conjecture",
+    "statement": "For each named growing source separately,D_W(m)≤16 ceil(log2(m+1)) at all formal prefixes.",
+    "assumptions": [
+      "Named source and infinite continuation; finite native bootstrap if used for safety."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Passes retained finite records; reference exponential moments motivate the scale but no source-specific proof is given.",
+    "proof_dependencies": [
+      "NAV-043"
+    ],
+    "sources": [
+      {
+        "source_key": "N10",
+        "library_file_id": "libfile_fa0590416ffc81919ee873ebd4f50b2c",
+        "file_title": "Comparative_Navigation_10_Prime_Record_Resets_and_Safety_Hypotheses_2026-10-21.md",
+        "section": "§8.2",
+        "version_time": "2026-10-21T12:19:03.762171Z",
+        "local_path": "sources/N10.md"
+      },
+      {
+        "source_key": "N12",
+        "library_file_id": "libfile_250eca26a5ac8191a75a1b209b7a9e47",
+        "file_title": "Comparative_Navigation_12_Region_Resolved_Recovery_and_Bounded_Debt_Grammars_2026-10-21.md",
+        "section": "§4.1",
+        "version_time": "2026-10-21T14:37:25.744372Z",
+        "local_path": "sources/N12.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Data-informed hypothesis; small drawdown does not itself imply positive linear W drift.",
+    "significance": "A weaker sufficient outcome route than full statistical normality.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-057",
+    "title": "Drawdown alone suffices for C5 and native safety",
+    "status": "conditional",
+    "statement": "H10-D16 implies C5 escape with exponential/polynomial lower bound and Antihydra safety after checking the first32 phases.",
+    "assumptions": [
+      "Hypothesis on formal infinite trajectory, not merely a stopped prefix; actual bootstrap."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "W≥-D since initial maximum includes0. Substitute into H=(9m-W)/4 and b=(3m+W)/4; native lower bound becomes nonnegative for all m≥32.",
+    "proof_dependencies": [
+      "NAV-056"
+    ],
+    "sources": [
+      {
+        "source_key": "N12",
+        "library_file_id": "libfile_250eca26a5ac8191a75a1b209b7a9e47",
+        "file_title": "Comparative_Navigation_12_Region_Resolved_Recovery_and_Bounded_Debt_Grammars_2026-10-21.md",
+        "section": "§4, Theorem4.1",
+        "version_time": "2026-10-21T14:37:25.744372Z",
+        "local_path": "sources/N12.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Explicitly strengthens what N10 had extracted; does not contradict its observation that small drawdown need not give positive W drift.",
+    "limitations": "Does not prove H10-D16, exact5/4 rate, or complete recovery.",
+    "significance": "Important corrected proof obligation: positive W gain is unnecessary for these outcomes.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-058",
+    "title": "H12-L late linear debt envelope",
+    "status": "conjecture",
+    "statement": "For each named source,D_W(m)≤m/4 for every m≥2048.",
+    "assumptions": [
+      "Source-specific formal continuing trajectory."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Finite retained records pass; known C5 cycle83 fails the universal-source version.",
+    "proof_dependencies": [
+      "NAV-043"
+    ],
+    "sources": [
+      {
+        "source_key": "N12",
+        "library_file_id": "libfile_250eca26a5ac8191a75a1b209b7a9e47",
+        "file_title": "Comparative_Navigation_12_Region_Resolved_Recovery_and_Bounded_Debt_Grammars_2026-10-21.md",
+        "section": "§4.1",
+        "version_time": "2026-10-21T14:37:25.744372Z",
+        "local_path": "sources/N12.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Unproved; late bound cannot repair an earlier failed native bootstrap.",
+    "significance": "Allows substantially greater future deviations than the logarithmic target.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-059",
+    "title": "General linear drawdown outcome threshold",
+    "status": "conditional",
+    "statement": "D_W≤γm+C yields C5 escape ifγ<4log2(5)-9; eventual Antihydra safety ifγ<3, with explicit bootstrap. In particular H12-L gives H≤37m/16.",
+    "assumptions": [
+      "Actual formal arithmetic, controlled constant and finite earlier native execution."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "W≥-D and exact product/credit identities; 5^16>2^37 establishes strict C5 expansion forγ=1/4.",
+    "proof_dependencies": [
+      "NAV-058"
+    ],
+    "sources": [
+      {
+        "source_key": "N12",
+        "library_file_id": "libfile_250eca26a5ac8191a75a1b209b7a9e47",
+        "file_title": "Comparative_Navigation_12_Region_Resolved_Recovery_and_Bounded_Debt_Grammars_2026-10-21.md",
+        "section": "§4.1",
+        "version_time": "2026-10-21T14:37:25.744372Z",
+        "local_path": "sources/N12.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "No source-specific envelope is proved; exact reference rate is stronger.",
+    "significance": "Quantifies the slack between a useful bound and mean depth two.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-060",
+    "title": "Bounded debt funds arbitrary duration",
+    "status": "checked_proof",
+    "statement": "A recovery with relative debt≤B requires at most max(0,floor((B-3)/4)) entering native units, sharply, regardless of duration.",
+    "assumptions": [
+      "Open or completed recovery; phase minima cover driver updates."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "At open prefix t, native gain=(3t-D_t)/4; t≥1 yields the integer lower bound. A maximal permitted initial depth followed by ones attains it.",
+    "proof_dependencies": [
+      "NAV-043"
+    ],
+    "sources": [
+      {
+        "source_key": "N12",
+        "library_file_id": "libfile_250eca26a5ac8191a75a1b209b7a9e47",
+        "file_title": "Comparative_Navigation_12_Region_Resolved_Recovery_and_Bounded_Debt_Grammars_2026-10-21.md",
+        "section": "§4, Theorem4.2",
+        "version_time": "2026-10-21T14:37:25.744372Z",
+        "local_path": "sources/N12.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Conditional on staying within the debt bound; no exit coverage theorem.",
+    "significance": "Alternative to short-wait proofs, including infinite guarded continuations.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-061",
+    "title": "Weighted two-state region reference kernel",
+    "status": "checked_proof",
+    "statement": "For u=(s/2)z^-5,v=(s/4)z^-1,w=sz³/[8(1-z⁴/2)], K=[[u/(1-v),2uw/(1-v)],[u/(2(1-v)),v+w+uw/(1-v)]] and det(I-K)=1-u-v-w.",
+    "assumptions": [
+      "Source ensemble; F lookahead versus U unrestricted; convergence z⁴<2,v<1."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Sum neutral geometric series with correct conditional first-depth probability; direct determinant algebra recovers raw update moment.",
+    "proof_dependencies": [
+      "NAV-004",
+      "NAV-053"
+    ],
+    "sources": [
+      {
+        "source_key": "N12",
+        "library_file_id": "libfile_250eca26a5ac8191a75a1b209b7a9e47",
+        "file_title": "Comparative_Navigation_12_Region_Resolved_Recovery_and_Bounded_Debt_Grammars_2026-10-21.md",
+        "section": "§5",
+        "version_time": "2026-10-21T14:37:25.744372Z",
+        "local_path": "sources/N12.md"
+      }
+    ],
+    "attribution": "Classical generating-kernel and queue methods; the source-law/parser specialization is documented in N12.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "No additional independent rarity from regrouping; no arithmetic routing estimate is supplied.",
+    "significance": "Exact statistical interface retaining parser memory.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-062",
+    "title": "Complete width-three/four/five debt grammars",
+    "status": "checked_proof",
+    "statement": "Width3 has no interior cycle; width4 has only the rotated3,2,2,2 cycle; width5 has exactly two four-step returns P=(2,3,2,2),Q=(3,2,2,2) from debt2.",
+    "assumptions": [
+      "Interior positive debt only; every overflow/recovery is retained as exit; full arithmetic guards attached."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Enumerate D→D+4a-9. Centered affine reserve gives exact repeat count for width4; each full cycle lowers its2-adic valuation by9.",
+    "proof_dependencies": [
+      "NAV-001",
+      "NAV-043",
+      "NAV-060"
+    ],
+    "sources": [
+      {
+        "source_key": "N12",
+        "library_file_id": "libfile_250eca26a5ac8191a75a1b209b7a9e47",
+        "file_title": "Comparative_Navigation_12_Region_Resolved_Recovery_and_Bounded_Debt_Grammars_2026-10-21.md",
+        "section": "§6",
+        "version_time": "2026-10-21T14:37:25.744372Z",
+        "local_path": "sources/N12.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "No named source proved to remain in or safely exit these languages; unhandled overflow is not executed as safe.",
+    "significance": "Arbitrary finite binary complexity can have common bounded resource outcomes.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-063",
+    "title": "All width-five P/Q histories have distinct endpoint codes",
+    "status": "checked_proof",
+    "statement": "For k P/Q routines, latest differing branch j gives v_p(Bε-Bη)=h+r(k-1-j)<rk, with(r,h)=(4,2),(4,2),(9,5).",
+    "assumptions": [
+      "Specified k or marked entry; the stated two-routine grammar in C3,C5,Antihydra."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "The last differing term has unique minimum prime order. Thus no equal-clock code collision; small endpoint residue tags decode the last branch and exact affine inversion recovers the past.",
+    "proof_dependencies": [
+      "NAV-062",
+      "NAV-028"
+    ],
+    "sources": [
+      {
+        "source_key": "N13-C",
+        "library_file_id": "libfile_cf69ef40231481919ac353ebe1ef1d4a",
+        "file_title": "Comparative_Navigation_13_Conditioned_Regions_Reversible_Bands_and_Exit_Hypotheses_2026-10-21.md",
+        "section": "§3",
+        "version_time": "2026-10-21T15:29:04.929935Z",
+        "local_path": "sources/N13_conditioned.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Recoverability neither ensures future exit funding nor identifies an unmarked history cut.",
+    "significance": "Exponential symbolic branching can coexist with exact arithmetic memory.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-064",
+    "title": "Two-debt positive-positive draining",
+    "status": "checked_proof",
+    "statement": "If both output debts are positive,D_W′+D_V′=D_W+D_V-2; an episode with initial total S has at most floor(S/2) positive-positive states.",
+    "assumptions": [
+      "Any depth stream, both reflections unclipped on the stated transition."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Add reflected increments4a-9 and7-4a when both outputs are positive.",
+    "proof_dependencies": [
+      "NAV-043",
+      "NAV-053"
+    ],
+    "sources": [
+      {
+        "source_key": "N13-C",
+        "library_file_id": "libfile_cf69ef40231481919ac353ebe1ef1d4a",
+        "file_title": "Comparative_Navigation_13_Conditioned_Regions_Reversible_Bands_and_Exit_Hypotheses_2026-10-21.md",
+        "section": "§2",
+        "version_time": "2026-10-21T15:29:04.929935Z",
+        "local_path": "sources/N13_conditioned.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Clipping can create a new episode; no global monotone total or eventual recovery follows.",
+    "significance": "A genuine deterministic inner interaction of opposite observers.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-065",
+    "title": "Exact C3 band14/15 counting threshold",
+    "status": "checked_proof",
+    "statement": "Every width≤14 closed-path count is below3^m; width15 has292366481680 length24 loops from debt8, exceeding3^24.",
+    "assumptions": [
+      "Unweighted positive-debt adjacency matrix; fixed entry debt, closed path."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Positive vector certificate3v14-A14v14=3ones bounds all matrix powers. Exact power at width15 gives collision pigeonhole; audit independently recomputed both vectors and count.",
+    "proof_dependencies": [
+      "NAV-028",
+      "NAV-043"
+    ],
+    "sources": [
+      {
+        "source_key": "N13-C",
+        "library_file_id": "libfile_cf69ef40231481919ac353ebe1ef1d4a",
+        "file_title": "Comparative_Navigation_13_Conditioned_Regions_Reversible_Bands_and_Exit_Hypotheses_2026-10-21.md",
+        "section": "§4.2",
+        "version_time": "2026-10-21T15:29:04.929935Z",
+        "local_path": "sources/N13_conditioned.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Threshold for this counting method, not first actual collision; C3 collisions already at width9. C5 count cannot force collisions.",
+    "significance": "Exact finite certificate plus all-length bound, distinct from arithmetic injectivity threshold.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-066",
+    "title": "Funded reversible history does not guarantee safe exit",
+    "status": "refuted",
+    "statement": "A long reversible narrow-band history with honestly earned native credit guarantees its next phase is funded at every source.",
+    "assumptions": [
+      "Changed-source family; formal Antihydra depth cylinders."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "After(3,2)and k P/Q routines credit is1+3k; prescribe next depth3k+5. Whole finite word is realizable and reaches budget-1 at that phase end.",
+    "proof_dependencies": [
+      "NAV-001",
+      "NAV-062",
+      "NAV-063"
+    ],
+    "sources": [
+      {
+        "source_key": "N13-C",
+        "library_file_id": "libfile_cf69ef40231481919ac353ebe1ef1d4a",
+        "file_title": "Comparative_Navigation_13_Conditioned_Regions_Reversible_Bands_and_Exit_Hypotheses_2026-10-21.md",
+        "section": "§5",
+        "version_time": "2026-10-21T15:29:04.929935Z",
+        "local_path": "sources/N13_conditioned.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Not a counterexample to source8; mandatory endgame test for a proposed universal macro.",
+    "significance": "Sharp separation of internal correctness from renewed closure.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-067",
+    "title": "Fixed-clock geometric change of measure",
+    "status": "checked_proof",
+    "statement": "πθ(a)=θ^-1(1-θ^-1)^(a-1) gives word weight(θ-1)^(H-m)/θ^H; conditioning on m,H and any additional word property gives the same relative shape law for everyθ.",
+    "assumptions": [
+      "Finite constrained word class with positive probability; θ>1."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "At fixed clocks the common weight cancels. For θ=9/4, ratio to original law is μ^m(10/9)^(g/4).",
+    "proof_dependencies": [
+      "NAV-001",
+      "NAV-043"
+    ],
+    "sources": [
+      {
+        "source_key": "N13-C",
+        "library_file_id": "libfile_cf69ef40231481919ac353ebe1ef1d4a",
+        "file_title": "Comparative_Navigation_13_Conditioned_Regions_Reversible_Bands_and_Exit_Hypotheses_2026-10-21.md",
+        "section": "§6.1",
+        "version_time": "2026-10-21T15:29:04.929935Z",
+        "local_path": "sources/N13_conditioned.md"
+      }
+    ],
+    "attribution": "Classical exponential tilting/change of measure, specialized to depth words.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Conditioned interior depths are not independent; onlyθ=2 is original uniform-source law.",
+    "significance": "Correct reference for long near-zero-gain recovery, not chronological source theorem.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-068",
+    "title": "Biased reference region and offspring laws",
+    "status": "checked_proof",
+    "statement": "For p=1/θ,r=1-p, region kernel=[[p/(1-pr),r²/(1-pr)],[p²/(1-pr),1-p²/(1-pr)]]; stationary E share=p²/(p²+r²). Atθ=9/4 it is16/41.",
+    "assumptions": [
+      "Unconditioned analytic reference, F/U lookahead convention."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Geometric sums of neutral continuations and terminal channels. Offspring is geometric with meanθ-1; atθ=9/4 extinction probability4/5.",
+    "proof_dependencies": [
+      "NAV-010",
+      "NAV-061",
+      "NAV-067"
+    ],
+    "sources": [
+      {
+        "source_key": "N13-C",
+        "library_file_id": "libfile_cf69ef40231481919ac353ebe1ef1d4a",
+        "file_title": "Comparative_Navigation_13_Conditioned_Regions_Reversible_Bands_and_Exit_Hypotheses_2026-10-21.md",
+        "section": "§6.2",
+        "version_time": "2026-10-21T15:29:04.929935Z",
+        "local_path": "sources/N13_conditioned.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Not an assertion of infinite supercritical tree inside a finite conditioned packet or at a named source.",
+    "significance": "Makes regional, forest and debt reference shifts consistent.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-069",
+    "title": "Exact finite conditional packet statistics",
+    "status": "computational",
+    "statement": "Continuation-count dynamic programming computes exact depth and region statistics at fixed recovery length/gain; reported evaluations through256 approach the9/4 tilted benchmark.",
+    "assumptions": [
+      "Positive interior debt, specified terminal-gain condition; parser lookahead and unresolved suffix retained."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Integer backward counts give edge-completion weights; forward/backward products count occurrences. Reports exhaustively compare through length8; this audit reviewed recurrence but did not rerun full DP.",
+    "proof_dependencies": [
+      "NAV-067",
+      "NAV-068"
+    ],
+    "sources": [
+      {
+        "source_key": "N13-C",
+        "library_file_id": "libfile_cf69ef40231481919ac353ebe1ef1d4a",
+        "file_title": "Comparative_Navigation_13_Conditioned_Regions_Reversible_Bands_and_Exit_Hypotheses_2026-10-21.md",
+        "section": "§§6.3–7",
+        "version_time": "2026-10-21T15:29:04.929935Z",
+        "local_path": "sources/N13_conditioned.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Finite conditional values are not a new asymptotic conditioning theorem; actual duration bins differ and samples are dependent.",
+    "significance": "A calibrated exact diagnostic with explicit selection mechanism.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-070",
+    "title": "H13-H hidden-peak hypothesis with bootstrap",
+    "status": "conjecture",
+    "statement": "A(t)≤4+ceil(0.5log2(t+2)) at all complete canonical boundaries t≥64, retaining earlier hidden peaks.",
+    "assumptions": [
+      "Each named growing source separately; post-counterexample proposal."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Exact reference tail requires both j≥max(1,b-4) and h≥ceil((b+1)/4), giving(2/3)4^-(J-1)2^-h0 under F. Actual finite boundaries pass.",
+    "proof_dependencies": [
+      "NAV-054",
+      "NAV-067"
+    ],
+    "sources": [
+      {
+        "source_key": "N13-C",
+        "library_file_id": "libfile_cf69ef40231481919ac353ebe1ef1d4a",
+        "file_title": "Comparative_Navigation_13_Conditioned_Regions_Reversible_Bands_and_Exit_Hypotheses_2026-10-21.md",
+        "section": "§8",
+        "version_time": "2026-10-21T15:29:04.929935Z",
+        "local_path": "sources/N13_conditioned.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "No-bootstrap form is false at Antihydra phase8: peak7 exceeds bound6. Reference tail does not authenticate source.",
+    "significance": "Local joint-valuation obligation separated from global region debt.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-071",
+    "title": "H13-C coarse region debt",
+    "status": "conjecture",
+    "statement": "D_coarse(t)≤t/4 at every canonical boundary t≥2048 for each named source.",
+    "assumptions": [
+      "Net-only complete-region queue; formal continuing named arithmetic."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Retained finite records pass; no source-generated routing bound is proved.",
+    "proof_dependencies": [
+      "NAV-054"
+    ],
+    "sources": [
+      {
+        "source_key": "N13-C",
+        "library_file_id": "libfile_cf69ef40231481919ac353ebe1ef1d4a",
+        "file_title": "Comparative_Navigation_13_Conditioned_Regions_Reversible_Bands_and_Exit_Hypotheses_2026-10-21.md",
+        "section": "§8",
+        "version_time": "2026-10-21T15:29:04.929935Z",
+        "local_path": "sources/N13_conditioned.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "May retain the main global source-selection difficulty.",
+    "significance": "A precise region-level rather than all-update target.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-072",
+    "title": "Local hidden peak plus coarse debt closes outcomes",
+    "status": "conditional",
+    "statement": "H13-H and H13-C plus finite bootstrap imply C5 escape and native Antihydra safety. C5 lower bound is n0[5/2^(37/16)]^m/[2^(5/4)(m+2)^(1/8)].",
+    "assumptions": [
+      "Both conjectures on authenticated formal trajectory; finite prefix through first boundary≥2048 checked."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Hidden-peak theorem gives D_W≤m/4+A. Between boundaries negative W steps only occur at S/final G; extend bound to all late updates and substitute product/credit identities.",
+    "proof_dependencies": [
+      "NAV-054",
+      "NAV-059",
+      "NAV-070",
+      "NAV-071"
+    ],
+    "sources": [
+      {
+        "source_key": "N13-C",
+        "library_file_id": "libfile_cf69ef40231481919ac353ebe1ef1d4a",
+        "file_title": "Comparative_Navigation_13_Conditioned_Regions_Reversible_Bands_and_Exit_Hypotheses_2026-10-21.md",
+        "section": "§8, Conditional closure",
+        "version_time": "2026-10-21T15:29:04.929935Z",
+        "local_path": "sources/N13_conditioned.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Does not prove either hypothesis, exact reference rate, or global region typicality.",
+    "significance": "A modular split into one local and one global arithmetic obligation.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-073",
+    "title": "Tilted workload observer family",
+    "status": "checked_proof",
+    "statement": "U2=Q-1,D_W=4U9/4,D_b=U3,D_V=4L7/4; Uθ is convex nonincreasing piecewise-linear inθ with nested zero-workload records.",
+    "assumptions": [
+      "Every finite positive-depth sequence; critical roots use strict minima."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Reflection and forest minimum identities. U is a maximum of affine functions inθ; active slope equals negative interval length.",
+    "proof_dependencies": [
+      "NAV-008",
+      "NAV-043",
+      "NAV-064"
+    ],
+    "sources": [
+      {
+        "source_key": "N13-T",
+        "library_file_id": "libfile_1491aa6386048191b505732a66a85a43",
+        "file_title": "Comparative_Navigation_13_Tilted_Observers_Arithmetic_Memory_and_Debt_Funded_Mergers_2026-10-21.md",
+        "section": "§2",
+        "version_time": "2026-10-21T15:45:41.974722Z",
+        "local_path": "sources/N13_tilted.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Different slopes answer different interval questions; record ties are not root completion.",
+    "significance": "Unifies existing observers without declaring their outcomes equivalent.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-074",
+    "title": "H13-S dyadic two-sided slope envelope",
+    "status": "conjecture",
+    "statement": "For all dyadicε=2^-k and allm≥1,U_(2+ε),L_(2-ε)≤(2/ε)ceil(log2(m+1)) on each named growing source.",
+    "assumptions": [
+      "All scales and all future formal prefixes, separately per source."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Only k=0..6 and retained finite horizons were tested, after data availability. Reference exponential moments explain the scale.",
+    "proof_dependencies": [
+      "NAV-073"
+    ],
+    "sources": [
+      {
+        "source_key": "N13-T",
+        "library_file_id": "libfile_1491aa6386048191b505732a66a85a43",
+        "file_title": "Comparative_Navigation_13_Tilted_Observers_Arithmetic_Memory_and_Debt_Funded_Mergers_2026-10-21.md",
+        "section": "§3 and §9",
+        "version_time": "2026-10-21T15:45:41.974722Z",
+        "local_path": "sources/N13_tilted.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "42,000,714 finite comparisons do not establish untested scales or future times. Full target is stronger than needed for weaker outcomes.",
+    "significance": "Quantitative mean-depth target with explicit source and scale quantifiers.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-075",
+    "title": "Multiscale conditional mean-depth and rate theorem",
+    "status": "conditional",
+    "statement": "Full H13-S gives|H_m-2m|≤3sqrt(2m ceil(log2(m+1))) for m≥8, C5 factor5/4 and Antihydra phase factor9/4. Upperε=1/2 plus64-phase bootstrap gives native safety.",
+    "assumptions": [
+      "Full all-scale hypothesis for discrepancy; actual arithmetic and bootstrap for native conclusion."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Use s=0 in both workload definitions and chooseε within a factor2 of sqrt(2ell/m). Exponential lower growth makes addition correction negligible; fixed upper slope gives b≥m/2-4ell.",
+    "proof_dependencies": [
+      "NAV-074",
+      "NAV-057"
+    ],
+    "sources": [
+      {
+        "source_key": "N13-T",
+        "library_file_id": "libfile_1491aa6386048191b505732a66a85a43",
+        "file_title": "Comparative_Navigation_13_Tilted_Observers_Arithmetic_Memory_and_Debt_Funded_Mergers_2026-10-21.md",
+        "section": "§3",
+        "version_time": "2026-10-21T15:45:41.974722Z",
+        "local_path": "sources/N13_tilted.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Finite seven-scale tests cannot support asymptotically shrinkingε; one upper slope suffices for weaker escape/safety.",
+    "significance": "Separates exact-rate target from minimal outcome obligations.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-076",
+    "title": "Fixed-clock lifted arithmetic in debt strips",
+    "status": "checked_proof",
+    "statement": "WriteD=4j+r,r∈{1,2,3,4}; a=d_r+j′-j withd_1=3 andotherd_r=2. X=(2/rho)^j n obeysX′=rho^(d_r-1)/2^d_r[cX+(2/rho)^j].",
+    "assumptions": [
+      "Open recovery, positive input/output debt; full arithmetic source retained."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Debt residues rotate1→4→3→2→1. Substitute the height difference into the actual phase map and cancel powers.",
+    "proof_dependencies": [
+      "NAV-001",
+      "NAV-043"
+    ],
+    "sources": [
+      {
+        "source_key": "N13-T",
+        "library_file_id": "libfile_1491aa6386048191b505732a66a85a43",
+        "file_title": "Comparative_Navigation_13_Tilted_Observers_Arithmetic_Memory_and_Debt_Funded_Mergers_2026-10-21.md",
+        "section": "§4",
+        "version_time": "2026-10-21T15:45:41.974722Z",
+        "local_path": "sources/N13_tilted.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "An accounting normalization, not a bound on height or freely selectable graph edge.",
+    "significance": "Separates periodic clock from arithmetic height variability.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-077",
+    "title": "Guarded fixed-strip outcome control",
+    "status": "checked_proof",
+    "statement": "A path confined toℓ≤D≤u hasH_m=(9m+D_m-D0)/4. C3 exits/absorbs; an actual infinite C5 path grows at factor5/2^(9/4); Antihydra is funded with stated strip-dependent credit.",
+    "assumptions": [
+      "Actual guarded arithmetic path; finite native initial credit; infinite confinement is conditional."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Debt telescoping fixes mean depth9/4. Product bounds give C3 contraction/C5 exponential growth; native gain=(3m-D_m+D0)/4.",
+    "proof_dependencies": [
+      "NAV-060",
+      "NAV-076"
+    ],
+    "sources": [
+      {
+        "source_key": "N13-T",
+        "library_file_id": "libfile_1491aa6386048191b505732a66a85a43",
+        "file_title": "Comparative_Navigation_13_Tilted_Observers_Arithmetic_Memory_and_Debt_Funded_Mergers_2026-10-21.md",
+        "section": "§4",
+        "version_time": "2026-10-21T15:45:41.974722Z",
+        "local_path": "sources/N13_tilted.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "No named infinite confinement or safe overflow is proved; factor differs from exact reference5/4.",
+    "significance": "Outcome control need not predict internal symbolic choices.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-078",
+    "title": "Sharp narrow-strip arithmetic inverse theorem",
+    "status": "checked_proof",
+    "statement": "For odd ordinary c≥3,d=ord_c(2), any positive strip of≤4d levels gives at most one predecessor of each full arithmetic/debt state; widthB allows at most1+floor((B-1)/(4d)).",
+    "assumptions": [
+      "Interior transitions only, output y and debt D′ both known."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Incoming a satisfies2^a y=1 modulo c andD=D′+9-4a. Two valid a differ by a multiple ofd, separating incoming debts by≥4d.",
+    "proof_dependencies": [
+      "NAV-043",
+      "NAV-076"
+    ],
+    "sources": [
+      {
+        "source_key": "N13-T",
+        "library_file_id": "libfile_1491aa6386048191b505732a66a85a43",
+        "file_title": "Comparative_Navigation_13_Tilted_Observers_Arithmetic_Memory_and_Debt_Funded_Mergers_2026-10-21.md",
+        "section": "§5, Theorem5.1",
+        "version_time": "2026-10-21T15:45:41.974722Z",
+        "local_path": "sources/N13_tilted.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Does not assert global injectivity, retained strip membership, or recovery across an unknown starting cut.",
+    "significance": "Clean general theorem; C3 width8 and C5 width16 exact no-ambiguity ranges.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-079",
+    "title": "Sharp neutral-loop merger witnesses",
+    "status": "checked_proof",
+    "statement": "Widths9 and17 are attained by eight-update neutral equal-clock C3/C5 loop pairs with source shift4, preserving outside forest action.",
+    "assumptions": [
+      "Exact source classes389809 and417135 modulo524288 respectively; sufficient positive representatives; actual word guards."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Compile affine maps: offset differences4P. Independently replay both paths and enumerate all19448 positive eight-depth words withH18.",
+    "proof_dependencies": [
+      "NAV-001",
+      "NAV-009",
+      "NAV-028",
+      "NAV-078"
+    ],
+    "sources": [
+      {
+        "source_key": "N13-T",
+        "library_file_id": "libfile_1491aa6386048191b505732a66a85a43",
+        "file_title": "Comparative_Navigation_13_Tilted_Observers_Arithmetic_Memory_and_Debt_Funded_Mergers_2026-10-21.md",
+        "section": "§6",
+        "version_time": "2026-10-21T15:45:41.974722Z",
+        "local_path": "sources/N13_tilted.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Not complete trees; no original-source reduction below7. Historical novelty unproved.",
+    "significance": "Sharpens older width31 C5 loop embedding and demonstrates exact threshold attainability.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-080",
+    "title": "Equal-clock merger prefix separation",
+    "status": "checked_proof",
+    "statement": "Any distinct equal-clock ordinary histories meeting at a common endpoint have some proper cumulative-depth separation≥ord_c(2), hence debt separation≥4ord_c(2).",
+    "assumptions": [
+      "Same length,total depth,and endpoint; ordinary map."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Take their first synchronized meeting. Later arithmetic is identical, so depths already total equally at meeting; preceding unequal depths are congruent moduloord_c(2).",
+    "proof_dependencies": [
+      "NAV-078"
+    ],
+    "sources": [
+      {
+        "source_key": "N13-T",
+        "library_file_id": "libfile_1491aa6386048191b505732a66a85a43",
+        "file_title": "Comparative_Navigation_13_Tilted_Observers_Arithmetic_Memory_and_Debt_Funded_Mergers_2026-10-21.md",
+        "section": "§5, corollary",
+        "version_time": "2026-10-21T15:45:41.974722Z",
+        "local_path": "sources/N13_tilted.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "A constraint on merger geometry, not a source-global obstruction to merging.",
+    "significance": "Explains why sharp strip widths are unavoidable.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-081",
+    "title": "No pointwise free smaller-source domination",
+    "status": "checked_proof",
+    "statement": "A strictly smaller equal-clock source reaching the same endpoint cannot have no greater cumulative division at every proper prefix.",
+    "assumptions": [
+      "Ordinary coefficient c; source reduction meansB_v>B_w."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Exact weighted offset difference equals(1/c)sum_i(2^Hiv-2^Hiw)/c^i. Positive source reduction requires a positive term.",
+    "proof_dependencies": [
+      "NAV-017",
+      "NAV-028"
+    ],
+    "sources": [
+      {
+        "source_key": "N13-T",
+        "library_file_id": "libfile_1491aa6386048191b505732a66a85a43",
+        "file_title": "Comparative_Navigation_13_Tilted_Observers_Arithmetic_Memory_and_Debt_Funded_Mergers_2026-10-21.md",
+        "section": "§7",
+        "version_time": "2026-10-21T15:45:41.974722Z",
+        "local_path": "sources/N13_tilted.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Does not force larger maximum deficit for every replacement; the sharp C5 pair specifically does worsen it.",
+    "significance": "Quantitative tradeoff between source reduction and internal resource path.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-082",
+    "title": "Region interior feasibility and translation correction",
+    "status": "checked_proof",
+    "statement": "Complete E_j fits in a positive strip ofB levels iffB≥j+5; G_jh iffB≥max(j+5,4h); deep S(a) iffB≥4a-8. These widths are translation invariant.",
+    "assumptions": [
+      "Every region endpoint and internal state lies in the positive strip; recovery/overflow edges are excluded and E lookahead is not consumed."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Debt first falls byj+4 then rises by4h-1. Its range gives minimum required width; exact cylinders realize finite words. TranslatingD preserves all interior edges.",
+    "proof_dependencies": [
+      "NAV-001",
+      "NAV-053",
+      "NAV-078"
+    ],
+    "sources": [
+      {
+        "source_key": "N13-T",
+        "library_file_id": "libfile_1491aa6386048191b505732a66a85a43",
+        "file_title": "Comparative_Navigation_13_Tilted_Observers_Arithmetic_Memory_and_Debt_Funded_Mergers_2026-10-21.md",
+        "section": "§8",
+        "version_time": "2026-10-21T15:45:41.974722Z",
+        "local_path": "sources/N13_tilted.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Small audit correction to prose; displayed source inequalities remain correct.",
+    "limitations": "Corrects final source prose claiming region thresholds depend on absolute strip location. Native entrance funding may depend on position.",
+    "significance": "Distinguishes symbolic feature thresholds from memory thresholds.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-083",
+    "title": "Named-source neutral-loop contacts",
+    "status": "computational",
+    "statement": "N13-T reports C5 source7 neutral-loop contacts at rounds63997 and420159, with current-value-minus4 companions meeting after eight updates.",
+    "assumptions": [
+      "Report-authenticated replay through420167 rounds; exact state and endpoint hashes retained by source report."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Source report independently replayed original chain, then replayed companion word. Audit rechecked template arithmetic and complete finite census, not the large original-source replay.",
+    "proof_dependencies": [
+      "NAV-030",
+      "NAV-079"
+    ],
+    "sources": [
+      {
+        "source_key": "N13-T",
+        "library_file_id": "libfile_1491aa6386048191b505732a66a85a43",
+        "file_title": "Comparative_Navigation_13_Tilted_Observers_Arithmetic_Memory_and_Debt_Funded_Mergers_2026-10-21.md",
+        "section": "§6, Source-seven occurrences",
+        "version_time": "2026-10-21T15:45:41.974722Z",
+        "local_path": "sources/N13_tilted.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Current smaller state not original source below7; unchanged past would require5^r|4.",
+    "significance": "Finite bridge from abstract loops to actual source history.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-084",
+    "title": "Finite data provenance and overlapping reanalysis",
+    "status": "computational",
+    "statement": "N05 generated200000-update records; N09 generated million-update records; N11 added13,33,5 updates, leaving horizons1000013,1000033,1000005. N12/N13 largely reuse these records.",
+    "assumptions": [
+      "Source reports and metadata as evidence; audit did not reproduce archival long trajectories."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Cross-read chronology and retained-horizon statements; duplicate N05/N06/N07/N09 reports have identical extracted-text hashes; N08 andN13 pairs are distinct.",
+    "proof_dependencies": [],
+    "sources": [
+      {
+        "source_key": "N05",
+        "library_file_id": "libfile_7388d1bfc1388191baec7625b569b152",
+        "file_title": "Comparative_Navigation_05_Neutral_Strides_Deviation_Events_and_Recoverable_Memory_2026-10-20.md",
+        "section": "§10",
+        "version_time": "2026-10-20T23:27:11.650409Z",
+        "local_path": "sources/N05_a.md"
+      },
+      {
+        "source_key": "N09",
+        "library_file_id": "libfile_e66b38adf1f4819185a63ad431c088c8",
+        "file_title": "Comparative_Navigation_09_Hypothesis_Tests_Cofactor_Turnover_and_Source_Ownership_2026-10-20.md",
+        "section": "§2.5",
+        "version_time": "2026-10-21T04:54:02.263614Z",
+        "local_path": "sources/N09_a.md"
+      },
+      {
+        "source_key": "N11",
+        "library_file_id": "libfile_d6dc469f6a108191bd899788ddd4bc32",
+        "file_title": "Comparative_Navigation_11_Recovery_Packets_Source_Deadlines_and_Deterministic_Queue_Control_2026-10-21.md",
+        "section": "§8",
+        "version_time": "2026-10-21T13:34:11.749207Z",
+        "local_path": "sources/N11.md"
+      },
+      {
+        "source_key": "N13-T",
+        "library_file_id": "libfile_1491aa6386048191b505732a66a85a43",
+        "file_title": "Comparative_Navigation_13_Tilted_Observers_Arithmetic_Memory_and_Debt_Funded_Mergers_2026-10-21.md",
+        "section": "§10",
+        "version_time": "2026-10-21T15:45:41.974722Z",
+        "local_path": "sources/N13_tilted.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Comparison counts overlap and are not independent replications; hypotheses were data-informed.",
+    "significance": "Prevents overstating empirical independence or fresh compute.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-085",
+    "title": "Named infinite outcomes remain conjectural",
+    "status": "conjecture",
+    "statement": "The named C5 sources escape and source-eight Antihydra remains natively funded forever are conjectural targets; exact mean-two growth rates are stronger targets. Universal C3 convergence is also unproved by this series.",
+    "assumptions": [
+      "Named sources and clocks as specified in the reports; no source-specific all-time control hypothesis is treated as established."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "All routes requiring all-time source-selected debt, traversal, routing, endpoint selection or funded exits leave that hypothesis unproved. Finite realizability/reference laws do not fill it.",
+    "proof_dependencies": [
+      "NAV-033",
+      "NAV-048",
+      "NAV-056",
+      "NAV-058",
+      "NAV-070",
+      "NAV-071",
+      "NAV-074"
+    ],
+    "sources": [
+      {
+        "source_key": "N13-C",
+        "library_file_id": "libfile_cf69ef40231481919ac353ebe1ef1d4a",
+        "file_title": "Comparative_Navigation_13_Conditioned_Regions_Reversible_Bands_and_Exit_Hypotheses_2026-10-21.md",
+        "section": "§10 and §11",
+        "version_time": "2026-10-21T15:29:04.929935Z",
+        "local_path": "sources/N13_conditioned.md"
+      },
+      {
+        "source_key": "N13-T",
+        "library_file_id": "libfile_1491aa6386048191b505732a66a85a43",
+        "file_title": "Comparative_Navigation_13_Tilted_Observers_Arithmetic_Memory_and_Debt_Funded_Mergers_2026-10-21.md",
+        "section": "§9 and §10",
+        "version_time": "2026-10-21T15:45:41.974722Z",
+        "local_path": "sources/N13_tilted.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "The audit establishes the limits of these reports, not an impossibility result or a complete survey of other research. These conjectural outcomes must not be described as proved.",
+    "significance": "Sets the correct boundary for the pre-paper presentation.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation_audit_verification.json. Small exact checks do not replace the proof and do not regenerate retained million-step records."
+  },
+  {
+    "id": "NAV-086",
+    "title": "Pointwise sharp two-wall band bridges",
+    "status": "checked_proof",
+    "statement": "For B≥4, a debt bridge of length M from d to e exists iff e≡d-M mod4 and e≥d-5M. Explicit lower/upper paths attain every prefix debt minimum/maximum simultaneously.",
+    "assumptions": [
+      "d,e∈[1,B]; positive integer depths; untranslated or consistently translated positive strip."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Each step decreases at most five and changes residue by minus one modulo four. Round max(1,d-5i) upward and min(B,e+5(M-i)) downward in the forced residue; adjacent increments are legal, including prescribed endpoints.",
+    "proof_dependencies": [
+      "NAV-001",
+      "NAV-076"
+    ],
+    "sources": [
+      {
+        "source_key": "N14",
+        "library_file_id": "libfile_04928dec5c4c819194f330055948b6d3",
+        "file_title": "Comparative_Navigation_14_Band_Envelopes_Bounded_Ancestry_and_All_Scale_Audits_2026-10-21.md",
+        "section": "§2, Theorem2.1",
+        "version_time": "2026-10-21T16:33:06.215878Z",
+        "local_path": "sources/N14.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Extreme words use their own guarded sources; no rearrangement of a named trajectory is authorized. B≥4 is essential to the stated construction.",
+    "significance": "Compresses an arbitrary legal band language into two sharp paths.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation14_audit_verification.json. The self-contained verifier independently checks rational band certificates and finite inverse outcomes; long archived record calculations are not reproduced."
+  },
+  {
+    "id": "NAV-087",
+    "title": "Band-wide affine, credit and forest envelopes",
+    "status": "checked_proof",
+    "statement": "The lower/upper debt paths sharply bound affine offsets and required credit over every bridge of the fixed context; forest-root action is bounded but not generally identical across paths.",
+    "assumptions": [
+      "Same band, entering and ending debt, length and resulting total depth; scores pi-qH_i with q>0."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "H_i=(9i+D_i-d)/4 and C/P=(1/c)sum(rho/c)^i(2/rho)^H_i. Monotonicity reverses for rho=3. Substitute Delta_i=(i+D_i-d)/4 into the inherited frontier formula.",
+    "proof_dependencies": [
+      "NAV-086",
+      "NAV-009",
+      "NAV-017"
+    ],
+    "sources": [
+      {
+        "source_key": "N14",
+        "library_file_id": "libfile_04928dec5c4c819194f330055948b6d3",
+        "file_title": "Comparative_Navigation_14_Band_Envelopes_Bounded_Ancestry_and_All_Scale_Audits_2026-10-21.md",
+        "section": "§2, all-shape and forest subsections",
+        "version_time": "2026-10-21T16:33:06.215878Z",
+        "local_path": "sources/N14.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Ordinary-map worst credit coincides with largest offset in this class; Antihydra reverses the offset ordering. Source guards and actual word remain necessary.",
+    "significance": "Uniform resource and arithmetic bounds without path enumeration.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation14_audit_verification.json. The self-contained verifier independently checks rational band certificates and finite inverse outcomes; long archived record calculations are not reproduced."
+  },
+  {
+    "id": "NAV-088",
+    "title": "Forward expansion localizes all same-clock ancestor sources",
+    "status": "checked_proof",
+    "statement": "In a fixed positive C5 debt band, source separation for histories with common clocks, common entering debt and common endpoint is bounded independently of duration by a convergent normalized-offset series.",
+    "assumptions": [
+      "Fixed band [ell,u], common initial debt D0; ordinary c satisfying c>2^(9/4). General-family extension requires 2^theta/[c rho^(theta-1)]<1."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Substitute H_i=(9i+D_i-D0)/4 in the offset difference and sum the geometric majorant: |x-x′|<[2^((u-D0)/4)-2^((ell-D0)/4)]/[c-2^(9/4)].",
+    "proof_dependencies": [
+      "NAV-028",
+      "NAV-076",
+      "NAV-086"
+    ],
+    "sources": [
+      {
+        "source_key": "N14",
+        "library_file_id": "libfile_04928dec5c4c819194f330055948b6d3",
+        "file_title": "Comparative_Navigation_14_Band_Envelopes_Bounded_Ancestry_and_All_Scale_Audits_2026-10-21.md",
+        "section": "§3",
+        "version_time": "2026-10-21T16:33:06.215878Z",
+        "local_path": "sources/N14.md"
+      }
+    ],
+    "attribution": "Classical geometric-series estimate applied to inherited affine offset formula; no historical-priority claim.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "C3 fails this discount condition at slope9/4. This is uniform finite-context localization, not actual infinite confinement.",
+    "significance": "Refutes the general inference from growing symbolic complexity to unbounded actual ancestry at an endpoint.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation14_audit_verification.json. The self-contained verifier independently checks rational band certificates and finite inverse outcomes; long archived record calculations are not reproduced."
+  },
+  {
+    "id": "NAV-089",
+    "title": "Exact width17 C5 ancestor bound22 and relative-debt2 bound19",
+    "status": "checked_proof",
+    "statement": "Every specified C5 endpoint, duration, entering debt and ending debt in a width17 strip has at most22 source ancestors; at relative entering debt2 at most19.",
+    "assumptions": [
+      "Every path remains in the fixed positive strip; ordinary odd sources; the same fixed query context."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Rational lower/upper functions satisfy all60 edge inequalities l(D)≤2^j/5+(2^s/5)l(E) and u(D)≥the analogous expression. Telescoping bounds n in [beta(Y+u(e))-u(d), beta(Y+l(e))-l(d)]/2^j0. Max source diameter4952/113<44, and debt2 diameter21164/565<38. Odd spacing gives22/19. Independently reconstructed and checked in audits/verify_navigation14_audit.py.",
+    "proof_dependencies": [
+      "NAV-076",
+      "NAV-088"
+    ],
+    "sources": [
+      {
+        "source_key": "N14",
+        "library_file_id": "libfile_04928dec5c4c819194f330055948b6d3",
+        "file_title": "Comparative_Navigation_14_Band_Envelopes_Bounded_Ancestry_and_All_Scale_Audits_2026-10-21.md",
+        "section": "§4, Theorem4.1 and width17 certificate",
+        "version_time": "2026-10-21T16:33:06.215878Z",
+        "local_path": "sources/N14.md"
+      }
+    ],
+    "attribution": "Classical discounted Bellman/value method; N14 cites Bertsekas arXiv:1608.01393 only as abstract-level methodological background. Arithmetic certificate independently checked; no external Bellman theorem imported.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Bounds are not claimed attained; the context cannot omit clocks/debt endpoints. Translation preserves the theorem.",
+    "significance": "An exact all-duration finite ambiguity theorem for C5, contrasting C3 and Antihydra.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation14_audit_verification.json. The self-contained verifier independently checks rational band certificates and finite inverse outcomes; long archived record calculations are not reproduced."
+  },
+  {
+    "id": "NAV-090",
+    "title": "Complete bounded-candidate C5 band inversion",
+    "status": "checked_proof",
+    "statement": "Enumerating odd positive integers in the certified interval and replaying all candidates completely recovers the finite C5 ancestry query; width17 requires at most22 candidates at any duration.",
+    "assumptions": [
+      "Fixed endpoint, clock, entering/ending debt and strip; reject early absorption, overflow, wrong endpoint or wrong final debt."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Every valid source lies in the proved interval; deterministic replay decides each candidate. Soundness and completeness follow directly.",
+    "proof_dependencies": [
+      "NAV-089",
+      "NAV-001"
+    ],
+    "sources": [
+      {
+        "source_key": "N14",
+        "library_file_id": "libfile_04928dec5c4c819194f330055948b6d3",
+        "file_title": "Comparative_Navigation_14_Band_Envelopes_Bounded_Ancestry_and_All_Scale_Audits_2026-10-21.md",
+        "section": "§4, Complete inversion without enumerating all branch words",
+        "version_time": "2026-10-21T16:33:06.215878Z",
+        "local_path": "sources/N14.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Replay still costs O(M) arithmetic updates per candidate with large-integer costs. The reported constructed256-update sample was not independently regenerated here.",
+    "significance": "Complete guarded inversion replaces exponential enumeration of formal words.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation14_audit_verification.json. The self-contained verifier independently checks rational band certificates and finite inverse outcomes; long archived record calculations are not reproduced."
+  },
+  {
+    "id": "NAV-091",
+    "title": "Complete two-source classification of the inherited eight-step C5 family",
+    "status": "checked_proof",
+    "statement": "For endpoint621583+781250t, t≥0, duration8 and entering/ending relative debt2 in width17, the only sources are417131+524288t and417135+524288t.",
+    "assumptions": [
+      "Nonnegative integer t; fixed eight-step clocks H=18 and explicit positive strip context."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "The exact base interval has six odd candidates417125 through417135. Independent replay accepts just417131/417135. Endpoint translation shifts the interval by524288t and preserves every candidate residue modulo2^19, hence every accepted/rejected word-cylinder decision.",
+    "proof_dependencies": [
+      "NAV-079",
+      "NAV-089",
+      "NAV-090"
+    ],
+    "sources": [
+      {
+        "source_key": "N14",
+        "library_file_id": "libfile_04928dec5c4c819194f330055948b6d3",
+        "file_title": "Comparative_Navigation_14_Band_Envelopes_Bounded_Ancestry_and_All_Scale_Audits_2026-10-21.md",
+        "section": "§5",
+        "version_time": "2026-10-21T16:33:06.215878Z",
+        "local_path": "sources/N14.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Completeness interpretation is N14 development; merger pair and actual contact indices inherited.",
+    "limitations": "N13 supplied the pair and original source-seven contact indices. N14 adds completeness. The source-seven420167-round replay remains report-backed in this audit.",
+    "significance": "Promotes one found companion to an exhaustive family classification.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation14_audit_verification.json. The self-contained verifier independently checks rational band certificates and finite inverse outcomes; long archived record calculations are not reproduced."
+  },
+  {
+    "id": "NAV-092",
+    "title": "Unbounded possible C3 equal-clock multiplicity inside fixed band15",
+    "status": "checked_proof",
+    "statement": "For each k, some context with clocks M=24k,H=54k has at least ceil((292366481680/3^24)^k) distinct C3 source ancestors in band15 from debt8 to8; this lower bound is unbounded.",
+    "assumptions": [
+      "Endpoint may vary with k and must be chosen in the compatible congruence class, sufficiently high and above one."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Concatenate k inherited24-step loops. Pigeonhole N^k words into3^(24k) offset codes. Distinct words have distinct offsets because equal offsets would give identical source cylinders to different deterministic words. A high common endpoint realizes all sources positively. At k100, at least32 ancestors.",
+    "proof_dependencies": [
+      "NAV-065",
+      "NAV-028",
+      "NAV-001"
+    ],
+    "sources": [
+      {
+        "source_key": "N14",
+        "library_file_id": "libfile_04928dec5c4c819194f330055948b6d3",
+        "file_title": "Comparative_Navigation_14_Band_Envelopes_Bounded_Ancestry_and_All_Scale_Audits_2026-10-21.md",
+        "section": "§6, C3 multiplicity",
+        "version_time": "2026-10-21T16:33:06.215878Z",
+        "local_path": "sources/N14.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Width15 count is inherited N13-C; repetition/pigeonhole consequence is N14 development.",
+    "limitations": "Not unbounded multiplicity for every fixed endpoint or fixed source; not infinite backward ancestry.",
+    "significance": "Proves a genuine ancestry-capacity contrast with C5 and Antihydra.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation14_audit_verification.json. The self-contained verifier independently checks rational band certificates and finite inverse outcomes; long archived record calculations are not reproduced."
+  },
+  {
+    "id": "NAV-093",
+    "title": "Complete finite C3 inverse counts and restricted exhaustion",
+    "status": "computational",
+    "statement": "Endpoint(91,debt2) has33 eighty-step ancestors at entering debt2 in band15 and1563 in band17; the full restricted inverse tree of(9757,debt2) is empty at depths16 and17 in bands9 and17 respectively.",
+    "assumptions": [
+      "Positive odd preabsorption C3 states; exact debt predecessor relation; specified fixed bands."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Independent backward enumeration tests n=(2^a y-1)/3, exact integer odd positivity and D=E+9-4a in band. Audit reproduces all four outcomes with a separate standard-library implementation.",
+    "proof_dependencies": [
+      "NAV-078",
+      "NAV-092"
+    ],
+    "sources": [
+      {
+        "source_key": "N14",
+        "library_file_id": "libfile_04928dec5c4c819194f330055948b6d3",
+        "file_title": "Comparative_Navigation_14_Band_Envelopes_Bounded_Ancestry_and_All_Scale_Audits_2026-10-21.md",
+        "section": "§6, Exact examples",
+        "version_time": "2026-10-21T16:33:06.215878Z",
+        "local_path": "sources/N14.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Finite exhaustion is only in the band. Nonempty finite inverse layers do not establish an infinite branch.",
+    "significance": "Shows why a large symbolic grammar does not determine the histories of a selected arithmetic endpoint.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation14_audit_verification.json. The self-contained verifier independently checks rational band certificates and finite inverse outcomes; long archived record calculations are not reproduced."
+  },
+  {
+    "id": "NAV-094",
+    "title": "Antihydra injectivity from normalized offset width",
+    "status": "checked_proof",
+    "statement": "For Antihydra, every finite word has0<C/P<1; distinct equal-driver-clock histories cannot meet from different integer sources.",
+    "assumptions": [
+      "Positive depths; same driver clock H, hence same P=3^H and denominator2^H; actual legal histories."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "C/P=(1/3)sum(2/3)^H_i and H_i≥i bound the sum strictly below one. An integral source difference between meeting histories has magnitude<1, so is zero; determinism identifies histories.",
+    "proof_dependencies": [
+      "NAV-001",
+      "NAV-006"
+    ],
+    "sources": [
+      {
+        "source_key": "N14",
+        "library_file_id": "libfile_04928dec5c4c819194f330055948b6d3",
+        "file_title": "Comparative_Navigation_14_Band_Envelopes_Bounded_Ancestry_and_All_Scale_Audits_2026-10-21.md",
+        "section": "§6, Antihydra",
+        "version_time": "2026-10-21T16:33:06.215878Z",
+        "local_path": "sources/N14.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Injectivity inherited; real-size proof is an additional explanation in N14.",
+    "limitations": "Alternative proof of inherited injectivity, not native funding or an infinite outcome.",
+    "significance": "Arithmetic history remains recoverable even while sharing the finite depth reference law.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation14_audit_verification.json. The self-contained verifier independently checks rational band certificates and finite inverse outcomes; long archived record calculations are not reproduced."
+  },
+  {
+    "id": "NAV-095",
+    "title": "Width17 C5 suffixes cannot preserve two prior rounds unchanged",
+    "status": "checked_proof",
+    "statement": "No same-clock merger in a common width17 C5 strip can preserve two or more earlier odd rounds unchanged, irrespective of suffix duration.",
+    "assumptions": [
+      "Distinct initial sources; same prefix word of r≥2 rounds; later paths have common entering debt, equal suffix clocks and common endpoint/debt."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "The prefix cylinder forces original separation2^(H0+1)k; the suffix-entry separation is2*5^r k, magnitude≥50. NAV-089 bounds every possible same-context source separation by4952/113<50, contradiction.",
+    "proof_dependencies": [
+      "NAV-030",
+      "NAV-089"
+    ],
+    "sources": [
+      {
+        "source_key": "N14",
+        "library_file_id": "libfile_04928dec5c4c819194f330055948b6d3",
+        "file_title": "Comparative_Navigation_14_Band_Envelopes_Bounded_Ancestry_and_All_Scale_Audits_2026-10-21.md",
+        "section": "§7",
+        "version_time": "2026-10-21T16:33:06.215878Z",
+        "local_path": "sources/N14.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "Changing earlier words, unequal clocks, wider bands, different relations or collective certificates are not excluded. Width18 merely removes this numerical obstruction.",
+    "significance": "A pointwise obstruction for the entire guarded suffix language, stronger than a failure of one counting argument.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation14_audit_verification.json. The self-contained verifier independently checks rational band certificates and finite inverse outcomes; long archived record calculations are not reproduced."
+  },
+  {
+    "id": "NAV-096",
+    "title": "Finite discrepancy range covers all sufficiently fine dyadic slopes",
+    "status": "checked_proof",
+    "statement": "On a finite record through N, both tilted workloads at every m≤N are≤R_N=maxDelta-minDelta. Thus H13-S holds automatically for every dyadic epsilon=1/q with q≥R_N/2.",
+    "assumptions": [
+      "Finite depth record, m≥1; upper/lower slopes2±epsilon; initial discrepancy included."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Each workload is a difference of two discrepancy values minus epsilon times a nonnegative duration. Bound byR_N≤2q≤2q ceil(log2(m+1)).",
+    "proof_dependencies": [
+      "NAV-073",
+      "NAV-074"
+    ],
+    "sources": [
+      {
+        "source_key": "N14",
+        "library_file_id": "libfile_04928dec5c4c819194f330055948b6d3",
+        "file_title": "Comparative_Navigation_14_Band_Envelopes_Bounded_Ancestry_and_All_Scale_Audits_2026-10-21.md",
+        "section": "§8, Lemma8.1",
+        "version_time": "2026-10-21T16:33:06.215878Z",
+        "local_path": "sources/N14.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "Historical originality not established; potential contribution is the scoped specialization and explicit interface.",
+    "limitations": "R_N is a finite record range, not an all-time bound. No future time is inferred.",
+    "significance": "Reduces infinitely many finite-record scale tests to finitely many coarse slopes.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation14_audit_verification.json. The self-contained verifier independently checks rational band certificates and finite inverse outcomes; long archived record calculations are not reproduced."
+  },
+  {
+    "id": "NAV-097",
+    "title": "All-scale H13-S finite audit on unchanged million-update records",
+    "status": "computational",
+    "statement": "All dyadic scales pass H13-S on C5-seven horizon1000013, C5-twenty-one1000033 and Antihydra1000005; reported ranges2006,2107,2918 and64001096 explicit two-sided comparisons.",
+    "assumptions": [
+      "Retained finite records; explicit q powers through512,1024,1024 and the automatic fine-scale lemma."
+    ],
+    "map_clock": "Positive odd C3/C5 rounds and Antihydra (3,3) phases; native budget only for Antihydra.",
+    "proof_summary": "Report uses exact reflected integer recurrences and bit_length(m)=ceil(log2(m+1)); NAV-096 covers all remaining dyadic q. Full finite-record computations are report-backed, not rerun by this audit.",
+    "proof_dependencies": [
+      "NAV-069",
+      "NAV-074",
+      "NAV-084",
+      "NAV-096"
+    ],
+    "sources": [
+      {
+        "source_key": "N14",
+        "library_file_id": "libfile_04928dec5c4c819194f330055948b6d3",
+        "file_title": "Comparative_Navigation_14_Band_Envelopes_Bounded_Ancestry_and_All_Scale_Audits_2026-10-21.md",
+        "section": "§8 and §11",
+        "version_time": "2026-10-21T16:33:06.215878Z",
+        "local_path": "sources/N14.md"
+      }
+    ],
+    "attribution": "Reports prepared and signed by GPT-6 Astra Pro for Ethan Walker; elementary/inherited method specialized as described.",
+    "novelty": "New finite scale coverage; same inherited trajectories and open hypothesis.",
+    "limitations": "No trajectory horizon extension and no all-time theorem. Supersedes N13 finite seven-scale coverage only.",
+    "significance": "Improves completeness of finite hypothesis testing without changing the global proof status.",
+    "audit_chapter": "chapters/recent_navigation.md",
+    "audit_date": "2026-10-21",
+    "independent_verification_scope": "See audits/navigation14_audit_verification.json. The self-contained verifier independently checks rational band certificates and finite inverse outcomes; long archived record calculations are not reproduced."
+  }
+]

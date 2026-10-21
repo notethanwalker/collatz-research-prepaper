@@ -1,0 +1,37 @@
+{
+  "residual_normalizer": {
+    "sources": 199999,
+    "branches": {
+      "even": 100000,
+      "merger": 33332,
+      "inverse": 33333,
+      "q1": 16666,
+      "oddq": 2779,
+      "evenq": 1387
+    }
+  },
+  "packet_contraction": {
+    "exact_rational_enclosures": 35519
+  },
+  "first_jets": {
+    "distinct_sources": 65536
+  },
+  "involution_idempotent_automata": {
+    "transition_pairs": 1912,
+    "states_up_to": 4
+  },
+  "navigation_thresholds": {
+    "drawdown_threshold_range": [
+      32,
+      100000
+    ],
+    "multiscale_bootstrap_range": [
+      64,
+      100000
+    ],
+    "integer_growth_inequality": true
+  },
+  "exact_depth_guards": {
+    "source_word_pairs": 2728
+  }
+}

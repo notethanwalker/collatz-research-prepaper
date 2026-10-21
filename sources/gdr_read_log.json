@@ -1,0 +1,74 @@
+[
+  {
+    "library_file_id": "libfile_ce760bd4954881918b982366854624be",
+    "name": "Collatz_Summable_Budgets_From_Arithmetic_2026-10-20.md",
+    "size": 33455,
+    "sha256": "d65d70b99ab6585508449dcd4b401250ba4fb51fc2e03cd10189e7c9d69b46cd",
+    "review_scope": "Full text",
+    "review_kind": "Mathematical reconstruction and targeted exact-integer verification; not proof-assistant verification."
+  },
+  {
+    "library_file_id": "libfile_545198ced0348191bdc49991f40fda46",
+    "name": "Collatz_GDR_Great_Minds_Failure_Set_Assessment_2026-10-19.md",
+    "size": 18720,
+    "sha256": "5ab82f9154959fcdbed9f145c330ce78bd572050d942a85abafba1842efba131",
+    "review_scope": "Full text",
+    "review_kind": "Mathematical reconstruction and targeted exact-integer verification; not proof-assistant verification."
+  },
+  {
+    "library_file_id": "libfile_dfadf9746a808191ac495cb0c5bfca35",
+    "name": "Collatz_GDR_Resistant_C3_C5_C7_Cross_Coefficient_2026-10-19.md",
+    "size": 14079,
+    "sha256": "f95beb77b65492cfb3b407b2a877cc328fd88b163ad42c5824754f2ec38bdbf3",
+    "review_scope": "Full text",
+    "review_kind": "Mathematical reconstruction and targeted exact-integer verification; not proof-assistant verification."
+  },
+  {
+    "library_file_id": "libfile_83d51c573b2881918a0c05a9b1d461f0",
+    "name": "Great_Minds_Pass_08_Execution_2026-10-15.md",
+    "size": 37525,
+    "sha256": "8d84bf952e125a9043b753284138aef44ba078314d88637ae6ab4a30c67918ec",
+    "review_scope": "Sections1–9 and start of10",
+    "review_kind": "Mathematical reconstruction and targeted exact-integer verification; not proof-assistant verification."
+  },
+  {
+    "library_file_id": "libfile_be640de10bc88191b46129852815d2d4",
+    "name": "Great_Minds_03_Combined_Bounds_2026-10-15.md",
+    "size": 22214,
+    "sha256": "5a105f9e1f63d91052c1f510a1de8be435340310bcbb01f30ae4886d5885383f",
+    "review_scope": "Sections1–5",
+    "review_kind": "Mathematical reconstruction and targeted exact-integer verification; not proof-assistant verification."
+  },
+  {
+    "library_file_id": "libfile_726ad16d3f4c81919cac28b547e963f1",
+    "name": "R_Formula_1.5_Eventual_Upper_Bound_Dip_2026-10-14.md",
+    "size": 9388,
+    "sha256": "4a1c55219f9005e9ae7eadaf1b57ee02eeec27ef0a1c6d12377dfab34f443810",
+    "review_scope": "Full text",
+    "review_kind": "Mathematical reconstruction and targeted exact-integer verification; not proof-assistant verification."
+  },
+  {
+    "library_file_id": "libfile_609e82d012c481918d98164330429d1a",
+    "name": "R15_Proposition_Test_Setup_And_Counterexample_2026-10-14.md",
+    "size": 6944,
+    "sha256": "33bbf443baf5331a0f3509f3c2fe63911fab0740e1aee6b2b7e6653e7fb5ea97",
+    "review_scope": "Full text",
+    "review_kind": "Mathematical reconstruction and targeted exact-integer verification; not proof-assistant verification."
+  },
+  {
+    "library_file_id": "libfile_19fb7b74d6a48191b2df5e93dc978d02",
+    "name": "GDR2_HANDOFF_REVIEW.md",
+    "size": 9489,
+    "sha256": "b835a9be2cbf64428161190a91058470255d48054657fc9e7abf1c5454ff15c2",
+    "review_scope": "Full text",
+    "review_kind": "Mathematical reconstruction and targeted exact-integer verification; not proof-assistant verification."
+  },
+  {
+    "library_file_id": "libfile_15eed1fb89d0819191574ca8e52e1add",
+    "name": "GDR2_COUNTABLE_MENUS.md",
+    "size": 7145,
+    "sha256": "51b9c4a1e36a98ecbc0047ceca7912de7b93acc5ff7b64862738810793e88309",
+    "review_scope": "Full text",
+    "review_kind": "Mathematical reconstruction and targeted exact-integer verification; not proof-assistant verification."
+  }
+]
